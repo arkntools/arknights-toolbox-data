@@ -1,3 +1,5 @@
+/assets/pkg/*.zip
+
 # Logs
 logs
 *.log
