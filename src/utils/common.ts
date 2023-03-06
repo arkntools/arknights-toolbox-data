@@ -1,8 +1,8 @@
 import { resolve } from 'path';
-import { readJsonSync } from 'fs-extra';
-import { camelCase, inRange, map, mapValues, sortBy, transform, uniq } from 'lodash-es';
+import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
+import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash-es';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
-import { FormulasKeyMap, LangMap, PURCHASE_CERTIFICATE_ID } from 'constant';
+import { DATA_DIR, FormulasKeyMap, LangMap, PURCHASE_CERTIFICATE_ID } from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
   try {
@@ -102,7 +102,7 @@ const getDataURL = (lang: string) =>
     },
     {} as Record<string, string>,
   );
-export const gameData = mapValues(LangMap, lang => getDataURL(lang));
+export const gameDataUrl = mapValues(LangMap, lang => getDataURL(lang));
 
 export const getNameForRecruitment = (name: string) => name.replace(/'|"/g, '');
 
@@ -120,3 +120,36 @@ export const getRecruitmentTable = (recruitDetail: string) =>
         name.startsWith('<@rc.eml>') ? 2 : 1,
       ]),
   );
+
+const someObjsEmpty = (objs: any[]) => objs.some(obj => size(obj) === 0);
+export const checkObjsNotEmpty = (...objs: any[]) => {
+  if (someObjsEmpty(objs)) throw new Error('Empty object.');
+};
+export const writeJSON = (path: string, obj: any) => {
+  if (!existsSync(path)) {
+    if (someObjsEmpty(obj)) return false;
+    writeJsonSync(path, {});
+  }
+  if (!isEqual(readJsonSync(path), obj)) {
+    writeJsonSync(path, obj, { spaces: 2 });
+    return true;
+  }
+  return false;
+};
+export const writeText = (path: string, text: string) => {
+  if (!existsSync(path) && !text.length) return false;
+  ensureFileSync(path);
+  if (readFileSync(path).toString() !== text) {
+    writeFileSync(path, text);
+    return true;
+  }
+  return false;
+};
+export const writeData = (name: string, obj: any, allowEmpty = false) => {
+  if (!allowEmpty) checkObjsNotEmpty(obj);
+  if (writeJSON(resolve(DATA_DIR, name), obj)) console.log(`Update ${name}`);
+};
+export const writeFile = (name: string, text: string, allowEmpty = false) => {
+  if (!allowEmpty && !text) throw new Error('Empty content.');
+  if (writeText(resolve(DATA_DIR, name), text)) console.log(`Update ${name}`);
+};
