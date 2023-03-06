@@ -1,3 +1,5 @@
+import type { ItemCost } from './itemTable';
+
 export enum CharProfession {
   WARRIOR = 1,
   SNIPER,
@@ -14,15 +16,9 @@ export enum CharPosition {
   RANGED,
 }
 
-export interface CharCost {
-  id: string;
-  count: number;
-  type: string;
-}
-
 export interface CharSkill {
   skillId: string;
-  levelUpCostCond: Array<{ levelUpCost: CharCost[] }>;
+  levelUpCostCond: Array<{ levelUpCost: ItemCost[] }>;
   /** @external */
   isPatch?: boolean;
   /** @external */
@@ -39,7 +35,7 @@ export interface Character {
   rarity: number;
   profession: keyof typeof CharProfession;
   subProfessionId: string;
-  phases: Array<{ evolveCost: CharCost[] | null }>;
+  phases: Array<{ evolveCost: ItemCost[] | null }>;
   skills: CharSkill[];
 }
 

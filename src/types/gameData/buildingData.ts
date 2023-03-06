@@ -1,3 +1,5 @@
+import type { ItemCost } from './itemTable';
+
 export type RoomType =
   | 'CONTROL'
   | 'POWER'
@@ -37,10 +39,20 @@ export interface BuildingBuff {
   description: string;
 }
 
+export interface BuildingFormula {
+  formulaId: string;
+  itemId: string;
+  count: number;
+  costPoint: number;
+  costs: ItemCost[];
+}
+
 export interface BuildingData {
   rooms: Record<RoomType, Room>;
   chars: Record<string, BuildingChar>;
   buffs: Record<string, BuildingBuff>;
+  workshopFormulas: Record<string, BuildingFormula>;
+  manufactFormulas: Record<string, BuildingFormula>;
 }
 
 export interface BuildingProduct {

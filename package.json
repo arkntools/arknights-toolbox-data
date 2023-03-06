@@ -33,6 +33,7 @@
     "eslint-config-standard-ts": "^21.0.0",
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.4"
   }
 }

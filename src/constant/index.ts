@@ -13,7 +13,7 @@ export const PURCHASE_CERTIFICATE_ID = '4006';
 export const EXT_ITEM = ['4001', 'AP_GAMEPLAY', '2001', '2002', '2003', '2004'];
 export const ROBOT_TAG_NAME_CN = '支援机械';
 
-export const LANG_MAP = {
+export const LangMap = {
   cn: 'zh_CN',
   tw: 'zh_TW',
   us: 'en_US',
@@ -22,6 +22,11 @@ export const LANG_MAP = {
 } as const;
 
 /** 备用替换 */
-export const GAME_DATA_REPLACE_MAP = {
+export const GameDataReplaceMap = {
   stageTable: ['kr', 'jp', 'en'],
+} as const;
+
+export const FormulasKeyMap = {
+  WORKSHOP: 'workshopFormulas',
+  MANUFACTURE: 'manufactFormulas',
 } as const;

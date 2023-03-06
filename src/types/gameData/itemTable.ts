@@ -14,3 +14,13 @@ export interface Item {
   stageDropList: ItemStageDrop[];
   buildingProductList: BuildingProduct[];
 }
+
+export interface ItemTable {
+  items: Record<string, Item>;
+}
+
+export interface ItemCost {
+  id: string;
+  count: number;
+  type: string;
+}

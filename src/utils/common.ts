@@ -1,7 +1,8 @@
 import { resolve } from 'path';
 import { readJsonSync } from 'fs-extra';
 import { camelCase, inRange, map, mapValues, sortBy, transform, uniq } from 'lodash-es';
-import { LANG_MAP, PURCHASE_CERTIFICATE_ID } from 'src/constant';
+import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
+import { FormulasKeyMap, LangMap, PURCHASE_CERTIFICATE_ID } from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
   try {
@@ -23,7 +24,8 @@ export const idStandardization = (id: string) => {
 };
 export const revIdStandardization = (result: string) => idStandardizationMap.get(result) || result;
 
-export const isOperator = ({ isNotObtainable }: any, id: string) => id.split('_')[0] === 'char' && !isNotObtainable;
+export const isOperator = ({ isNotObtainable }: Character, id: string) =>
+  id.split('_')[0] === 'char' && !isNotObtainable;
 
 export const isSkillSummary = (id: string) => inRange(Number(id), 3301, 3310);
 export const isModToken = (id: string) => /^mod_(?:unlock|update)_token/.test(id);
@@ -34,7 +36,7 @@ export const isCertificate = (id: string) => String(id) === PURCHASE_CERTIFICATE
 export const isItem = (id: string) =>
   isSkillSummary(id) || isModToken(id) || isMaterial(id) || isChipAss(id) || isChip(id) || isCertificate(id);
 
-const getMaterialListObject = (list: any[]) =>
+const getMaterialListObject = (list: ItemCost[]) =>
   transform(
     (list || []).filter(({ id }) => isItem(id)),
     (obj, { id, count }) => {
@@ -43,29 +45,25 @@ const getMaterialListObject = (list: any[]) =>
     {} as Record<string, number>,
   );
 
-const formulasKeyMap: Record<string, string> = {
-  WORKSHOP: 'workshopFormulas',
-  MANUFACTURE: 'manufactFormulas',
-};
-export const getFormula = (buildingProductList: any[], buildingData: any) => {
-  const formula = buildingProductList.find(({ roomType }) => roomType === 'WORKSHOP' || roomType === 'MANUFACTURE');
-  if (!formula || !(formula.roomType in formulasKeyMap)) return;
+export const getFormula = (buildingProductList: BuildingProduct[], buildingData: BuildingData) => {
+  const formula = buildingProductList.find(({ roomType }) => roomType in FormulasKeyMap);
+  if (!formula) return;
+  const roomType = formula.roomType as keyof typeof FormulasKeyMap;
   return {
-    formulaType: formula.roomType,
-    formula: getMaterialListObject(buildingData[formulasKeyMap[formula.roomType]][formula.formulaId].costs),
+    formulaType: roomType,
+    formula: getMaterialListObject(buildingData[FormulasKeyMap[roomType]][formula.formulaId].costs),
   };
 };
 
-export const getEquipMaterialListObject = (itemCost: any) => {
+export const getEquipMaterialListObject = (itemCost: UniEquip['itemCost']) => {
   if (!itemCost) return [];
-  if (Array.isArray(itemCost)) return [getMaterialListObject(itemCost)];
   return map(itemCost, getMaterialListObject);
 };
 
-export const getStageList = (stages: any) => {
+export const getStageList = (stages: StageTable['stages']) => {
   const includeStageType = new Set(['MAIN', 'SUB', 'DAILY']);
   return uniq(
-    Object.values<any>(stages)
+    Object.values(stages)
       .filter(({ stageType }) => includeStageType.has(stageType))
       .map(({ code }) => code),
   );
@@ -104,7 +102,7 @@ const getDataURL = (lang: string) =>
     },
     {} as Record<string, string>,
   );
-export const gameData = mapValues(LANG_MAP, lang => getDataURL(lang));
+export const gameData = mapValues(LangMap, lang => getDataURL(lang));
 
 export const getNameForRecruitment = (name: string) => name.replace(/'|"/g, '');
 

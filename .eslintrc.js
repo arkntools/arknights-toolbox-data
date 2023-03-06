@@ -14,13 +14,15 @@ module.exports = {
     node: true,
   },
   parser: '@typescript-eslint/parser',
-  extends: ['standard-ts', 'prettier', 'plugin:import/recommended', 'plugin:import/typescript'],
+  extends: ['standard-ts', 'plugin:import/recommended', 'plugin:import/typescript', 'prettier'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
   rules: {
     ...Object.fromEntries(offTsRules.map(name => [`@typescript-eslint/${name}`, 'off'])),
+    'prettier/prettier': 'warn',
     'import/order': 'warn',
     'import/no-named-as-default': 'off',
     '@typescript-eslint/consistent-type-imports': 'warn',
