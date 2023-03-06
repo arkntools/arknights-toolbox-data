@@ -1,16 +1,9 @@
 import type { BuildingProduct } from './buildingData';
+import type { OccPercent } from './stageTable';
 
-export enum OccPer {
-  ALWAYS = 0,
-  ALMOST = 1,
-  USUAL = 2,
-  OFTEN = 3,
-  SOMETIMES = 4,
-}
-
-export interface StageDrop {
+export interface ItemStageDrop {
   stageId: string;
-  occPer: keyof typeof OccPer;
+  occPer: keyof typeof OccPercent;
 }
 
 export interface Item {
@@ -18,6 +11,6 @@ export interface Item {
   name: string;
   rarity: number;
   sortId: number;
-  stageDropList: StageDrop[];
+  stageDropList: ItemStageDrop[];
   buildingProductList: BuildingProduct[];
 }

@@ -3,3 +3,8 @@ export * from './buildingData';
 export * from './skillTable';
 export * from './gachaTable';
 export * from './itemTable';
+export * from './stageTable';
+export * from './zoneTable';
+export * from './gamedataConst';
+export * from './activityTable';
+export * from './charPatchTable';

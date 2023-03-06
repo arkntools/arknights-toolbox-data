@@ -40,6 +40,7 @@ export interface Character {
   profession: keyof typeof CharProfession;
   subProfessionId: string;
   phases: Array<{ evolveCost: CharCost[] | null }>;
+  skills: CharSkill[];
 }
 
 export type CharacterTable = Record<string, Character>;
