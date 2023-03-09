@@ -2,6 +2,7 @@ import { resolve } from 'path';
 
 const IMG_DIR = resolve(__dirname, '../../assets/img');
 export const DATA_DIR = resolve(__dirname, '../../assets/data');
+export const LOCALES_DIR = resolve(__dirname, '../../assets/locales');
 
 export const AVATAR_IMG_DIR = resolve(IMG_DIR, 'avatar');
 export const SKILL_IMG_DIR = resolve(IMG_DIR, 'skill');

@@ -2,7 +2,7 @@ import { resolve } from 'path';
 import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
 import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash-es';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
-import { DATA_DIR, FormulasKeyMap, LangMap, PURCHASE_CERTIFICATE_ID } from 'constant';
+import { DATA_DIR, FormulasKeyMap, LangMap, LOCALES_DIR, PURCHASE_CERTIFICATE_ID } from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
   try {
@@ -107,7 +107,7 @@ export const gameDataUrl = mapValues(LangMap, lang => getDataURL(lang));
 export const getNameForRecruitment = (name: string) => name.replace(/'|"/g, '');
 
 /** 公招干员类型表 */
-export const getRecruitmentTable = (recruitDetail: string) =>
+export const getRecruitmentTable = (recruitDetail: string): Record<string, number> =>
   Object.fromEntries(
     recruitDetail
       .replace(/\\n/g, '\n')
@@ -152,4 +152,8 @@ export const writeData = (name: string, obj: any, allowEmpty = false) => {
 export const writeFile = (name: string, text: string, allowEmpty = false) => {
   if (!allowEmpty && !text) throw new Error('Empty content.');
   if (writeText(resolve(DATA_DIR, name), text)) console.log(`Update ${name}`);
+};
+export const writeLocale = (locale: string, name: string, obj: any, allowEmpty = false) => {
+  if (!allowEmpty) checkObjsNotEmpty(obj);
+  if (writeJSON(resolve(LOCALES_DIR, locale, name), obj)) console.log(`Update ${locale} ${name}`);
 };
