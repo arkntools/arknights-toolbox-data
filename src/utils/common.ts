@@ -2,7 +2,7 @@ import { resolve } from 'path';
 import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
 import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash-es';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
-import { DATA_DIR, FormulasKeyMap, LangMap, LOCALES_DIR, PURCHASE_CERTIFICATE_ID } from 'constant';
+import { CHIP_ASSISTANT_ID, DATA_DIR, FormulasKeyMap, LangMap, LOCALES_DIR, PURCHASE_CERTIFICATE_ID } from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
   try {
@@ -27,10 +27,11 @@ export const revIdStandardization = (result: string) => idStandardizationMap.get
 export const isOperator = ({ isNotObtainable }: Character, id: string) =>
   id.split('_')[0] === 'char' && !isNotObtainable;
 
+export const isBattleRecord = (id: string) => inRange(Number(id), 2001, 2004);
 export const isSkillSummary = (id: string) => inRange(Number(id), 3301, 3310);
 export const isModToken = (id: string) => /^mod_(?:unlock|update)_token/.test(id);
 export const isMaterial = (id: string) => inRange(Number(id), 30011, 32000);
-export const isChipAss = (id: string) => String(id) === '32001';
+export const isChipAss = (id: string) => String(id) === CHIP_ASSISTANT_ID;
 export const isChip = (id: string) => inRange(Number(id), 3211, 3300);
 export const isCertificate = (id: string) => String(id) === PURCHASE_CERTIFICATE_ID;
 export const isItem = (id: string) =>

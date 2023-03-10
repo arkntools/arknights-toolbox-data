@@ -12,6 +12,7 @@ export const ITEM_PKG_ZIP = resolve(__dirname, '../../assets/pkg/item.zip');
 export const NOW = Date.now();
 
 export const PURCHASE_CERTIFICATE_ID = '4006';
+export const CHIP_ASSISTANT_ID = '32001';
 export const EXT_ITEM = ['4001', 'AP_GAMEPLAY', '2001', '2002', '2003', '2004'];
 export const ROBOT_TAG_NAME_CN = '支援机械';
 

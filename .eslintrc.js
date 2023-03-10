@@ -22,9 +22,11 @@ module.exports = {
   },
   rules: {
     ...Object.fromEntries(offTsRules.map(name => [`@typescript-eslint/${name}`, 'off'])),
+    yoda: 'off',
     'prettier/prettier': 'warn',
     'import/order': 'warn',
     'import/no-named-as-default': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'warn',
     '@typescript-eslint/consistent-type-imports': 'warn',
     '@typescript-eslint/consistent-type-assertions': [
       'warn',

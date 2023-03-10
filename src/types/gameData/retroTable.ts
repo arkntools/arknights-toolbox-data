@@ -11,6 +11,8 @@ export interface RetroAct {
   retroId: string;
   type: RetroType;
   linkedActId: string[];
+  startTime: number;
+  name: string;
 }
 
 export interface RetroTable {

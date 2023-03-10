@@ -18,8 +18,10 @@ export interface StageDisplayDetailReward extends StageDisplayReward {
 
 export interface Stage {
   stageType: string;
+  stageId: string;
   zoneId: string;
   code: string;
+  apCost: number;
   stageDropInfo: {
     displayRewards: StageDisplayReward[];
     displayDetailRewards: StageDisplayDetailReward[];
