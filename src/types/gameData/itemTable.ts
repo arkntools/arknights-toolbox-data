@@ -10,6 +10,7 @@ export interface Item {
   itemId: string;
   name: string;
   rarity: number;
+  iconId: string;
   sortId: number;
   stageDropList: ItemStageDrop[];
   buildingProductList: BuildingProduct[];

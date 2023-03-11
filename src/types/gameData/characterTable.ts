@@ -37,6 +37,7 @@ export interface Character {
   subProfessionId: string;
   phases: Array<{ evolveCost: ItemCost[] | null }>;
   skills: CharSkill[];
+  allSkillLvlup: Array<{ lvlUpCost: ItemCost[] }>;
 }
 
 export type CharacterTable = Record<string, Character>;

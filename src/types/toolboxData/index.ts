@@ -47,12 +47,33 @@ export type DataStageTable = Record<string, DataZoneStage>;
 
 export type DataJsonStage = Record<'normal' | 'event' | 'retro', DataStageTable>;
 
+export type DataItemCost = Record<string, number>;
+
 export interface DataMaterial {
   sortId: Record<string, number>;
   rare: number;
   drop: DataDrop;
   formulaType: string;
-  formula: Record<string, number>;
+  formula: DataItemCost;
 }
 
 export type DataJsonItem = Record<string, DataMaterial>;
+
+export interface DataCharCultivate {
+  evolve: DataItemCost[];
+  skills: {
+    normal: DataItemCost[];
+    elite: Array<{
+      name: string;
+      cost: DataItemCost[];
+      isPatch?: boolean;
+      unlockStages?: string[];
+    }>;
+  };
+  uniequip: Array<{
+    id: string;
+    cost: DataItemCost[];
+  }>;
+}
+
+export type DataJsonCultivate = Record<string, DataCharCultivate>;

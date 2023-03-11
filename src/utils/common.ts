@@ -37,7 +37,7 @@ export const isCertificate = (id: string) => String(id) === PURCHASE_CERTIFICATE
 export const isItem = (id: string) =>
   isSkillSummary(id) || isModToken(id) || isMaterial(id) || isChipAss(id) || isChip(id) || isCertificate(id);
 
-const getMaterialListObject = (list: ItemCost[]) =>
+export const getMaterialListObject = (list?: ItemCost[] | null) =>
   transform(
     (list || []).filter(({ id }) => isItem(id)),
     (obj, { id, count }) => {
@@ -126,7 +126,7 @@ const someObjsEmpty = (objs: any[]) => objs.some(obj => size(obj) === 0);
 export const checkObjsNotEmpty = (...objs: any[]) => {
   if (someObjsEmpty(objs)) throw new Error('Empty object.');
 };
-export const writeJSON = (path: string, obj: any) => {
+const _writeData = (path: string, obj: any) => {
   if (!existsSync(path)) {
     if (someObjsEmpty(obj)) return false;
     writeJsonSync(path, {});
@@ -137,7 +137,7 @@ export const writeJSON = (path: string, obj: any) => {
   }
   return false;
 };
-export const writeText = (path: string, text: string) => {
+const _writeText = (path: string, text: string) => {
   if (!existsSync(path) && !text.length) return false;
   ensureFileSync(path);
   if (readFileSync(path).toString() !== text) {
@@ -148,13 +148,13 @@ export const writeText = (path: string, text: string) => {
 };
 export const writeData = (name: string, obj: any, allowEmpty = false) => {
   if (!allowEmpty) checkObjsNotEmpty(obj);
-  if (writeJSON(resolve(DATA_DIR, name), obj)) console.log(`Update ${name}`);
+  if (_writeData(resolve(DATA_DIR, name), obj)) console.log(`Update ${name}`);
 };
-export const writeFile = (name: string, text: string, allowEmpty = false) => {
+export const writeText = (name: string, text: string, allowEmpty = false) => {
   if (!allowEmpty && !text) throw new Error('Empty content.');
-  if (writeText(resolve(DATA_DIR, name), text)) console.log(`Update ${name}`);
+  if (_writeText(resolve(DATA_DIR, name), text)) console.log(`Update ${name}`);
 };
 export const writeLocale = (locale: string, name: string, obj: any, allowEmpty = false) => {
   if (!allowEmpty) checkObjsNotEmpty(obj);
-  if (writeJSON(resolve(LOCALES_DIR, locale, name), obj)) console.log(`Update ${locale} ${name}`);
+  if (_writeData(resolve(LOCALES_DIR, locale, name), obj)) console.log(`Update ${locale} ${name}`);
 };

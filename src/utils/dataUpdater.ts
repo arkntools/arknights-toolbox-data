@@ -1,3 +1,5 @@
+import { resolve } from 'path';
+import { writeFile } from 'fs/promises';
 import {
   each,
   invert,
@@ -5,27 +7,38 @@ import {
   map,
   mapKeys,
   mapValues,
+  omitBy,
   pad,
   pick,
   pickBy,
   pull,
+  size,
+  some,
+  sumBy,
   transform,
   without,
 } from 'lodash-es';
 import { transliterate } from 'transliteration';
+import JSZip from 'jszip';
+import { createReadStream } from 'fs-extra';
 import {
   ensureReadJsonSync,
   gameDataUrl,
+  getEquipMaterialListObject,
   getFormula,
+  getMaterialListObject,
   getNameForRecruitment,
   getRecruitmentTable,
   getStageList,
+  idStandardization,
   isBattleRecord,
   isItem,
   isOperator,
+  revIdStandardization,
   sortObjectBy,
-  writeFile,
+  writeText,
   writeLocale,
+  writeData,
 } from './common';
 import { retryGet } from './request';
 import { getRichTextCss } from './css';
@@ -55,16 +68,21 @@ import type {
   DataJsonStage,
   DataDrop,
   DataJsonItem,
+  DataCharCultivate,
+  DataJsonCultivate,
 } from 'types';
 import {
   AVATAR_IMG_DIR,
   CHIP_ASSISTANT_ID,
   EXT_ITEM,
   GameDataReplaceMap,
+  ITEM_IMG_DIR,
+  ITEM_PKG_ZIP,
   LangMap,
   NOW,
   PURCHASE_CERTIFICATE_ID,
   ROBOT_TAG_NAME_CN,
+  SKILL_IMG_DIR,
 } from 'constant';
 
 interface GameData {
@@ -91,7 +109,7 @@ export class DataUpdater {
   private readonly dropInfo: DataJsonDrop = { event: {}, retro: {} };
   private retroInfo: DataJsonRetro = {};
   private readonly stageInfo: DataJsonStage = { normal: {}, event: {}, retro: {} };
-  private item: DataJsonItem = {};
+  private itemInfo: DataJsonItem = {};
 
   /** 技能ID与描述MD5对应表 */
   // private buildingBuffId2DescriptionMd5: Record<string, string> = {};
@@ -112,9 +130,8 @@ export class DataUpdater {
       this.updateRetroDrop(data);
       this.updateZoneInfo(data, locale);
       this.updateStageInfo(data, locale);
-
-      // 升变处理
-      const charPatchInfo = mapValues(charPatchTable.infos, ({ tmplIds }, id) => without(tmplIds, id));
+      this.updateItemInfo(data, locale);
+      await this.updateItemData(data, locale);
     }
   }
 
@@ -167,7 +184,7 @@ export class DataUpdater {
       },
       {} as Record<string, string>,
     );
-    writeFile('richText.css', getRichTextCss(className2color));
+    writeText('richText.css', getRichTextCss(className2color));
   }
 
   /** 基建技能提示 */
@@ -376,20 +393,73 @@ export class DataUpdater {
     });
 
     // 插曲 & 别传
-    if (retroTable) {
-      each(retroTable.stageList, ({ stageId, zoneId, code, apCost, stageDropInfo: { displayDetailRewards } }) => {
-        if (!displayDetailRewards.some(({ type }) => type === 'MATERIAL') || zoneId in this.stageInfo.retro) {
-          return;
-        }
-        if (!(zoneId in this.stageInfo.retro)) this.stageInfo.retro[zoneId] = {};
-        this.stageInfo.retro[zoneId][stageId] = { code, cost: apCost };
-      });
-    }
+    each(retroTable.stageList, ({ stageId, zoneId, code, apCost, stageDropInfo: { displayDetailRewards } }) => {
+      if (!displayDetailRewards.some(({ type }) => type === 'MATERIAL') || zoneId in this.stageInfo.retro) {
+        return;
+      }
+      if (!(zoneId in this.stageInfo.retro)) this.stageInfo.retro[zoneId] = {};
+      this.stageInfo.retro[zoneId][stageId] = { code, cost: apCost };
+    });
   }
 
   private updateItemInfo({ itemTable, stageTable, buildingData }: GameData, locale: string) {
-    const isCN = locale === 'cn';
+    if (locale !== 'cn') {
+      each(
+        pickBy(itemTable.items, ({ itemId }) => itemId in this.itemInfo),
+        ({ itemId, sortId }) => {
+          this.itemInfo[itemId].sortId[locale] = sortId;
+        },
+      );
+      return;
+    }
 
+    // 一般道具
+    each(
+      pickBy(itemTable.items, ({ itemId }) => isItem(itemId)),
+      ({ itemId, rarity, sortId, stageDropList, buildingProductList }) => {
+        this.itemInfo[itemId] = {
+          sortId: {
+            [locale]: sortId,
+          },
+          rare: rarity + 1,
+          drop: sortObjectBy(
+            transform(
+              stageDropList,
+              (drop, { stageId, occPer }) => {
+                const { stageType, code } = stageTable.stages[stageId];
+                if (stageType === 'MAIN' || stageType === 'SUB') drop[code] = OccPercent[occPer];
+              },
+              {} as DataDrop,
+            ),
+            k =>
+              k
+                .replace(/^[^0-9]+/, '')
+                .split('-')
+                .map(c => pad(c, 3, '0'))
+                .join(''),
+          ),
+          ...getFormula(buildingProductList, buildingData)!,
+        };
+      },
+    );
+
+    // 芯片、技巧概要等掉落
+    each(stageTable.stages, ({ code, stageType, stageDropInfo: { displayDetailRewards } }) => {
+      if (stageType !== 'DAILY') return;
+      displayDetailRewards.forEach(({ id, dropType, occPercent }) => {
+        if (id in this.itemInfo && dropType !== 1) {
+          this.itemInfo[id].drop[code] = occPercent;
+        }
+      });
+    });
+
+    // 芯片助剂单独处理
+    this.itemInfo[CHIP_ASSISTANT_ID].formula = {
+      [PURCHASE_CERTIFICATE_ID]: 90,
+    };
+  }
+
+  private async updateItemData({ itemTable }: GameData, locale: string) {
     const itemId2Name = transform(
       pickBy(itemTable.items, ({ itemId }) => isItem(itemId)),
       (obj, { itemId, name }) => {
@@ -404,56 +474,127 @@ export class DataUpdater {
     );
     writeLocale(locale, 'item.json', extItemId2Name);
 
-    if (isCN) {
-      // 一般道具
-      each(
-        pickBy(itemTable.items, ({ itemId }) => isItem(itemId)),
-        ({ itemId, rarity, sortId, stageDropList, buildingProductList }) => {
-          this.item[itemId] = {
-            sortId: {
-              [locale]: sortId,
-            },
-            rare: rarity + 1,
-            drop: sortObjectBy(
-              transform(
-                stageDropList,
-                (drop, { stageId, occPer }) => {
-                  const { stageType, code } = stageTable.stages[stageId];
-                  if (stageType === 'MAIN' || stageType === 'SUB') drop[code] = OccPercent[occPer];
-                },
-                {} as DataDrop,
-              ),
-              k =>
-                k
-                  .replace(/^[^0-9]+/, '')
-                  .split('-')
-                  .map(c => pad(c, 3, '0'))
-                  .join(''),
-            ),
-            ...getFormula(buildingProductList, buildingData)!,
-          };
-        },
-      );
-      // 芯片、技巧概要等掉落
-      each(stageTable.stages, ({ code, stageType, stageDropInfo: { displayDetailRewards } }) => {
-        if (stageType !== 'DAILY') return;
-        displayDetailRewards.forEach(({ id, dropType, occPercent }) => {
-          if (id in this.item && dropType !== 1) {
-            this.item[id].drop[code] = occPercent;
-          }
-        });
-      });
-      // 芯片助剂单独处理
-      this.item[CHIP_ASSISTANT_ID].formula = {
-        [PURCHASE_CERTIFICATE_ID]: 90,
-      };
-    } else {
-      each(
-        pickBy(itemTable.items, ({ itemId }) => itemId in this.item),
-        ({ itemId, sortId }) => {
-          this.item[itemId].sortId[locale] = sortId;
-        },
-      );
-    }
+    if (locale !== 'cn') return;
+
+    // 下载材料图片
+    const itemIdList = Object.keys(itemId2Name);
+    const failedIdList = await downloadImageByList({
+      idList: itemIdList,
+      dirPath: ITEM_IMG_DIR,
+      resPathGetter: id => `item/${itemTable.items[id].iconId}.png`,
+    });
+
+    // 打包材料图片
+    const curHaveItemImgs = without(itemIdList, ...failedIdList)
+      .filter(isItem)
+      .map(id => `${id}.png`)
+      .sort();
+    const zip = new JSZip();
+    curHaveItemImgs.forEach(filename => {
+      zip.file(filename, createReadStream(resolve(ITEM_IMG_DIR, filename)));
+    });
+    await writeFile(ITEM_PKG_ZIP, zip.generateNodeStream());
+    console.log('Item images have been packaged.');
+  }
+
+  private async updateSkillInfo(
+    { characterTable, skillTable, uniequipTable, charPatchTable, stageTable }: GameData,
+    locale: string,
+  ) {
+    // 技能
+    const opSkillTable = mapKeys(
+      omitBy(skillTable, (v, k) => k.startsWith('sktok_')),
+      (v, k) => idStandardization(k),
+    );
+    const skillId2Name = mapValues(opSkillTable, ({ levels }) => levels[0].name);
+    const skillId2AddonInfo = mapValues(opSkillTable, ({ iconId }) =>
+      iconId ? { icon: idStandardization(iconId) } : undefined,
+    );
+    writeLocale(locale, 'skill.json', skillId2Name);
+
+    // 模组
+    const uniequipId2Name = mapValues(
+      pickBy(
+        uniequipTable ? uniequipTable.equipDict : {},
+        ({ itemCost }) => itemCost && some(itemCost, cost => cost.some(({ id }) => isItem(id))),
+      ),
+      'uniEquipName',
+    );
+
+    if (locale !== 'cn') return;
+
+    // 升变
+    const charPatchInfo = mapValues(charPatchTable.infos, ({ tmplIds }, id) => without(tmplIds, id));
+
+    const cultivate = transform(
+      pickBy(characterTable, isOperator),
+      (obj, { phases, allSkillLvlup, skills }, id) => {
+        const shortId = id.replace(/^char_/, '');
+
+        // 升变处理
+        if (id in charPatchInfo) {
+          charPatchInfo[id].forEach(patchId => {
+            const unlockStages = charPatchTable.unlockConds[patchId].conds.map(
+              ({ stageId }) => stageTable.stages[stageId].code,
+            );
+            const patchSkills = charPatchTable.patchChars[patchId].skills;
+            patchSkills.forEach(skill => {
+              skill.isPatch = true;
+              skill.unlockStages = unlockStages;
+            });
+            skills.push(...patchSkills);
+          });
+        }
+
+        // 精英化
+        const evolve = phases
+          .filter(({ evolveCost }) => evolveCost)
+          .map(({ evolveCost }) => getMaterialListObject(evolveCost));
+
+        // 通用技能
+        const normal = allSkillLvlup.map(({ lvlUpCost }) => getMaterialListObject(lvlUpCost));
+
+        // 精英技能
+        const elite = skills
+          .map(({ skillId, levelUpCostCond, isPatch, unlockStages }) => ({
+            name: idStandardization(skillId),
+            ...skillId2AddonInfo[skillId],
+            cost: levelUpCostCond.map(({ levelUpCost }) => getMaterialListObject(levelUpCost)),
+            ...(isPatch ? { isPatch, unlockStages } : {}),
+          }))
+          .filter(({ cost }) => cost.length);
+
+        // 模组
+        const uniequip = map(
+          pickBy(uniequipTable.equipDict, ({ charId, uniEquipId }) => charId === id && uniEquipId in uniequipId2Name),
+          ({ uniEquipId, itemCost }) => ({
+            id: uniEquipId,
+            cost: getEquipMaterialListObject(itemCost),
+          }),
+        );
+
+        const final: DataCharCultivate = {
+          evolve: evolve.every(obj => size(obj)) ? evolve : [],
+          skills: {
+            normal,
+            elite,
+          },
+          uniequip,
+        };
+        if (sumBy([final.evolve, normal, elite, uniequip], 'length')) {
+          obj[shortId] = final;
+        }
+      },
+      {} as DataJsonCultivate,
+    );
+    writeData('cultivate.json', cultivate);
+
+    // 下载技能图标
+    await downloadImageByList({
+      idList: map(skillId2AddonInfo, (v, k) => v?.icon || k),
+      dirPath: SKILL_IMG_DIR,
+      resPathGetter: id => `skill/skill_icon_${revIdStandardization(id)}.png`,
+      resize: 72,
+    });
   }
 }
