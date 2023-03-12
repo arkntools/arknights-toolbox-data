@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
-import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash-es';
+import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
 import { CHIP_ASSISTANT_ID, DATA_DIR, FormulasKeyMap, LangMap, LOCALES_DIR, PURCHASE_CERTIFICATE_ID } from 'constant';
 
@@ -27,7 +27,7 @@ export const revIdStandardization = (result: string) => idStandardizationMap.get
 export const isOperator = ({ isNotObtainable }: Character, id: string) =>
   id.split('_')[0] === 'char' && !isNotObtainable;
 
-export const isBattleRecord = (id: string) => inRange(Number(id), 2001, 2004);
+export const isBattleRecord = (id: string) => inRange(Number(id), 2001, 2010);
 export const isSkillSummary = (id: string) => inRange(Number(id), 3301, 3310);
 export const isModToken = (id: string) => /^mod_(?:unlock|update)_token/.test(id);
 export const isMaterial = (id: string) => inRange(Number(id), 30011, 32000);
@@ -61,11 +61,15 @@ export const getEquipMaterialListObject = (itemCost: UniEquip['itemCost']) => {
   return map(itemCost, getMaterialListObject);
 };
 
-export const getStageList = (stages: StageTable['stages']) => {
+export const getHasDropStageList = (stages: StageTable['stages']) => {
   const includeStageType = new Set(['MAIN', 'SUB', 'DAILY']);
   return uniq(
     Object.values(stages)
-      .filter(({ stageType }) => includeStageType.has(stageType))
+      .filter(
+        ({ stageType, stageDropInfo: { displayDetailRewards } }) =>
+          includeStageType.has(stageType) &&
+          displayDetailRewards.some(({ id, dropType }) => isItem(id) && dropType !== 1),
+      )
       .map(({ code }) => code),
   );
 };
@@ -98,7 +102,7 @@ const getDataURL = (lang: string) =>
       }
       obj[camelCase(file.split('.')[0])] =
         process.env.UPDATE_SOURCE === 'local'
-          ? resolve(__dirname, `../../ArknightsGameData/${lang}/gamedata/excel/${file}`)
+          ? resolve(__dirname, `../../../ArknightsGameData/${lang}/gamedata/excel/${file}`)
           : getResourceURL('Kengxxiao/ArknightsGameData', 'master', `${lang}/gamedata/excel/${file}`);
     },
     {} as Record<string, string>,
@@ -128,7 +132,7 @@ export const checkObjsNotEmpty = (...objs: any[]) => {
 };
 const _writeData = (path: string, obj: any) => {
   if (!existsSync(path)) {
-    if (someObjsEmpty(obj)) return false;
+    if (someObjsEmpty([obj])) return false;
     writeJsonSync(path, {});
   }
   if (!isEqual(readJsonSync(path), obj)) {
@@ -154,7 +158,9 @@ export const writeText = (name: string, text: string, allowEmpty = false) => {
   if (!allowEmpty && !text) throw new Error('Empty content.');
   if (_writeText(resolve(DATA_DIR, name), text)) console.log(`Update ${name}`);
 };
-export const writeLocale = (locale: string, name: string, obj: any, allowEmpty = false) => {
-  if (!allowEmpty) checkObjsNotEmpty(obj);
+export const writeLocale = (locale: string, name: string, obj: any, allowEmpty: boolean | string[] = false) => {
+  if (!allowEmpty || (Array.isArray(allowEmpty) && !allowEmpty.includes(locale))) {
+    checkObjsNotEmpty(obj);
+  }
   if (_writeData(resolve(LOCALES_DIR, locale, name), obj)) console.log(`Update ${locale} ${name}`);
 };

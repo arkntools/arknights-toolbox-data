@@ -1,5 +1,4 @@
 import { resolve } from 'path';
-import { writeFile } from 'fs/promises';
 import {
   each,
   invert,
@@ -18,10 +17,10 @@ import {
   transform,
   uniq,
   without,
-} from 'lodash-es';
+} from 'lodash';
 import { transliterate } from 'transliteration';
 import JSZip from 'jszip';
-import { createReadStream } from 'fs-extra';
+import { createReadStream, createWriteStream } from 'fs-extra';
 import md5 from 'js-md5';
 import {
   ensureReadJsonSync,
@@ -31,7 +30,7 @@ import {
   getMaterialListObject,
   getNameForRecruitment,
   getRecruitmentTable,
-  getStageList,
+  getHasDropStageList,
   idStandardization,
   isBattleRecord,
   isItem,
@@ -86,7 +85,7 @@ import {
   ITEM_IMG_DIR,
   ITEM_PKG_ZIP,
   LangMap,
-  NOW,
+  DATE_NOW,
   PURCHASE_CERTIFICATE_ID,
   ROBOT_TAG_NAME_CN,
   SKILL_IMG_DIR,
@@ -117,6 +116,7 @@ export class DataUpdater {
   private retroInfo: DataJsonRetro = {};
   private readonly stageInfo: DataJsonStage = { normal: {}, event: {}, retro: {} };
   private itemInfo: DataJsonItem = {};
+  private buildingDescMd5MinLen = 0;
   private buildingBuffId2DescriptionMd5: Record<string, string> = {};
 
   public async start() {
@@ -129,8 +129,8 @@ export class DataUpdater {
       this.updateTermDescription(data, locale);
       await this.updateCharacterInfo(data, locale);
       this.updateUnopenedStage(data, locale);
-      this.updateEventInfo(data, locale);
       this.updateEventDrop(data);
+      this.updateEventInfo(data, locale);
       this.updateRetroInfo(data, locale);
       this.updateRetroDrop(data);
       this.updateZoneInfo(data, locale);
@@ -235,21 +235,6 @@ export class DataUpdater {
     );
     writeLocale(locale, 'tag.json', invert(tagName2Id));
 
-    // 名字翻译
-    const nameId2Name = transform(
-      pickBy(characterTable, isOperator),
-      (obj, { name }, id) => {
-        const shortId = id.replace(/^char_/, '');
-        obj[shortId] = name.trim();
-        const nameForRecruitment = getNameForRecruitment(name);
-        if (nameForRecruitment in recruitmentTable) {
-          this.characterInfo[shortId].recruitment[locale] = recruitmentTable[nameForRecruitment];
-        }
-      },
-      {} as Record<string, string>,
-    );
-    writeLocale(locale, 'character.json', nameId2Name);
-
     if (isCN) {
       // 普通角色
       this.characterInfo = transform(
@@ -274,6 +259,21 @@ export class DataUpdater {
       );
     }
 
+    // 名字翻译
+    const nameId2Name = transform(
+      pickBy(characterTable, isOperator),
+      (obj, { name }, id) => {
+        const shortId = id.replace(/^char_/, '');
+        obj[shortId] = name.trim();
+        const nameForRecruitment = getNameForRecruitment(name);
+        if (nameForRecruitment in recruitmentTable) {
+          this.characterInfo[shortId].recruitment[locale] = recruitmentTable[nameForRecruitment];
+        }
+      },
+      {} as Record<string, string>,
+    );
+    writeLocale(locale, 'character.json', nameId2Name);
+
     // 获取罗马音
     if (locale === 'jp') {
       for (const [id, name] of Object.entries(nameId2Name)) {
@@ -294,10 +294,10 @@ export class DataUpdater {
 
   private updateUnopenedStage({ stageTable }: GameData, locale: string) {
     if (locale === 'cn') {
-      this.cnStageList = getStageList(stageTable.stages);
+      this.cnStageList = getHasDropStageList(stageTable.stages);
       this.unopenedStage[locale] = [];
     } else {
-      const stageList = getStageList(stageTable.stages);
+      const stageList = getHasDropStageList(stageTable.stages);
       this.unopenedStage[locale] = without(this.cnStageList, ...stageList);
     }
   }
@@ -306,7 +306,11 @@ export class DataUpdater {
     this.eventInfo[locale] = transform(
       zoneTable.zoneValidInfo,
       (obj, valid, zoneID) => {
-        if (zoneTable.zones[zoneID].type === 'ACTIVITY' && NOW < valid.endTs * 1000) {
+        if (
+          zoneTable.zones[zoneID].type === 'ACTIVITY' &&
+          DATE_NOW < valid.endTs * 1000 &&
+          zoneID in this.dropInfo.event
+        ) {
           obj[zoneID] = { valid };
         }
       },
@@ -347,17 +351,19 @@ export class DataUpdater {
   }
 
   private updateRetroDrop({ retroTable }: GameData) {
-    each(retroTable.stageList, ({ zoneId, code, stageDropInfo }) => {
-      if (zoneId in this.dropInfo.retro) return;
-      const rewardTable = mapKeys(stageDropInfo.displayDetailRewards, 'id');
-      stageDropInfo.displayRewards.forEach(({ id }) => {
-        if (!isItem(id)) return;
-        if (!(zoneId in this.dropInfo.retro)) this.dropInfo.retro[zoneId] = {};
-        const eventDrop = this.dropInfo.retro[zoneId];
-        if (!(id in eventDrop)) eventDrop[id] = {};
-        eventDrop[id][code] = rewardTable[id].occPercent;
-      });
-    });
+    each(
+      pickBy(retroTable.stageList, ({ zoneId }) => !(zoneId in this.dropInfo.retro)),
+      ({ zoneId, code, stageDropInfo }) => {
+        const rewardTable = mapKeys(stageDropInfo.displayDetailRewards, 'id');
+        stageDropInfo.displayRewards.forEach(({ id }) => {
+          if (!isItem(id)) return;
+          if (!(zoneId in this.dropInfo.retro)) this.dropInfo.retro[zoneId] = {};
+          const eventDrop = this.dropInfo.retro[zoneId];
+          if (!(id in eventDrop)) eventDrop[id] = {};
+          eventDrop[id][code] = rewardTable[id].occPercent;
+        });
+      },
+    );
   }
 
   private updateZoneInfo({ zoneTable, activityTable, retroTable }: GameData, locale: string) {
@@ -418,8 +424,9 @@ export class DataUpdater {
     });
 
     // 插曲 & 别传
+    const existRetroZoneSet = new Set(Object.keys(this.stageInfo.retro));
     each(retroTable.stageList, ({ stageId, zoneId, code, apCost, stageDropInfo: { displayDetailRewards } }) => {
-      if (!displayDetailRewards.some(({ type }) => type === 'MATERIAL') || zoneId in this.stageInfo.retro) {
+      if (!displayDetailRewards.some(({ type }) => type === 'MATERIAL') || existRetroZoneSet.has(zoneId)) {
         return;
       }
       if (!(zoneId in this.stageInfo.retro)) this.stageInfo.retro[zoneId] = {};
@@ -518,7 +525,9 @@ export class DataUpdater {
     curHaveItemImgs.forEach(filename => {
       zip.file(filename, createReadStream(resolve(ITEM_IMG_DIR, filename)));
     });
-    await writeFile(ITEM_PKG_ZIP, zip.generateNodeStream());
+    await new Promise((resolve, reject) => {
+      zip.generateNodeStream().pipe(createWriteStream(ITEM_PKG_ZIP)).on('finish', resolve).on('error', reject);
+    });
     console.log('Item images have been packaged.');
   }
 
@@ -545,7 +554,7 @@ export class DataUpdater {
       ),
       'uniEquipName',
     );
-    writeLocale(locale, 'uniequip.json', uniequipId2Name);
+    writeLocale(locale, 'uniequip.json', uniequipId2Name, ['tw']);
 
     if (locale !== 'cn') return;
 
@@ -674,67 +683,72 @@ export class DataUpdater {
       },
     );
 
+    if (isCN) {
+      const buildingChars = transform(
+        pickBy(buildingData.chars, (c, id) => isOperator(characterTable[id], id)),
+        (obj, { charId, buffChar }) => {
+          const shortId = charId.replace(/^char_/, '');
+          const skills = buffChar.flatMap(({ buffData }) =>
+            buffData.map(({ buffId, cond: { phase, level } }) => ({
+              id: idStandardization(buffId),
+              unlock: `${phase}_${level}`,
+            })),
+          );
+          if (skills.length) obj[shortId] = skills;
+        },
+        {} as DataJsonBuildingChar,
+      );
+
+      // 找到 MD5 最小不公共前缀以压缩
+      this.buildingDescMd5MinLen = (() => {
+        const md5List = Object.keys(buffMd52Description);
+        let md5Len = 3;
+        let tmpList: string[];
+        do {
+          md5Len++;
+          tmpList = md5List.map(str => str.slice(0, md5Len));
+        } while (md5List.length !== uniq(tmpList).length);
+        return md5Len;
+      })();
+      buildingBuffs.description = mapValues(buildingBuffs.description, str => str.slice(0, this.buildingDescMd5MinLen));
+      buildingBuffs.info = mapKeys(buildingBuffs.info, (v, k) => k.slice(0, this.buildingDescMd5MinLen));
+      this.buildingBuffId2DescriptionMd5 = mapValues(this.buildingBuffId2DescriptionMd5, str =>
+        str.slice(0, this.buildingDescMd5MinLen),
+      );
+
+      // 基建技能分类及数值计入
+      const { info, numKey } = processBuildingSkills(
+        buildingBuffs.info,
+        mapKeys(buffMd52Description, (v, k) => k.slice(0, this.buildingDescMd5MinLen)),
+      );
+      buildingBuffs.info = info;
+      buildingBuffs.numKey = numKey;
+
+      // 合并数据
+      each(buildingBuffs.data, (data, id) => {
+        data.desc = buildingBuffs.description[id];
+      });
+      // @ts-expect-error
+      delete buildingBuffs.description;
+
+      checkObjsNotEmpty(buildingChars, ...Object.values(buildingBuffs));
+      writeData('building.json', { char: buildingChars, buff: buildingBuffs });
+
+      // 下载图标
+      await downloadImageByList({
+        idList: map(buildingBuffs.data, 'icon'),
+        dirPath: BUILDING_SKILL_IMG_DIR,
+        resPathGetter: id => `building_skill/${id}.png`,
+      });
+    }
+
     checkObjsNotEmpty(roomEnum2Name, buffId2Name, buffMd52Description);
     writeLocale(locale, 'building.json', {
       name: roomEnum2Name,
-      buff: { name: buffId2Name, description: buffMd52Description },
-    });
-
-    if (!isCN) return;
-
-    const buildingChars = transform(
-      pickBy(buildingData.chars, (c, id) => isOperator(characterTable[id], id)),
-      (obj, { charId, buffChar }) => {
-        const shortId = charId.replace(/^char_/, '');
-        const skills = buffChar.flatMap(({ buffData }) =>
-          buffData.map(({ buffId, cond: { phase, level } }) => ({
-            id: idStandardization(buffId),
-            unlock: `${phase}_${level}`,
-          })),
-        );
-        if (skills.length) obj[shortId] = skills;
+      buff: {
+        name: buffId2Name,
+        description: mapKeys(buffMd52Description, (v, k) => k.slice(0, this.buildingDescMd5MinLen)),
       },
-      {} as DataJsonBuildingChar,
-    );
-
-    // 找到 MD5 最小不公共前缀以压缩
-    const md5Min = (() => {
-      const md5List = Object.keys(buffMd52Description);
-      let md5Len = 3;
-      let tmpList: string[];
-      do {
-        md5Len++;
-        tmpList = md5List.map(str => str.slice(0, md5Len));
-      } while (md5List.length !== uniq(tmpList).length);
-      return md5Len;
-    })();
-    buildingBuffs.description = mapValues(buildingBuffs.description, str => str.slice(0, md5Min));
-    buildingBuffs.info = mapKeys(buildingBuffs.info, (v, k) => k.slice(0, md5Min));
-    this.buildingBuffId2DescriptionMd5 = mapValues(this.buildingBuffId2DescriptionMd5, str => str.slice(0, md5Min));
-
-    // 基建技能分类及数值计入
-    const { info, numKey } = processBuildingSkills(
-      buildingBuffs.info,
-      mapKeys(buffMd52Description, (v, k) => k.slice(0, md5Min)),
-    );
-    buildingBuffs.info = info;
-    buildingBuffs.numKey = numKey;
-
-    // 合并数据
-    each(buildingBuffs.data, (data, id) => {
-      data.desc = buildingBuffs.description[id];
-    });
-    // @ts-expect-error
-    delete buildingBuffs.description;
-
-    checkObjsNotEmpty(buildingChars, ...Object.values(buildingBuffs));
-    writeData('building.json', { char: buildingChars, buff: buildingBuffs });
-
-    // 下载图标
-    await downloadImageByList({
-      idList: map(buildingBuffs.data, 'icon'),
-      dirPath: BUILDING_SKILL_IMG_DIR,
-      resPathGetter: id => `building_skill/${id}.png`,
     });
   }
 }

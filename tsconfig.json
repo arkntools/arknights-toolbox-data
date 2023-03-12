@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "CommonJS",
     "allowJs": true,
     "baseUrl": "src",
     "rootDir": "src",
@@ -15,6 +15,7 @@
   },
   "include": ["src/**/*"],
   "ts-node": {
-    "files": true
+    "files": true,
+    "require": ["tsconfig-paths/register"]
   }
 }

@@ -1,4 +1,4 @@
-import { assign, castArray, each, mapValues } from 'lodash-es';
+import { assign, castArray, each, mapValues } from 'lodash';
 import type { RoomType } from 'types';
 
 const category: Record<string, Record<string, RegExp | RegExp[]>> = {

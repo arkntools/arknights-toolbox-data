@@ -1,7 +1,7 @@
 import { writeFile } from 'fs/promises';
 import { join } from 'path';
 import { ensureDirSync, existsSync } from 'fs-extra';
-import { random, range } from 'lodash-es';
+import { random, range } from 'lodash';
 import sharp from 'sharp';
 import { setOutput } from '@actions/core';
 import { axios, isAxiosError } from './axios';

@@ -2,10 +2,10 @@
 import Kuroshiro from 'kuroshiro';
 // @ts-expect-error
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
-import { reduce } from 'lodash-es';
+import { reduce } from 'lodash';
 
 const kuroshiro = new Kuroshiro();
-await kuroshiro.init(new KuromojiAnalyzer());
+const init = kuroshiro.init(new KuromojiAnalyzer());
 
 const extraTable = {
   遊: 'yu',
@@ -14,6 +14,7 @@ const extraTable = {
 
 export const getRomaji = async (text: string): Promise<string> => {
   if (/^[\w-]*$/.test(text)) return '';
+  await init;
   return reduce(
     extraTable,
     (result, romaji, kanji) => result.replace(kanji, romaji),

@@ -9,7 +9,7 @@ export const SKILL_IMG_DIR = resolve(IMG_DIR, 'skill');
 export const BUILDING_SKILL_IMG_DIR = resolve(IMG_DIR, 'building_skill');
 export const ITEM_IMG_DIR = resolve(IMG_DIR, 'item');
 export const ITEM_PKG_ZIP = resolve(__dirname, '../../assets/pkg/item.zip');
-export const NOW = Date.now();
+export const DATE_NOW = Date.now();
 
 export const PURCHASE_CERTIFICATE_ID = '4006';
 export const CHIP_ASSISTANT_ID = '32001';
