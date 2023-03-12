@@ -1,4 +1,4 @@
-import type { OccPercent, RetroAct, ZoneValidInfo } from 'types';
+import type { OccPercent, RetroAct, RoomType, ZoneValidInfo } from 'types';
 
 export interface DataCharacter {
   pinyin: {
@@ -77,3 +77,31 @@ export interface DataCharCultivate {
 }
 
 export type DataJsonCultivate = Record<string, DataCharCultivate>;
+
+export type DataBuildingChar = Array<{ id: string; unlock: string }>;
+
+export interface DataBuildingBuffData {
+  icon: string;
+  desc: string;
+}
+
+export interface DataBuildingBuffInfo {
+  building: RoomType;
+  num: Record<string, number>;
+  is: Record<string, number>;
+}
+
+export type DataBuildingBuffNumKey = Record<string, string | string[]>;
+
+export type DataJsonBuildingChar = Record<string, DataBuildingChar>;
+
+export interface DataJsonBuildingBuff {
+  data: Record<string, DataBuildingBuffData>;
+  info: Record<string, DataBuildingBuffInfo>;
+  numKey: Record<RoomType, DataBuildingBuffNumKey>;
+}
+
+export interface DataJsonBuilding {
+  char: DataJsonBuildingChar;
+  buff: DataJsonBuildingBuff;
+}

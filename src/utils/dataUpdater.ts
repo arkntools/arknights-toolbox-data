@@ -16,11 +16,13 @@ import {
   some,
   sumBy,
   transform,
+  uniq,
   without,
 } from 'lodash-es';
 import { transliterate } from 'transliteration';
 import JSZip from 'jszip';
 import { createReadStream } from 'fs-extra';
+import md5 from 'js-md5';
 import {
   ensureReadJsonSync,
   gameDataUrl,
@@ -39,12 +41,14 @@ import {
   writeText,
   writeLocale,
   writeData,
+  checkObjsNotEmpty,
 } from './common';
 import { retryGet } from './request';
 import { getRichTextCss } from './css';
 import { getPinyin } from './pinyin';
 import { getRomaji } from './romaji';
 import { downloadImageByList } from './download';
+import { processBuildingSkills } from './buildingSkills';
 import { CharPosition, CharProfession, OccPercent } from 'types';
 import type {
   ActivityTable,
@@ -70,9 +74,12 @@ import type {
   DataJsonItem,
   DataCharCultivate,
   DataJsonCultivate,
+  DataJsonBuildingBuff,
+  DataJsonBuildingChar,
 } from 'types';
 import {
   AVATAR_IMG_DIR,
+  BUILDING_SKILL_IMG_DIR,
   CHIP_ASSISTANT_ID,
   EXT_ITEM,
   GameDataReplaceMap,
@@ -102,7 +109,7 @@ interface GameData {
 
 export class DataUpdater {
   private gameData: Record<string, GameData> = {};
-  private character: DataJsonCharacter = {};
+  private characterInfo: DataJsonCharacter = {};
   private unopenedStage: DataJsonUnopenedStage = {};
   private cnStageList: string[] = [];
   private eventInfo: DataJsonEvent = {};
@@ -110,9 +117,7 @@ export class DataUpdater {
   private retroInfo: DataJsonRetro = {};
   private readonly stageInfo: DataJsonStage = { normal: {}, event: {}, retro: {} };
   private itemInfo: DataJsonItem = {};
-
-  /** 技能ID与描述MD5对应表 */
-  // private buildingBuffId2DescriptionMd5: Record<string, string> = {};
+  private buildingBuffId2DescriptionMd5: Record<string, string> = {};
 
   public async start() {
     await this.fetchGameData();
@@ -132,7 +137,20 @@ export class DataUpdater {
       this.updateStageInfo(data, locale);
       this.updateItemInfo(data, locale);
       await this.updateItemData(data, locale);
+      await this.updateSkillInfo(data, locale);
+      await this.updateBuildingInfo(data, locale);
     }
+
+    writeData('character.json', this.characterInfo);
+    writeData('item.json', this.itemInfo);
+    writeData('unopenedStage.json', this.unopenedStage);
+    checkObjsNotEmpty(...Object.values(this.stageInfo));
+    writeData('stage.json', this.stageInfo);
+    writeData('drop.json', this.dropInfo);
+    writeData('retro.json', this.retroInfo);
+    writeData('event.json', this.eventInfo);
+
+    console.log('Update completed');
   }
 
   private async fetchGameData() {
@@ -225,7 +243,7 @@ export class DataUpdater {
         obj[shortId] = name.trim();
         const nameForRecruitment = getNameForRecruitment(name);
         if (nameForRecruitment in recruitmentTable) {
-          this.character[shortId].recruitment[locale] = recruitmentTable[nameForRecruitment];
+          this.characterInfo[shortId].recruitment[locale] = recruitmentTable[nameForRecruitment];
         }
       },
       {} as Record<string, string>,
@@ -234,7 +252,7 @@ export class DataUpdater {
 
     if (isCN) {
       // 普通角色
-      this.character = transform(
+      this.characterInfo = transform(
         pickBy(characterTable, isOperator),
         (obj, { name, appellation, position, tagList, rarity, profession }, id) => {
           const shortId = id.replace(/^char_/, '');
@@ -259,7 +277,7 @@ export class DataUpdater {
     // 获取罗马音
     if (locale === 'jp') {
       for (const [id, name] of Object.entries(nameId2Name)) {
-        this.character[id].romaji = await getRomaji(name);
+        this.characterInfo[id].romaji = await getRomaji(name);
       }
     }
 
@@ -367,6 +385,13 @@ export class DataUpdater {
     );
 
     writeLocale(locale, 'zone.json', zoneId2Name);
+
+    if (isCN) {
+      writeData('zone.json', {
+        zoneToActivity: activityTable.zoneToActivity,
+        zoneToRetro: retroTable.zoneToRetro,
+      });
+    }
   }
 
   private updateStageInfo({ stageTable, retroTable }: GameData, locale: string) {
@@ -520,6 +545,7 @@ export class DataUpdater {
       ),
       'uniEquipName',
     );
+    writeLocale(locale, 'uniequip.json', uniequipId2Name);
 
     if (locale !== 'cn') return;
 
@@ -595,6 +621,120 @@ export class DataUpdater {
       dirPath: SKILL_IMG_DIR,
       resPathGetter: id => `skill/skill_icon_${revIdStandardization(id)}.png`,
       resize: 72,
+    });
+  }
+
+  private async updateBuildingInfo({ buildingData, characterTable }: GameData, locale: string) {
+    const isCN = locale === 'cn';
+    const buffId2Name: Record<string, string> = {};
+    const buffMd52Description: Record<string, string> = {};
+    const roomEnum2Name = mapValues(buildingData.rooms, ({ name }) => name);
+
+    const buffMigration = (() => {
+      if (isCN) return {};
+      const cnData = this.gameData.cn.buildingData.chars;
+      return transform(
+        buildingData.chars,
+        (map, { buffChar }, cid) => {
+          buffChar.forEach(({ buffData }, i) => {
+            buffData.forEach(({ buffId }, j) => {
+              const cnBuffId = cnData[cid]?.buffChar[i]?.buffData[j]?.buffId;
+              if (cnBuffId && cnBuffId !== buffId) map[buffId] = cnBuffId;
+            });
+          });
+        },
+        {} as Record<string, string>,
+      );
+    })();
+
+    const buildingBuffs = transform(
+      buildingData.buffs,
+      (obj, { buffId, buffName, skillIcon, roomType, description }) => {
+        const stdBuffId = idStandardization(!isCN && buffId in buffMigration ? buffMigration[buffId] : buffId);
+        buffId2Name[stdBuffId] = buffName;
+        const descriptionMd5 = (() => {
+          if (isCN) {
+            const dMd5 = md5(description);
+            this.buildingBuffId2DescriptionMd5[stdBuffId] = dMd5;
+            return dMd5;
+          } else if (stdBuffId in this.buildingBuffId2DescriptionMd5) {
+            return this.buildingBuffId2DescriptionMd5[stdBuffId];
+          }
+          console.error(`Building buff "${buffId}" from ${locale.toUpperCase()} is not in CN`);
+        })();
+        if (!descriptionMd5) return;
+        buffMd52Description[descriptionMd5] = description;
+        if (!isCN) return;
+        obj.description[stdBuffId] = descriptionMd5;
+        obj.data[stdBuffId] = { icon: skillIcon, desc: '' };
+        obj.info[descriptionMd5] = { building: roomType, num: {}, is: {} };
+      },
+      { description: {}, data: {}, info: {} } as DataJsonBuildingBuff & {
+        description: Record<string, string>;
+      },
+    );
+
+    checkObjsNotEmpty(roomEnum2Name, buffId2Name, buffMd52Description);
+    writeLocale(locale, 'building.json', {
+      name: roomEnum2Name,
+      buff: { name: buffId2Name, description: buffMd52Description },
+    });
+
+    if (!isCN) return;
+
+    const buildingChars = transform(
+      pickBy(buildingData.chars, (c, id) => isOperator(characterTable[id], id)),
+      (obj, { charId, buffChar }) => {
+        const shortId = charId.replace(/^char_/, '');
+        const skills = buffChar.flatMap(({ buffData }) =>
+          buffData.map(({ buffId, cond: { phase, level } }) => ({
+            id: idStandardization(buffId),
+            unlock: `${phase}_${level}`,
+          })),
+        );
+        if (skills.length) obj[shortId] = skills;
+      },
+      {} as DataJsonBuildingChar,
+    );
+
+    // 找到 MD5 最小不公共前缀以压缩
+    const md5Min = (() => {
+      const md5List = Object.keys(buffMd52Description);
+      let md5Len = 3;
+      let tmpList: string[];
+      do {
+        md5Len++;
+        tmpList = md5List.map(str => str.slice(0, md5Len));
+      } while (md5List.length !== uniq(tmpList).length);
+      return md5Len;
+    })();
+    buildingBuffs.description = mapValues(buildingBuffs.description, str => str.slice(0, md5Min));
+    buildingBuffs.info = mapKeys(buildingBuffs.info, (v, k) => k.slice(0, md5Min));
+    this.buildingBuffId2DescriptionMd5 = mapValues(this.buildingBuffId2DescriptionMd5, str => str.slice(0, md5Min));
+
+    // 基建技能分类及数值计入
+    const { info, numKey } = processBuildingSkills(
+      buildingBuffs.info,
+      mapKeys(buffMd52Description, (v, k) => k.slice(0, md5Min)),
+    );
+    buildingBuffs.info = info;
+    buildingBuffs.numKey = numKey;
+
+    // 合并数据
+    each(buildingBuffs.data, (data, id) => {
+      data.desc = buildingBuffs.description[id];
+    });
+    // @ts-expect-error
+    delete buildingBuffs.description;
+
+    checkObjsNotEmpty(buildingChars, ...Object.values(buildingBuffs));
+    writeData('building.json', { char: buildingChars, buff: buildingBuffs });
+
+    // 下载图标
+    await downloadImageByList({
+      idList: map(buildingBuffs.data, 'icon'),
+      dirPath: BUILDING_SKILL_IMG_DIR,
+      resPathGetter: id => `building_skill/${id}.png`,
     });
   }
 }

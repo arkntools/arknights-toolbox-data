@@ -1,4 +1,5 @@
 import { assign, castArray, each, mapValues } from 'lodash-es';
+import type { RoomType } from 'types';
 
 const category: Record<string, Record<string, RegExp | RegExp[]>> = {
   BUILDING: {
@@ -144,11 +145,11 @@ const removeRichTextTag = (str: string): string => {
 };
 
 export const processBuildingSkills = (
-  md52Info: Record<string, { building: string }>,
+  md52Info: Record<string, { building: RoomType }>,
   md52Description: Record<string, string>,
 ) => {
   const info = mapValues(md52Info, ({ building }, md5) => {
-    const is: Record<string, boolean> = {};
+    const is: Record<string, number> = {};
     const num: Record<string, string> = {};
     const description = removeRichTextTag(md52Description[md5]);
 
@@ -157,7 +158,7 @@ export const processBuildingSkills = (
         for (const reg of castArray(value)) {
           const search = reg.exec(description);
           if (search) {
-            is[key] = true;
+            is[key] = 1;
             if (search.groups) assign(num, search.groups);
             break;
           }
