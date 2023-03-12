@@ -89,6 +89,7 @@ import {
   PURCHASE_CERTIFICATE_ID,
   ROBOT_TAG_NAME_CN,
   SKILL_IMG_DIR,
+  DATE_FILE_LAST_MOD,
 } from 'constant';
 
 interface GameData {
@@ -523,7 +524,7 @@ export class DataUpdater {
       .sort();
     const zip = new JSZip();
     curHaveItemImgs.forEach(filename => {
-      zip.file(filename, createReadStream(resolve(ITEM_IMG_DIR, filename)));
+      zip.file(filename, createReadStream(resolve(ITEM_IMG_DIR, filename)), { date: DATE_FILE_LAST_MOD });
     });
     await new Promise((resolve, reject) => {
       zip.generateNodeStream().pipe(createWriteStream(ITEM_PKG_ZIP)).on('finish', resolve).on('error', reject);
