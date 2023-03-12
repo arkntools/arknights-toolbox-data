@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-/assets/** text eol=lf
+/assets/data/** text eol=lf
+/assets/data/locales/** text eol=lf
