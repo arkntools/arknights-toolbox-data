@@ -2,10 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "CommonJS",
-    "allowJs": true,
     "baseUrl": "src",
-    "rootDir": "src",
-    "outDir": "build",
+    "rootDir": ".",
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
@@ -13,7 +11,7 @@
     "resolveJsonModule": true,
     "removeComments": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "build/**/*"],
   "ts-node": {
     "files": true,
     "require": ["tsconfig-paths/register"]
