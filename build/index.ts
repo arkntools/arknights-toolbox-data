@@ -13,6 +13,7 @@ import { globSync } from 'glob';
 import { minify as minifyCss } from 'csso';
 import calcMd5 from 'js-md5';
 import calcFileMd5 from 'md5-file';
+import { version } from '../package.json';
 
 const DIST_DIR = resolve(__dirname, '../dist');
 const ASSETS_DIR = resolve(__dirname, '../assets');
@@ -52,7 +53,7 @@ const normalizeDistFilePath = (filePath: string) =>
   console.log(sumMd5);
 
   writeJsonSync(resolve(DIST_DIR, 'map.json'), fileMap);
-  writeJsonSync(resolve(DIST_DIR, 'check.json'), { md5: sumMd5, timestamp: Date.now() });
+  writeJsonSync(resolve(DIST_DIR, 'check.json'), { md5: sumMd5, timestamp: Date.now(), version });
 })();
 
 copySync(PUBLIC_DIR, DIST_DIR);
