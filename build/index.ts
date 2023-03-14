@@ -49,11 +49,14 @@ const normalizeDistFilePath = (filePath: string) =>
     console.log(normalizeDistFilePath(newFilePath));
   }
 
-  const sumMd5 = calcMd5(Object.values(fileMap).sort().join());
-  console.log(sumMd5);
+  const mapContent = JSON.stringify(fileMap);
+  const mapMd5 = calcMd5(mapContent).slice(0, 8);
+  const mapFilename = `map.${mapMd5}.json`;
+  writeFileSync(resolve(DIST_DIR, mapFilename), mapContent);
+  console.log(mapFilename);
 
-  writeJsonSync(resolve(DIST_DIR, 'map.json'), fileMap);
-  writeJsonSync(resolve(DIST_DIR, 'check.json'), { md5: sumMd5, timestamp: Date.now(), version });
+  writeJsonSync(resolve(DIST_DIR, 'check.json'), { mapMd5, timestamp: Date.now(), version });
+  console.log('check.json');
 })();
 
 copySync(PUBLIC_DIR, DIST_DIR);
