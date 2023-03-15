@@ -2,6 +2,7 @@ import { resolve } from 'path';
 import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
 import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
+import { MaterialType } from 'types';
 import { CHIP_ASSISTANT_ID, DATA_DIR, FormulasKeyMap, LangMap, LOCALES_DIR, PURCHASE_CERTIFICATE_ID } from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
@@ -163,4 +164,16 @@ export const writeLocale = (locale: string, name: string, obj: any, allowEmpty: 
     checkObjsNotEmpty(obj);
   }
   if (_writeData(resolve(LOCALES_DIR, locale, name), obj)) console.log(`Update ${locale} ${name}`);
+};
+
+const itemTypeAsserts: Array<{ type: MaterialType; assert: (id: string) => boolean }> = [
+  { type: MaterialType.MATERIAL, assert: id => inRange(Number(id), 30011, 32000) },
+  { type: MaterialType.CHIP, assert: id => inRange(Number(id), 3211, 3300) },
+  { type: MaterialType.MOD_TOKEN, assert: id => /^mod_(?:unlock|update)_token/.test(id) },
+  { type: MaterialType.SKILL_SUMMARY, assert: id => inRange(Number(id), 3301, 3310) },
+  { type: MaterialType.CHIP_ASS, assert: id => id === CHIP_ASSISTANT_ID || id === PURCHASE_CERTIFICATE_ID },
+];
+export const getItemType = (id: string) => {
+  const result = itemTypeAsserts.find(({ assert }) => assert(id));
+  return result?.type ?? MaterialType.UNKNOWN;
 };

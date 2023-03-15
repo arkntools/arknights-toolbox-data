@@ -49,7 +49,17 @@ export type DataJsonStage = Record<'normal' | 'event' | 'retro', DataStageTable>
 
 export type DataItemCost = Record<string, number>;
 
+export enum MaterialType {
+  UNKNOWN = -1,
+  MATERIAL,
+  CHIP,
+  MOD_TOKEN,
+  SKILL_SUMMARY,
+  CHIP_ASS,
+}
+
 export interface DataMaterial {
+  type: MaterialType;
   sortId: Record<string, number>;
   rare: number;
   drop: DataDrop;

@@ -41,6 +41,7 @@ import {
   writeLocale,
   writeData,
   checkObjsNotEmpty,
+  getItemType,
 } from './common';
 import { retryGet } from './request';
 import { getRichTextCss } from './css';
@@ -451,6 +452,7 @@ export class DataUpdater {
       pickBy(itemTable.items, ({ itemId }) => isItem(itemId)),
       ({ itemId, rarity, sortId, stageDropList, buildingProductList }) => {
         this.itemInfo[itemId] = {
+          type: getItemType(itemId),
           sortId: {
             [locale]: sortId,
           },
