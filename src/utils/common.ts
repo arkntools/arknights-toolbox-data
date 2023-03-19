@@ -167,11 +167,11 @@ export const writeLocale = (locale: string, name: string, obj: any, allowEmpty: 
 };
 
 const itemTypeAsserts: Array<{ type: MaterialType; assert: (id: string) => boolean }> = [
-  { type: MaterialType.MATERIAL, assert: id => inRange(Number(id), 30011, 32000) },
-  { type: MaterialType.CHIP, assert: id => inRange(Number(id), 3211, 3300) },
-  { type: MaterialType.MOD_TOKEN, assert: id => /^mod_(?:unlock|update)_token/.test(id) },
-  { type: MaterialType.SKILL_SUMMARY, assert: id => inRange(Number(id), 3301, 3310) },
-  { type: MaterialType.CHIP_ASS, assert: id => id === CHIP_ASSISTANT_ID || id === PURCHASE_CERTIFICATE_ID },
+  { type: MaterialType.MATERIAL, assert: isMaterial },
+  { type: MaterialType.CHIP, assert: isChip },
+  { type: MaterialType.MOD_TOKEN, assert: isModToken },
+  { type: MaterialType.SKILL_SUMMARY, assert: isSkillSummary },
+  { type: MaterialType.CHIP_ASS, assert: id => isChipAss(id) || isCertificate(id) },
 ];
 export const getItemType = (id: string) => {
   const result = itemTypeAsserts.find(({ assert }) => assert(id));

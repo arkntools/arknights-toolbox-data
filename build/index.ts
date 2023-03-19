@@ -1,8 +1,11 @@
 import { resolve, basename, extname } from 'path';
 import {
   copySync,
+  createReadStream,
+  createWriteStream,
   emptyDirSync,
   ensureDirSync,
+  existsSync,
   readFileSync,
   readJsonSync,
   renameSync,
@@ -13,7 +16,10 @@ import { globSync } from 'glob';
 import { minify as minifyCss } from 'csso';
 import calcMd5 from 'js-md5';
 import calcFileMd5 from 'md5-file';
+import JSZip from 'jszip';
 import { version } from '../package.json';
+import itemTable from '../assets/data/item.json';
+import { DATE_FILE_LAST_MOD, ITEM_IMG_DIR, ITEM_PKG_ZIP } from 'constant';
 
 const DIST_DIR = resolve(__dirname, '../dist');
 const ASSETS_DIR = resolve(__dirname, '../assets');
@@ -21,7 +27,6 @@ const PUBLIC_DIR = resolve(__dirname, './public');
 
 ensureDirSync(DIST_DIR);
 emptyDirSync(DIST_DIR);
-copySync(ASSETS_DIR, DIST_DIR, { filter: src => !basename(src).startsWith('.') });
 
 const minifyFile = (filePath: string) => {
   switch (extname(filePath)) {
@@ -37,7 +42,27 @@ const minifyFile = (filePath: string) => {
 const normalizeDistFilePath = (filePath: string) =>
   filePath.replace(DIST_DIR, '').replaceAll('\\', '/').replace(/^\//, '');
 
+const zipItemImgs = async () => {
+  const zip = new JSZip();
+  const itemImgs = Object.keys(itemTable)
+    .map(id => `${id}.png`)
+    .sort();
+  itemImgs.forEach(filename => {
+    const filepath = resolve(ITEM_IMG_DIR, filename);
+    if (!existsSync(filepath)) return;
+    zip.file(filename, createReadStream(filepath), { date: DATE_FILE_LAST_MOD });
+  });
+  await new Promise((resolve, reject) => {
+    zip.generateNodeStream().pipe(createWriteStream(ITEM_PKG_ZIP)).on('finish', resolve).on('error', reject);
+  });
+  console.log('Item images have been packaged.');
+};
+
 (async () => {
+  await zipItemImgs();
+
+  copySync(ASSETS_DIR, DIST_DIR, { filter: src => !basename(src).startsWith('.') });
+
   const fileMap: Record<string, string> = {};
 
   for (const filePath of globSync(resolve(DIST_DIR, '**/*.{json,css,zip}'), { windowsPathsNoEscape: true })) {

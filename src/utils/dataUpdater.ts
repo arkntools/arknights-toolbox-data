@@ -1,4 +1,3 @@
-import { resolve } from 'path';
 import {
   each,
   invert,
@@ -19,8 +18,6 @@ import {
   without,
 } from 'lodash';
 import { transliterate } from 'transliteration';
-import JSZip from 'jszip';
-import { createReadStream, createWriteStream } from 'fs-extra';
 import md5 from 'js-md5';
 import {
   ensureReadJsonSync,
@@ -84,13 +81,11 @@ import {
   EXT_ITEM,
   GameDataReplaceMap,
   ITEM_IMG_DIR,
-  ITEM_PKG_ZIP,
   LangMap,
   DATE_NOW,
   PURCHASE_CERTIFICATE_ID,
   ROBOT_TAG_NAME_CN,
   SKILL_IMG_DIR,
-  DATE_FILE_LAST_MOD,
 } from 'constant';
 
 interface GameData {
@@ -513,25 +508,11 @@ export class DataUpdater {
 
     // 下载材料图片
     const itemIdList = Object.keys(itemId2Name);
-    const failedIdList = await downloadImageByList({
+    await downloadImageByList({
       idList: itemIdList,
       dirPath: ITEM_IMG_DIR,
       resPathGetter: id => `item/${itemTable.items[id].iconId}.png`,
     });
-
-    // 打包材料图片
-    const curHaveItemImgs = without(itemIdList, ...failedIdList)
-      .filter(isItem)
-      .map(id => `${id}.png`)
-      .sort();
-    const zip = new JSZip();
-    curHaveItemImgs.forEach(filename => {
-      zip.file(filename, createReadStream(resolve(ITEM_IMG_DIR, filename)), { date: DATE_FILE_LAST_MOD });
-    });
-    await new Promise((resolve, reject) => {
-      zip.generateNodeStream().pipe(createWriteStream(ITEM_PKG_ZIP)).on('finish', resolve).on('error', reject);
-    });
-    console.log('Item images have been packaged.');
   }
 
   private async updateSkillInfo(
