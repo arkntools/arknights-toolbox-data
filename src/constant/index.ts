@@ -16,7 +16,7 @@ export const EXT_ITEM = ['4001', 'AP_GAMEPLAY', '2001', '2002', '2003', '2004'];
 export const ROBOT_TAG_NAME_CN = '支援机械';
 
 export const DATE_NOW = Date.now();
-export const DATE_FILE_LAST_MOD = new Date(1556640000000 - new Date().getTimezoneOffset() * 60000);
+export const DATE_FILE_LAST_MOD = new Date(1556668800000);
 
 export const LangMap: Record<string, string> = {
   cn: 'zh_CN',
