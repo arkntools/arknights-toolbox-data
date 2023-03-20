@@ -1,4 +1,4 @@
-# [WIP] arknights-toolbox-data
+# arknights-toolbox-data
 
 [arkntools/arknights-toolbox](https://github.com/arkntools/arknights-toolbox) 所使用的游戏数据与媒体资源，由原始数据/媒体经提炼/压缩得到
 
