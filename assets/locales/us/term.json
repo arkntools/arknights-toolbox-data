@@ -119,6 +119,18 @@
     "name": "Special Interaction Rules",
     "desc": "Takes priority over <$cc.m.var2><@cc.rem>Cooperative Will</></>, and does not stack\nDoes not stack with <$cc.m.pow1><@cc.rem>Automation α</></>, <$cc.m.pow2><@cc.rem>Automation β</></>, or <$cc.m.pow3><@cc.rem>Bionic Seadragon</></>, and the 'set to 0' effect will take priority"
   },
+  "cc_c_room1": {
+    "name": "Certain Facilities",
+    "desc": "Includes the following facilities: \nPower Plant, HR Office, Reception Room"
+  },
+  "cc_c_room2": {
+    "name": "Other Facilities",
+    "desc": "Includes the following facilities: \nPower Plant, Factory, Trading Post, HR Office, Reception Room"
+  },
+  "cc_c_skill": {
+    "name": "Certain Skills",
+    "desc": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed"
+  },
   "cc_t_strong2": {
     "name": "Special Interaction Rules",
     "desc": "Cannot stack with <$cc.t.snsant1><@cc.rem>Heavenly Reward α</></>, <$cc.t.snsant2><@cc.rem>Heavenly Reward β</></>, and will take precedence instead\nWhen <$cc.t.snsant1><@cc.rem>Heavenly Reward α</></>, <$cc.t.snsant2><@cc.rem>Heavenly Reward β</></> stacks with other skills, this skill will take effect on the resulting effect"
@@ -154,6 +166,10 @@
   "cc_sk_manu2": {
     "name": "Rhine Tech-type Skill",
     "desc": "Includes the following skills\nRhine Tech α, Rhine Tech β"
+  },
+  "cc_sk_manu3": {
+    "name": "Pinus Sylvestris Skills",
+    "desc": "Includes the following skills: \nPinus Sylvestris α, Pinus Sylvestris β"
   },
   "cc_tag_op": {
     "name": "Operation Platform",

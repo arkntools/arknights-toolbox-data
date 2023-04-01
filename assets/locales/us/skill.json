@@ -66,6 +66,8 @@
   "skchr_frostl_2": "Ice Tomahawk",
   "skchr_spikes_1": "Just Kidding",
   "skchr_spikes_2": "Deadly Prank",
+  "skchr_lolxh_1": "Tail Afterimage",
+  "skchr_lolxh_2": "Broken Blade",
   "skchr_estell_2": "Sacrificial Strike",
   "skchr_frncat_1": "Scratch",
   "skchr_frncat_2": "Fury",
@@ -281,6 +283,8 @@
   "skchr_glassb_2": "Literature Storm",
   "skchr_glacus_1": "Binary Reload",
   "skchr_glacus_2": "Counter EMP",
+  "skchr_provs_1": "Dispute Litigation",
+  "skchr_provs_2": "Prevailing Argument",
   "skchr_windft_1": "Machine Rapport",
   "skchr_windft_2": "Energy Rapport",
   "skchr_sora_1": "Hymn of Respite",
@@ -484,5 +488,8 @@
   "skchr_pallas_1": "Strikes of Victory",
   "skchr_pallas_2": "Whip of Conviction",
   "skchr_pallas_3": "Blessing of Heroism",
+  "skchr_mlynar_1": "Unvoiced Anger",
+  "skchr_mlynar_2": "Unresolved Sorrow",
+  "skchr_mlynar_3": "Unbrilliant Glory",
   "skcom_withdraw": "Self-Destruct"
 }

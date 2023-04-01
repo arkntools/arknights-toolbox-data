@@ -66,6 +66,8 @@
   "skchr_frostl_2": "빙결창",
   "skchr_spikes_1": "농담",
   "skchr_spikes_2": "치명적인 장난",
+  "skchr_lolxh_1": "꼬리의 잔상",
+  "skchr_lolxh_2": "부러진 칼날",
   "skchr_estell_2": "결사돌격",
   "skchr_frncat_1": "할퀴기!",
   "skchr_frncat_2": "고양이의 분노",
@@ -281,6 +283,8 @@
   "skchr_glassb_2": "문학의 폭풍",
   "skchr_glacus_1": "복선 장전",
   "skchr_glacus_2": "펄스 반격",
+  "skchr_provs_1": "분쟁 소송",
+  "skchr_provs_2": "승소 입론",
   "skchr_windft_1": "이 몸을 만들어",
   "skchr_windft_2": "이 몸을 근원으로",
   "skchr_sora_1": "자장가",
@@ -484,5 +488,8 @@
   "skchr_pallas_1": "승리의 연타",
   "skchr_pallas_2": "신념의 채찍",
   "skchr_pallas_3": "용감의 축복",
+  "skchr_mlynar_1": "표출하지 않은 분노",
+  "skchr_mlynar_2": "해소하지 않은 슬픔",
+  "skchr_mlynar_3": "눈부시지 않은 영광",
   "skcom_withdraw": "자아소멸"
 }

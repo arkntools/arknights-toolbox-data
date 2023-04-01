@@ -102,6 +102,22 @@
       28
     ]
   },
+  "4091_ulika": {
+    "pinyin": {
+      "full": "",
+      "head": ""
+    },
+    "romaji": "",
+    "appellation": "U-Official",
+    "star": 1,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      12,
+      28
+    ]
+  },
   "502_nblade": {
     "pinyin": {
       "full": "yedao",
@@ -1095,7 +1111,7 @@
       "full": "luoxiaohei",
       "head": "lxh"
     },
-    "romaji": "",
+    "romaji": "raoguro",
     "appellation": "Luo Xiaohei",
     "star": 4,
     "recruitment": {},
@@ -3296,7 +3312,7 @@
       "full": "danshu",
       "head": "ds"
     },
-    "romaji": "",
+    "romaji": "purobaizo",
     "appellation": "Proviso",
     "star": 5,
     "recruitment": {},
@@ -4780,7 +4796,7 @@
       "full": "maenna",
       "head": "men"
     },
-    "romaji": "",
+    "romaji": "murinaru",
     "appellation": "Mlynar",
     "star": 6,
     "recruitment": {},

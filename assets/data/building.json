@@ -2847,6 +2847,16 @@
         "id": "manu_prod_spd&limit&bd_000",
         "unlock": "0_30"
       }
+    ],
+    "4091_ulika": [
+      {
+        "id": "trade_ord_spd&wt_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd_Owned_000",
+        "unlock": "0_30"
+      }
     ]
   },
   "buff": {
@@ -3554,6 +3564,10 @@
       "trade_ord_spd&limit&bd_000": {
         "icon": "bskill_tra_spd&limit_felyne",
         "desc": "a03e"
+      },
+      "trade_ord_spd&wt_000": {
+        "icon": "bskill_tra_spd&wt1",
+        "desc": "8f39"
       },
       "trade_ord_limit&cost_P_010": {
         "icon": "bskill_tra_texas2",
@@ -4558,6 +4572,10 @@
       "meet_spd_notOwned_001": {
         "icon": "bskill_meet_spdNotOwned1",
         "desc": "ba8e"
+      },
+      "meet_spd_Owned_000": {
+        "icon": "bskill_meet_spdOwned1",
+        "desc": "ddb8"
       }
     },
     "info": {
@@ -5821,6 +5839,15 @@
           "订单上限": 1
         }
       },
+      "8f39": {
+        "building": "TRADING",
+        "num": {
+          "order": 10
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
       "5a48": {
         "building": "TRADING",
         "num": {},
@@ -7059,6 +7086,11 @@
         "is": {}
       },
       "6dbc": {
+        "building": "MEETING",
+        "num": {},
+        "is": {}
+      },
+      "ddb8": {
         "building": "MEETING",
         "num": {},
         "is": {}

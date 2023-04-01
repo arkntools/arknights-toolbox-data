@@ -66,6 +66,8 @@
   "skchr_frostl_2": "氷結の刃",
   "skchr_spikes_1": "いたずら",
   "skchr_spikes_2": "フェイタルトリック",
+  "skchr_lolxh_1": "変化自在",
+  "skchr_lolxh_2": "金属操作",
   "skchr_estell_2": "捨て身の覚悟",
   "skchr_frncat_1": "ひっかき！",
   "skchr_frncat_2": "ねこのいかり",
@@ -281,6 +283,8 @@
   "skchr_glassb_2": "嵐より生まれしもの",
   "skchr_glacus_1": "デュアルリロード",
   "skchr_glacus_2": "電磁パルス",
+  "skchr_provs_1": "訴訟提起",
+  "skchr_provs_2": "論理展開",
   "skchr_windft_1": "この身で築かす",
   "skchr_windft_2": "この身を源とす",
   "skchr_sora_1": "すやすやナンバー",
@@ -484,5 +488,8 @@
   "skchr_pallas_1": "勝敗分かつ連撃",
   "skchr_pallas_2": "信念宿りし長鞭",
   "skchr_pallas_3": "勇士に捧ぐ祝福",
+  "skchr_mlynar_1": "秘めたる怒り",
+  "skchr_mlynar_2": "癒えぬ悲しみ",
+  "skchr_mlynar_3": "輝かざる栄光",
   "skcom_withdraw": "自動消滅"
 }
