@@ -44,13 +44,16 @@ export const downloadImage = async ({ url, path, startLog, tiny, resize }: Downl
 
   // tiny
   if (tiny) {
-    const { data: tinyResult } = await axios.post('https://tinypng.com/web/shrink', data, {
+    const {
+      headers: { location: tinyResult },
+    } = await axios.post('https://tinypng.com/backend/opt/shrink', data, {
       headers: {
         'Content-Type': 'image/png',
         'X-Forwarded-For': getRandomIP(),
       },
     });
-    const { data: tinyImage } = await axios.get(tinyResult.output.url, { responseType: 'arraybuffer' });
+    if (!tinyResult) throw new Error('Tiny png failed');
+    const { data: tinyImage } = await axios.get(tinyResult, { responseType: 'arraybuffer' });
     data = Buffer.from(tinyImage);
   }
 
