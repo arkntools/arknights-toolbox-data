@@ -21,12 +21,6 @@
         "startTs": 1680850800,
         "endTs": 1681412399
       }
-    },
-    "act12mini_zone1": {
-      "valid": {
-        "startTs": 1680246000,
-        "endTs": 1680807599
-      }
     }
   },
   "kr": {
@@ -34,12 +28,6 @@
       "valid": {
         "startTs": 1680850800,
         "endTs": 1681412399
-      }
-    },
-    "act12mini_zone1": {
-      "valid": {
-        "startTs": 1680246000,
-        "endTs": 1680807599
       }
     }
   }
