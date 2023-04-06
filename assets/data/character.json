@@ -1136,6 +1136,22 @@
       19
     ]
   },
+  "491_humus": {
+    "pinyin": {
+      "full": "xiumosi",
+      "head": "xms"
+    },
+    "romaji": "",
+    "appellation": "Humus",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
+    ]
+  },
   "237_gravel": {
     "pinyin": {
       "full": "li",
@@ -1780,6 +1796,21 @@
     "tags": [
       19,
       20
+    ]
+  },
+  "154_morgan": {
+    "pinyin": {
+      "full": "mogen",
+      "head": "mg"
+    },
+    "romaji": "",
+    "appellation": "Morgan",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19
     ]
   },
   "155_tiger": {
@@ -3062,6 +3093,21 @@
       22
     ]
   },
+  "464_cement": {
+    "pinyin": {
+      "full": "yanghui",
+      "head": "yh"
+    },
+    "romaji": "",
+    "appellation": "Cement",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22
+    ]
+  },
   "145_prove": {
     "pinyin": {
       "full": "puluowangsi",
@@ -3848,6 +3894,22 @@
     "tags": [
       18,
       12
+    ]
+  },
+  "4087_ines": {
+    "pinyin": {
+      "full": "yineisi",
+      "head": "yns"
+    },
+    "romaji": "",
+    "appellation": "Ines",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      25
     ]
   },
   "134_ifrit": {
