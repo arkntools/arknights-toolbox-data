@@ -1,9 +1,18 @@
 import { resolve } from 'path';
+import type { JFWriteOptions } from 'jsonfile';
 import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
 import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
 import { MaterialType } from 'types';
-import { CHIP_ASSISTANT_ID, DATA_DIR, FormulasKeyMap, LangMap, LOCALES_DIR, PURCHASE_CERTIFICATE_ID } from 'constant';
+import {
+  CHIP_ASSISTANT_ID,
+  DATA_DIR,
+  FormulasKeyMap,
+  LangMap,
+  LOCALES_DIR,
+  OTHER_DATA_DIR,
+  PURCHASE_CERTIFICATE_ID,
+} from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
   try {
@@ -131,13 +140,13 @@ const someObjsEmpty = (objs: any[]) => objs.some(obj => size(obj) === 0);
 export const checkObjsNotEmpty = (...objs: any[]) => {
   if (someObjsEmpty(objs)) throw new Error('Empty object.');
 };
-const _writeData = (path: string, obj: any) => {
+const _writeData = (path: string, obj: any, options: JFWriteOptions = { spaces: 2 }) => {
   if (!existsSync(path)) {
     if (someObjsEmpty([obj])) return false;
-    writeJsonSync(path, {});
+    writeJsonSync(path, {}, options);
   }
   if (!isEqual(readJsonSync(path), obj)) {
-    writeJsonSync(path, obj, { spaces: 2 });
+    writeJsonSync(path, obj, options);
     return true;
   }
   return false;
@@ -154,6 +163,10 @@ const _writeText = (path: string, text: string) => {
 export const writeData = (name: string, obj: any, allowEmpty = false) => {
   if (!allowEmpty) checkObjsNotEmpty(obj);
   if (_writeData(resolve(DATA_DIR, name), obj)) console.log(`Update ${name}`);
+};
+export const writeOtherData = (name: string, obj: any, allowEmpty = false) => {
+  if (!allowEmpty) checkObjsNotEmpty(obj);
+  if (_writeData(resolve(OTHER_DATA_DIR, name), obj, {})) console.log(`Update ${name}`);
 };
 export const writeText = (name: string, text: string, allowEmpty = false) => {
   if (!allowEmpty && !text) throw new Error('Empty content.');

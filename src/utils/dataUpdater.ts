@@ -39,6 +39,7 @@ import {
   writeData,
   checkObjsNotEmpty,
   getItemType,
+  writeOtherData,
 } from './common';
 import { retryGet } from './request';
 import { getRichTextCss } from './css';
@@ -73,6 +74,7 @@ import type {
   DataJsonCultivate,
   DataJsonBuildingBuff,
   DataJsonBuildingChar,
+  AkhrData,
 } from 'types';
 import {
   AVATAR_IMG_DIR,
@@ -230,9 +232,12 @@ export class DataUpdater {
       },
       {} as Record<string, number>,
     );
-    writeLocale(locale, 'tag.json', invert(tagName2Id));
+    const tagId2Name = invert(tagName2Id);
+    writeLocale(locale, 'tag.json', tagId2Name);
 
     if (isCN) {
+      const akhrData: AkhrData = { char: {}, tag: tagId2Name };
+
       // 普通角色
       this.characterInfo = transform(
         pickBy(characterTable, isOperator),
@@ -241,7 +246,7 @@ export class DataUpdater {
           if (rarity === 0 && !tagList.includes(ROBOT_TAG_NAME_CN)) {
             tagList.push(ROBOT_TAG_NAME_CN);
           }
-          obj[shortId] = {
+          const charData = {
             pinyin: getPinyin(name),
             romaji: '',
             appellation: transliterate(appellation),
@@ -251,9 +256,18 @@ export class DataUpdater {
             profession: CharProfession[profession],
             tags: tagList.map(tagName => tagName2Id[tagName]).filter(isNumber),
           };
+          obj[shortId] = charData;
+          if (getNameForRecruitment(name) in recruitmentTable) {
+            akhrData.char[name] = {
+              star: charData.star,
+              tags: [charData.profession, charData.position, ...charData.tags],
+            };
+          }
         },
         {} as DataJsonCharacter,
       );
+
+      writeOtherData('akhr.json', akhrData);
     }
 
     // 名字翻译
