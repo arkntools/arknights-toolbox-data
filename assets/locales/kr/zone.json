@@ -19,6 +19,7 @@
   "weekly_7": "전술 연습",
   "weekly_8": "자원 보장",
   "weekly_9": "화물 운송",
+  "act13sre": "니어 라이트 (재개방)",
   "act13mini": "오랜만",
   "act12mini": "무명의 방랑자",
   "act19side": "도로시의 비전",
@@ -79,5 +80,6 @@
   "permanent_sidestory_6_Maria_Nearl": "마리아 니어@:(retroNameAppend.0)",
   "permanent_sidestory_7_Mansfield_Break": "맨스필드 브레이크@:(retroNameAppend.0)",
   "permanent_sidestory_8_Who_is_Real": "화중인@:(retroNameAppend.0)",
-  "permanent_sidestory_9_Dossoles_Holiday": "도솔레스 홀리데이@:(retroNameAppend.0)"
+  "permanent_sidestory_9_Dossoles_Holiday": "도솔레스 홀리데이@:(retroNameAppend.0)",
+  "permanent_sidestory_10_Near_Light": "니어 라이트@:(retroNameAppend.0)"
 }

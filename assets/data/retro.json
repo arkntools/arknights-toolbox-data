@@ -385,6 +385,14 @@
         "act12side",
         "act12sre"
       ]
+    },
+    "permanent_sidestory_10_Near_Light": {
+      "type": 0,
+      "startTime": 1682622000,
+      "linkedActId": [
+        "act13side",
+        "act13sre"
+      ]
     }
   },
   "kr": {
@@ -489,6 +497,14 @@
       "linkedActId": [
         "act12side",
         "act12sre"
+      ]
+    },
+    "permanent_sidestory_10_Near_Light": {
+      "type": 0,
+      "startTime": 1682622000,
+      "linkedActId": [
+        "act13side",
+        "act13sre"
       ]
     }
   }

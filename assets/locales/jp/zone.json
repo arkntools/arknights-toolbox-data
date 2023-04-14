@@ -19,6 +19,7 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act13sre": "ニアーライト·復刻",
   "act13mini": "また会えたね",
   "act12mini": "夕景に影ありて",
   "act19side": "翠玉の夢",
@@ -79,5 +80,6 @@
   "permanent_sidestory_6_Maria_Nearl": "マリア・ニアール@:(retroNameAppend.0)",
   "permanent_sidestory_7_Mansfield_Break": "孤島激震@:(retroNameAppend.0)",
   "permanent_sidestory_8_Who_is_Real": "画中人@:(retroNameAppend.0)",
-  "permanent_sidestory_9_Dossoles_Holiday": "ドッソレスホリデー@:(retroNameAppend.0)"
+  "permanent_sidestory_9_Dossoles_Holiday": "ドッソレスホリデー@:(retroNameAppend.0)",
+  "permanent_sidestory_10_Near_Light": "ニアーライト@:(retroNameAppend.0)"
 }
