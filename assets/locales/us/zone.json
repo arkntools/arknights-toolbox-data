@@ -19,6 +19,7 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act13sre": "Near Light - Rerun",
   "act13mini": "It's Been a While",
   "act12mini": "An Obscure Wanderer",
   "act19side": "Dorothy's Vision",
@@ -79,5 +80,6 @@
   "permanent_sidestory_6_Maria_Nearl": "Maria Nearl@:(retroNameAppend.0)",
   "permanent_sidestory_7_Mansfield_Break": "Mansfield Break@:(retroNameAppend.0)",
   "permanent_sidestory_8_Who_is_Real": "Who is Real@:(retroNameAppend.0)",
-  "permanent_sidestory_9_Dossoles_Holiday": "Dossoles Holiday@:(retroNameAppend.0)"
+  "permanent_sidestory_9_Dossoles_Holiday": "Dossoles Holiday@:(retroNameAppend.0)",
+  "permanent_sidestory_10_Near_Light": "Near Light@:(retroNameAppend.0)"
 }

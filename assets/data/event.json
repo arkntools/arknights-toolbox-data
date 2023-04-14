@@ -2,6 +2,12 @@
   "cn": {},
   "tw": {},
   "us": {
+    "act13sre_zone1": {
+      "valid": {
+        "startTs": 1681491600,
+        "endTs": 1682333999
+      }
+    },
     "act13mini_zone1": {
       "valid": {
         "startTs": 1680886800,
