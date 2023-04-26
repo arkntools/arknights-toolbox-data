@@ -20,28 +20,7 @@
     }
   },
   "tw": {},
-  "us": {
-    "act13sre_zone1": {
-      "valid": {
-        "startTs": 1681491600,
-        "endTs": 1682333999
-      }
-    }
-  },
-  "jp": {
-    "act13sre_zone1": {
-      "valid": {
-        "startTs": 1681455600,
-        "endTs": 1682276399
-      }
-    }
-  },
-  "kr": {
-    "act13sre_zone1": {
-      "valid": {
-        "startTs": 1681455600,
-        "endTs": 1682276399
-      }
-    }
-  }
+  "us": {},
+  "jp": {},
+  "kr": {}
 }
