@@ -55,6 +55,10 @@
     "name": "Measure",
     "desc": "Affects skills related to <$cc.bd_a1><@cc.rem>Perception Information</></>\nProvided by the following Operator's skills\nCzerny"
   },
+  "cc_bd_costdrop": {
+    "name": "Morale Difference",
+    "desc": "Difference between an Operator's max morale and current morale"
+  },
   "cc_m_var1": {
     "name": "Recycling",
     "desc": "Operators with this skill\nVermeil"
