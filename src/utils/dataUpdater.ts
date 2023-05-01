@@ -470,6 +470,7 @@ export class DataUpdater {
             transform(
               stageDropList,
               (drop, { stageId, occPer }) => {
+                if (!stageTable.stages[stageId]) return; // fix data bug
                 const { stageType, code } = stageTable.stages[stageId];
                 if (stageType === 'MAIN' || stageType === 'SUB') drop[code] = OccPercent[occPer];
               },
