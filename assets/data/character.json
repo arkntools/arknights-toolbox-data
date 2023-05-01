@@ -609,7 +609,9 @@
     "romaji": "kasha",
     "appellation": "Click",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 6,
     "tags": [
@@ -1890,7 +1892,9 @@
     "romaji": "easukape",
     "appellation": "Ayerscarpe",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
@@ -4128,7 +4132,9 @@
     "romaji": "suzuran",
     "appellation": "Suzuran",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 5,
     "tags": [

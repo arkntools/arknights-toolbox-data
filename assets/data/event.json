@@ -1,24 +1,5 @@
 {
-  "cn": {
-    "act17sre_zone1": {
-      "valid": {
-        "startTs": 1681977600,
-        "endTs": 1682798399
-      }
-    },
-    "act17sre_zone2": {
-      "valid": {
-        "startTs": 1681977600,
-        "endTs": 1682798399
-      }
-    },
-    "act17sre_zone3": {
-      "valid": {
-        "startTs": 1681977600,
-        "endTs": 1682798399
-      }
-    }
-  },
+  "cn": {},
   "tw": {},
   "us": {},
   "jp": {},
