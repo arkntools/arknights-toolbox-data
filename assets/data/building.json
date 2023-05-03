@@ -2897,6 +2897,50 @@
         "id": "workshop_formula_rub_000",
         "unlock": "1_1"
       }
+    ],
+    "249_mlyss": [
+      {
+        "id": "dorm_rec_all&oneself_022",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_rhine_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4027_heyak": [
+      {
+        "id": "meet_spd&cost_condChar_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&cost_condChar_011",
+        "unlock": "2_1"
+      },
+      {
+        "id": "meet_spd&condChar_mustget_000",
+        "unlock": "2_1"
+      }
+    ],
+    "1031_slent2": [
+      {
+        "id": "hire_spd_032",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd_021",
+        "unlock": "2_1"
+      }
+    ],
+    "4006_melnte": [
+      {
+        "id": "train_spd&profession2_040",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession2_630",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3165,6 +3209,10 @@
         "icon": "bskill_pow_jnight",
         "desc": "409c"
       },
+      "power_rec_rhine_000": {
+        "icon": "bskill_power_rec_rhine",
+        "desc": "f054"
+      },
       "manu_bd_to_bd_000": {
         "icon": "bskill_man_bd1",
         "desc": "c2e2"
@@ -3196,6 +3244,10 @@
       "manu_prod_spd_011": {
         "icon": "bskill_man_spd2",
         "desc": "fd3f"
+      },
+      "manu_prod_spd_021": {
+        "icon": "bskill_man_spd3",
+        "desc": "74fa"
       },
       "manu_prod_spd_002": {
         "icon": "bskill_man_spd1",
@@ -4161,6 +4213,10 @@
         "icon": "bskill_train3_guard2",
         "desc": "2ac5"
       },
+      "train_spd&profession2_630": {
+        "icon": "bskill_train3_sniper1",
+        "desc": "227f"
+      },
       "train_spd&profession2_640": {
         "icon": "bskill_train3_sniper2",
         "desc": "335e"
@@ -4381,6 +4437,10 @@
         "icon": "bskill_dorm_all&one3",
         "desc": "548c"
       },
+      "dorm_rec_all&oneself_022": {
+        "icon": "bskill_dorm_all&one3",
+        "desc": "548c"
+      },
       "dorm_exchangeAp_000": {
         "icon": "bskill_dorm_exchangeAp",
         "desc": "f505"
@@ -4418,6 +4478,10 @@
         "desc": "aea2"
       },
       "hire_spd_031": {
+        "icon": "bskill_hire_spd4",
+        "desc": "aea2"
+      },
+      "hire_spd_032": {
         "icon": "bskill_hire_spd4",
         "desc": "aea2"
       },
@@ -4537,6 +4601,14 @@
         "icon": "bskill_meet_spd&cost_condChar",
         "desc": "1abb"
       },
+      "meet_spd&cost_condChar_001": {
+        "icon": "bskill_meet_spd&cost_condChar2",
+        "desc": "a6c0"
+      },
+      "meet_spd&cost_condChar_011": {
+        "icon": "bskill_meet_spd&cost_condChar3",
+        "desc": "8a17"
+      },
       "meet_team_020": {
         "icon": "bskill_meet_penguin1",
         "desc": "4617"
@@ -4644,6 +4716,10 @@
       "meet_spd_hast_000": {
         "icon": "bskill_meet_spd_hast1",
         "desc": "7d95"
+      },
+      "meet_spd&condChar_mustget_000": {
+        "icon": "bskill_meet_spd&condChar_mustget",
+        "desc": "951c"
       }
     },
     "info": {
@@ -5268,6 +5344,13 @@
       "409c": {
         "building": "POWER",
         "num": {},
+        "is": {}
+      },
+      "f054": {
+        "building": "POWER",
+        "num": {
+          "power": 10
+        },
         "is": {}
       },
       "c2e2": {
@@ -6610,6 +6693,15 @@
           "近卫": 1
         }
       },
+      "227f": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "狙击": 1
+        }
+      },
       "335e": {
         "building": "TRAINING",
         "num": {
@@ -7078,6 +7170,24 @@
           "无特别加成": 1
         }
       },
+      "a6c0": {
+        "building": "MEETING",
+        "num": {
+          "collect": 15
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
+      "8a17": {
+        "building": "MEETING",
+        "num": {
+          "collect": 35
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
       "341d": {
         "building": "MEETING",
         "num": {},
@@ -7196,6 +7306,13 @@
         },
         "is": {
           "无特别加成": 1
+        }
+      },
+      "951c": {
+        "building": "MEETING",
+        "num": {},
+        "is": {
+          "线索1": 1
         }
       }
     },
