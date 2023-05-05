@@ -21,7 +21,7 @@ export interface Room {
 export interface BuildingCharBuffData {
   buffId: string;
   cond: {
-    phase: number;
+    phase: string | number;
     level: number;
   };
 }

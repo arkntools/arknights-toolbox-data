@@ -21,7 +21,6 @@ export const DATE_FILE_LAST_MOD = new Date(1556668800000);
 
 export const LangMap: Record<string, string> = {
   cn: 'zh_CN',
-  tw: 'zh_TW',
   us: 'en_US',
   jp: 'ja_JP',
   kr: 'ko_KR',

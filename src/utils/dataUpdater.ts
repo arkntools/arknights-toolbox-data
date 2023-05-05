@@ -40,6 +40,9 @@ import {
   checkObjsNotEmpty,
   getItemType,
   writeOtherData,
+  handleNewDataFormat,
+  fixEnumNum,
+  forceEnumNum,
 } from './common';
 import { retryGet } from './request';
 import { getRichTextCss } from './css';
@@ -47,7 +50,7 @@ import { getPinyin } from './pinyin';
 import { getRomaji } from './romaji';
 import { downloadImageByList } from './download';
 import { processBuildingSkills } from './buildingSkills';
-import { CharPosition, CharProfession, OccPercent } from 'types';
+import { CharPosition, CharProfession, OccPercent, StageDropType } from 'types';
 import type {
   ActivityTable,
   BuildingData,
@@ -156,7 +159,7 @@ export class DataUpdater {
     const gameData: Record<string, Record<string, any>> = mapValues(LangMap, () => ({}));
     const dataErrorMap: Record<string, Record<string, any>> = mapValues(LangMap, () => ({}));
     const fetchData = async (url: string) =>
-      process.env.UPDATE_SOURCE === 'local' ? ensureReadJsonSync(url) : await retryGet(url);
+      handleNewDataFormat(process.env.UPDATE_SOURCE === 'local' ? ensureReadJsonSync(url) : await retryGet(url));
 
     for (const langShort of Object.keys(LangMap)) {
       for (const [key, url] of Object.entries(gameDataUrl[langShort])) {
@@ -166,6 +169,7 @@ export class DataUpdater {
           gameData[langShort][key] = obj;
         } catch (error) {
           console.warn(`Error loading data ${url}`);
+          console.warn(error);
           dataErrorMap[langShort][key] = error;
         }
       }
@@ -242,6 +246,7 @@ export class DataUpdater {
       this.characterInfo = transform(
         pickBy(characterTable, isOperator),
         (obj, { name, appellation, position, tagList, rarity, profession }, id) => {
+          rarity = fixEnumNum(rarity, -1);
           const shortId = id.replace(/^char_/, '');
           if (rarity === 0 && !tagList.includes(ROBOT_TAG_NAME_CN)) {
             tagList.push(ROBOT_TAG_NAME_CN);
@@ -338,7 +343,9 @@ export class DataUpdater {
       ({ code, zoneId, stageDropInfo: { displayRewards, displayDetailRewards } }) => {
         const mainRewardIds = new Set(
           map(
-            displayRewards.filter(({ id, dropType }) => isItem(id) && dropType !== 1),
+            displayRewards.filter(
+              ({ id, dropType }) => isItem(id) && forceEnumNum(dropType, StageDropType) !== StageDropType.ONCE,
+            ),
             'id',
           ),
         );
@@ -348,7 +355,7 @@ export class DataUpdater {
             if (!(zoneId in this.dropInfo.event)) this.dropInfo.event[zoneId] = {};
             const eventDrop = this.dropInfo.event[zoneId];
             if (!(id in eventDrop)) eventDrop[id] = {};
-            eventDrop[id][code] = occPercent;
+            eventDrop[id][code] = forceEnumNum(occPercent, OccPercent);
           });
       },
     );
@@ -371,7 +378,7 @@ export class DataUpdater {
           if (!(zoneId in this.dropInfo.retro)) this.dropInfo.retro[zoneId] = {};
           const eventDrop = this.dropInfo.retro[zoneId];
           if (!(id in eventDrop)) eventDrop[id] = {};
-          eventDrop[id][code] = rewardTable[id].occPercent;
+          eventDrop[id][code] = forceEnumNum(rewardTable[id].occPercent, OccPercent);
         });
       },
     );
@@ -492,8 +499,9 @@ export class DataUpdater {
     each(stageTable.stages, ({ code, stageType, stageDropInfo: { displayDetailRewards } }) => {
       if (stageType !== 'DAILY') return;
       displayDetailRewards.forEach(({ id, dropType, occPercent }) => {
-        if (id in this.itemInfo && dropType !== 1) {
-          this.itemInfo[id].drop[code] = occPercent;
+        dropType = forceEnumNum(dropType, StageDropType);
+        if (id in this.itemInfo && dropType !== StageDropType.ONCE) {
+          this.itemInfo[id].drop[code] = forceEnumNum(occPercent, OccPercent);
         }
       });
     });
@@ -582,7 +590,7 @@ export class DataUpdater {
 
         // 精英化
         const evolve = phases
-          .filter(({ evolveCost }) => evolveCost)
+          .filter(({ evolveCost }) => evolveCost?.length)
           .map(({ evolveCost }) => getMaterialListObject(evolveCost));
 
         // 通用技能
@@ -690,7 +698,7 @@ export class DataUpdater {
           const skills = buffChar.flatMap(({ buffData }) =>
             buffData.map(({ buffId, cond: { phase, level } }) => ({
               id: idStandardization(buffId),
-              unlock: `${phase}_${level}`,
+              unlock: `${fixEnumNum(phase)}_${level}`,
             })),
           );
           if (skills.length) obj[shortId] = skills;

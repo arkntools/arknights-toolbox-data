@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import type { JFWriteOptions } from 'jsonfile';
 import { ensureFileSync, existsSync, readFileSync, readJsonSync, writeFileSync, writeJsonSync } from 'fs-extra';
-import { camelCase, inRange, isEqual, map, mapValues, size, sortBy, transform, uniq } from 'lodash';
+import { camelCase, inRange, isEqual, isPlainObject, map, mapValues, size, sortBy, transform, uniq } from 'lodash';
 import type { BuildingData, BuildingProduct, Character, ItemCost, StageTable, UniEquip } from 'types';
 import { MaterialType } from 'types';
 import {
@@ -190,3 +190,42 @@ export const getItemType = (id: string) => {
   const result = itemTypeAsserts.find(({ assert }) => assert(id));
   return result?.type ?? MaterialType.UNKNOWN;
 };
+
+const isFBSTable = (val: any): val is Array<{ key: string; value: any }> => {
+  if (!(Array.isArray(val) && val.length && isPlainObject(val[0]))) return false;
+  const keys = Object.keys(val[0]);
+  return keys.length === 2 && keys.includes('key') && keys.includes('value');
+};
+const handleFBSTable = (obj: any, curKey: any): void => {
+  const curVal = obj[curKey];
+  if (isFBSTable(curVal)) {
+    obj[curKey] = Object.fromEntries(curVal.map(({ key, value }) => [key, value]));
+  }
+};
+const handleNewDataFormatInside = (obj: any, curKey: string): void => {
+  handleFBSTable(obj, curKey);
+  const curVal = obj[curKey];
+  if (typeof curVal === 'object') {
+    handleNewDataFormat(curVal, false);
+  }
+};
+export const handleNewDataFormat = (obj: any, isRoot = true): any => {
+  if (typeof obj !== 'object') return obj;
+  for (const curKey in obj) {
+    handleNewDataFormatInside(obj, curKey);
+  }
+  if (isRoot) {
+    const keys = Object.keys(obj);
+    if (keys.length === 1) {
+      return obj[keys[0]];
+    }
+  }
+  return obj;
+};
+
+export const fixEnumNum = (val: string | number, offset = 0) =>
+  typeof val === 'string' ? Number(val.split('_')[1]) + offset : val;
+
+export const forceEnumNum = <T extends Object>(orig: keyof T | T[keyof T], enumObj: T): T[keyof T] =>
+  // @ts-expect-error
+  typeof orig === 'number' ? orig : enumObj[orig];

@@ -32,7 +32,7 @@ export interface Character {
   position: keyof typeof CharPosition;
   tagList: string[];
   isNotObtainable: boolean;
-  rarity: number;
+  rarity: number | string;
   profession: keyof typeof CharProfession;
   subProfessionId: string;
   phases: Array<{ evolveCost: ItemCost[] | null }>;
