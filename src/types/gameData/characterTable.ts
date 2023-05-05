@@ -1,4 +1,3 @@
-import type { MergeExclusive } from 'type-fest';
 import type { ItemCost } from './itemTable';
 
 export enum CharProfession {
@@ -17,20 +16,14 @@ export enum CharPosition {
   RANGED,
 }
 
-type CharSkillLevelUpData = Array<{ levelUpCost: ItemCost[] }>;
-
-export type CharSkill = {
+export interface CharSkill {
   skillId: string;
+  levelUpCostCond: Array<{ levelUpCost: ItemCost[] }>;
   /** @external */
   isPatch?: boolean;
   /** @external */
   unlockStages?: string[];
-} & MergeExclusive<
-  // old
-  { levelUpCostCond: CharSkillLevelUpData },
-  // new
-  { specializeLevelUpData: CharSkillLevelUpData }
->;
+}
 
 export interface Character {
   name: string;

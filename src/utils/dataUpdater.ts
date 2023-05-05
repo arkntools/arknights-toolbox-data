@@ -582,7 +582,7 @@ export class DataUpdater {
 
         // 精英化
         const evolve = phases
-          .filter(({ evolveCost }) => evolveCost?.length)
+          .filter(({ evolveCost }) => evolveCost)
           .map(({ evolveCost }) => getMaterialListObject(evolveCost));
 
         // 通用技能
@@ -590,12 +590,10 @@ export class DataUpdater {
 
         // 精英技能
         const elite = skills
-          .map(({ skillId, levelUpCostCond, specializeLevelUpData, isPatch, unlockStages }) => ({
+          .map(({ skillId, levelUpCostCond, isPatch, unlockStages }) => ({
             name: idStandardization(skillId),
             ...skillId2AddonInfo[skillId],
-            cost: (levelUpCostCond || specializeLevelUpData).map(({ levelUpCost }) =>
-              getMaterialListObject(levelUpCost),
-            ),
+            cost: levelUpCostCond.map(({ levelUpCost }) => getMaterialListObject(levelUpCost)),
             ...(isPatch ? { isPatch, unlockStages } : {}),
           }))
           .filter(({ cost }) => cost.length);

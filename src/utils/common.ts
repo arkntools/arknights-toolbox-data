@@ -110,17 +110,10 @@ const getDataURL = (lang: string) =>
         if (tLang === lang) file = tFile;
         else return;
       }
-      if (lang === 'zh_CN') {
-        obj[camelCase(file.split('.')[0])] =
-          process.env.UPDATE_SOURCE === 'local'
-            ? resolve(__dirname, `../../../Arknights-Bot-Resource/gamedata/excel/${file}`)
-            : getResourceURL('yuanyan3060/Arknights-Bot-Resource', 'main', `gamedata/excel/${file}`);
-      } else {
-        obj[camelCase(file.split('.')[0])] =
-          process.env.UPDATE_SOURCE === 'local'
-            ? resolve(__dirname, `../../../ArknightsGameData/${lang}/gamedata/excel/${file}`)
-            : getResourceURL('Kengxxiao/ArknightsGameData', 'master', `${lang}/gamedata/excel/${file}`);
-      }
+      obj[camelCase(file.split('.')[0])] =
+        process.env.UPDATE_SOURCE === 'local'
+          ? resolve(__dirname, `../../../ArknightsGameData/${lang}/gamedata/excel/${file}`)
+          : getResourceURL('Kengxxiao/ArknightsGameData', 'master', `${lang}/gamedata/excel/${file}`);
     },
     {} as Record<string, string>,
   );
