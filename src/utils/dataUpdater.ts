@@ -50,6 +50,7 @@ import { getPinyin } from './pinyin';
 import { getRomaji } from './romaji';
 import { downloadImageByList } from './download';
 import { processBuildingSkills } from './buildingSkills';
+import { objS2tw, objS2twp } from './s2t';
 import { CharPosition, CharProfession, OccPercent, StageDropType } from 'types';
 import type {
   ActivityTable,
@@ -222,6 +223,9 @@ export class DataUpdater {
       {} as Record<string, { name: string; desc: string }>,
     );
     writeLocale(locale, 'term.json', termId2term);
+    if (locale === 'cn') {
+      writeLocale('tw', 'term.json', mapValues(termId2term, objS2twp));
+    }
   }
 
   private async updateCharacterInfo({ gachaTable, characterTable }: GameData, locale: string) {
@@ -289,6 +293,7 @@ export class DataUpdater {
       {} as Record<string, string>,
     );
     writeLocale(locale, 'character.json', nameId2Name);
+    if (isCN) writeLocale('tw', 'character.json', objS2tw(nameId2Name));
 
     // 获取罗马音
     if (locale === 'jp') {
@@ -411,6 +416,7 @@ export class DataUpdater {
     writeLocale(locale, 'zone.json', zoneId2Name);
 
     if (isCN) {
+      writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
         zoneToActivity: activityTable.zoneToActivity,
         zoneToRetro: retroTable.zoneToRetro,
@@ -513,6 +519,8 @@ export class DataUpdater {
   }
 
   private async updateItemData({ itemTable }: GameData, locale: string) {
+    const isCN = locale === 'cn';
+
     const itemId2Name = transform(
       pickBy(itemTable.items, ({ itemId }) => isItem(itemId)),
       (obj, { itemId, name }) => {
@@ -521,13 +529,14 @@ export class DataUpdater {
       {} as Record<string, string>,
     );
     writeLocale(locale, 'material.json', itemId2Name);
+    if (isCN) writeLocale('tw', 'material.json', objS2twp(itemId2Name));
 
     const extItemId2Name = mapValues(pick(itemTable.items, EXT_ITEM), ({ name }, id) =>
       isBattleRecord(id) ? name.replace(/作战记录|作戰記錄| Battle Record|作戦記録|작전기록/, '') : name,
     );
     writeLocale(locale, 'item.json', extItemId2Name);
 
-    if (locale !== 'cn') return;
+    if (!isCN) return;
 
     // 下载材料图片
     const itemIdList = Object.keys(itemId2Name);
@@ -542,6 +551,8 @@ export class DataUpdater {
     { characterTable, skillTable, uniequipTable, charPatchTable, stageTable }: GameData,
     locale: string,
   ) {
+    const isCN = locale === 'cn';
+
     // 技能
     const opSkillTable = mapKeys(
       omitBy(skillTable, (v, k) => k.startsWith('sktok_')),
@@ -552,6 +563,7 @@ export class DataUpdater {
       iconId ? { icon: idStandardization(iconId) } : undefined,
     );
     writeLocale(locale, 'skill.json', skillId2Name);
+    if (isCN) writeLocale('tw', 'skill.json', objS2twp(skillId2Name));
 
     // 模组
     const uniequipId2Name = mapValues(
@@ -563,7 +575,7 @@ export class DataUpdater {
     );
     writeLocale(locale, 'uniequip.json', uniequipId2Name, ['tw']);
 
-    if (locale !== 'cn') return;
+    if (!isCN) return;
 
     // 升变
     const charPatchInfo = mapValues(charPatchTable.infos, ({ tmplIds }, id) => without(tmplIds, id));
@@ -757,5 +769,15 @@ export class DataUpdater {
         description: mapKeys(buffMd52Description, (v, k) => k.slice(0, this.buildingDescMd5MinLen)),
       },
     });
+
+    if (isCN) {
+      writeLocale('tw', 'building.json', {
+        name: objS2twp(roomEnum2Name),
+        buff: {
+          name: objS2twp(buffId2Name),
+          description: objS2twp(mapKeys(buffMd52Description, (v, k) => k.slice(0, this.buildingDescMd5MinLen))),
+        },
+      });
+    }
   }
 }
