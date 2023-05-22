@@ -2941,6 +2941,16 @@
         "id": "train_spd&profession2_630",
         "unlock": "2_1"
       }
+    ],
+    "4093_frston": [
+      {
+        "id": "power_rec_spd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_P_000",
+        "unlock": "0_30"
+      }
     ]
   },
   "buff": {
@@ -3208,6 +3218,10 @@
       "power_prod_spd_P_000": {
         "icon": "bskill_pow_jnight",
         "desc": "409c"
+      },
+      "power_rec_spd_P_000": {
+        "icon": "bskill_pow_spd_P",
+        "desc": "60a0"
       },
       "power_rec_rhine_000": {
         "icon": "bskill_power_rec_rhine",
@@ -5344,6 +5358,13 @@
       "409c": {
         "building": "POWER",
         "num": {},
+        "is": {}
+      },
+      "60a0": {
+        "building": "POWER",
+        "num": {
+          "power": 5
+        },
         "is": {}
       },
       "f054": {

@@ -115,6 +115,24 @@
       28
     ]
   },
+  "4093_frston": {
+    "pinyin": {
+      "full": "",
+      "head": ""
+    },
+    "romaji": "",
+    "appellation": "Friston-3",
+    "star": 1,
+    "recruitment": {
+      "cn": 2
+    },
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      28,
+      22
+    ]
+  },
   "502_nblade": {
     "pinyin": {
       "full": "yedao",

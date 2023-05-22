@@ -96,7 +96,7 @@
     "desc": "包含以下幹員\n陳、星熊、詩懷雅"
   },
   "cc_g_lda": {
-    "name": "鯉氏偵探事務所",
+    "name": "鯉氏偵探所",
     "desc": "包含以下幹員\n老鯉、阿、吽、槐琥"
   },
   "cc_g_ussg": {
@@ -205,7 +205,7 @@
   },
   "cc_tag_op": {
     "name": "作業平臺",
-    "desc": "包含以下幹員\nLancet-2、Castle-3、THRM-EX、正義騎士號"
+    "desc": "包含以下幹員\nLancet-2、Castle-3、THRM-EX、正義騎士號、Friston-3"
   },
   "cc_tag_knight": {
     "name": "騎士",
