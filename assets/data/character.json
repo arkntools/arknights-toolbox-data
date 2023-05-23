@@ -1108,7 +1108,7 @@
       "full": "shiying",
       "head": "sy"
     },
-    "romaji": "",
+    "romaji": "kuotsu",
     "appellation": "Quartz",
     "star": 4,
     "recruitment": {},
@@ -1640,7 +1640,9 @@
     "appellation": "Elysium",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 8,
@@ -2045,7 +2047,7 @@
       "full": "haimo",
       "head": "hm"
     },
-    "romaji": "",
+    "romaji": "haimoa",
     "appellation": "Highmore",
     "star": 5,
     "recruitment": {},
@@ -2304,7 +2306,7 @@
       "full": "xuerong",
       "head": "xr"
     },
-    "romaji": "",
+    "romaji": "kaniparato",
     "appellation": "Qanipalaat",
     "star": 5,
     "recruitment": {},
@@ -2926,7 +2928,9 @@
     "appellation": "Asbestos",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 3,
@@ -3140,7 +3144,7 @@
       "full": "ziyue",
       "head": "zy"
     },
-    "romaji": "",
+    "romaji": "runakabu",
     "appellation": "Lunacub",
     "star": 5,
     "recruitment": {},
@@ -3390,7 +3394,9 @@
     "appellation": "Tsukinogi",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 5,
@@ -3844,7 +3850,7 @@
       "full": "siye",
       "head": "sy"
     },
-    "romaji": "",
+    "romaji": "bijieru",
     "appellation": "Vigil",
     "star": 6,
     "recruitment": {},
@@ -4244,7 +4250,7 @@
       "full": "jianmodekesasi",
       "head": "jmdkss"
     },
-    "romaji": "",
+    "romaji": "chiokitetekisasu",
     "appellation": "Texas the Omertosa",
     "star": 6,
     "recruitment": {},
@@ -4297,7 +4303,9 @@
     "appellation": "Weedy",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 7,
@@ -4582,7 +4590,7 @@
       "full": "chizui",
       "head": "cz"
     },
-    "romaji": "",
+    "romaji": "penansu",
     "appellation": "Penance",
     "star": 6,
     "recruitment": {},
