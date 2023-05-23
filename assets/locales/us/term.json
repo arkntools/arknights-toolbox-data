@@ -181,7 +181,7 @@
   },
   "cc_tag_knight": {
     "name": "Knight",
-    "desc": "Includes the following Operators: \nNearl the Radiant Knight, Nearl (mutually exclusive), Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, 'Justice Knight', Gravel"
+    "desc": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel"
   },
   "cc_tag_durin": {
     "name": "Durin",
