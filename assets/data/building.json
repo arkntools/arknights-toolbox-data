@@ -2951,6 +2951,44 @@
         "id": "power_rec_spd_P_000",
         "unlock": "0_30"
       }
+    ],
+    "1032_excu2": [
+      {
+        "id": "manu_formula_spd_030",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd_031",
+        "unlock": "2_1"
+      },
+      {
+        "id": "manu_formula_limit_020",
+        "unlock": "2_1"
+      }
+    ],
+    "4015_spuria": [
+      {
+        "id": "power_rec_spd&addition_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd&addition_001",
+        "unlock": "2_1"
+      },
+      {
+        "id": "power_rec_spd&cost_010",
+        "unlock": "0_1"
+      }
+    ],
+    "498_inside": [
+      {
+        "id": "hire_spd&clue_110",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_single&oneself_040",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3147,6 +3185,10 @@
         "icon": "bskill_pow_spd&cost",
         "desc": "f025"
       },
+      "power_rec_spd&cost_010": {
+        "icon": "bskill_pow_spd&cost",
+        "desc": "c79a"
+      },
       "power_rec_spd_000": {
         "icon": "bskill_pow_spd1",
         "desc": "36ac"
@@ -3226,6 +3268,14 @@
       "power_rec_rhine_000": {
         "icon": "bskill_power_rec_rhine",
         "desc": "f054"
+      },
+      "power_rec_spd&addition_000": {
+        "icon": "bskill_power_rec_spd&addition1",
+        "desc": "32fe"
+      },
+      "power_rec_spd&addition_001": {
+        "icon": "bskill_power_rec_spd&addition2",
+        "desc": "64b7"
       },
       "manu_bd_to_bd_000": {
         "icon": "bskill_man_bd1",
@@ -3367,6 +3417,10 @@
         "icon": "bskill_man_exp&limit2",
         "desc": "b8db"
       },
+      "manu_formula_limit_020": {
+        "icon": "bskill_man_exp&limit3",
+        "desc": "d88c"
+      },
       "manu_prod_spd&limit&cost_000": {
         "icon": "bskill_man_spd&limit&cost1",
         "desc": "686b"
@@ -3446,6 +3500,14 @@
       "manu_formula_spd_020": {
         "icon": "bskill_man_exp3",
         "desc": "66c7"
+      },
+      "manu_formula_spd_030": {
+        "icon": "bskill_man_exp4",
+        "desc": "82d0"
+      },
+      "manu_formula_spd_031": {
+        "icon": "bskill_man_exp2",
+        "desc": "6f3f"
       },
       "manu_prod_spd&trade_000": {
         "icon": "bskill_man_spd&trade",
@@ -4423,6 +4485,10 @@
         "icon": "bskill_dorm_single&one22",
         "desc": "98df"
       },
+      "dorm_rec_single&oneself_040": {
+        "icon": "bskill_dorm_single&one12",
+        "desc": "720f"
+      },
       "dorm_rec_all&oneself_000": {
         "icon": "bskill_dorm_all&one1",
         "desc": "355a"
@@ -4546,6 +4612,10 @@
       "hire_spd&clue_101": {
         "icon": "bskill_hire_spd&clue",
         "desc": "7ad9"
+      },
+      "hire_spd&clue_110": {
+        "icon": "bskill_hire_spd&clue2",
+        "desc": "9d7c"
       },
       "hire_spd&clue2_230": {
         "icon": "bskill_hire_spd&blacksteel2",
@@ -5322,6 +5392,11 @@
         "num": {},
         "is": {}
       },
+      "c79a": {
+        "building": "POWER",
+        "num": {},
+        "is": {}
+      },
       "36ac": {
         "building": "POWER",
         "num": {
@@ -5371,6 +5446,20 @@
         "building": "POWER",
         "num": {
           "power": 10
+        },
+        "is": {}
+      },
+      "32fe": {
+        "building": "POWER",
+        "num": {
+          "power": 10
+        },
+        "is": {}
+      },
+      "64b7": {
+        "building": "POWER",
+        "num": {
+          "power": 15
         },
         "is": {}
       },
@@ -5527,6 +5616,15 @@
           "仓库容量": 1
         }
       },
+      "d88c": {
+        "building": "MANUFACTURE",
+        "num": {
+          "capacity": 4
+        },
+        "is": {
+          "仓库容量": 1
+        }
+      },
       "686b": {
         "building": "MANUFACTURE",
         "num": {
@@ -5668,6 +5766,15 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 35
+        },
+        "is": {
+          "作战记录": 1
+        }
+      },
+      "82d0": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 20
         },
         "is": {
           "作战记录": 1
@@ -6978,6 +7085,15 @@
           "单体恢复": 1
         }
       },
+      "720f": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoverySingle": 0.4
+        },
+        "is": {
+          "单体恢复": 1
+        }
+      },
       "355a": {
         "building": "DORMITORY",
         "num": {
@@ -7101,6 +7217,13 @@
         "building": "HIRE",
         "num": {
           "connect": 35
+        },
+        "is": {}
+      },
+      "9d7c": {
+        "building": "HIRE",
+        "num": {
+          "connect": 30
         },
         "is": {}
       },

@@ -2163,6 +2163,21 @@
       19
     ]
   },
+  "498_inside": {
+    "pinyin": {
+      "full": "yinxian",
+      "head": "yx"
+    },
+    "romaji": "",
+    "appellation": "Insider",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
+    ]
+  },
   "219_meteo": {
     "pinyin": {
       "full": "yunxing",
@@ -3202,6 +3217,22 @@
     "tags": [
       19,
       23
+    ]
+  },
+  "4015_spuria": {
+    "pinyin": {
+      "full": "konggou",
+      "head": "kg"
+    },
+    "romaji": "",
+    "appellation": "Spuria",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      16,
+      19
     ]
   },
   "173_slchan": {
@@ -4857,6 +4888,21 @@
     },
     "romaji": "耀kishiniaru",
     "appellation": "Nearl the Radiant Knight",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19
+    ]
+  },
+  "1032_excu2": {
+    "pinyin": {
+      "full": "shengyuesongzangren",
+      "head": "syszr"
+    },
+    "romaji": "",
+    "appellation": "Executor the Ex Foedere",
     "star": 6,
     "recruitment": {},
     "position": 9,
