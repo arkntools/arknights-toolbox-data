@@ -16,18 +16,18 @@
     }
   },
   "jp": {
-    "act21side_zone1": {
+    "act14sre_zone1": {
       "valid": {
-        "startTs": 1684807200,
-        "endTs": 1686596399
+        "startTs": 1686639600,
+        "endTs": 1687460399
       }
     }
   },
   "kr": {
-    "act21side_zone1": {
+    "act14sre_zone1": {
       "valid": {
-        "startTs": 1684807200,
-        "endTs": 1686596399
+        "startTs": 1686639600,
+        "endTs": 1687460399
       }
     }
   }
