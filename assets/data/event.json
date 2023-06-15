@@ -8,12 +8,6 @@
     }
   },
   "us": {
-    "act21side_zone1": {
-      "valid": {
-        "startTs": 1684843200,
-        "endTs": 1686653999
-      }
-    },
     "act14sre_zone1": {
       "valid": {
         "startTs": 1686675600,
