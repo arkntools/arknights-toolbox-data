@@ -2,6 +2,8 @@
   "zoneToActivity": {
     "act26side_zone1": "act26side",
     "act26side_zone2": "act26side",
+    "act18sre_zone1": "act18sre",
+    "act18sre_zone2": "act18sre",
     "act25side_zone1": "act25side",
     "act25side_zone2": "act25side",
     "act25side_zone3": "act25side",
@@ -170,6 +172,8 @@
     "permanent_sidestory_12_zone1": "permanent_sidestory_12_Invitation_To_Wine",
     "permanent_sidestory_12_zone2": "permanent_sidestory_12_Invitation_To_Wine",
     "permanent_sidestory_13_zone1": "permanent_sidestory_13_Guiding_Ahead",
-    "permanent_sidestory_13_zone2": "permanent_sidestory_13_Guiding_Ahead"
+    "permanent_sidestory_13_zone2": "permanent_sidestory_13_Guiding_Ahead",
+    "permanent_sidestory_14_zone1": "permanent_sidestory_14_Lingering_Echoes",
+    "permanent_sidestory_14_zone2": "permanent_sidestory_14_Lingering_Echoes"
   }
 }

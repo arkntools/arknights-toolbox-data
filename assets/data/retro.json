@@ -142,6 +142,14 @@
         "act16side",
         "act16sre"
       ]
+    },
+    "permanent_sidestory_14_Lingering_Echoes": {
+      "type": 0,
+      "startTime": 1688414400,
+      "linkedActId": [
+        "act18side",
+        "act18sre"
+      ]
     }
   },
   "us": {
