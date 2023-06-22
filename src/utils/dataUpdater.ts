@@ -92,6 +92,7 @@ import {
   PURCHASE_CERTIFICATE_ID,
   ROBOT_TAG_NAME_CN,
   SKILL_IMG_DIR,
+  UPDATE_FROM_YUANYAN,
 } from 'constant';
 
 interface GameData {
@@ -160,7 +161,7 @@ export class DataUpdater {
     const gameData: Record<string, Record<string, any>> = mapValues(LangMap, () => ({}));
     const dataErrorMap: Record<string, Record<string, any>> = mapValues(LangMap, () => ({}));
     const fetchData = async (url: string) =>
-      handleNewDataFormat(process.env.UPDATE_SOURCE === 'local' ? ensureReadJsonSync(url) : await retryGet(url));
+      handleNewDataFormat(url.startsWith('https://') ? await retryGet(url) : ensureReadJsonSync(url));
 
     for (const langShort of Object.keys(LangMap)) {
       for (const [key, url] of Object.entries(gameDataUrl[langShort])) {
@@ -223,7 +224,7 @@ export class DataUpdater {
       {} as Record<string, { name: string; desc: string }>,
     );
     writeLocale(locale, 'term.json', termId2term);
-    if (locale === 'cn') {
+    if (locale === 'cn' && !UPDATE_FROM_YUANYAN) {
       writeLocale('tw', 'term.json', mapValues(termId2term, objS2twp));
     }
   }
@@ -293,7 +294,9 @@ export class DataUpdater {
       {} as Record<string, string>,
     );
     writeLocale(locale, 'character.json', nameId2Name);
-    if (isCN) writeLocale('tw', 'character.json', objS2tw(nameId2Name));
+    if (isCN && !UPDATE_FROM_YUANYAN) {
+      writeLocale('tw', 'character.json', objS2tw(nameId2Name));
+    }
 
     // 获取罗马音
     if (locale === 'jp') {
@@ -416,7 +419,7 @@ export class DataUpdater {
     writeLocale(locale, 'zone.json', zoneId2Name);
 
     if (isCN) {
-      writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
+      if (!UPDATE_FROM_YUANYAN) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
         zoneToActivity: activityTable.zoneToActivity,
         zoneToRetro: retroTable.zoneToRetro,
@@ -529,7 +532,9 @@ export class DataUpdater {
       {} as Record<string, string>,
     );
     writeLocale(locale, 'material.json', itemId2Name);
-    if (isCN) writeLocale('tw', 'material.json', objS2twp(itemId2Name));
+    if (isCN && !UPDATE_FROM_YUANYAN) {
+      writeLocale('tw', 'material.json', objS2twp(itemId2Name));
+    }
 
     const extItemId2Name = mapValues(pick(itemTable.items, EXT_ITEM), ({ name }, id) =>
       isBattleRecord(id) ? name.replace(/作战记录|作戰記錄| Battle Record|作戦記録|작전기록/, '') : name,
@@ -563,7 +568,9 @@ export class DataUpdater {
       iconId ? { icon: idStandardization(iconId) } : undefined,
     );
     writeLocale(locale, 'skill.json', skillId2Name);
-    if (isCN) writeLocale('tw', 'skill.json', objS2twp(skillId2Name));
+    if (isCN && !UPDATE_FROM_YUANYAN) {
+      writeLocale('tw', 'skill.json', objS2twp(skillId2Name));
+    }
 
     // 模组
     const uniequipId2Name = mapValues(
@@ -573,7 +580,7 @@ export class DataUpdater {
       ),
       'uniEquipName',
     );
-    writeLocale(locale, 'uniequip.json', uniequipId2Name, ['tw']);
+    writeLocale(locale, 'uniequip.json', uniequipId2Name);
 
     if (!isCN) return;
 
@@ -770,7 +777,7 @@ export class DataUpdater {
       },
     });
 
-    if (isCN) {
+    if (isCN && !UPDATE_FROM_YUANYAN) {
       writeLocale('tw', 'building.json', {
         name: objS2twp(roomEnum2Name),
         buff: {

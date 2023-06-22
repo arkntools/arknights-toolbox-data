@@ -11,6 +11,9 @@ export const BUILDING_SKILL_IMG_DIR = resolve(IMG_DIR, 'building_skill');
 export const ITEM_IMG_DIR = resolve(IMG_DIR, 'item');
 export const ITEM_PKG_ZIP = resolve(__dirname, '../../assets/pkg/item.zip');
 
+export const UPDATE_SOURCE = process.env.UPDATE_SOURCE;
+export const UPDATE_FROM_YUANYAN = UPDATE_SOURCE === 'yuanyan';
+
 export const PURCHASE_CERTIFICATE_ID = '4006';
 export const CHIP_ASSISTANT_ID = '32001';
 export const EXT_ITEM = ['4001', 'AP_GAMEPLAY', '2001', '2002', '2003', '2004'];
@@ -25,6 +28,8 @@ export const LangMap: Record<string, string> = {
   jp: 'ja_JP',
   kr: 'ko_KR',
 };
+
+if (UPDATE_FROM_YUANYAN) LangMap.tw = 'zh_TW';
 
 /** 备用替换 */
 export const GameDataReplaceMap: Record<string, string[] | undefined> = {

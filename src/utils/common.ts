@@ -12,6 +12,8 @@ import {
   LOCALES_DIR,
   OTHER_DATA_DIR,
   PURCHASE_CERTIFICATE_ID,
+  UPDATE_FROM_YUANYAN,
+  UPDATE_SOURCE,
 } from 'constant';
 
 export const ensureReadJsonSync = <T = any>(...args: Parameters<typeof readJsonSync>): T | undefined => {
@@ -87,7 +89,7 @@ export const getHasDropStageList = (stages: StageTable['stages']) => {
 export const getResourceURL = (repo: string, branch: string, path: string) =>
   `https://raw.githubusercontent.com/${repo}/${branch}/${path}`;
 
-const getDataURL = (lang: string) =>
+const getDataURL = (lang: string, langShort: string) =>
   transform(
     [
       'character_table.json',
@@ -110,14 +112,25 @@ const getDataURL = (lang: string) =>
         if (tLang === lang) file = tFile;
         else return;
       }
-      obj[camelCase(file.split('.')[0])] =
-        process.env.UPDATE_SOURCE === 'local'
-          ? resolve(__dirname, `../../../ArknightsGameData/${lang}/gamedata/excel/${file}`)
-          : getResourceURL('Kengxxiao/ArknightsGameData', 'master', `${lang}/gamedata/excel/${file}`);
+      const key = camelCase(file.split('.')[0]);
+      if (UPDATE_FROM_YUANYAN) {
+        const localDir = langShort === 'us' ? 'en' : langShort;
+        obj[key] =
+          langShort === 'cn'
+            ? getResourceURL('yuanyan3060/ArknightsGameResource', 'main', `gamedata/excel/${file}`)
+            : resolve(__dirname, `../../data/${localDir}/gamedata/excel/${file}`);
+        // obj[key] = resolve(__dirname, `../../data/${localDir}/gamedata/excel/${file}`);
+      } else {
+        obj[key] =
+          UPDATE_SOURCE === 'local'
+            ? resolve(__dirname, `../../../ArknightsGameData/${lang}/gamedata/excel/${file}`)
+            : getResourceURL('Kengxxiao/ArknightsGameData', 'master', `${lang}/gamedata/excel/${file}`);
+      }
     },
     {} as Record<string, string>,
   );
-export const gameDataUrl = mapValues(LangMap, lang => getDataURL(lang));
+
+export const gameDataUrl = mapValues(LangMap, getDataURL);
 
 export const getNameForRecruitment = (name: string) => name.replace(/'|"/g, '');
 
@@ -207,6 +220,10 @@ const handleNewDataFormatInside = (obj: any, curKey: string): void => {
   const curVal = obj[curKey];
   if (typeof curVal === 'object') {
     handleNewDataFormat(curVal, false);
+  }
+  if (curKey === 'specializeLevelUpData') {
+    obj.levelUpCostCond = curVal;
+    delete obj.specializeLevelUpData;
   }
 };
 export const handleNewDataFormat = (obj: any, isRoot = true): any => {

@@ -1,4 +1,5 @@
 /assets/pkg/*.zip
+/data
 
 # Logs
 logs
