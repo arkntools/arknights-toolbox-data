@@ -13,6 +13,8 @@ export const ITEM_PKG_ZIP = resolve(__dirname, '../../assets/pkg/item.zip');
 
 export const UPDATE_SOURCE = process.env.UPDATE_SOURCE;
 export const UPDATE_FROM_YUANYAN = UPDATE_SOURCE === 'yuanyan';
+export const UPDATE_FROM_ARKNTOOLS = UPDATE_SOURCE === 'arkntools';
+export const HAS_TW_DATA = UPDATE_FROM_YUANYAN || UPDATE_FROM_ARKNTOOLS;
 
 export const PURCHASE_CERTIFICATE_ID = '4006';
 export const CHIP_ASSISTANT_ID = '32001';
@@ -29,7 +31,7 @@ export const LangMap: Record<string, string> = {
   kr: 'ko_KR',
 };
 
-if (UPDATE_FROM_YUANYAN) LangMap.tw = 'zh_TW';
+if (HAS_TW_DATA) LangMap.tw = 'zh_TW';
 
 /** 备用替换 */
 export const GameDataReplaceMap: Record<string, string[] | undefined> = {

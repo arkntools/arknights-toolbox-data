@@ -4,35 +4,6 @@ Arknights game data and resources used by [arkntools/arknights-toolbox](https://
 
 Extracted from raw data. Images are compressed.
 
-## Setup
-
-```bash
-yarn
-```
-
-### Update data
-
-#### Online
-
-```bash
-yarn update
-```
-
-#### Local
-
-```bash
-git clone https://github.com/Kengxxiao/ArknightsGameData.git ../ArknightsGameData --depth=1
-yarn update:local
-```
-
-### Build
-
-```bash
-yarn build
-```
-
-Products will be in the `dist` directory.
-
 ## Source
 
 - [Kengxxiao/ArknightsGameData](https://github.com/Kengxxiao/ArknightsGameData)

@@ -8,7 +8,8 @@
     "build": "ts-node ./build/index.ts",
     "update": "ts-node ./src/index.ts",
     "update:local": "cross-env UPDATE_SOURCE=local ts-node ./src/index.ts",
-    "update:yuanyan": "cross-env UPDATE_SOURCE=yuanyan ts-node ./src/index.ts"
+    "update:yuanyan": "cross-env UPDATE_SOURCE=yuanyan ts-node ./src/index.ts",
+    "update:arkntools": "cross-env UPDATE_SOURCE=arkntools ts-node ./src/index.ts"
   },
   "dependencies": {
     "@actions/core": "^1.10.0",

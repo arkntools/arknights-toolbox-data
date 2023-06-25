@@ -92,7 +92,7 @@ import {
   PURCHASE_CERTIFICATE_ID,
   ROBOT_TAG_NAME_CN,
   SKILL_IMG_DIR,
-  UPDATE_FROM_YUANYAN,
+  HAS_TW_DATA,
 } from 'constant';
 
 interface GameData {
@@ -224,7 +224,7 @@ export class DataUpdater {
       {} as Record<string, { name: string; desc: string }>,
     );
     writeLocale(locale, 'term.json', termId2term);
-    if (locale === 'cn' && !UPDATE_FROM_YUANYAN) {
+    if (locale === 'cn' && !HAS_TW_DATA) {
       writeLocale('tw', 'term.json', mapValues(termId2term, objS2twp));
     }
   }
@@ -294,7 +294,7 @@ export class DataUpdater {
       {} as Record<string, string>,
     );
     writeLocale(locale, 'character.json', nameId2Name);
-    if (isCN && !UPDATE_FROM_YUANYAN) {
+    if (isCN && !HAS_TW_DATA) {
       writeLocale('tw', 'character.json', objS2tw(nameId2Name));
     }
 
@@ -419,7 +419,7 @@ export class DataUpdater {
     writeLocale(locale, 'zone.json', zoneId2Name);
 
     if (isCN) {
-      if (!UPDATE_FROM_YUANYAN) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
+      if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
         zoneToActivity: activityTable.zoneToActivity,
         zoneToRetro: retroTable.zoneToRetro,
@@ -532,7 +532,7 @@ export class DataUpdater {
       {} as Record<string, string>,
     );
     writeLocale(locale, 'material.json', itemId2Name);
-    if (isCN && !UPDATE_FROM_YUANYAN) {
+    if (isCN && !HAS_TW_DATA) {
       writeLocale('tw', 'material.json', objS2twp(itemId2Name));
     }
 
@@ -568,7 +568,7 @@ export class DataUpdater {
       iconId ? { icon: idStandardization(iconId) } : undefined,
     );
     writeLocale(locale, 'skill.json', skillId2Name);
-    if (isCN && !UPDATE_FROM_YUANYAN) {
+    if (isCN && !HAS_TW_DATA) {
       writeLocale('tw', 'skill.json', objS2twp(skillId2Name));
     }
 
@@ -777,7 +777,7 @@ export class DataUpdater {
       },
     });
 
-    if (isCN && !UPDATE_FROM_YUANYAN) {
+    if (isCN && !HAS_TW_DATA) {
       writeLocale('tw', 'building.json', {
         name: objS2twp(roomEnum2Name),
         buff: {

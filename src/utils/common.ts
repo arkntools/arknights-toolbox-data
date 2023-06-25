@@ -12,6 +12,7 @@ import {
   LOCALES_DIR,
   OTHER_DATA_DIR,
   PURCHASE_CERTIFICATE_ID,
+  UPDATE_FROM_ARKNTOOLS,
   UPDATE_FROM_YUANYAN,
   UPDATE_SOURCE,
 } from 'constant';
@@ -113,13 +114,14 @@ const getDataURL = (lang: string, langShort: string) =>
         else return;
       }
       const key = camelCase(file.split('.')[0]);
-      if (UPDATE_FROM_YUANYAN) {
+      if (UPDATE_FROM_ARKNTOOLS) {
+        obj[key] = resolve(__dirname, `../../data/${langShort}/${file}`);
+      } else if (UPDATE_FROM_YUANYAN) {
         const localDir = langShort === 'us' ? 'en' : langShort;
         obj[key] =
           langShort === 'cn'
             ? getResourceURL('yuanyan3060/ArknightsGameResource', 'main', `gamedata/excel/${file}`)
             : resolve(__dirname, `../../data/${localDir}/gamedata/excel/${file}`);
-        // obj[key] = resolve(__dirname, `../../data/${localDir}/gamedata/excel/${file}`);
       } else {
         obj[key] =
           UPDATE_SOURCE === 'local'
@@ -221,7 +223,7 @@ const handleNewDataFormatInside = (obj: any, curKey: string): void => {
   if (typeof curVal === 'object') {
     handleNewDataFormat(curVal, false);
   }
-  if (curKey === 'specializeLevelUpData') {
+  if (UPDATE_FROM_YUANYAN && curKey === 'specializeLevelUpData') {
     obj.levelUpCostCond = curVal;
     delete obj.specializeLevelUpData;
   }
