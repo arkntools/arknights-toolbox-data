@@ -1,7 +1,7 @@
 import { writeFile } from 'fs/promises';
 import { join, resolve } from 'path';
 import { ensureDirSync, existsSync, writeJsonSync } from 'fs-extra';
-import { size } from 'lodash';
+import { size, uniqBy } from 'lodash';
 import { setOutput } from '@actions/core';
 import Jimp from 'jimp';
 import { axios, isAxiosError } from './axios';
@@ -141,7 +141,7 @@ export class DownloadConfigBuilder {
     this.config[type] = {
       dir,
       resize,
-      items: missIdList.map(configGetter),
+      items: uniqBy(missIdList.map(configGetter), 'id'),
     } as RootConfig[T];
   }
 
