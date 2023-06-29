@@ -1,7 +1,7 @@
 import { writeFile } from 'fs/promises';
 import { join, resolve } from 'path';
 import { ensureDirSync, existsSync, writeJsonSync } from 'fs-extra';
-import { random, range, size } from 'lodash';
+import { size } from 'lodash';
 import { setOutput } from '@actions/core';
 import Jimp from 'jimp';
 import { axios, isAxiosError } from './axios';
@@ -21,11 +21,6 @@ interface DownloadImageByListParams {
   resPathGetter: (id: string) => string;
   resize?: number;
 }
-
-const getRandomIP = () =>
-  range(4)
-    .map(() => random(1, 254))
-    .join('.');
 
 const getImageResourceURL = (path: string) =>
   `https://raw.githubusercontent.com/yuanyan3060/Arknights-Bot-Resource/main/${path}`;
@@ -50,7 +45,6 @@ export const downloadImage = async ({ url, path, startLog, tiny, resize }: Downl
     } = await axios.post('https://tinypng.com/backend/opt/shrink', data, {
       headers: {
         'Content-Type': 'image/png',
-        'X-Forwarded-For': getRandomIP(),
       },
     });
     if (!tinyResult) throw new Error('Tiny png failed');
