@@ -149,6 +149,8 @@ export class DownloadConfigBuilder {
     if (!size(this.config)) return;
     ensureDirSync(GAME_DATA_DIR);
     console.log('Write downloadConfig.json');
-    writeJsonSync(resolve(GAME_DATA_DIR, 'downloadConfig.json'), this.config);
+    const writePath = resolve(GAME_DATA_DIR, 'downloadConfig.json');
+    writeJsonSync(writePath, this.config);
+    setOutput('download_config', writePath);
   }
 }
