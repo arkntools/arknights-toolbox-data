@@ -7,6 +7,7 @@ const offTsRules = [
   'no-floating-promises',
   'no-misused-promises',
   'restrict-template-expressions',
+  'consistent-type-assertions',
 ];
 
 module.exports = {
@@ -28,13 +29,6 @@ module.exports = {
     'import/no-named-as-default': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'warn',
     '@typescript-eslint/consistent-type-imports': 'warn',
-    '@typescript-eslint/consistent-type-assertions': [
-      'warn',
-      {
-        assertionStyle: 'as',
-        objectLiteralTypeAssertions: 'allow-as-parameter',
-      },
-    ],
   },
   settings: {
     'import/resolver': {

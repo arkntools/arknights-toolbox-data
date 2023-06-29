@@ -48,7 +48,7 @@ import { retryGet } from './request';
 import { getRichTextCss } from './css';
 import { getPinyin } from './pinyin';
 import { getRomaji } from './romaji';
-import { downloadImageByList } from './download';
+import { DownloadConfigBuilder, downloadImageByList } from './download';
 import { processBuildingSkills } from './buildingSkills';
 import { objS2tw, objS2twp } from './s2t';
 import { CharPosition, CharProfession, OccPercent, StageDropType } from 'types';
@@ -93,6 +93,7 @@ import {
   ROBOT_TAG_NAME_CN,
   SKILL_IMG_DIR,
   HAS_TW_DATA,
+  UPDATE_FROM_ARKNTOOLS,
 } from 'constant';
 
 interface GameData {
@@ -122,6 +123,8 @@ export class DataUpdater {
   private itemInfo: DataJsonItem = {};
   private buildingDescMd5MinLen = 0;
   private buildingBuffId2DescriptionMd5: Record<string, string> = {};
+
+  private readonly downloadConfig = new DownloadConfigBuilder();
 
   public async start() {
     await this.fetchGameData();
@@ -153,6 +156,8 @@ export class DataUpdater {
     writeData('drop.json', this.dropInfo);
     writeData('retro.json', this.retroInfo);
     writeData('event.json', this.eventInfo);
+
+    this.downloadConfig.write();
 
     console.log('Update completed');
   }
@@ -307,12 +312,22 @@ export class DataUpdater {
 
     // 下载头像
     if (isCN) {
-      await downloadImageByList({
-        idList: Object.keys(nameId2Name),
-        dirPath: AVATAR_IMG_DIR,
-        resPathGetter: id => `avatar/char_${id}.png`,
-        resize: 80,
-      });
+      const avatarIdList = Object.keys(nameId2Name);
+      if (UPDATE_FROM_ARKNTOOLS) {
+        this.downloadConfig.set('avatar', {
+          dir: AVATAR_IMG_DIR,
+          resize: 80,
+          idList: avatarIdList,
+          configGetter: id => ({ id, iconId: `char_${id}` }),
+        });
+      } else {
+        await downloadImageByList({
+          idList: avatarIdList,
+          dirPath: AVATAR_IMG_DIR,
+          resPathGetter: id => `avatar/char_${id}.png`,
+          resize: 80,
+        });
+      }
     }
   }
 
@@ -545,11 +560,19 @@ export class DataUpdater {
 
     // 下载材料图片
     const itemIdList = Object.keys(itemId2Name);
-    await downloadImageByList({
-      idList: itemIdList,
-      dirPath: ITEM_IMG_DIR,
-      resPathGetter: id => `item/${itemTable.items[id].iconId}.png`,
-    });
+    if (UPDATE_FROM_ARKNTOOLS) {
+      this.downloadConfig.set('item', {
+        dir: ITEM_IMG_DIR,
+        idList: itemIdList,
+        configGetter: id => ({ id, iconId: itemTable.items[id].iconId, rarity: itemTable.items[id].rarity }),
+      });
+    } else {
+      await downloadImageByList({
+        idList: itemIdList,
+        dirPath: ITEM_IMG_DIR,
+        resPathGetter: id => `item/${itemTable.items[id].iconId}.png`,
+      });
+    }
   }
 
   private async updateSkillInfo(
@@ -651,12 +674,22 @@ export class DataUpdater {
     writeData('cultivate.json', cultivate);
 
     // 下载技能图标
-    await downloadImageByList({
-      idList: map(skillId2AddonInfo, (v, k) => v?.icon || k),
-      dirPath: SKILL_IMG_DIR,
-      resPathGetter: id => `skill/skill_icon_${revIdStandardization(id)}.png`,
-      resize: 72,
-    });
+    const skilIdList = map(skillId2AddonInfo, (v, k) => v?.icon || k);
+    if (UPDATE_FROM_ARKNTOOLS) {
+      this.downloadConfig.set('skill', {
+        dir: SKILL_IMG_DIR,
+        resize: 72,
+        idList: skilIdList,
+        configGetter: id => ({ id, iconId: `skill_icon_${revIdStandardization(id)}` }),
+      });
+    } else {
+      await downloadImageByList({
+        idList: skilIdList,
+        dirPath: SKILL_IMG_DIR,
+        resPathGetter: id => `skill/skill_icon_${revIdStandardization(id)}.png`,
+        resize: 72,
+      });
+    }
   }
 
   private async updateBuildingInfo({ buildingData, characterTable }: GameData, locale: string) {
@@ -761,11 +794,20 @@ export class DataUpdater {
       writeData('building.json', { char: buildingChars, buff: buildingBuffs });
 
       // 下载图标
-      await downloadImageByList({
-        idList: map(buildingBuffs.data, 'icon'),
-        dirPath: BUILDING_SKILL_IMG_DIR,
-        resPathGetter: id => `building_skill/${id}.png`,
-      });
+      const buildingSkillIdList = map(buildingBuffs.data, 'icon');
+      if (UPDATE_FROM_ARKNTOOLS) {
+        this.downloadConfig.set('buildingSkill', {
+          dir: BUILDING_SKILL_IMG_DIR,
+          idList: buildingSkillIdList,
+          configGetter: id => ({ id, iconId: id }),
+        });
+      } else {
+        await downloadImageByList({
+          idList: buildingSkillIdList,
+          dirPath: BUILDING_SKILL_IMG_DIR,
+          resPathGetter: id => `building_skill/${id}.png`,
+        });
+      }
     }
 
     checkObjsNotEmpty(roomEnum2Name, buffId2Name, buffMd52Description);

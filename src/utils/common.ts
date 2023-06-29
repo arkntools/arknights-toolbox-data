@@ -8,6 +8,7 @@ import {
   CHIP_ASSISTANT_ID,
   DATA_DIR,
   FormulasKeyMap,
+  GAME_DATA_DIR,
   LangMap,
   LOCALES_DIR,
   OTHER_DATA_DIR,
@@ -115,13 +116,13 @@ const getDataURL = (lang: string, langShort: string) =>
       }
       const key = camelCase(file.split('.')[0]);
       if (UPDATE_FROM_ARKNTOOLS) {
-        obj[key] = resolve(__dirname, `../../data/${langShort}/${file}`);
+        obj[key] = resolve(GAME_DATA_DIR, `${langShort}/${file}`);
       } else if (UPDATE_FROM_YUANYAN) {
         const localDir = langShort === 'us' ? 'en' : langShort;
         obj[key] =
           langShort === 'cn'
             ? getResourceURL('yuanyan3060/ArknightsGameResource', 'main', `gamedata/excel/${file}`)
-            : resolve(__dirname, `../../data/${localDir}/gamedata/excel/${file}`);
+            : resolve(GAME_DATA_DIR, `${localDir}/gamedata/excel/${file}`);
       } else {
         obj[key] =
           UPDATE_SOURCE === 'local'

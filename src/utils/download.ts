@@ -1,10 +1,11 @@
 import { writeFile } from 'fs/promises';
-import { join } from 'path';
-import { ensureDirSync, existsSync } from 'fs-extra';
-import { random, range } from 'lodash';
-import sharp from 'sharp';
+import { join, resolve } from 'path';
+import { ensureDirSync, existsSync, writeJsonSync } from 'fs-extra';
+import { random, range, size } from 'lodash';
 import { setOutput } from '@actions/core';
+import Jimp from 'jimp';
 import { axios, isAxiosError } from './axios';
+import { GAME_DATA_DIR } from 'constant';
 
 interface DownloadImageParams {
   url: string;
@@ -39,7 +40,7 @@ export const downloadImage = async ({ url, path, startLog, tiny, resize }: Downl
 
   // resize
   if (resize) {
-    data = await sharp(data).resize(resize).png().toBuffer();
+    data = await (await Jimp.read(data)).resize(resize, Jimp.AUTO).deflateStrategy(0).getBufferAsync(Jimp.MIME_PNG);
   }
 
   // tiny
@@ -102,3 +103,58 @@ export const downloadImageByList = async ({ idList, dirPath, resPathGetter, resi
 
   return failedIdList;
 };
+
+interface Config<T> {
+  dir: string;
+  resize?: number;
+  items: T[];
+}
+
+type ItemConfig = Config<{
+  id: string;
+  iconId: string;
+  rarity: number;
+}>;
+
+type CommonConfig = Config<{
+  id: string;
+  iconId: string;
+}>;
+
+interface RootConfig {
+  avatar?: CommonConfig;
+  buildingSkill?: CommonConfig;
+  skill?: CommonConfig;
+  item?: ItemConfig;
+}
+
+interface SetConfigOptions<T extends Config<any>> {
+  dir: string;
+  resize?: number;
+  idList: string[];
+  configGetter: (id: string) => T extends Config<infer P> ? P : never;
+}
+
+export class DownloadConfigBuilder {
+  private config: RootConfig = {};
+
+  public set<T extends keyof RootConfig>(
+    type: T,
+    { dir, resize, idList, configGetter }: SetConfigOptions<NonNullable<RootConfig[T]>>,
+  ) {
+    const missIdList = idList.filter(id => !existsSync(resolve(dir, `${id}.png`)));
+    if (!missIdList.length) return;
+    this.config[type] = {
+      dir,
+      resize,
+      items: missIdList.map(configGetter),
+    } as RootConfig[T];
+  }
+
+  public write() {
+    if (!size(this.config)) return;
+    ensureDirSync(GAME_DATA_DIR);
+    console.log('Write downloadConfig.json');
+    writeJsonSync(resolve(GAME_DATA_DIR, 'downloadConfig.json'), this.config);
+  }
+}
