@@ -51,7 +51,7 @@ import { getRomaji } from './romaji';
 import { DownloadConfigBuilder, downloadImageByList } from './download';
 import { processBuildingSkills } from './buildingSkills';
 import { objS2tw, objS2twp } from './s2t';
-import { CharPosition, CharProfession, OccPercent, RetroType, StageDropType } from 'types';
+import { CharPosition, CharProfession, OccPercent, RarityRank, RetroType, StageDropType } from 'types';
 import type {
   ActivityTable,
   BuildingData,
@@ -502,7 +502,7 @@ export class DataUpdater {
           sortId: {
             [locale]: sortId,
           },
-          rare: rarity + 1,
+          rare: forceEnumNum(rarity, RarityRank) + 1,
           drop: sortObjectBy(
             transform(
               stageDropList,
@@ -570,7 +570,11 @@ export class DataUpdater {
       this.downloadConfig.set('item', {
         dir: ITEM_IMG_DIR,
         idList: itemIdList,
-        configGetter: id => ({ id, iconId: itemTable.items[id].iconId, rarity: itemTable.items[id].rarity }),
+        configGetter: id => ({
+          id,
+          iconId: itemTable.items[id].iconId,
+          rarity: forceEnumNum(itemTable.items[id].rarity, RarityRank),
+        }),
       });
     } else {
       await downloadImageByList({
