@@ -2,14 +2,14 @@ import type { Stage } from './stageTable';
 
 export enum RetroType {
   /** 别传 */
-  SIDE_STORY,
+  SIDESTORY,
   /** 插曲 */
-  INTERMEZZI,
+  BRANCHLINE,
 }
 
 export interface RetroAct {
   retroId: string;
-  type: RetroType;
+  type: RetroType | keyof typeof RetroType;
   linkedActId: string[];
   startTime: number;
   name: string;

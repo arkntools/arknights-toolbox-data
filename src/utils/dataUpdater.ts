@@ -51,7 +51,7 @@ import { getRomaji } from './romaji';
 import { DownloadConfigBuilder, downloadImageByList } from './download';
 import { processBuildingSkills } from './buildingSkills';
 import { objS2tw, objS2twp } from './s2t';
-import { CharPosition, CharProfession, OccPercent, StageDropType } from 'types';
+import { CharPosition, CharProfession, OccPercent, RetroType, StageDropType } from 'types';
 import type {
   ActivityTable,
   BuildingData,
@@ -428,7 +428,10 @@ export class DataUpdater {
     // 插曲 & 别传
     Object.assign(
       zoneId2Name,
-      mapValues(retroTable.retroActList, ({ type, name }) => `${name}@:(retroNameAppend.${type})`),
+      mapValues(
+        retroTable.retroActList,
+        ({ type, name }) => `${name}@:(retroNameAppend.${forceEnumNum(type, RetroType)})`,
+      ),
     );
 
     writeLocale(locale, 'zone.json', zoneId2Name);
