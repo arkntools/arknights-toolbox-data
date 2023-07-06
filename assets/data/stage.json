@@ -1422,6 +1422,40 @@
     }
   },
   "event": {
+    "act15mini_zone1": {
+      "act15mini_01": {
+        "code": "FD-1",
+        "cost": 9
+      },
+      "act15mini_02": {
+        "code": "FD-2",
+        "cost": 9
+      },
+      "act15mini_03": {
+        "code": "FD-3",
+        "cost": 12
+      },
+      "act15mini_04": {
+        "code": "FD-4",
+        "cost": 12
+      },
+      "act15mini_05": {
+        "code": "FD-5",
+        "cost": 15
+      },
+      "act15mini_06": {
+        "code": "FD-6",
+        "cost": 15
+      },
+      "act15mini_07": {
+        "code": "FD-7",
+        "cost": 21
+      },
+      "act15mini_08": {
+        "code": "FD-8",
+        "cost": 21
+      }
+    },
     "act26side_zone1": {
       "act26side_01": {
         "code": "HE-1",
@@ -3492,6 +3526,48 @@
       "act18side_07": {
         "code": "LE-7",
         "cost": 21
+      }
+    },
+    "permanent_sidestory_15_zone1": {
+      "act19side_01": {
+        "code": "DV-1",
+        "cost": 9
+      },
+      "act19side_02": {
+        "code": "DV-2",
+        "cost": 9
+      },
+      "act19side_03": {
+        "code": "DV-3",
+        "cost": 12
+      },
+      "act19side_04": {
+        "code": "DV-4",
+        "cost": 12
+      },
+      "act19side_05": {
+        "code": "DV-5",
+        "cost": 15
+      },
+      "act19side_06": {
+        "code": "DV-6",
+        "cost": 21
+      },
+      "act19side_07": {
+        "code": "DV-7",
+        "cost": 21
+      },
+      "act19side_08": {
+        "code": "DV-8",
+        "cost": 21
+      },
+      "act19side_s01": {
+        "code": "DV-S-1",
+        "cost": 0
+      },
+      "act19side_s02": {
+        "code": "DV-S-2",
+        "cost": 0
       }
     }
   }

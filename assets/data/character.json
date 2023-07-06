@@ -2486,6 +2486,22 @@
       13
     ]
   },
+  "341_sntlla": {
+    "pinyin": {
+      "full": "hantan",
+      "head": "ht"
+    },
+    "romaji": "",
+    "appellation": "Santalla",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      21,
+      12
+    ]
+  },
   "388_mint": {
     "pinyin": {
       "full": "bolv",
@@ -3845,6 +3861,21 @@
     "tags": [
       19,
       12
+    ]
+  },
+  "2012_typhon": {
+    "pinyin": {
+      "full": "tifeng",
+      "head": "tf"
+    },
+    "romaji": "",
+    "appellation": "Typhon",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
     ]
   },
   "391_rosmon": {

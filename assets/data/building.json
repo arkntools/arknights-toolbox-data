@@ -2989,6 +2989,26 @@
         "id": "dorm_rec_single&oneself_040",
         "unlock": "2_1"
       }
+    ],
+    "2012_typhon": [
+      {
+        "id": "meet_spd&sami_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession3_170",
+        "unlock": "2_1"
+      }
+    ],
+    "341_sntlla": [
+      {
+        "id": "dorm_rec_single_power_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd_power_000",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4053,6 +4073,10 @@
         "icon": "bskill_train_all",
         "desc": "2abe"
       },
+      "train_spd_power_000": {
+        "icon": "bskill_train_sami",
+        "desc": "f078"
+      },
       "train_spd_tag_000": {
         "icon": "bskill_train_knight_bd1",
         "desc": "69ae"
@@ -4236,6 +4260,10 @@
       "train_spd&profession3_161": {
         "icon": "bskill_train_lord",
         "desc": "53c1"
+      },
+      "train_spd&profession3_170": {
+        "icon": "bskill_train_siegesniper",
+        "desc": "b515"
       },
       "train_spd&profession2_110": {
         "icon": "bskill_train1_vanguard1",
@@ -4489,6 +4517,10 @@
         "icon": "bskill_dorm_single&one12",
         "desc": "720f"
       },
+      "dorm_rec_single_power_000": {
+        "icon": "bskill_dorm_single_sami",
+        "desc": "c1b3"
+      },
       "dorm_rec_all&oneself_000": {
         "icon": "bskill_dorm_all&one1",
         "desc": "355a"
@@ -4672,6 +4704,10 @@
       "meet_spd_032": {
         "icon": "bskill_meet_spd3",
         "desc": "80b9"
+      },
+      "meet_spd&sami_000": {
+        "icon": "bskill_meet_spd&sami",
+        "desc": "6d79"
       },
       "meet_spd_condChar_000": {
         "icon": "bskill_meet_condChar",
@@ -6441,6 +6477,11 @@
           "全能": 1
         }
       },
+      "f078": {
+        "building": "TRAINING",
+        "num": {},
+        "is": {}
+      },
       "69ae": {
         "building": "TRAINING",
         "num": {},
@@ -6720,6 +6761,15 @@
         },
         "is": {
           "近卫": 1
+        }
+      },
+      "b515": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "狙击": 1
         }
       },
       "9faa": {
@@ -7094,6 +7144,15 @@
           "单体恢复": 1
         }
       },
+      "c1b3": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoverySingle": 0.55
+        },
+        "is": {
+          "单体恢复": 1
+        }
+      },
       "355a": {
         "building": "DORMITORY",
         "num": {
@@ -7291,6 +7350,15 @@
         "building": "MEETING",
         "num": {
           "collect": 25
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
+      "6d79": {
+        "building": "MEETING",
+        "num": {
+          "collect": 10
         },
         "is": {
           "无特别加成": 1
