@@ -387,7 +387,10 @@ export class DataUpdater {
   private updateRetroInfo({ retroTable }: GameData, locale: string) {
     this.retroInfo[locale] = {};
     each(retroTable.retroActList, item => {
-      this.retroInfo[locale][item.retroId] = pick(item, ['type', 'startTime', 'linkedActId']);
+      this.retroInfo[locale][item.retroId] = {
+        type: forceEnumNum(item.type, RetroType),
+        ...pick(item, ['startTime', 'linkedActId']),
+      };
     });
   }
 
