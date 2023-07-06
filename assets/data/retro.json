@@ -1,7 +1,7 @@
 {
   "cn": {
     "permanent_sub_1_Darknights_Memoir": {
-      "type": "BRANCHLINE",
+      "type": 1,
       "startTime": 1618430400,
       "linkedActId": [
         "act9d0",
@@ -9,7 +9,7 @@
       ]
     },
     "permanent_sub_2_A_Walk_In_The_Dust": {
-      "type": "BRANCHLINE",
+      "type": 1,
       "startTime": 1620244800,
       "linkedActId": [
         "act18d0",
@@ -17,7 +17,7 @@
       ]
     },
     "permanent_sub_3_Under_Tides": {
-      "type": "BRANCHLINE",
+      "type": 1,
       "startTime": 1621627200,
       "linkedActId": [
         "act18d3",
@@ -25,7 +25,7 @@
       ]
     },
     "permanent_sub_4_Stultifera_Navis": {
-      "type": "BRANCHLINE",
+      "type": 1,
       "startTime": 1653768000,
       "linkedActId": [
         "act17side",
@@ -33,14 +33,14 @@
       ]
     },
     "permanent_sub_5_Lone_Trail": {
-      "type": "BRANCHLINE",
+      "type": 1,
       "startTime": 1685304000,
       "linkedActId": [
         "act25side"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1618430400,
       "linkedActId": [
         "1stact",
@@ -48,7 +48,7 @@
       ]
     },
     "permanent_sidestory_2_Heart_Of_Surging_Flame": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1618430400,
       "linkedActId": [
         "act3d0",
@@ -56,7 +56,7 @@
       ]
     },
     "permanent_sidestory_3_Code_Of_Brawl": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1618430400,
       "linkedActId": [
         "act5d0",
@@ -64,7 +64,7 @@
       ]
     },
     "permanent_sidestory_4_Twilight_Of_Wolumonde": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1625083200,
       "linkedActId": [
         "act11d0",
@@ -72,7 +72,7 @@
       ]
     },
     "permanent_sidestory_5_The_Great_Chief_Returns": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1627934400,
       "linkedActId": [
         "act12d0",
@@ -80,7 +80,7 @@
       ]
     },
     "permanent_sidestory_6_Maria_Nearl": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1634241600,
       "linkedActId": [
         "act13d5",
@@ -88,7 +88,7 @@
       ]
     },
     "permanent_sidestory_7_Mansfield_Break": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1640030400,
       "linkedActId": [
         "act15d0",
@@ -96,7 +96,7 @@
       ]
     },
     "permanent_sidestory_8_Who_is_Real": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1642968000,
       "linkedActId": [
         "act16d5",
@@ -104,7 +104,7 @@
       ]
     },
     "permanent_sidestory_9_Dossoles_Holiday": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1659988800,
       "linkedActId": [
         "act12side",
@@ -112,7 +112,7 @@
       ]
     },
     "permanent_sidestory_10_Near_Light": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1665000000,
       "linkedActId": [
         "act13side",
@@ -120,7 +120,7 @@
       ]
     },
     "permanent_sidestory_11_Break_The_Ice": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1671048000,
       "linkedActId": [
         "act14side",
@@ -128,7 +128,7 @@
       ]
     },
     "permanent_sidestory_12_Invitation_To_Wine": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1673726400,
       "linkedActId": [
         "act15side",
@@ -136,7 +136,7 @@
       ]
     },
     "permanent_sidestory_13_Guiding_Ahead": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1678132800,
       "linkedActId": [
         "act16side",
@@ -144,7 +144,7 @@
       ]
     },
     "permanent_sidestory_14_Lingering_Echoes": {
-      "type": "SIDESTORY",
+      "type": 0,
       "startTime": 1688414400,
       "linkedActId": [
         "act18side",
