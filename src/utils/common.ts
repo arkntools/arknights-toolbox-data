@@ -116,7 +116,7 @@ const getDataURL = (lang: string, langShort: string) =>
       }
       const key = camelCase(file.split('.')[0]);
       if (UPDATE_FROM_ARKNTOOLS) {
-        obj[key] = resolve(GAME_DATA_DIR, `${langShort}/${file}`);
+        obj[key] = resolve(GAME_DATA_DIR, `${langShort}/excel/${file}`);
       } else if (UPDATE_FROM_YUANYAN) {
         const localDir = langShort === 'us' ? 'en' : langShort;
         obj[key] =
