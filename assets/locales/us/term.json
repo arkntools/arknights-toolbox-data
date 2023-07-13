@@ -23,13 +23,17 @@
     "name": "Soundless Resonance",
     "desc": "Affects skills related to <$cc.bd_B_1><@cc.rem>Lingering Melody</></> and <$cc.bd_B_2><@cc.rem>Harmony Astray</></>\nProvided by the following Operator's skills:\nEbenholz"
   },
+  "cc_bd_C": {
+    "name": "Witchcraft Crystal",
+    "desc": "Operators with this skill\nJieyun"
+  },
   "cc_bd_a1": {
     "name": "Perception Information",
     "desc": "Affects skills related to <$cc.bd_A><@cc.rem>Chain of Thought</></> and <$cc.bd_B><@cc.rem>Soundless Resonance</></>\nProvided by the following Operators' skills:\nRosmontis, Ebenholz, Dusk, Ling, Whisperain, Iris, Czerny"
   },
   "cc_bd_b1": {
     "name": "Worldly Plight",
-    "desc": "Provided by the following Operators' skills\nDusk, Ling, Mr. Nothing, Mulberry"
+    "desc": "Affects <$cc.bd_C><@cc.rem>Witchcraft Crystal</></> skills\nProvided by the following Operators' skills\nDusk, Ling, Chongyue, Mr. Nothing, Mulberry"
   },
   "cc_bd_ash": {
     "name": "Intelligence Reserve",
@@ -109,7 +113,7 @@
   },
   "cc_g_sui": {
     "name": "Sui",
-    "desc": "Includes the following Operators\nNian, Dusk, Ling"
+    "desc": "Includes the following Operators\nNian, Dusk, Ling, Chongyue"
   },
   "cc_c_abyssal2_1": {
     "name": "Special Bonus",
