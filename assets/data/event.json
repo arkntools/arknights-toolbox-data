@@ -1,14 +1,21 @@
 {
-  "cn": {
-    "act15mini_zone1": {
+  "cn": {},
+  "us": {},
+  "jp": {
+    "act22side_zone1": {
       "valid": {
-        "startTs": 1688616000,
-        "endTs": 1689191999
+        "startTs": 1689213600,
+        "endTs": 1690397999
       }
     }
   },
-  "us": {},
-  "jp": {},
-  "kr": {},
+  "kr": {
+    "act22side_zone1": {
+      "valid": {
+        "startTs": 1689213600,
+        "endTs": 1690397999
+      }
+    }
+  },
   "tw": {}
 }
