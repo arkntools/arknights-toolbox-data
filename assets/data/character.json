@@ -3572,6 +3572,19 @@
       20
     ]
   },
+  "4102_threye": {
+    "pinyin": {
+      "full": "linshi",
+      "head": "ls"
+    },
+    "romaji": "",
+    "appellation": "Valarqvin",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": []
+  },
   "215_mantic": {
     "pinyin": {
       "full": "shixie",

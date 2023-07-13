@@ -3009,6 +3009,16 @@
         "id": "train_spd_power_000",
         "unlock": "2_1"
       }
+    ],
+    "4102_threye": [
+      {
+        "id": "meet_spd&bd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&bd_010",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4708,6 +4718,14 @@
       "meet_spd&sami_000": {
         "icon": "bskill_meet_spd&sami",
         "desc": "6d79"
+      },
+      "meet_spd&bd_000": {
+        "icon": "bskill_meet_spd&bd",
+        "desc": "5b6b"
+      },
+      "meet_spd&bd_010": {
+        "icon": "bskill_meet_spd&bd&notOwned",
+        "desc": "717c"
       },
       "meet_spd_condChar_000": {
         "icon": "bskill_meet_condChar",
@@ -7363,6 +7381,20 @@
         "is": {
           "无特别加成": 1
         }
+      },
+      "5b6b": {
+        "building": "MEETING",
+        "num": {
+          "collect": 10
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
+      "717c": {
+        "building": "MEETING",
+        "num": {},
+        "is": {}
       },
       "fd91": {
         "building": "MEETING",
