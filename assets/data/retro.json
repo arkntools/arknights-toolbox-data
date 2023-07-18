@@ -150,6 +150,14 @@
         "act18side",
         "act18sre"
       ]
+    },
+    "permanent_sidestory_15_Dorothy's_Vision": {
+      "type": 0,
+      "startTime": 1690833600,
+      "linkedActId": [
+        "act19side",
+        "act19sre"
+      ]
     }
   },
   "us": {
