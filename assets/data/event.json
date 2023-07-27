@@ -15,21 +15,7 @@
       }
     }
   },
-  "jp": {
-    "act22side_zone1": {
-      "valid": {
-        "startTs": 1689213600,
-        "endTs": 1690397999
-      }
-    }
-  },
-  "kr": {
-    "act22side_zone1": {
-      "valid": {
-        "startTs": 1689213600,
-        "endTs": 1690397999
-      }
-    }
-  },
+  "jp": {},
+  "kr": {},
   "tw": {}
 }
