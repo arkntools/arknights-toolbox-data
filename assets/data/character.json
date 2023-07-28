@@ -1489,7 +1489,9 @@
     "appellation": "Podenco",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 5,
@@ -2291,7 +2293,7 @@
       "full": "jieyun",
       "head": "jy"
     },
-    "romaji": "",
+    "romaji": "jieyun",
     "appellation": "Jieyun",
     "star": 5,
     "recruitment": {},
@@ -2477,7 +2479,9 @@
     "appellation": "Leonhardt",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 6,
@@ -3135,7 +3139,7 @@
       "full": "huoshao",
       "head": "hs"
     },
-    "romaji": "",
+    "romaji": "fuaiyahoissuru",
     "appellation": "Firewhistle",
     "star": 5,
     "recruitment": {},
@@ -3867,7 +3871,9 @@
     "appellation": "Rosa",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 2,
@@ -4214,7 +4220,7 @@
       "full": "lin",
       "head": "l"
     },
-    "romaji": "",
+    "romaji": "rin",
     "appellation": "Lin",
     "star": 6,
     "recruitment": {},
@@ -4835,7 +4841,7 @@
       "full": "chongyue",
       "head": "cy"
     },
-    "romaji": "",
+    "romaji": "chonyue",
     "appellation": "Chongyue",
     "star": 6,
     "recruitment": {},

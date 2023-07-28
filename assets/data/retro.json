@@ -400,6 +400,14 @@
         "act14side",
         "act14sre"
       ]
+    },
+    "permanent_sidestory_12_Invitation_To_Wine": {
+      "type": 0,
+      "startTime": 1692903600,
+      "linkedActId": [
+        "act15side",
+        "act15sre"
+      ]
     }
   },
   "kr": {
@@ -520,6 +528,14 @@
       "linkedActId": [
         "act14side",
         "act14sre"
+      ]
+    },
+    "permanent_sidestory_12_Invitation_To_Wine": {
+      "type": 0,
+      "startTime": 1692903600,
+      "linkedActId": [
+        "act15side",
+        "act15sre"
       ]
     }
   },

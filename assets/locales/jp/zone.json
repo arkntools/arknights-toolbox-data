@@ -20,6 +20,8 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act23side": "登臨意",
+  "act15sre": "将進酒・復刻",
   "act22side": "この炎が照らす先",
   "act21side": "シラクザーノ",
   "act14sre": "風雪一過・復刻",
@@ -86,5 +88,6 @@
   "permanent_sidestory_8_Who_is_Real": "画中人@:(retroNameAppend.0)",
   "permanent_sidestory_9_Dossoles_Holiday": "ドッソレスホリデー@:(retroNameAppend.0)",
   "permanent_sidestory_10_Near_Light": "ニアーライト@:(retroNameAppend.0)",
-  "permanent_sidestory_11_Break_The_Ice": "風雪一過@:(retroNameAppend.0)"
+  "permanent_sidestory_11_Break_The_Ice": "風雪一過@:(retroNameAppend.0)",
+  "permanent_sidestory_12_Invitation_To_Wine": "将進酒@:(retroNameAppend.0)"
 }
