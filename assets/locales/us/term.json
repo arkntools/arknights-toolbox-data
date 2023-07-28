@@ -143,6 +143,10 @@
     "name": "Special Interaction Rules",
     "desc": "Cannot stack with <$cc.t.snsant1><@cc.rem>Heavenly Reward α</></>, <$cc.t.snsant2><@cc.rem>Heavenly Reward β</></>, and will take precedence instead\nWhen <$cc.t.snsant1><@cc.rem>Heavenly Reward α</></>, <$cc.t.snsant2><@cc.rem>Heavenly Reward β</></> stacks with other skills, this skill will take effect on the resulting effect"
   },
+  "cc_c_sui2_1": {
+    "name": "Special comparison rules",
+    "desc": "Compare hourly Morale recovery totals of <$cc.c.room2><@cc.kw>other buildings</></> provided by other Operator skills in the Control Center. The strongest effect applies."
+  },
   "cc_m_pow1": {
     "name": "Automation α",
     "desc": "Provided by the following Operator(s):\nWeedy, Eunectes, Passenger"

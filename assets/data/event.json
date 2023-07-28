@@ -1,6 +1,19 @@
 {
   "cn": {},
-  "us": {},
+  "us": {
+    "act23side_zone1": {
+      "valid": {
+        "startTs": 1690563600,
+        "endTs": 1691751599
+      }
+    },
+    "act15sre_zone1": {
+      "valid": {
+        "startTs": 1691773200,
+        "endTs": 1692615599
+      }
+    }
+  },
   "jp": {
     "act23side_zone1": {
       "valid": {
