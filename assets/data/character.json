@@ -1206,7 +1206,9 @@
     "romaji": "jiei",
     "appellation": "Jaye",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 7,
     "tags": [
@@ -1644,12 +1646,30 @@
     "romaji": "kiabe",
     "appellation": "Chiave",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 8,
     "tags": [
       18,
       19
+    ]
+  },
+  "488_buildr": {
+    "pinyin": {
+      "full": "qingzhi",
+      "head": "qz"
+    },
+    "romaji": "",
+    "appellation": "Poncirus",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      22
     ]
   },
   "261_sddrag": {
@@ -1788,6 +1808,22 @@
     },
     "romaji": "uisurasshu",
     "appellation": "Whislash",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      16
+    ]
+  },
+  "4106_bryota": {
+    "pinyin": {
+      "full": "cangtai",
+      "head": "ct"
+    },
+    "romaji": "",
+    "appellation": "Bryophyta",
     "star": 5,
     "recruitment": {},
     "position": 9,
@@ -2463,7 +2499,9 @@
     "romaji": "bizuwakusu",
     "appellation": "Beeswax",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 6,
     "tags": [
@@ -3250,7 +3288,9 @@
     "romaji": "andoreana",
     "appellation": "Andreana",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 2,
     "tags": [
@@ -4477,6 +4517,22 @@
       19
     ]
   },
+  "1033_swire2": {
+    "pinyin": {
+      "full": "linlangshihuaiya",
+      "head": "llshy"
+    },
+    "romaji": "",
+    "appellation": "Swire the Elegant Wit",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      25,
+      13
+    ]
+  },
   "400_weedy": {
     "pinyin": {
       "full": "wendi",
@@ -4660,6 +4716,21 @@
     "tags": [
       15,
       16
+    ]
+  },
+  "1016_agoat2": {
+    "pinyin": {
+      "full": "chunjinaiyafala",
+      "head": "cjayfl"
+    },
+    "romaji": "",
+    "appellation": "Eyjafjalla the Hvit Aska",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
     ]
   },
   "1020_reed2": {
@@ -4884,7 +4955,9 @@
     "romaji": "sonzu",
     "appellation": "Thorns",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [

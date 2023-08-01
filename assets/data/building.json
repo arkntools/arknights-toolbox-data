@@ -3019,6 +3019,50 @@
         "id": "meet_spd&bd_010",
         "unlock": "2_1"
       }
+    ],
+    "4106_bryota": [
+      {
+        "id": "manu_formula_spd_100",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_skill_spd1_020",
+        "unlock": "2_1"
+      }
+    ],
+    "1033_swire2": [
+      {
+        "id": "trade_ord_spd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd_variable_000",
+        "unlock": "2_1"
+      }
+    ],
+    "488_buildr": [
+      {
+        "id": "workshop_formula_probability_221",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_cost3_221",
+        "unlock": "2_1"
+      }
+    ],
+    "1016_agoat2": [
+      {
+        "id": "train_spd&profession3_180",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession3_181",
+        "unlock": "2_1"
+      },
+      {
+        "id": "dorm_rec_all&profession_000",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3367,6 +3411,10 @@
         "icon": "bskill_man_skill_spd2",
         "desc": "3ff4"
       },
+      "manu_skill_spd1_020": {
+        "icon": "bskill_man_skill_spd3",
+        "desc": "4e6d"
+      },
       "manu_skill_change_000": {
         "icon": "bskill_man_skill_change",
         "desc": "5724"
@@ -3618,6 +3666,10 @@
       "trade_ord_vodfox_000": {
         "icon": "bskill_tra_vodfox",
         "desc": "5a16"
+      },
+      "trade_ord_spd_variable_000": {
+        "icon": "bskill_trade_ord_spd_variable",
+        "desc": "701a"
       },
       "trade_ord_spd_variable2_000": {
         "icon": "bskill_tra_spd_variable21",
@@ -3911,6 +3963,10 @@
         "icon": "bskill_ws_build_cost2",
         "desc": "6060"
       },
+      "workshop_formula_cost3_221": {
+        "icon": "bskill_ws_build_cost2",
+        "desc": "6060"
+      },
       "workshop_formula_cost3_200": {
         "icon": "bskill_ws_build_cost",
         "desc": "3a5d"
@@ -4006,6 +4062,10 @@
       "workshop_formula_probability_160": {
         "icon": "bskill_ws_evolve4",
         "desc": "51ec"
+      },
+      "workshop_formula_probability_221": {
+        "icon": "bskill_ws_build2",
+        "desc": "7d56"
       },
       "workshop_formula_dorm_000": {
         "icon": "bskill_ws_evolve_dorm1",
@@ -4274,6 +4334,14 @@
       "train_spd&profession3_170": {
         "icon": "bskill_train_siegesniper",
         "desc": "b515"
+      },
+      "train_spd&profession3_180": {
+        "icon": "bskill_train_medic1",
+        "desc": "3990"
+      },
+      "train_spd&profession3_181": {
+        "icon": "bskill_train_wandermedic",
+        "desc": "7745"
       },
       "train_spd&profession2_110": {
         "icon": "bskill_train1_vanguard1",
@@ -4562,6 +4630,10 @@
       "dorm_rec_all&oneself_022": {
         "icon": "bskill_dorm_all&one3",
         "desc": "548c"
+      },
+      "dorm_rec_all&profession_000": {
+        "icon": "bskill_dorm_rec_all&profession",
+        "desc": "335b"
       },
       "dorm_exchangeAp_000": {
         "icon": "bskill_dorm_exchangeAp",
@@ -5186,6 +5258,15 @@
           "任意材料": 1
         }
       },
+      "7745": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "医疗": 1
+        }
+      },
       "7799": {
         "building": "CONTROL",
         "num": {
@@ -5560,6 +5641,11 @@
         "num": {},
         "is": {}
       },
+      "4e6d": {
+        "building": "MANUFACTURE",
+        "num": {},
+        "is": {}
+      },
       "93ea": {
         "building": "MANUFACTURE",
         "num": {
@@ -5916,6 +6002,11 @@
         "is": {
           "订单效率": 1
         }
+      },
+      "701a": {
+        "building": "TRADING",
+        "num": {},
+        "is": {}
       },
       "f020": {
         "building": "TRADING",
@@ -6388,6 +6479,15 @@
           "精英材料": 1
         }
       },
+      "7d56": {
+        "building": "WORKSHOP",
+        "num": {
+          "byproduct": 75
+        },
+        "is": {
+          "基建材料": 1
+        }
+      },
       "507d": {
         "building": "WORKSHOP",
         "num": {
@@ -6434,15 +6534,6 @@
         "building": "WORKSHOP",
         "num": {
           "byproduct": 80
-        },
-        "is": {
-          "基建材料": 1
-        }
-      },
-      "7d56": {
-        "building": "WORKSHOP",
-        "num": {
-          "byproduct": 75
         },
         "is": {
           "基建材料": 1
@@ -7207,6 +7298,15 @@
         "building": "DORMITORY",
         "num": {
           "moraleRecoveryAll": 0.1
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
+      "335b": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 6
         },
         "is": {
           "群体恢复": 1
