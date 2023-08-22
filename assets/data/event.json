@@ -1,6 +1,13 @@
 {
   "cn": {},
-  "us": {},
+  "us": {
+    "act14mini_zone1": {
+      "valid": {
+        "startTs": 1692723600,
+        "endTs": 1693306799
+      }
+    }
+  },
   "jp": {
     "act14mini_zone1": {
       "valid": {
