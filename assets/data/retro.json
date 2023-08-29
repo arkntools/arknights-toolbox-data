@@ -658,6 +658,14 @@
         "act13side",
         "act13sre"
       ]
+    },
+    "permanent_sidestory_11_Break_The_Ice": {
+      "type": 0,
+      "startTime": 1694462400,
+      "linkedActId": [
+        "act14side",
+        "act14sre"
+      ]
     }
   }
 }

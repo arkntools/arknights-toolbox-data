@@ -8,21 +8,14 @@
       }
     }
   },
-  "jp": {
-    "act14mini_zone1": {
+  "jp": {},
+  "kr": {},
+  "tw": {
+    "act14sre_zone1": {
       "valid": {
-        "startTs": 1692687600,
-        "endTs": 1693249199
+        "startTs": 1693294200,
+        "endTs": 1694116799
       }
     }
-  },
-  "kr": {
-    "act14mini_zone1": {
-      "valid": {
-        "startTs": 1692687600,
-        "endTs": 1693249199
-      }
-    }
-  },
-  "tw": {}
+  }
 }
