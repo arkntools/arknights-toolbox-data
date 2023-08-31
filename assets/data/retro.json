@@ -158,6 +158,14 @@
         "act19side",
         "act19sre"
       ]
+    },
+    "permanent_sidestory_16_Summer_Carnival_City": {
+      "type": 0,
+      "startTime": 1694635200,
+      "linkedActId": [
+        "act20side",
+        "act20sre"
+      ]
     }
   },
   "us": {

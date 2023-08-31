@@ -1,5 +1,10 @@
 {
   "zoneToActivity": {
+    "act20sre_zone1": "act20sre",
+    "act20sre_zone2": "act20sre",
+    "act20sre_zone3": "act20sre",
+    "act20sre_zone4": "act20sre",
+    "act20sre_zone5": "act20sre",
     "act3bossrush_zone1": "act3bossrush",
     "act27side_zone1": "act27side",
     "act27side_zone2": "act27side",
@@ -183,6 +188,11 @@
     "permanent_sidestory_14_zone1": "permanent_sidestory_14_Lingering_Echoes",
     "permanent_sidestory_14_zone2": "permanent_sidestory_14_Lingering_Echoes",
     "permanent_sidestory_15_zone1": "permanent_sidestory_15_Dorothy's_Vision",
-    "permanent_sidestory_15_zone2": "permanent_sidestory_15_Dorothy's_Vision"
+    "permanent_sidestory_15_zone2": "permanent_sidestory_15_Dorothy's_Vision",
+    "permanent_sidestory_16_zone1": "permanent_sidestory_16_Summer_Carnival_City",
+    "permanent_sidestory_16_zone2": "permanent_sidestory_16_Summer_Carnival_City",
+    "permanent_sidestory_16_zone3": "permanent_sidestory_16_Summer_Carnival_City",
+    "permanent_sidestory_16_zone4": "permanent_sidestory_16_Summer_Carnival_City",
+    "permanent_sidestory_16_zone5": "permanent_sidestory_16_Summer_Carnival_City"
   }
 }

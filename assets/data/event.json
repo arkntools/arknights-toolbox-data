@@ -1,13 +1,13 @@
 {
-  "cn": {},
-  "us": {
-    "act14mini_zone1": {
+  "cn": {
+    "act20sre_zone1": {
       "valid": {
-        "startTs": 1692723600,
-        "endTs": 1693306799
+        "startTs": 1693468800,
+        "endTs": 1694289599
       }
     }
   },
+  "us": {},
   "jp": {},
   "kr": {},
   "tw": {
