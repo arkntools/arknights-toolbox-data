@@ -3361,6 +3361,21 @@
       23
     ]
   },
+  "4104_coldst": {
+    "pinyin": {
+      "full": "bingniang",
+      "head": "bn"
+    },
+    "romaji": "",
+    "appellation": "Coldshot",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
+    ]
+  },
   "4015_spuria": {
     "pinyin": {
       "full": "konggou",
@@ -3413,6 +3428,21 @@
     "tags": [
       26,
       23
+    ]
+  },
+  "4105_almond": {
+    "pinyin": {
+      "full": "xingren",
+      "head": "xr"
+    },
+    "romaji": "",
+    "appellation": "Almond",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      26
     ]
   },
   "174_slbell": {
@@ -4892,6 +4922,23 @@
     "tags": [
       19,
       22
+    ]
+  },
+  "1034_jesca2": {
+    "pinyin": {
+      "full": "dihuojiexika",
+      "head": "dhjxk"
+    },
+    "romaji": "",
+    "appellation": "Jessica the Liberated",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      20,
+      19
     ]
   },
   "264_f12yin": {

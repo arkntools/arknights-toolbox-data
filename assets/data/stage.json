@@ -1422,6 +1422,40 @@
     }
   },
   "event": {
+    "act28side_zone1": {
+      "act28side_01": {
+        "code": "CV-1",
+        "cost": 9
+      },
+      "act28side_02": {
+        "code": "CV-2",
+        "cost": 9
+      },
+      "act28side_03": {
+        "code": "CV-3",
+        "cost": 9
+      },
+      "act28side_04": {
+        "code": "CV-4",
+        "cost": 12
+      },
+      "act28side_05": {
+        "code": "CV-5",
+        "cost": 12
+      },
+      "act28side_06": {
+        "code": "CV-6",
+        "cost": 21
+      },
+      "act28side_07": {
+        "code": "CV-7",
+        "cost": 21
+      },
+      "act28side_08": {
+        "code": "CV-8",
+        "cost": 21
+      }
+    },
     "act27side_zone1": {
       "act27side_01": {
         "code": "SL-1",

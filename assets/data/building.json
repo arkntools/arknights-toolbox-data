@@ -3063,6 +3063,36 @@
         "id": "dorm_rec_all&profession_000",
         "unlock": "2_1"
       }
+    ],
+    "1034_jesca2": [
+      {
+        "id": "trade_ord_spd&limit_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_bd_spd_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4105_almond": [
+      {
+        "id": "manu_formula_spd&cost_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd&cost_bd_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4104_coldst": [
+      {
+        "id": "control_mp_cost_009",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all&single_000",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3082,6 +3112,10 @@
       "control_token_tra_spd_000": {
         "icon": "bskill_ctrl_token_t_spd",
         "desc": "4d3f"
+      },
+      "control_bd_spd_000": {
+        "icon": "bskill_ctrl_bd_spd",
+        "desc": "54b5"
       },
       "control_pow_bot_000": {
         "icon": "bskill_ctrl_p_bot",
@@ -3160,6 +3194,10 @@
         "desc": "8da9"
       },
       "control_mp_cost_008": {
+        "icon": "bskill_ctrl_cost",
+        "desc": "8da9"
+      },
+      "control_mp_cost_009": {
         "icon": "bskill_ctrl_cost",
         "desc": "8da9"
       },
@@ -3598,6 +3636,14 @@
       "manu_formula_spd_110": {
         "icon": "bskill_man_gold2",
         "desc": "6141"
+      },
+      "manu_formula_spd&cost_000": {
+        "icon": "bskill_man_gold3",
+        "desc": "ef5e"
+      },
+      "manu_formula_spd&cost_bd_000": {
+        "icon": "bskill_man_gold&blacksteel",
+        "desc": "c713"
       },
       "manu_formula_spd_200": {
         "icon": "bskill_man_originium1",
@@ -4547,6 +4593,10 @@
         "icon": "bskill_dorm_all3",
         "desc": "cd6e"
       },
+      "dorm_rec_all&single_000": {
+        "icon": "bskill_dorm_all&single",
+        "desc": "fa08"
+      },
       "dorm_powToRecAll_000": {
         "icon": "bskill_dorm_powToRecAll1",
         "desc": "c88d"
@@ -5351,6 +5401,11 @@
           "订单效率": 1
         }
       },
+      "54b5": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
       "1b45": {
         "building": "CONTROL",
         "num": {
@@ -5924,6 +5979,24 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 20
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
+      "ef5e": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 25
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
+      "c713": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 2
         },
         "is": {
           "贵金属": 1
@@ -7171,6 +7244,11 @@
         "is": {
           "群体恢复": 1
         }
+      },
+      "fa08": {
+        "building": "DORMITORY",
+        "num": {},
+        "is": {}
       },
       "c88d": {
         "building": "DORMITORY",
