@@ -63,6 +63,18 @@
     "name": "Morale Difference",
     "desc": "Difference between an Operator's max morale and current morale"
   },
+  "cc_bd_felyne": {
+    "name": "Felvine",
+    "desc": "Affects related skills <$cc.bd_felyne_1><@cc.rem>Lovable Felynes</></>, <$cc.bd_felyne_2><@cc.rem>Trusty Buddies</></>\nProvided by the following Operators' skills\nRathalos S Noir Corne, Kirin R Yato"
+  },
+  "cc_bd_felyne_1": {
+    "name": "Lovable Felynes",
+    "desc": "Operator with this skill\nTerra Research Commission"
+  },
+  "cc_bd_felyne_2": {
+    "name": "Trusty Buddies",
+    "desc": "Operator with this skill\nTerra Research Commission"
+  },
   "cc_m_var1": {
     "name": "Recycling",
     "desc": "Operators with this skill\nVermeil"
@@ -194,6 +206,10 @@
   "cc_tag_durin": {
     "name": "Durin",
     "desc": "Includes the following Operators:\nMinimalist, Myrtle, Chestnut, Durin"
+  },
+  "cc_tag_mh": {
+    "name": "Monster Hunter Party",
+    "desc": "Includes the following Operators:\nRathalos S Noir Corne, Kirin R Yato, Terra Research Commission"
   },
   "cc_gvial": {
     "name": "Gavial",
