@@ -21,6 +21,7 @@
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
   "act24side": "紅炎遣らう落葉",
+  "act16sre": "吾れ先導者たらん・復刻",
   "act14mini": "春分",
   "act23side": "登臨意",
   "act15sre": "将進酒・復刻",
@@ -91,5 +92,6 @@
   "permanent_sidestory_9_Dossoles_Holiday": "ドッソレスホリデー@:(retroNameAppend.0)",
   "permanent_sidestory_10_Near_Light": "ニアーライト@:(retroNameAppend.0)",
   "permanent_sidestory_11_Break_The_Ice": "風雪一過@:(retroNameAppend.0)",
-  "permanent_sidestory_12_Invitation_To_Wine": "将進酒@:(retroNameAppend.0)"
+  "permanent_sidestory_12_Invitation_To_Wine": "将進酒@:(retroNameAppend.0)",
+  "permanent_sidestory_13_Guiding_Ahead": "吾れ先導者たらん@:(retroNameAppend.0)"
 }

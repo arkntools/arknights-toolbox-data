@@ -424,6 +424,14 @@
         "act15side",
         "act15sre"
       ]
+    },
+    "permanent_sidestory_13_Guiding_Ahead": {
+      "type": 0,
+      "startTime": 1696446000,
+      "linkedActId": [
+        "act15side",
+        "act16sre"
+      ]
     }
   },
   "kr": {
@@ -552,6 +560,14 @@
       "linkedActId": [
         "act15side",
         "act15sre"
+      ]
+    },
+    "permanent_sidestory_13_Guiding_Ahead": {
+      "type": 0,
+      "startTime": 1696446000,
+      "linkedActId": [
+        "act15side",
+        "act16sre"
       ]
     }
   },
