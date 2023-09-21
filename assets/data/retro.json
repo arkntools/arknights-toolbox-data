@@ -295,6 +295,14 @@
         "act15side",
         "act15sre"
       ]
+    },
+    "permanent_sidestory_13_Guiding_Ahead": {
+      "type": 0,
+      "startTime": 1696503600,
+      "linkedActId": [
+        "act15side",
+        "act16sre"
+      ]
     }
   },
   "jp": {

@@ -21,6 +21,7 @@
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
   "act24side": "A Flurry to the Flame",
+  "act16sre": "Guide Ahead - Rerun",
   "act14mini": "A Death in Chunfen",
   "act23side": "Where Vernal Winds Will Never Blow",
   "act15sre": "Invitation to Wine - Rerun",
@@ -91,5 +92,6 @@
   "permanent_sidestory_9_Dossoles_Holiday": "Dossoles Holiday@:(retroNameAppend.0)",
   "permanent_sidestory_10_Near_Light": "Near Light@:(retroNameAppend.0)",
   "permanent_sidestory_11_Break_The_Ice": "Break the Ice@:(retroNameAppend.0)",
-  "permanent_sidestory_12_Invitation_To_Wine": "Invitation to Wine@:(retroNameAppend.0)"
+  "permanent_sidestory_12_Invitation_To_Wine": "Invitation to Wine@:(retroNameAppend.0)",
+  "permanent_sidestory_13_Guiding_Ahead": "Guide Ahead@:(retroNameAppend.0)"
 }
