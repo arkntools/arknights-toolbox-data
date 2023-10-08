@@ -3093,6 +3093,46 @@
         "id": "dorm_rec_all&single_000",
         "unlock": "2_1"
       }
+    ],
+    "4088_hodrer": [
+      {
+        "id": "trade_ord_par&per_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_par&per_001",
+        "unlock": "2_1"
+      }
+    ],
+    "4110_delphn": [
+      {
+        "id": "hire_spd&clue2_260",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_tra_limit&spd_010",
+        "unlock": "2_1"
+      }
+    ],
+    "494_vendla": [
+      {
+        "id": "dorm_rec_all_023",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all&tired_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4107_vrdant": [
+      {
+        "id": "workshop_formula_cost3_101",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_device_060",
+        "unlock": "1_1"
+      }
     ]
   },
   "buff": {
@@ -3292,6 +3332,10 @@
       "control_dorm_rec_000": {
         "icon": "bskill_ctrl_leader",
         "desc": "5636"
+      },
+      "control_tra_limit&spd_010": {
+        "icon": "bskill_ctrl_g_limit&spd",
+        "desc": "779b"
       },
       "power_rec_spd&cost_000": {
         "icon": "bskill_pow_spd&cost",
@@ -3905,6 +3949,14 @@
         "icon": "bskill_tra_par1",
         "desc": "edee"
       },
+      "trade_ord_par&per_000": {
+        "icon": "bskill_tra_par&per1",
+        "desc": "558b"
+      },
+      "trade_ord_par&per_001": {
+        "icon": "bskill_tra_par&per2",
+        "desc": "273e"
+      },
       "workshop_proc_probability_000": {
         "icon": "bskill_ws_p1",
         "desc": "2902"
@@ -4024,6 +4076,10 @@
       "workshop_formula_cost3_000": {
         "icon": "bskill_ws_skill_cost1",
         "desc": "e969"
+      },
+      "workshop_formula_cost3_101": {
+        "icon": "bskill_ws_evolve_cost",
+        "desc": "e85a"
       },
       "workshop_formula_cost&dorm_000": {
         "icon": "bskill_ws_cost&dorm",
@@ -4176,6 +4232,10 @@
       "workshop_formula_device_111": {
         "icon": "bskill_ws_alloyBlock",
         "desc": "e58c"
+      },
+      "workshop_formula_device_060": {
+        "icon": "bskill_ws_Ketone",
+        "desc": "6b8e"
       },
       "workshop_formula_rub_000": {
         "icon": "bskill_ws_rub",
@@ -4697,6 +4757,14 @@
         "icon": "bskill_dorm_toone1",
         "desc": "105f"
       },
+      "dorm_rec_all_023": {
+        "icon": "bskill_dorm_all4",
+        "desc": "a2d2"
+      },
+      "dorm_rec_all&tired_000": {
+        "icon": "bskill_dorm_all_tired",
+        "desc": "70a7"
+      },
       "hire_spd_000": {
         "icon": "bskill_hire_spd1",
         "desc": "21f6"
@@ -4804,6 +4872,10 @@
       "hire_spd_blitz_000": {
         "icon": "bskill_hire_blitz",
         "desc": "7a39"
+      },
+      "hire_spd&clue2_260": {
+        "icon": "bskill_hire_spd&glasgow",
+        "desc": "d3fa"
       },
       "meet_spd_000": {
         "icon": "bskill_meet_spd1",
@@ -5575,6 +5647,15 @@
         },
         "is": {
           "心情消耗": 1
+        }
+      },
+      "779b": {
+        "building": "CONTROL",
+        "num": {
+          "orderAll": 10
+        },
+        "is": {
+          "订单效率": 1
         }
       },
       "f025": {
@@ -6402,6 +6483,24 @@
           "订单效率": 1
         }
       },
+      "558b": {
+        "building": "TRADING",
+        "num": {
+          "order": 25
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
+      "273e": {
+        "building": "TRADING",
+        "num": {
+          "order": 30
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
       "7e8d": {
         "building": "WORKSHOP",
         "num": {
@@ -6641,6 +6740,11 @@
         "is": {}
       },
       "e58c": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
+      "6b8e": {
         "building": "WORKSHOP",
         "num": {},
         "is": {}
@@ -7400,6 +7504,15 @@
         "num": {},
         "is": {}
       },
+      "70a7": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.15
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
       "21f6": {
         "building": "HIRE",
         "num": {
@@ -7509,6 +7622,13 @@
         "is": {}
       },
       "7a39": {
+        "building": "HIRE",
+        "num": {
+          "connect": 20
+        },
+        "is": {}
+      },
+      "d3fa": {
         "building": "HIRE",
         "num": {
           "connect": 20

@@ -1556,6 +1556,22 @@
       26
     ]
   },
+  "4107_vrdant": {
+    "pinyin": {
+      "full": "weidi",
+      "head": "wd"
+    },
+    "romaji": "",
+    "appellation": "Verdant",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      20,
+      25
+    ]
+  },
   "128_plosis": {
     "pinyin": {
       "full": "baimianxiao",
@@ -2593,6 +2609,21 @@
       19
     ]
   },
+  "4110_delphn": {
+    "pinyin": {
+      "full": "daifeien",
+      "head": "dfe"
+    },
+    "romaji": "",
+    "appellation": "Delphine",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      19
+    ]
+  },
   "1011_lava2": {
     "pinyin": {
       "full": "yanyuyanrong",
@@ -2849,6 +2880,21 @@
     },
     "romaji": "takujinhaibisukasu",
     "appellation": "Hibiscus the Purifier",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ]
+  },
+  "494_vendla": {
+    "pinyin": {
+      "full": "cimei",
+      "head": "cm"
+    },
+    "romaji": "",
+    "appellation": "Vendela",
     "star": 5,
     "recruitment": {},
     "position": 10,
@@ -5030,6 +5076,21 @@
     "tags": [
       19,
       12
+    ]
+  },
+  "4088_hodrer": {
+    "pinyin": {
+      "full": "hedelei",
+      "head": "hdl"
+    },
+    "romaji": "",
+    "appellation": "Hoederer",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19
     ]
   },
   "010_chen": {

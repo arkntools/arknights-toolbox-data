@@ -1314,6 +1314,228 @@
         "cost": 24
       }
     },
+    "main_13": {
+      "main_13-01": {
+        "code": "13-2",
+        "cost": 21
+      },
+      "tough_13-01": {
+        "code": "13-2",
+        "cost": 21
+      },
+      "easy_13-02": {
+        "code": "13-3",
+        "cost": 0
+      },
+      "main_13-02": {
+        "code": "13-3",
+        "cost": 21
+      },
+      "tough_13-02": {
+        "code": "13-3",
+        "cost": 21
+      },
+      "easy_13-03": {
+        "code": "13-4",
+        "cost": 0
+      },
+      "main_13-03": {
+        "code": "13-4",
+        "cost": 21
+      },
+      "tough_13-03": {
+        "code": "13-4",
+        "cost": 21
+      },
+      "easy_13-04": {
+        "code": "13-5",
+        "cost": 0
+      },
+      "main_13-04": {
+        "code": "13-5",
+        "cost": 24
+      },
+      "tough_13-04": {
+        "code": "13-5",
+        "cost": 24
+      },
+      "easy_13-05": {
+        "code": "13-6",
+        "cost": 0
+      },
+      "main_13-05": {
+        "code": "13-6",
+        "cost": 21
+      },
+      "tough_13-05": {
+        "code": "13-6",
+        "cost": 21
+      },
+      "easy_13-06": {
+        "code": "13-7",
+        "cost": 0
+      },
+      "main_13-06": {
+        "code": "13-7",
+        "cost": 21
+      },
+      "tough_13-06": {
+        "code": "13-7",
+        "cost": 21
+      },
+      "main_13-07": {
+        "code": "13-8",
+        "cost": 21
+      },
+      "tough_13-07": {
+        "code": "13-8",
+        "cost": 21
+      },
+      "easy_13-08": {
+        "code": "13-10",
+        "cost": 0
+      },
+      "main_13-08": {
+        "code": "13-10",
+        "cost": 21
+      },
+      "tough_13-08": {
+        "code": "13-10",
+        "cost": 21
+      },
+      "easy_13-09": {
+        "code": "13-11",
+        "cost": 0
+      },
+      "main_13-09": {
+        "code": "13-11",
+        "cost": 24
+      },
+      "tough_13-09": {
+        "code": "13-11",
+        "cost": 24
+      },
+      "easy_13-10": {
+        "code": "13-12",
+        "cost": 0
+      },
+      "main_13-10": {
+        "code": "13-12",
+        "cost": 21
+      },
+      "tough_13-10": {
+        "code": "13-12",
+        "cost": 21
+      },
+      "easy_13-11": {
+        "code": "13-13",
+        "cost": 0
+      },
+      "main_13-11": {
+        "code": "13-13",
+        "cost": 21
+      },
+      "tough_13-11": {
+        "code": "13-13",
+        "cost": 21
+      },
+      "easy_13-12": {
+        "code": "13-14",
+        "cost": 0
+      },
+      "main_13-12": {
+        "code": "13-14",
+        "cost": 21
+      },
+      "tough_13-12": {
+        "code": "13-14",
+        "cost": 21
+      },
+      "easy_13-13": {
+        "code": "13-15",
+        "cost": 0
+      },
+      "main_13-13": {
+        "code": "13-15",
+        "cost": 24
+      },
+      "tough_13-13": {
+        "code": "13-15",
+        "cost": 24
+      },
+      "easy_13-14": {
+        "code": "13-16",
+        "cost": 0
+      },
+      "main_13-14": {
+        "code": "13-16",
+        "cost": 21
+      },
+      "tough_13-14": {
+        "code": "13-16",
+        "cost": 21
+      },
+      "easy_13-15": {
+        "code": "13-17",
+        "cost": 0
+      },
+      "main_13-15": {
+        "code": "13-17",
+        "cost": 21
+      },
+      "tough_13-15": {
+        "code": "13-17",
+        "cost": 21
+      },
+      "easy_13-16": {
+        "code": "13-18",
+        "cost": 0
+      },
+      "main_13-16": {
+        "code": "13-18",
+        "cost": 24
+      },
+      "tough_13-16": {
+        "code": "13-18",
+        "cost": 24
+      },
+      "easy_13-17": {
+        "code": "13-19",
+        "cost": 0
+      },
+      "main_13-17": {
+        "code": "13-19",
+        "cost": 21
+      },
+      "tough_13-17": {
+        "code": "13-19",
+        "cost": 21
+      },
+      "easy_13-18": {
+        "code": "13-20",
+        "cost": 0
+      },
+      "main_13-18": {
+        "code": "13-20",
+        "cost": 21
+      },
+      "tough_13-18": {
+        "code": "13-20",
+        "cost": 21
+      },
+      "easy_13-19": {
+        "code": "13-21",
+        "cost": 0
+      },
+      "main_13-19": {
+        "code": "13-21",
+        "cost": 24
+      },
+      "tough_13-19": {
+        "code": "13-21",
+        "cost": 24
+      }
+    },
     "weekly_8": {
       "wk_armor_1": {
         "code": "SK-1",
@@ -3719,6 +3941,48 @@
       },
       "act20side_09": {
         "code": "IC-9",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_21_zone1": {
+      "act21side_01": {
+        "code": "IS-1",
+        "cost": 9
+      },
+      "act21side_02": {
+        "code": "IS-2",
+        "cost": 9
+      },
+      "act21side_03": {
+        "code": "IS-3",
+        "cost": 9
+      },
+      "act21side_04": {
+        "code": "IS-4",
+        "cost": 12
+      },
+      "act21side_05": {
+        "code": "IS-5",
+        "cost": 12
+      },
+      "act21side_06": {
+        "code": "IS-6",
+        "cost": 15
+      },
+      "act21side_07": {
+        "code": "IS-7",
+        "cost": 15
+      },
+      "act21side_08": {
+        "code": "IS-8",
+        "cost": 21
+      },
+      "act21side_09": {
+        "code": "IS-9",
+        "cost": 21
+      },
+      "act21side_10": {
+        "code": "IS-10",
         "cost": 21
       }
     }
