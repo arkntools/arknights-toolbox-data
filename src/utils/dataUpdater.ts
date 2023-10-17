@@ -851,6 +851,7 @@ export class DataUpdater {
       uniequipTable.equipDict,
       (obj, { uniEquipId, typeIcon }) => {
         if (typeIcon !== 'original') {
+          typeIcon = typeIcon.toLowerCase();
           obj[uniEquipId] = { typeIcon };
           typeIconSet.add(typeIcon);
         }

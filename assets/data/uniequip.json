@@ -393,7 +393,7 @@
     "typeIcon": "spc-y"
   },
   "uniequip_003_aglina": {
-    "typeIcon": "dec-X"
+    "typeIcon": "dec-x"
   },
   "uniequip_002_siege": {
     "typeIcon": "sol-x"
@@ -489,7 +489,7 @@
     "typeIcon": "art-y"
   },
   "uniequip_003_lumen": {
-    "typeIcon": "WAH-Y"
+    "typeIcon": "wah-y"
   },
   "uniequip_003_demkni": {
     "typeIcon": "gua-y"
