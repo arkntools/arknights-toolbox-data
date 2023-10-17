@@ -1,0 +1,713 @@
+{
+  "uniequip_002_mgllan": {
+    "typeIcon": "sum-x"
+  },
+  "uniequip_002_folivo": {
+    "typeIcon": "sum-x"
+  },
+  "uniequip_002_otter": {
+    "typeIcon": "sum-x"
+  },
+  "uniequip_002_deepcl": {
+    "typeIcon": "sum-y"
+  },
+  "uniequip_002_pallas": {
+    "typeIcon": "ins-x"
+  },
+  "uniequip_002_sophia": {
+    "typeIcon": "ins-x"
+  },
+  "uniequip_002_swire": {
+    "typeIcon": "ins-x"
+  },
+  "uniequip_002_doberm": {
+    "typeIcon": "ins-y"
+  },
+  "uniequip_002_fartth": {
+    "typeIcon": "dea-x"
+  },
+  "uniequip_002_milu": {
+    "typeIcon": "dea-y"
+  },
+  "uniequip_002_cuttle": {
+    "typeIcon": "dea-x"
+  },
+  "uniequip_002_glaze": {
+    "typeIcon": "dea-x"
+  },
+  "uniequip_002_cgbird": {
+    "typeIcon": "rin-x"
+  },
+  "uniequip_002_plosis": {
+    "typeIcon": "rin-x"
+  },
+  "uniequip_002_breeze": {
+    "typeIcon": "rin-x"
+  },
+  "uniequip_002_flower": {
+    "typeIcon": "rin-y"
+  },
+  "uniequip_002_phatom": {
+    "typeIcon": "exe-x"
+  },
+  "uniequip_002_kafka": {
+    "typeIcon": "exe-y"
+  },
+  "uniequip_002_red": {
+    "typeIcon": "exe-y"
+  },
+  "uniequip_002_waaifu": {
+    "typeIcon": "exe-x"
+  },
+  "uniequip_002_gravel": {
+    "typeIcon": "exe-x"
+  },
+  "uniequip_002_pasngr": {
+    "typeIcon": "cha-x"
+  },
+  "uniequip_002_leizi": {
+    "typeIcon": "cha-x"
+  },
+  "uniequip_002_pudd": {
+    "typeIcon": "cha-y"
+  },
+  "uniequip_002_chen": {
+    "typeIcon": "swo-x"
+  },
+  "uniequip_002_tachak": {
+    "typeIcon": "swo-x"
+  },
+  "uniequip_002_bibeak": {
+    "typeIcon": "swo-x"
+  },
+  "uniequip_002_cutter": {
+    "typeIcon": "swo-y"
+  },
+  "uniequip_002_bpipe": {
+    "typeIcon": "chg-x"
+  },
+  "uniequip_002_grani": {
+    "typeIcon": "chg-x"
+  },
+  "uniequip_002_wildmn": {
+    "typeIcon": "chg-x"
+  },
+  "uniequip_002_sddrag": {
+    "typeIcon": "chg-y"
+  },
+  "uniequip_002_vigna": {
+    "typeIcon": "chg-y"
+  },
+  "uniequip_002_nearl2": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_002_skadi": {
+    "typeIcon": "dre-y"
+  },
+  "uniequip_002_flameb": {
+    "typeIcon": "dre-y"
+  },
+  "uniequip_002_franka": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_002_peacok": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_002_gyuki": {
+    "typeIcon": "dre-y"
+  },
+  "uniequip_002_nothin": {
+    "typeIcon": "mer-x"
+  },
+  "uniequip_002_strong": {
+    "typeIcon": "mer-x"
+  },
+  "uniequip_002_lmlee": {
+    "typeIcon": "mer-x"
+  },
+  "uniequip_002_ling": {
+    "typeIcon": "sum-y"
+  },
+  "uniequip_002_cqbw": {
+    "typeIcon": "art-x"
+  },
+  "uniequip_002_phenxi": {
+    "typeIcon": "art-y"
+  },
+  "uniequip_002_meteo": {
+    "typeIcon": "art-y"
+  },
+  "uniequip_002_sesa": {
+    "typeIcon": "art-x"
+  },
+  "uniequip_002_yuki": {
+    "typeIcon": "art-y"
+  },
+  "uniequip_002_dusk": {
+    "typeIcon": "spc-x"
+  },
+  "uniequip_002_mostma": {
+    "typeIcon": "spc-y"
+  },
+  "uniequip_002_lava2": {
+    "typeIcon": "spc-x"
+  },
+  "uniequip_002_skfire": {
+    "typeIcon": "spc-y"
+  },
+  "uniequip_002_lionhd": {
+    "typeIcon": "spc-x"
+  },
+  "uniequip_002_fmout": {
+    "typeIcon": "spc-x"
+  },
+  "uniequip_002_greyy": {
+    "typeIcon": "spc-y"
+  },
+  "uniequip_002_shwaz": {
+    "typeIcon": "arc-x"
+  },
+  "uniequip_002_prove": {
+    "typeIcon": "arc-x"
+  },
+  "uniequip_002_acdrop": {
+    "typeIcon": "arc-x"
+  },
+  "uniequip_002_lisa": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_002_aglina": {
+    "typeIcon": "dec-y"
+  },
+  "uniequip_002_glacus": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_002_glassb": {
+    "typeIcon": "dec-y"
+  },
+  "uniequip_002_podego": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_002_skgoat": {
+    "typeIcon": "dec-y"
+  },
+  "uniequip_002_ghost2": {
+    "typeIcon": "pum-x"
+  },
+  "uniequip_002_bena": {
+    "typeIcon": "pum-y"
+  },
+  "uniequip_002_kazema": {
+    "typeIcon": "pum-x"
+  },
+  "uniequip_002_lumen": {
+    "typeIcon": "wah-x"
+  },
+  "uniequip_002_ceylon": {
+    "typeIcon": "wah-x"
+  },
+  "uniequip_002_whispr": {
+    "typeIcon": "wah-x"
+  },
+  "uniequip_002_finlpp": {
+    "typeIcon": "wah-y"
+  },
+  "uniequip_002_zumama": {
+    "typeIcon": "hes-x"
+  },
+  "uniequip_002_aurora": {
+    "typeIcon": "hes-x"
+  },
+  "uniequip_002_irene": {
+    "typeIcon": "swo-y"
+  },
+  "uniequip_002_ebnhlz": {
+    "typeIcon": "msc-x"
+  },
+  "uniequip_002_iris": {
+    "typeIcon": "msc-x"
+  },
+  "uniequip_002_indigo": {
+    "typeIcon": "msc-x"
+  },
+  "uniequip_002_demkni": {
+    "typeIcon": "gua-x"
+  },
+  "uniequip_002_blemsh": {
+    "typeIcon": "gua-y"
+  },
+  "uniequip_002_nearl": {
+    "typeIcon": "gua-x"
+  },
+  "uniequip_002_hmau": {
+    "typeIcon": "gua-y"
+  },
+  "uniequip_002_sunbr": {
+    "typeIcon": "gua-x"
+  },
+  "uniequip_003_pasngr": {
+    "typeIcon": "cha-y"
+  },
+  "uniequip_003_skadi": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_002_jesica": {
+    "typeIcon": "mar-y"
+  },
+  "uniequip_002_shotst": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_clour": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_mm": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_bluep": {
+    "typeIcon": "mar-y"
+  },
+  "uniequip_002_platnm": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_swllow": {
+    "typeIcon": "mar-y"
+  },
+  "uniequip_002_aprl": {
+    "typeIcon": "mar-y"
+  },
+  "uniequip_002_kroos2": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_angel": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_archet": {
+    "typeIcon": "mar-y"
+  },
+  "uniequip_002_ash": {
+    "typeIcon": "mar-y"
+  },
+  "uniequip_003_mgllan": {
+    "typeIcon": "sum-y"
+  },
+  "uniequip_003_pallas": {
+    "typeIcon": "ins-y"
+  },
+  "uniequip_002_halo": {
+    "typeIcon": "cha-y"
+  },
+  "uniequip_002_glady": {
+    "typeIcon": "hok-x"
+  },
+  "uniequip_002_snsant": {
+    "typeIcon": "hok-x"
+  },
+  "uniequip_002_slchan": {
+    "typeIcon": "hok-x"
+  },
+  "uniequip_002_rope": {
+    "typeIcon": "hok-x"
+  },
+  "uniequip_002_bgsnow": {
+    "typeIcon": "arc-y"
+  },
+  "uniequip_002_mizuki": {
+    "typeIcon": "amb-x"
+  },
+  "uniequip_002_mantic": {
+    "typeIcon": "amb-x"
+  },
+  "uniequip_002_kirara": {
+    "typeIcon": "amb-x"
+  },
+  "uniequip_002_ethan": {
+    "typeIcon": "amb-x"
+  },
+  "uniequip_003_ghost2": {
+    "typeIcon": "pum-y"
+  },
+  "uniequip_003_fartth": {
+    "typeIcon": "dea-y"
+  },
+  "uniequip_002_provs": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_002_yak": {
+    "typeIcon": "pro-y"
+  },
+  "uniequip_002_snakek": {
+    "typeIcon": "pro-x"
+  },
+  "uniequip_002_bubble": {
+    "typeIcon": "pro-x"
+  },
+  "uniequip_002_moeshd": {
+    "typeIcon": "pro-y"
+  },
+  "uniequip_002_bison": {
+    "typeIcon": "pro-x"
+  },
+  "uniequip_002_zebra": {
+    "typeIcon": "pro-y"
+  },
+  "uniequip_002_hsguma": {
+    "typeIcon": "pro-y"
+  },
+  "uniequip_002_nian": {
+    "typeIcon": "pro-x"
+  },
+  "uniequip_003_ebnhlz": {
+    "typeIcon": "msc-y"
+  },
+  "uniequip_003_zumama": {
+    "typeIcon": "hes-y"
+  },
+  "uniequip_002_kalts": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_002_shining": {
+    "typeIcon": "phy-y"
+  },
+  "uniequip_002_tuye": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_002_folnic": {
+    "typeIcon": "phy-y"
+  },
+  "uniequip_002_bldsk": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_002_silent": {
+    "typeIcon": "phy-y"
+  },
+  "uniequip_002_susuro": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_002_ccheal": {
+    "typeIcon": "phy-y"
+  },
+  "uniequip_002_myrrh": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_003_dusk": {
+    "typeIcon": "spc-y"
+  },
+  "uniequip_003_aglina": {
+    "typeIcon": "dec-X"
+  },
+  "uniequip_002_siege": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_saga": {
+    "typeIcon": "sol-y"
+  },
+  "uniequip_002_flamtl": {
+    "typeIcon": "sol-y"
+  },
+  "uniequip_002_texas": {
+    "typeIcon": "sol-y"
+  },
+  "uniequip_002_chiave": {
+    "typeIcon": "sol-y"
+  },
+  "uniequip_002_blackd": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_scave": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_headbr": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_texas2": {
+    "typeIcon": "exe-y"
+  },
+  "uniequip_002_lunacu": {
+    "typeIcon": "dea-y"
+  },
+  "uniequip_003_shwaz": {
+    "typeIcon": "arc-y"
+  },
+  "uniequip_003_hsguma": {
+    "typeIcon": "pro-x"
+  },
+  "uniequip_002_poca": {
+    "typeIcon": "sie-x"
+  },
+  "uniequip_002_totter": {
+    "typeIcon": "sie-x"
+  },
+  "uniequip_002_toddi": {
+    "typeIcon": "sie-x"
+  },
+  "uniequip_002_erato": {
+    "typeIcon": "sie-x"
+  },
+  "uniequip_002_helage": {
+    "typeIcon": "mus-x"
+  },
+  "uniequip_002_akafyu": {
+    "typeIcon": "mus-x"
+  },
+  "uniequip_002_utage": {
+    "typeIcon": "mus-x"
+  },
+  "uniequip_002_hamoni": {
+    "typeIcon": "msc-x"
+  },
+  "uniequip_003_archet": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_003_mizuki": {
+    "typeIcon": "amb-y"
+  },
+  "uniequip_002_amgoat": {
+    "typeIcon": "ccr-x"
+  },
+  "uniequip_002_cerber": {
+    "typeIcon": "ccr-x"
+  },
+  "uniequip_002_absin": {
+    "typeIcon": "ccr-x"
+  },
+  "uniequip_002_nights": {
+    "typeIcon": "ccr-x"
+  },
+  "uniequip_002_qanik": {
+    "typeIcon": "ccr-y"
+  },
+  "uniequip_002_nightm": {
+    "typeIcon": "ccr-y"
+  },
+  "uniequip_002_tomimi": {
+    "typeIcon": "ccr-y"
+  },
+  "uniequip_002_amiya": {
+    "typeIcon": "ccr-y"
+  },
+  "uniequip_002_bdhkgt": {
+    "typeIcon": "art-y"
+  },
+  "uniequip_003_lumen": {
+    "typeIcon": "WAH-Y"
+  },
+  "uniequip_003_demkni": {
+    "typeIcon": "gua-y"
+  },
+  "uniequip_002_weedy": {
+    "typeIcon": "pus-x"
+  },
+  "uniequip_002_forcer": {
+    "typeIcon": "pus-x"
+  },
+  "uniequip_002_panda": {
+    "typeIcon": "pus-y"
+  },
+  "uniequip_002_sqrrel": {
+    "typeIcon": "pus-y"
+  },
+  "uniequip_002_ifrit": {
+    "typeIcon": "bla-x"
+  },
+  "uniequip_002_serum": {
+    "typeIcon": "bla-x"
+  },
+  "uniequip_002_yato2": {
+    "typeIcon": "exe-x"
+  },
+  "uniequip_002_noirc2": {
+    "typeIcon": "mus-x"
+  },
+  "uniequip_003_shining": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_003_siege": {
+    "typeIcon": "sol-y"
+  },
+  "uniequip_002_billro": {
+    "typeIcon": "plx-x"
+  },
+  "uniequip_002_lin": {
+    "typeIcon": "plx-x"
+  },
+  "uniequip_002_mint": {
+    "typeIcon": "plx-x"
+  },
+  "uniequip_002_beewax": {
+    "typeIcon": "plx-x"
+  },
+  "uniequip_002_doroth": {
+    "typeIcon": "trp-y"
+  },
+  "uniequip_002_robin": {
+    "typeIcon": "trp-y"
+  },
+  "uniequip_002_rfrost": {
+    "typeIcon": "trp-y"
+  },
+  "uniequip_002_cement": {
+    "typeIcon": "hes-x"
+  },
+  "uniequip_002_morgan": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_003_nian": {
+    "typeIcon": "pro-y"
+  },
+  "uniequip_003_cerber": {
+    "typeIcon": "ccr-y"
+  },
+  "uniequip_002_gnosis": {
+    "typeIcon": "umd-x"
+  },
+  "uniequip_002_slbell": {
+    "typeIcon": "umd-x"
+  },
+  "uniequip_002_vodfox": {
+    "typeIcon": "umd-x"
+  },
+  "uniequip_002_rosmon": {
+    "typeIcon": "bom-x"
+  },
+  "uniequip_002_greyy2": {
+    "typeIcon": "bom-x"
+  },
+  "uniequip_002_heyak": {
+    "typeIcon": "ccr-x"
+  },
+  "uniequip_002_melnte": {
+    "typeIcon": "arc-y"
+  },
+  "uniequip_003_cqbw": {
+    "typeIcon": "art-y"
+  },
+  "uniequip_003_kalts": {
+    "typeIcon": "phy-y"
+  },
+  "uniequip_002_ironmn": {
+    "typeIcon": "cra-x"
+  },
+  "uniequip_002_windft": {
+    "typeIcon": "cra-x"
+  },
+  "uniequip_002_robrta": {
+    "typeIcon": "cra-x"
+  },
+  "uniequip_002_haak": {
+    "typeIcon": "gee-x"
+  },
+  "uniequip_002_spuria": {
+    "typeIcon": "gee-x"
+  },
+  "uniequip_002_inside": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_003_blemsh": {
+    "typeIcon": "gua-x"
+  },
+  "uniequip_003_flamtl": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_sntlla": {
+    "typeIcon": "spc-y"
+  },
+  "uniequip_002_elysm": {
+    "typeIcon": "bea-x"
+  },
+  "uniequip_002_sleach": {
+    "typeIcon": "bea-x"
+  },
+  "uniequip_002_myrtle": {
+    "typeIcon": "bea-x"
+  },
+  "uniequip_002_typhon": {
+    "typeIcon": "sie-x"
+  },
+  "uniequip_003_helage": {
+    "typeIcon": "mus-y"
+  },
+  "uniequip_003_phatom": {
+    "typeIcon": "exe-y"
+  },
+  "uniequip_002_huang": {
+    "typeIcon": "cen-x"
+  },
+  "uniequip_002_gvial2": {
+    "typeIcon": "cen-x"
+  },
+  "uniequip_002_broca": {
+    "typeIcon": "cen-x"
+  },
+  "uniequip_002_ghost": {
+    "typeIcon": "cen-x"
+  },
+  "uniequip_002_savage": {
+    "typeIcon": "cen-x"
+  },
+  "uniequip_002_estell": {
+    "typeIcon": "cen-y"
+  },
+  "uniequip_002_buildr": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_bryota": {
+    "typeIcon": "ins-x"
+  },
+  "uniequip_002_swire2": {
+    "typeIcon": "mer-x"
+  },
+  "uniequip_002_excu2": {
+    "typeIcon": "rea-x"
+  },
+  "uniequip_002_crow": {
+    "typeIcon": "rea-x"
+  },
+  "uniequip_002_highmo": {
+    "typeIcon": "rea-x"
+  },
+  "uniequip_002_humus": {
+    "typeIcon": "rea-x"
+  },
+  "uniequip_002_ncdeer": {
+    "typeIcon": "bls-x"
+  },
+  "uniequip_002_slent2": {
+    "typeIcon": "bls-x"
+  },
+  "uniequip_002_tknogi": {
+    "typeIcon": "bls-x"
+  },
+  "uniequip_002_quercu": {
+    "typeIcon": "bls-x"
+  },
+  "uniequip_002_almond": {
+    "typeIcon": "hok-x"
+  },
+  "uniequip_003_chen": {
+    "typeIcon": "swo-y"
+  },
+  "uniequip_003_saga": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_horn": {
+    "typeIcon": "for-x"
+  },
+  "uniequip_002_firwhl": {
+    "typeIcon": "for-x"
+  },
+  "uniequip_002_ashlok": {
+    "typeIcon": "for-x"
+  },
+  "uniequip_002_delphn": {
+    "typeIcon": "msc-y"
+  },
+  "uniequip_002_vrdant": {
+    "typeIcon": "pum-y"
+  },
+  "uniequip_003_phenxi": {
+    "typeIcon": "art-x"
+  },
+  "uniequip_004_ebnhlz": {
+    "typeIcon": "msc-d"
+  }
+}

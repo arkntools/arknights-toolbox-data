@@ -79,6 +79,7 @@ import type {
   DataJsonBuildingBuff,
   DataJsonBuildingChar,
   AkhrData,
+  DataJsonUniequip,
 } from 'types';
 import {
   AVATAR_IMG_DIR,
@@ -94,6 +95,7 @@ import {
   SKILL_IMG_DIR,
   HAS_TW_DATA,
   UPDATE_FROM_ARKNTOOLS,
+  UNIEQUIP_IMG_DIR,
 } from 'constant';
 
 interface GameData {
@@ -132,7 +134,10 @@ export class DataUpdater {
     for (const [locale, data] of Object.entries(this.gameData)) {
       const isCN = locale === 'cn';
 
-      if (isCN) this.updateRichTextCss(data);
+      if (isCN) {
+        this.updateRichTextCss(data);
+        this.updateUniequipInfo(data);
+      }
       this.updateTermDescription(data, locale);
       await this.updateCharacterInfo(data, locale);
       this.updateUnopenedStage(data, locale);
@@ -838,5 +843,27 @@ export class DataUpdater {
         },
       });
     }
+  }
+
+  private updateUniequipInfo({ uniequipTable }: GameData) {
+    const typeIconSet = new Set<string>();
+    const info = transform(
+      uniequipTable.equipDict,
+      (obj, { uniEquipId, typeIcon }) => {
+        if (typeIcon !== 'original') {
+          obj[uniEquipId] = { typeIcon };
+          typeIconSet.add(typeIcon);
+        }
+      },
+      {} as DataJsonUniequip,
+    );
+
+    writeData('uniequip.json', info);
+
+    this.downloadConfig.set('uniequip', {
+      dir: UNIEQUIP_IMG_DIR,
+      idList: Array.from(typeIconSet),
+      configGetter: id => ({ id, iconId: id }),
+    });
   }
 }

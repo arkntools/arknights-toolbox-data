@@ -120,6 +120,7 @@ interface RootConfig {
   buildingSkill?: CommonConfig;
   skill?: CommonConfig;
   item?: ItemConfig;
+  uniequip?: CommonConfig;
 }
 
 interface SetConfigOptions<T extends Config<any>> {
