@@ -3,6 +3,7 @@ import type { ItemCost } from './itemTable';
 export interface UniEquip {
   uniEquipId: string;
   uniEquipName: string;
+  typeIcon: string;
   charId: string;
   itemCost: Record<string, ItemCost[]> | null;
 }

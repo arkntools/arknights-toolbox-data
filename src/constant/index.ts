@@ -11,6 +11,7 @@ export const SKILL_IMG_DIR = resolve(IMG_DIR, 'skill');
 export const BUILDING_SKILL_IMG_DIR = resolve(IMG_DIR, 'building_skill');
 export const ITEM_IMG_DIR = resolve(IMG_DIR, 'item');
 export const ITEM_PKG_ZIP = resolve(__dirname, '../../assets/pkg/item.zip');
+export const UNIEQUIP_IMG_DIR = resolve(IMG_DIR, 'uniequip');
 
 export const UPDATE_SOURCE = process.env.UPDATE_SOURCE;
 export const UPDATE_FROM_YUANYAN = UPDATE_SOURCE === 'yuanyan';

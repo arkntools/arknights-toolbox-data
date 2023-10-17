@@ -115,3 +115,10 @@ export interface DataJsonBuilding {
   char: DataJsonBuildingChar;
   buff: DataJsonBuildingBuff;
 }
+
+export type DataJsonUniequip = Record<
+  string,
+  {
+    typeIcon: string;
+  }
+>;
