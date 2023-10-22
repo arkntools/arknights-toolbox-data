@@ -1924,7 +1924,7 @@
         "cost": 21
       }
     },
-    "act21side_zone1": {
+    "act21sre_zone1": {
       "act21side_01": {
         "code": "IS-1",
         "cost": 9
@@ -3008,6 +3008,48 @@
       "a001_06": {
         "code": "GT-6",
         "cost": 15
+      }
+    },
+    "act21side_zone1": {
+      "act21side_01": {
+        "code": "IS-1",
+        "cost": 9
+      },
+      "act21side_02": {
+        "code": "IS-2",
+        "cost": 9
+      },
+      "act21side_03": {
+        "code": "IS-3",
+        "cost": 9
+      },
+      "act21side_04": {
+        "code": "IS-4",
+        "cost": 12
+      },
+      "act21side_05": {
+        "code": "IS-5",
+        "cost": 12
+      },
+      "act21side_06": {
+        "code": "IS-6",
+        "cost": 15
+      },
+      "act21side_07": {
+        "code": "IS-7",
+        "cost": 15
+      },
+      "act21side_08": {
+        "code": "IS-8",
+        "cost": 21
+      },
+      "act21side_09": {
+        "code": "IS-9",
+        "cost": 21
+      },
+      "act21side_10": {
+        "code": "IS-10",
+        "cost": 21
       }
     },
     "act19side_zone1": {
