@@ -127,6 +127,14 @@
     "name": "Sui",
     "desc": "Includes the following Operators\nNian, Dusk, Ling, Chongyue"
   },
+  "cc_g_glasgow": {
+    "name": "Glasgow Gang",
+    "desc": "Includes the following Operators:\nSiege, Morgan, Dagda, Indra"
+  },
+  "cc_g_rh": {
+    "name": "Rhine Lab",
+    "desc": "Includes the following Operators:\nSilence, Ifrit, Saria, Ptilopsis, Mayer, Magallan, Dorothy, Astgenne"
+  },
   "cc_c_abyssal2_1": {
     "name": "Special Bonus",
     "desc": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed in a Factory, the Control Center provides <@cc.vup>5%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed within it, up to a maximum of <@cc.vup>45%</> Productivity"
@@ -189,7 +197,7 @@
   },
   "cc_sk_manu2": {
     "name": "Rhine Tech-type Skill",
-    "desc": "Includes the following skills\nRhine Tech α, Rhine Tech β"
+    "desc": "Includes the following skills:\nRhine Tech α, Rhine Tech β, Rhine Tech γ"
   },
   "cc_sk_manu3": {
     "name": "Pinus Sylvestris Skills",
