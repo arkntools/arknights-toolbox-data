@@ -709,5 +709,26 @@
   },
   "uniequip_004_ebnhlz": {
     "typeIcon": "msc-d"
+  },
+  "uniequip_002_mudrok": {
+    "typeIcon": "uny-x"
+  },
+  "uniequip_002_judge": {
+    "typeIcon": "uny-x"
+  },
+  "uniequip_002_hpsts": {
+    "typeIcon": "uny-x"
+  },
+  "uniequip_002_lessng": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_002_baslin": {
+    "typeIcon": "gua-y"
+  },
+  "uniequip_003_bpipe": {
+    "typeIcon": "chg-y"
+  },
+  "uniequip_003_nearl2": {
+    "typeIcon": "dre-y"
   }
 }

@@ -1644,6 +1644,44 @@
     }
   },
   "event": {
+    "act29side_zone1": {
+      "act29side_01": {
+        "code": "ZT-1",
+        "cost": 9
+      },
+      "act29side_02": {
+        "code": "ZT-2",
+        "cost": 9
+      },
+      "act29side_03": {
+        "code": "ZT-3",
+        "cost": 9
+      },
+      "act29side_04": {
+        "code": "ZT-4",
+        "cost": 15
+      },
+      "act29side_05": {
+        "code": "ZT-5",
+        "cost": 15
+      },
+      "act29side_06": {
+        "code": "ZT-6",
+        "cost": 15
+      },
+      "act29side_07": {
+        "code": "ZT-7",
+        "cost": 21
+      },
+      "act29side_08": {
+        "code": "ZT-8",
+        "cost": 21
+      },
+      "act29side_09": {
+        "code": "ZT-9",
+        "cost": 21
+      }
+    },
     "act28side_zone1": {
       "act28side_01": {
         "code": "CV-1",

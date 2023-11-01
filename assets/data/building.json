@@ -3133,6 +3133,74 @@
         "id": "workshop_formula_device_060",
         "unlock": "1_1"
       }
+    ],
+    "245_cello": [
+      {
+        "id": "dorm_bd_num_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all&bd_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4098_vvana": [
+      {
+        "id": "control_mp_cost_010",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_prod_fraction_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4011_lessng": [
+      {
+        "id": "workshop_formula_cost4_010",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_cost4_011",
+        "unlock": "2_1"
+      },
+      {
+        "id": "workshop_formula_probability_139",
+        "unlock": "2_1"
+      }
+    ],
+    "499_kaitou": [
+      {
+        "id": "trade_ord_wt&cost_002",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_wt&cost_012",
+        "unlock": "2_1"
+      }
+    ],
+    "4109_baslin": [
+      {
+        "id": "hire_spd_cost_101",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd_cost_120",
+        "unlock": "2_1"
+      },
+      {
+        "id": "hire_spd_bd_n1_n1_300",
+        "unlock": "2_1"
+      }
+    ],
+    "4100_caper": [
+      {
+        "id": "meet_spd&team_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&exchange_000",
+        "unlock": "1_1"
+      }
     ]
   },
   "buff": {
@@ -3140,6 +3208,10 @@
       "control_prod_spd_000": {
         "icon": "bskill_ctrl_p_spd",
         "desc": "8de4"
+      },
+      "control_prod_fraction_000": {
+        "icon": "bskill_ctrl_fraction_knight",
+        "desc": "94d7"
       },
       "control_token_prod_spd_000": {
         "icon": "bskill_ctrl_token_p_spd",
@@ -3238,6 +3310,10 @@
         "desc": "8da9"
       },
       "control_mp_cost_009": {
+        "icon": "bskill_ctrl_cost",
+        "desc": "8da9"
+      },
+      "control_mp_cost_010": {
         "icon": "bskill_ctrl_cost",
         "desc": "8da9"
       },
@@ -3897,6 +3973,14 @@
         "icon": "bskill_tra_wt&cost2",
         "desc": "56bc"
       },
+      "trade_ord_wt&cost_002": {
+        "icon": "bskill_tra_wt&cost1",
+        "desc": "b37f"
+      },
+      "trade_ord_wt&cost_012": {
+        "icon": "bskill_tra_wt&cost2",
+        "desc": "56bc"
+      },
       "trade_ord_spd&share_000": {
         "icon": "bskill_tra_share1",
         "desc": "e1e0"
@@ -4081,6 +4165,14 @@
         "icon": "bskill_ws_evolve_cost",
         "desc": "e85a"
       },
+      "workshop_formula_cost4_010": {
+        "icon": "bskill_ws_constant2",
+        "desc": "bf0b"
+      },
+      "workshop_formula_cost4_011": {
+        "icon": "bskill_ws_constant3",
+        "desc": "2566"
+      },
       "workshop_formula_cost&dorm_000": {
         "icon": "bskill_ws_cost&dorm",
         "desc": "1af4"
@@ -4118,6 +4210,10 @@
         "desc": "a272"
       },
       "workshop_formula_probability_129": {
+        "icon": "bskill_ws_evolve3",
+        "desc": "579e"
+      },
+      "workshop_formula_probability_139": {
         "icon": "bskill_ws_evolve3",
         "desc": "579e"
       },
@@ -4761,6 +4857,14 @@
         "icon": "bskill_dorm_all4",
         "desc": "a2d2"
       },
+      "dorm_bd_num_000": {
+        "icon": "bskill_dorm_bdnum",
+        "desc": "16ec"
+      },
+      "dorm_rec_all&bd_000": {
+        "icon": "bskill_dorm_rec_allbd",
+        "desc": "8bed"
+      },
       "dorm_rec_all&tired_000": {
         "icon": "bskill_dorm_all_tired",
         "desc": "70a7"
@@ -4821,6 +4925,14 @@
         "icon": "bskill_hire_spd&cost4",
         "desc": "6693"
       },
+      "hire_spd_cost_101": {
+        "icon": "bskill_hire_spd&cost5",
+        "desc": "dbfb"
+      },
+      "hire_spd_cost_120": {
+        "icon": "bskill_hire_spd&cost6",
+        "desc": "5dee"
+      },
       "hire_spd_cost&clue_001": {
         "icon": "bskill_hire_spd2",
         "desc": "a432"
@@ -4868,6 +4980,10 @@
       "hire_spd_bd_n1_n1_200": {
         "icon": "bskill_hire_spd_bd_n2",
         "desc": "726d"
+      },
+      "hire_spd_bd_n1_n1_300": {
+        "icon": "bskill_hire_bd_B",
+        "desc": "ed7f"
       },
       "hire_spd_blitz_000": {
         "icon": "bskill_hire_blitz",
@@ -4940,6 +5056,10 @@
       "meet_spd&cost_condChar_011": {
         "icon": "bskill_meet_spd&cost_condChar3",
         "desc": "8a17"
+      },
+      "meet_spd&exchange_000": {
+        "icon": "bskill_meet_exchange",
+        "desc": "952b"
       },
       "meet_team_020": {
         "icon": "bskill_meet_penguin1",
@@ -5065,6 +5185,11 @@
         }
       },
       "2477": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
+      "2566": {
         "building": "WORKSHOP",
         "num": {},
         "is": {}
@@ -5454,6 +5579,11 @@
         "is": {
           "生产力": 1
         }
+      },
+      "94d7": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
       },
       "0962": {
         "building": "CONTROL",
@@ -6592,6 +6722,11 @@
         "num": {},
         "is": {}
       },
+      "bf0b": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
       "1af4": {
         "building": "WORKSHOP",
         "num": {},
@@ -7504,6 +7639,20 @@
         "num": {},
         "is": {}
       },
+      "16ec": {
+        "building": "DORMITORY",
+        "num": {},
+        "is": {}
+      },
+      "8bed": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.2
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
       "70a7": {
         "building": "DORMITORY",
         "num": {
@@ -7569,6 +7718,13 @@
         },
         "is": {}
       },
+      "5dee": {
+        "building": "HIRE",
+        "num": {
+          "connect": 30
+        },
+        "is": {}
+      },
       "e713": {
         "building": "HIRE",
         "num": {
@@ -7617,6 +7773,11 @@
         "is": {}
       },
       "726d": {
+        "building": "HIRE",
+        "num": {},
+        "is": {}
+      },
+      "ed7f": {
         "building": "HIRE",
         "num": {},
         "is": {}
@@ -7725,6 +7886,15 @@
         "building": "MEETING",
         "num": {
           "collect": 35
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
+      "952b": {
+        "building": "MEETING",
+        "num": {
+          "collect": 30
         },
         "is": {
           "无特别加成": 1

@@ -3,6 +3,7 @@
   --color-cc-vdown: #FF6237;
   --color-cc-rem: #F49800;
   --color-cc-kw: #00B0FF;
+  --color-cc-miu: #8F7156;
 }
 
 .cc-vup {
@@ -35,4 +36,12 @@
 
 .riic-term .cc-kw:before {
   background-color: var(--color-cc-kw);
+}
+
+.cc-miu {
+  color: var(--color-cc-miu);
+}
+
+.riic-term .cc-miu:before {
+  background-color: var(--color-cc-miu);
 }

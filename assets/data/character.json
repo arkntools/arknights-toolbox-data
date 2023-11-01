@@ -127,9 +127,7 @@
     "romaji": "",
     "appellation": "Friston-3",
     "star": 1,
-    "recruitment": {
-      "cn": 2
-    },
+    "recruitment": {},
     "position": 9,
     "profession": 3,
     "tags": [
@@ -230,7 +228,6 @@
     "appellation": "12F",
     "star": 2,
     "recruitment": {
-      "cn": 2,
       "us": 2,
       "jp": 2,
       "kr": 2,
@@ -395,7 +392,6 @@
     "appellation": "Spot",
     "star": 3,
     "recruitment": {
-      "cn": 1,
       "us": 1,
       "jp": 1,
       "kr": 1,
@@ -838,6 +834,21 @@
     },
     "romaji": "tota",
     "appellation": "Totter",
+    "star": 4,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
+    ]
+  },
+  "4100_caper": {
+    "pinyin": {
+      "full": "yueyue",
+      "head": "yy"
+    },
+    "romaji": "",
+    "appellation": "Caper",
     "star": 4,
     "recruitment": {},
     "position": 10,
@@ -2701,6 +2712,21 @@
       19
     ]
   },
+  "499_kaitou": {
+    "pinyin": {
+      "full": "zheguang",
+      "head": "zg"
+    },
+    "romaji": "",
+    "appellation": "Diamante",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      19
+    ]
+  },
   "242_otter": {
     "pinyin": {
       "full": "meier",
@@ -2955,6 +2981,22 @@
       "kr": 1,
       "tw": 1
     },
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      15
+    ]
+  },
+  "4109_baslin": {
+    "pinyin": {
+      "full": "shenlv",
+      "head": "sl"
+    },
+    "romaji": "",
+    "appellation": "Bassline",
+    "star": 5,
+    "recruitment": {},
     "position": 9,
     "profession": 3,
     "tags": [
@@ -4524,6 +4566,21 @@
       19
     ]
   },
+  "245_cello": {
+    "pinyin": {
+      "full": "suxin",
+      "head": "sx"
+    },
+    "romaji": "",
+    "appellation": "Virtuosa",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      16
+    ]
+  },
   "250_phatom": {
     "pinyin": {
       "full": "kuiying",
@@ -4949,7 +5006,9 @@
     "romaji": "yunekutesu",
     "appellation": "Eunectes",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 3,
     "tags": [
@@ -5186,6 +5245,22 @@
       19
     ]
   },
+  "4098_vvana": {
+    "pinyin": {
+      "full": "weiweianna",
+      "head": "wwan"
+    },
+    "romaji": "",
+    "appellation": "Viviana",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
+    ]
+  },
   "188_helage": {
     "pinyin": {
       "full": "helage",
@@ -5231,6 +5306,21 @@
     },
     "romaji": "耀kishiniaru",
     "appellation": "Nearl the Radiant Knight",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19
+    ]
+  },
+  "4011_lessng": {
+    "pinyin": {
+      "full": "zhisong",
+      "head": "zs"
+    },
+    "romaji": "",
+    "appellation": "Lessing",
     "star": 6,
     "recruitment": {},
     "position": 9,
