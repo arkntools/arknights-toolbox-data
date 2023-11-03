@@ -127,7 +127,9 @@
     "romaji": "",
     "appellation": "Friston-3",
     "star": 1,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 2
+    },
     "position": 9,
     "profession": 3,
     "tags": [
@@ -228,6 +230,7 @@
     "appellation": "12F",
     "star": 2,
     "recruitment": {
+      "cn": 2,
       "us": 2,
       "jp": 2,
       "kr": 2,
@@ -392,6 +395,7 @@
     "appellation": "Spot",
     "star": 3,
     "recruitment": {
+      "cn": 1,
       "us": 1,
       "jp": 1,
       "kr": 1,
@@ -820,7 +824,9 @@
     "romaji": "ashiddodoroppu",
     "appellation": "Aciddrop",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 2,
     "tags": [
@@ -1938,7 +1944,9 @@
     "romaji": "furinto",
     "appellation": "Flint",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
