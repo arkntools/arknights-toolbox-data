@@ -80,6 +80,7 @@
       "power_rec_drone_000": "Line Patrol Frame",
       "power_count_000": "Dawnlight",
       "power_prod_spd_P_000": "'Beep beep, activate!'",
+      "power_rec_rhine_000": "Ecological Section Director",
       "manu_bd_to_bd_000": "Ancient Witchcraft",
       "manu_prod_spd&power_000": "Automation α",
       "manu_prod_spd&power_010": "Automation β",
@@ -88,6 +89,7 @@
       "manu_prod_spd_010": "Standardization β",
       "manu_prod_spd_001": "Rhine Tech α",
       "manu_prod_spd_011": "Rhine Tech β",
+      "manu_prod_spd_021": "Rhine Tech γ",
       "manu_prod_spd_002": "Pinus Sylvestris α",
       "manu_prod_spd_012": "Pinus Sylvestris β",
       "manu_prod_spd_003": "Metal Crab - Peacake",
@@ -328,6 +330,7 @@
       "train_spd&profession2_270": "Nursing Specialist",
       "train_spd&profession2_320": "Whole-Heartedness",
       "train_spd&profession2_620": "Practical Instruction",
+      "train_spd&profession2_630": "Final Test",
       "train_spd&profession2_640": "Patience",
       "train_spd&profession2_660": "Assimilation",
       "train_spd&profession2_680": "Ægir Tactics",
@@ -383,6 +386,7 @@
       "dorm_rec_all&oneself_012": "Absolution",
       "dorm_rec_all&oneself_021": "Madrigal",
       "dorm_rec_all&oneself_042": "'Homecoming'",
+      "dorm_rec_all&oneself_022": "Natural Beauty",
       "dorm_exchangeAp_000": "Communal Suffering",
       "dorm_recExcludeOther_000": "Self-Discipline",
       "dorm_rec_toone_000": "No.1 Practice Partner",
@@ -393,6 +397,7 @@
       "hire_spd_020": "Psychology",
       "hire_spd_030": "WRITER",
       "hire_spd_031": "B-girl",
+      "hire_spd_032": "Phone's Always Ringing",
       "hire_spd_cost_010": "Catastrophe Messenger α",
       "hire_spd_cost_200": "Clocking Out On Time",
       "hire_spd_cost_210": "Law Is Order",
@@ -422,6 +427,8 @@
       "meet_spd_condChar_000": "Proficient Artistry",
       "meet_spd&cost_100": "Logical Deduction",
       "meet_spd&cost_condChar_000": "Double Agent",
+      "meet_spd&cost_condChar_001": "'Professional Ethics' α",
+      "meet_spd&cost_condChar_011": "'Professional Ethics' β",
       "meet_team_020": "Royal Detective (Self Proclaimed)",
       "meet_team_050": "Secret Inquiry",
       "meet_team_060": "Correspondent",
@@ -447,7 +454,8 @@
       "meet_spd_notOwned_000": "Overlook Nothing α",
       "meet_spd_notOwned_010": "Overlook Nothing β",
       "meet_spd_notOwned_001": "Intel Analysis",
-      "meet_spd_hast_000": "Shadow Gathering"
+      "meet_spd_hast_000": "Shadow Gathering",
+      "meet_spd&condChar_mustget_000": "Bibliography Consultant"
     },
     "description": {
       "1397": "When this Operator is assigned to the Reception Room, increases Clue search speed by <@cc.vup>35%</>, and Morale consumed per hour by <@cc.vdown>+2</>",
@@ -533,6 +541,7 @@
       "c7b9": "When this Operator is assigned to a Power Plant, <@cc.vup>+1%</> Drone recovery rate for every <@cc.vup>10</> max Drone capacity",
       "96ee": "When this Operator is assigned to a Power Plant, if there are no <$cc.tag.op><@cc.kw>Operation Platforms</></> in other <@cc.kw>Power Plants</>, <@cc.kw>Power Plant </><@cc.vup>+1</>(only affects facility quantity)",
       "409c": "When this Operator is assigned to a Power Plant, increases the productivity of the Factory <@cc.kw>Wild Mane</> is assigned to by <@cc.vup>+5%</>",
+      "f054": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+10%</>; for every other <$cc.g.rh><@cc.kw>Rhine Lab</></> Operator in the Base (excluding assistants, max <@cc.kw>5</>), additional drone recovery rate <@cc.vup>+3%</>",
       "c2e2": "When this Operator is assigned to a Factory, every <@cc.vup>5</> <$cc.bd_b1><@cc.rem>Worldly Plight</></> is converted to <@cc.vup>1</> <$cc.bd_C><@cc.rem>Witchcraft Crystal</></>",
       "937b": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</> (excluding productivity granted based on facility count), but each <@cc.kw>Power Plant</> increases that Factory's productivity by <@cc.vup>+5%</>",
       "06eb": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</> (excluding productivity granted based on facility count), but each <@cc.kw>Power Plant</> increases that Factory's productivity by <@cc.vup>+10%</>",
@@ -699,6 +708,7 @@
       "8c00": "When this Operator is assigned to be the Trainer in the Training Room, increases the Specialization training speed of <@cc.kw>Caster</> Operators by <@cc.vup>+30%</>, and further increases this speed by <@cc.vup>+45%</> if training the skill to Specialization Level <@cc.vup>2</>",
       "553c": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Medic</> Operators' Specialization training speed <@cc.vup>+30%</>; if training this skill to Specialization Level <@cc.vup>2</>, training speed will be further increased by <@cc.vup>+45%</>",
       "2ac5": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Guard</> Operators' Specialization training speed <@cc.vup>+30%</>; if training this skill to Specialization Level <@cc.vup>3</>, training speed will be further increased by <@cc.vup>+65%</>",
+      "227f": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Sniper</> Operators' Specialization training speed <@cc.vup>+30%</>; if training this skill to Specialization Level <@cc.vup>3</>, training speed will be further increased by <@cc.vup>+45%</>",
       "335e": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Sniper</> Operators' Specialization training speed <@cc.vup>+30%</>; if training this skill to Specialization Level <@cc.vup>3</>, training speed will be further increased by <@cc.vup>+65%</>",
       "aed7": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Specialist</> Operators' Specialization training speed <@cc.vup>+30%</>; if training this skill to Specialization Level <@cc.vup>3</>, training speed will be further increased by <@cc.vup>+65%</>",
       "ed80": "When this Operator is assigned to be the Trainer in the Training Room, Morale consumed per hour is increased by <@cc.vdown>+1</> when training a <@cc.kw>Sniper</> Operator's skill to Specialization Level <@cc.vup>1</>",
@@ -759,6 +769,8 @@
       "80b9": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>25%</>",
       "fd91": "When this Operator is assigned to the Reception Room, if no other Operators are working in the Reception Room, increases Clue search speed by <@cc.vup>35%</>",
       "1abb": "When this Operator is assigned to the Reception Room, if no other Operators are working in the Reception Room, increases Clue search speed by <@cc.vup>50%</>, and Morale conmused per hour <@cc.vdown>+2</>",
+      "a6c0": "When this Operator is assigned to the Reception Room, if no other Operators are working in the Reception Room, increases Clue search speed by <@cc.vup>15%</>, and Morale conmused per hour <@cc.vdown>+1</>",
+      "8a17": "When this Operator is assigned to the Reception Room, if no other Operators are working in the Reception Room, increases Clue search speed by <@cc.vup>35%</>, and Morale conmused per hour <@cc.vdown>+1</>",
       "341d": "When this Operator is assigned to the Reception Room, the likelihood of obtaining <@cc.kw>Ursus Student Self-Governing Group</> clues is increased (working time improves the likelihood).",
       "308a": "When this Operator is assigned to the Reception Room, every time that a non-<@cc.kw>Rhine Lab</> clue is collected, the likelihood of obtaining <@cc.kw>Rhine Lab</> clues is increased (working time improves the likelihood)",
       "4c5c": "When this Operator is assigned to the Reception Room, every time that a non-<@cc.kw>Karlan Trade</> clue is collected, the likelihood of obtaining <@cc.kw>Karlan Trade</> clues is increased (working time improves the likelihood)",
@@ -773,7 +785,8 @@
       "e6df": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>10%</> and it's easier to obtain the clues of <@cc.kw>Glasgow</>",
       "ba8e": "When this Operator is assigned to the Reception Room, increases the likelihood of obtaining clues that are not on the Clue Board.",
       "6dbc": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>10%</>, and increases the likelihood of obtaining clues that are not on the Clue Board.",
-      "7d95": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>20%</>, then by another <@cc.vup>2%</> per hour, up to a maximum of <@cc.vup>30%</>"
+      "7d95": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>20%</>, then by another <@cc.vup>2%</> per hour, up to a maximum of <@cc.vup>30%</>",
+      "951c": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhine Lab</> clue is <@cc.kw>guaranteed</> next"
     }
   }
 }
