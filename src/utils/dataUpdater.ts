@@ -40,7 +40,6 @@ import {
   checkObjsNotEmpty,
   getItemType,
   writeOtherData,
-  handleNewDataFormat,
   fixEnumNum,
   forceEnumNum,
 } from './common';
@@ -171,7 +170,7 @@ export class DataUpdater {
     const gameData: Record<string, Record<string, any>> = mapValues(LangMap, () => ({}));
     const dataErrorMap: Record<string, Record<string, any>> = mapValues(LangMap, () => ({}));
     const fetchData = async (url: string) =>
-      handleNewDataFormat(url.startsWith('https://') ? await retryGet(url) : ensureReadJsonSync(url));
+      url.startsWith('https://') ? await retryGet(url) : ensureReadJsonSync(url);
 
     for (const langShort of Object.keys(LangMap)) {
       for (const [key, url] of Object.entries(gameDataUrl[langShort])) {
