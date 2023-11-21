@@ -42,6 +42,7 @@ import {
   writeOtherData,
   fixEnumNum,
   forceEnumNum,
+  fixI18nKey,
 } from './common';
 import { retryGet } from './request';
 import { getRichTextCss } from './css';
@@ -391,7 +392,7 @@ export class DataUpdater {
   private updateRetroInfo({ retroTable }: GameData, locale: string) {
     this.retroInfo[locale] = {};
     each(retroTable.retroActList, item => {
-      this.retroInfo[locale][item.retroId] = {
+      this.retroInfo[locale][fixI18nKey(item.retroId)] = {
         type: forceEnumNum(item.type, RetroType),
         ...pick(item, ['startTime', 'linkedActId']),
       };
@@ -433,13 +434,9 @@ export class DataUpdater {
     });
 
     // 插曲 & 别传
-    Object.assign(
-      zoneId2Name,
-      mapValues(
-        retroTable.retroActList,
-        ({ type, name }) => `${name}@:(retroNameAppend.${forceEnumNum(type, RetroType)})`,
-      ),
-    );
+    each(retroTable.retroActList, ({ retroId, type, name }) => {
+      zoneId2Name[fixI18nKey(retroId)] = `${name}@:(retroNameAppend.${forceEnumNum(type, RetroType)})`;
+    });
 
     writeLocale(locale, 'zone.json', zoneId2Name);
 
@@ -447,7 +444,7 @@ export class DataUpdater {
       if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
         zoneToActivity: activityTable.zoneToActivity,
-        zoneToRetro: retroTable.zoneToRetro,
+        zoneToRetro: mapValues(retroTable.zoneToRetro, fixI18nKey),
       });
     }
   }

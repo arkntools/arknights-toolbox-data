@@ -249,3 +249,5 @@ export const fixEnumNum = (val: string | number, offset = 0) =>
 export const forceEnumNum = <T extends Object>(orig: keyof T | T[keyof T], enumObj: T): T[keyof T] =>
   // @ts-expect-error
   typeof orig === 'number' ? orig : enumObj[orig];
+
+export const fixI18nKey = (str: string) => str.replace(/[[\]'".@]/g, '_');
