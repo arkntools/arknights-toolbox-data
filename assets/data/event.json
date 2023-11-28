@@ -28,7 +28,26 @@
       }
     }
   },
-  "kr": {},
+  "kr": {
+    "act17sre_zone1": {
+      "valid": {
+        "startTs": 1701154800,
+        "endTs": 1701975599
+      }
+    },
+    "act17sre_zone2": {
+      "valid": {
+        "startTs": 1701154800,
+        "endTs": 1701975599
+      }
+    },
+    "act17sre_zone3": {
+      "valid": {
+        "startTs": 1701154800,
+        "endTs": 1701975599
+      }
+    }
+  },
   "tw": {
     "act23side_zone1": {
       "valid": {
