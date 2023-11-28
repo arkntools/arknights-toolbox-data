@@ -1,12 +1,5 @@
 {
-  "cn": {
-    "act29side_zone1": {
-      "valid": {
-        "startTs": 1698811200,
-        "endTs": 1700596799
-      }
-    }
-  },
+  "cn": {},
   "us": {
     "act25side_zone1": {
       "valid": {
@@ -16,21 +9,26 @@
     }
   },
   "jp": {
-    "act25side_zone1": {
+    "act17sre_zone1": {
       "valid": {
-        "startTs": 1699340400,
-        "endTs": 1701111599
+        "startTs": 1701154800,
+        "endTs": 1701975599
+      }
+    },
+    "act17sre_zone2": {
+      "valid": {
+        "startTs": 1701154800,
+        "endTs": 1701975599
+      }
+    },
+    "act17sre_zone3": {
+      "valid": {
+        "startTs": 1701154800,
+        "endTs": 1701975599
       }
     }
   },
-  "kr": {
-    "act25side_zone1": {
-      "valid": {
-        "startTs": 1699340400,
-        "endTs": 1701111599
-      }
-    }
-  },
+  "kr": {},
   "tw": {
     "act23side_zone1": {
       "valid": {
