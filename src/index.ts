@@ -8,7 +8,6 @@ const updater = new DataUpdater();
   try {
     await updater.start();
   } catch (error) {
-    console.error(error);
     const { IFTTT_EVENT_KEY } = process.env;
     if (IFTTT_EVENT_KEY && errorLogs.length) {
       const [event, key] = IFTTT_EVENT_KEY.split(':');
@@ -16,5 +15,6 @@ const updater = new DataUpdater();
         value1: errorLogs.join('\n'),
       }).catch(console.error);
     }
+    throw error;
   }
 })();
