@@ -873,7 +873,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_cammou",
+        "cost": [
+          {
+            "31043": 4,
+            "mod_unlock_token": 1
+          },
+          {
+            "31053": 5,
+            "mod_unlock_token": 1,
+            "mod_update_token_1": 15
+          },
+          {
+            "30053": 6,
+            "mod_unlock_token": 1,
+            "mod_update_token_2": 5
+          }
+        ]
+      }
+    ]
   },
   "469_indigo": {
     "evolve": [
@@ -8135,6 +8155,91 @@
     },
     "uniequip": []
   },
+  "194_leto": {
+    "evolve": [
+      {
+        "3221": 4,
+        "30012": 4,
+        "30032": 5
+      },
+      {
+        "3223": 3,
+        "30044": 7,
+        "31023": 10
+      }
+    ],
+    "skills": {
+      "normal": [
+        {
+          "3301": 4
+        },
+        {
+          "3301": 4,
+          "30051": 5
+        },
+        {
+          "3302": 6,
+          "30062": 2
+        },
+        {
+          "3302": 6,
+          "30012": 8
+        },
+        {
+          "3302": 6,
+          "31023": 4
+        },
+        {
+          "3303": 6,
+          "30073": 3,
+          "31063": 3
+        }
+      ],
+      "elite": [
+        {
+          "name": "skcom_quickattack_3",
+          "cost": [
+            {
+              "3303": 5,
+              "31023": 4,
+              "31054": 3
+            },
+            {
+              "3303": 6,
+              "30084": 5,
+              "30104": 3
+            },
+            {
+              "3303": 10,
+              "30074": 5,
+              "30115": 4
+            }
+          ]
+        },
+        {
+          "name": "skchr_leto_2",
+          "cost": [
+            {
+              "3303": 5,
+              "30053": 3,
+              "30084": 3
+            },
+            {
+              "3303": 6,
+              "30074": 6,
+              "31054": 3
+            },
+            {
+              "3303": 10,
+              "30014": 5,
+              "30135": 4
+            }
+          ]
+        }
+      ]
+    },
+    "uniequip": []
+  },
   "4083_chimes": {
     "evolve": [
       {
@@ -12261,7 +12366,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_kjera",
+        "cost": [
+          {
+            "31044": 3,
+            "mod_unlock_token": 2
+          },
+          {
+            "30104": 4,
+            "mod_unlock_token": 2,
+            "mod_update_token_1": 20
+          },
+          {
+            "30024": 5,
+            "mod_unlock_token": 2,
+            "mod_update_token_2": 8
+          }
+        ]
+      }
+    ]
   },
   "4040_rockr": {
     "evolve": [
@@ -12346,7 +12471,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_rockr",
+        "cost": [
+          {
+            "31054": 3,
+            "mod_unlock_token": 2
+          },
+          {
+            "30054": 4,
+            "mod_unlock_token": 2,
+            "mod_update_token_1": 20
+          },
+          {
+            "30024": 5,
+            "mod_unlock_token": 2,
+            "mod_update_token_2": 8
+          }
+        ]
+      }
+    ]
   },
   "4054_malist": {
     "evolve": [
@@ -12431,7 +12576,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_malist",
+        "cost": [
+          {
+            "30014": 3,
+            "mod_unlock_token": 2
+          },
+          {
+            "31024": 4,
+            "mod_unlock_token": 2,
+            "mod_update_token_1": 20
+          },
+          {
+            "30034": 5,
+            "mod_unlock_token": 2,
+            "mod_update_token_2": 8
+          }
+        ]
+      }
+    ]
   },
   "499_kaitou": {
     "evolve": [
@@ -13528,6 +13693,91 @@
     },
     "uniequip": []
   },
+  "4114_harold": {
+    "evolve": [
+      {
+        "3261": 4,
+        "30022": 5,
+        "30062": 2
+      },
+      {
+        "3263": 3,
+        "30013": 14,
+        "31064": 8
+      }
+    ],
+    "skills": {
+      "normal": [
+        {
+          "3301": 4
+        },
+        {
+          "3301": 4,
+          "30041": 5
+        },
+        {
+          "3302": 6,
+          "30052": 3
+        },
+        {
+          "3302": 6,
+          "30062": 3
+        },
+        {
+          "3302": 6,
+          "31083": 3
+        },
+        {
+          "3303": 6,
+          "30053": 3,
+          "31023": 3
+        }
+      ],
+      "elite": [
+        {
+          "name": "skcom_heal_up_3",
+          "cost": [
+            {
+              "3303": 5,
+              "30063": 3,
+              "31054": 3
+            },
+            {
+              "3303": 6,
+              "30014": 3,
+              "31044": 6
+            },
+            {
+              "3303": 10,
+              "30104": 3,
+              "30145": 4
+            }
+          ]
+        },
+        {
+          "name": "skchr_harold_2",
+          "cost": [
+            {
+              "3303": 5,
+              "30054": 3,
+              "31033": 2
+            },
+            {
+              "3303": 6,
+              "31024": 3,
+              "31084": 5
+            },
+            {
+              "3303": 10,
+              "30044": 2,
+              "30155": 4
+            }
+          ]
+        }
+      ]
+    },
+    "uniequip": []
+  },
   "1024_hbisc2": {
     "evolve": [
       {
@@ -13611,7 +13861,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_hbisc2",
+        "cost": [
+          {
+            "30024": 3,
+            "mod_unlock_token": 2
+          },
+          {
+            "30044": 4,
+            "mod_unlock_token": 2,
+            "mod_update_token_1": 20
+          },
+          {
+            "30104": 5,
+            "mod_unlock_token": 2,
+            "mod_update_token_2": 8
+          }
+        ]
+      }
+    ]
   },
   "494_vendla": {
     "evolve": [
@@ -13696,7 +13966,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_vendla",
+        "cost": [
+          {
+            "30034": 3,
+            "mod_unlock_token": 2
+          },
+          {
+            "31034": 4,
+            "mod_unlock_token": 2,
+            "mod_update_token_1": 20
+          },
+          {
+            "30074": 5,
+            "mod_unlock_token": 2,
+            "mod_update_token_2": 8
+          }
+        ]
+      }
+    ]
   },
   "4071_peper": {
     "evolve": [
@@ -22869,6 +23159,25 @@
             "mod_update_token_2": 20
           }
         ]
+      },
+      {
+        "id": "uniequip_003_billro",
+        "cost": [
+          {
+            "30145": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30125": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30135": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
       }
     ]
   },
@@ -23104,7 +23413,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_gdglow",
+        "cost": [
+          {
+            "30135": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30125": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30145": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
+      }
+    ]
   },
   "4046_ebnhlz": {
     "evolve": [
@@ -23652,6 +23981,25 @@
     "uniequip": [
       {
         "id": "uniequip_002_lisa",
+        "cost": [
+          {
+            "30135": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30145": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30115": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
+      },
+      {
+        "id": "uniequip_003_lisa",
         "cost": [
           {
             "30135": 2,
@@ -24936,6 +25284,25 @@
             "mod_update_token_2": 20
           }
         ]
+      },
+      {
+        "id": "uniequip_003_lmlee",
+        "cost": [
+          {
+            "30125": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30115": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30135": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
       }
     ]
   },
@@ -25186,6 +25553,25 @@
           },
           {
             "30135": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
+      },
+      {
+        "id": "uniequip_003_weedy",
+        "cost": [
+          {
+            "30115": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30145": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30125": 4,
             "mod_unlock_token": 4,
             "mod_update_token_2": 20
           }
@@ -26643,7 +27029,27 @@
         }
       ]
     },
-    "uniequip": []
+    "uniequip": [
+      {
+        "id": "uniequip_002_reed2",
+        "cost": [
+          {
+            "30115": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30135": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30145": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
+      }
+    ]
   },
   "136_hsguma": {
     "evolve": [
@@ -28763,6 +29169,133 @@
         "cost": [
           {
             "30135": 2,
+            "mod_unlock_token": 4
+          },
+          {
+            "30115": 3,
+            "mod_unlock_token": 4,
+            "mod_update_token_1": 60
+          },
+          {
+            "30125": 4,
+            "mod_unlock_token": 4,
+            "mod_update_token_2": 20
+          }
+        ]
+      }
+    ]
+  },
+  "4116_blkkgt": {
+    "evolve": [
+      {
+        "3221": 5,
+        "30022": 8,
+        "30032": 5
+      },
+      {
+        "3223": 4,
+        "30094": 7,
+        "30155": 3
+      }
+    ],
+    "skills": {
+      "normal": [
+        {
+          "3301": 5
+        },
+        {
+          "3301": 5,
+          "30031": 6,
+          "30041": 4
+        },
+        {
+          "3302": 8,
+          "30042": 4
+        },
+        {
+          "3302": 8,
+          "30012": 5,
+          "30052": 4
+        },
+        {
+          "3302": 8,
+          "31083": 4
+        },
+        {
+          "3303": 8,
+          "30053": 6,
+          "30073": 3
+        }
+      ],
+      "elite": [
+        {
+          "name": "skchr_blkkgt_1",
+          "cost": [
+            {
+              "3303": 8,
+              "30033": 8,
+              "31024": 4
+            },
+            {
+              "3303": 12,
+              "30014": 4,
+              "30074": 10
+            },
+            {
+              "3303": 15,
+              "30064": 4,
+              "30115": 6
+            }
+          ]
+        },
+        {
+          "name": "skchr_blkkgt_2",
+          "cost": [
+            {
+              "3303": 8,
+              "30053": 3,
+              "31074": 5
+            },
+            {
+              "3303": 12,
+              "30044": 4,
+              "31034": 6
+            },
+            {
+              "3303": 15,
+              "30125": 6,
+              "31044": 5
+            }
+          ]
+        },
+        {
+          "name": "skchr_blkkgt_3",
+          "cost": [
+            {
+              "3303": 8,
+              "30043": 5,
+              "31064": 4
+            },
+            {
+              "3303": 12,
+              "30104": 4,
+              "31024": 8
+            },
+            {
+              "3303": 15,
+              "30135": 6,
+              "31034": 5
+            }
+          ]
+        }
+      ]
+    },
+    "uniequip": [
+      {
+        "id": "uniequip_002_blkkgt",
+        "cost": [
+          {
+            "30145": 2,
             "mod_unlock_token": 4
           },
           {

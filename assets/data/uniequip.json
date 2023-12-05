@@ -730,5 +730,44 @@
   },
   "uniequip_003_nearl2": {
     "typeIcon": "dre-y"
+  },
+  "uniequip_002_gdglow": {
+    "typeIcon": "fun-x"
+  },
+  "uniequip_002_rockr": {
+    "typeIcon": "fun-x"
+  },
+  "uniequip_002_kjera": {
+    "typeIcon": "fun-y"
+  },
+  "uniequip_002_malist": {
+    "typeIcon": "fun-y"
+  },
+  "uniequip_002_cammou": {
+    "typeIcon": "fun-y"
+  },
+  "uniequip_002_blkkgt": {
+    "typeIcon": "swo-x"
+  },
+  "uniequip_002_reed2": {
+    "typeIcon": "inc-x"
+  },
+  "uniequip_002_hbisc2": {
+    "typeIcon": "inc-x"
+  },
+  "uniequip_002_vendla": {
+    "typeIcon": "inc-x"
+  },
+  "uniequip_003_billro": {
+    "typeIcon": "plx-y"
+  },
+  "uniequip_003_weedy": {
+    "typeIcon": "pus-y"
+  },
+  "uniequip_003_lisa": {
+    "typeIcon": "dec-y"
+  },
+  "uniequip_003_lmlee": {
+    "typeIcon": "mer-y"
   }
 }

@@ -1644,6 +1644,40 @@
     }
   },
   "event": {
+    "act30side_zone1": {
+      "act30side_01": {
+        "code": "RS-1",
+        "cost": 9
+      },
+      "act30side_02": {
+        "code": "RS-2",
+        "cost": 9
+      },
+      "act30side_03": {
+        "code": "RS-3",
+        "cost": 9
+      },
+      "act30side_04": {
+        "code": "RS-4",
+        "cost": 12
+      },
+      "act30side_05": {
+        "code": "RS-5",
+        "cost": 12
+      },
+      "act30side_06": {
+        "code": "RS-6",
+        "cost": 21
+      },
+      "act30side_07": {
+        "code": "RS-7",
+        "cost": 21
+      },
+      "act30side_08": {
+        "code": "RS-8",
+        "cost": 21
+      }
+    },
     "act29side_zone1": {
       "act29side_01": {
         "code": "ZT-1",
@@ -4029,6 +4063,74 @@
       },
       "act21side_10": {
         "code": "IS-10",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_18_zone1": {
+      "act22side_01": {
+        "code": "FC-1",
+        "cost": 9
+      },
+      "act22side_02": {
+        "code": "FC-2",
+        "cost": 9
+      },
+      "act22side_03": {
+        "code": "FC-3",
+        "cost": 12
+      },
+      "act22side_04": {
+        "code": "FC-4",
+        "cost": 12
+      },
+      "act22side_05": {
+        "code": "FC-5",
+        "cost": 21
+      },
+      "act22side_06": {
+        "code": "FC-6",
+        "cost": 21
+      },
+      "act22side_07": {
+        "code": "FC-7",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_19_zone1": {
+      "act23side_01": {
+        "code": "WB-1",
+        "cost": 9
+      },
+      "act23side_02": {
+        "code": "WB-2",
+        "cost": 9
+      },
+      "act23side_03": {
+        "code": "WB-3",
+        "cost": 9
+      },
+      "act23side_04": {
+        "code": "WB-4",
+        "cost": 12
+      },
+      "act23side_05": {
+        "code": "WB-5",
+        "cost": 12
+      },
+      "act23side_06": {
+        "code": "WB-6",
+        "cost": 12
+      },
+      "act23side_07": {
+        "code": "WB-7",
+        "cost": 21
+      },
+      "act23side_08": {
+        "code": "WB-8",
+        "cost": 21
+      },
+      "act23side_09": {
+        "code": "WB-9",
         "cost": 21
       }
     }

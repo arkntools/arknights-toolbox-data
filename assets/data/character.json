@@ -2010,6 +2010,22 @@
       21
     ]
   },
+  "194_leto": {
+    "pinyin": {
+      "full": "liexia",
+      "head": "lx"
+    },
+    "romaji": "",
+    "appellation": "Leto",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      16
+    ]
+  },
   "4083_chimes": {
     "pinyin": {
       "full": "duoling",
@@ -2907,6 +2923,21 @@
     },
     "romaji": "haniberi",
     "appellation": "Honeyberry",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ]
+  },
+  "4114_harold": {
+    "pinyin": {
+      "full": "haluode",
+      "head": "hld"
+    },
+    "romaji": "",
+    "appellation": "Harold",
     "star": 5,
     "recruitment": {},
     "position": 10,
@@ -5209,6 +5240,23 @@
       13,
       19,
       12
+    ]
+  },
+  "4116_blkkgt": {
+    "pinyin": {
+      "full": "jian",
+      "head": "j"
+    },
+    "romaji": "",
+    "appellation": "Degenbrecher",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      13,
+      19,
+      24
     ]
   },
   "017_huang": {
