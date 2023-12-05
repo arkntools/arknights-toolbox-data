@@ -205,7 +205,7 @@
   },
   "cc_tag_op": {
     "name": "Operation Platform",
-    "desc": "Includes the following Operators: \nLancet-2, Castle-3, THRM-EX, 'Justice Knight'"
+    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, Justice Knight, Friston-3"
   },
   "cc_tag_knight": {
     "name": "Knight",
