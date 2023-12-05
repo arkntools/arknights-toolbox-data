@@ -205,7 +205,7 @@
   },
   "cc_tag_op": {
     "name": "作業用プラットフォーム",
-    "desc": "対象オペレーター：\nLancet-2、Castle-3、THRM-EX、ジャスティスナイト"
+    "desc": "対象オペレーター：\nLancet-2、Castle-3、THRM-EX、ジャスティスナイト、Friston-3"
   },
   "cc_tag_knight": {
     "name": "騎士",

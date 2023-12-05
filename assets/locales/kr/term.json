@@ -205,7 +205,7 @@
   },
   "cc_tag_op": {
     "name": "작업 플랫폼",
-    "desc": "다음 오퍼레이터 포함\nLancet-2, Castle-3, THRM-EX, 저스티스 나이트"
+    "desc": "다음 오퍼레이터 포함\nLancet-2, Castle-3, THRM-EX, '저스티스 나이트', Friston-3"
   },
   "cc_tag_knight": {
     "name": "기사",

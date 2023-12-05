@@ -128,7 +128,9 @@
     "appellation": "Friston-3",
     "star": 1,
     "recruitment": {
-      "cn": 2
+      "cn": 2,
+      "jp": 2,
+      "kr": 2
     },
     "position": 9,
     "profession": 3,
