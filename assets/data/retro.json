@@ -318,6 +318,14 @@
         "act15side",
         "act16sre"
       ]
+    },
+    "permanent_sidestory_14_Lingering_Echoes": {
+      "type": 0,
+      "startTime": 1705662000,
+      "linkedActId": [
+        "act18side",
+        "act18sre"
+      ]
     }
   },
   "jp": {
@@ -462,6 +470,14 @@
         "act15side",
         "act16sre"
       ]
+    },
+    "permanent_sidestory_14_Lingering_Echoes": {
+      "type": 0,
+      "startTime": 1705604400,
+      "linkedActId": [
+        "act18side",
+        "act18sre"
+      ]
     }
   },
   "kr": {
@@ -605,6 +621,14 @@
       "linkedActId": [
         "act15side",
         "act16sre"
+      ]
+    },
+    "permanent_sidestory_14_Lingering_Echoes": {
+      "type": 0,
+      "startTime": 1705604400,
+      "linkedActId": [
+        "act18side",
+        "act18sre"
       ]
     }
   },

@@ -203,6 +203,10 @@
     "name": "Pinus Sylvestris Skills",
     "desc": "Includes the following skills: \nPinus Sylvestris α, Pinus Sylvestris β"
   },
+  "cc_sk_manu4": {
+    "name": "Metalwork-type Skill",
+    "desc": "Includes the following skills:\nMetalwork α, Metalwork β"
+  },
   "cc_tag_op": {
     "name": "Operation Platform",
     "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, Justice Knight, Friston-3"

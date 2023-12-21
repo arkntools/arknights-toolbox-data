@@ -1,14 +1,46 @@
 {
-  "cn": {
-    "act30side_zone1": {
+  "cn": {},
+  "us": {
+    "act26side_zone1": {
       "valid": {
-        "startTs": 1701748800,
-        "endTs": 1702929599
+        "startTs": 1703160000,
+        "endTs": 1704365999
+      }
+    },
+    "act18sre_zone1": {
+      "valid": {
+        "startTs": 1704474000,
+        "endTs": 1705316399
       }
     }
   },
-  "us": {},
-  "jp": {},
-  "kr": {},
+  "jp": {
+    "act26side_zone1": {
+      "valid": {
+        "startTs": 1703124000,
+        "endTs": 1704308399
+      }
+    },
+    "act18sre_zone1": {
+      "valid": {
+        "startTs": 1704438000,
+        "endTs": 1705258799
+      }
+    }
+  },
+  "kr": {
+    "act26side_zone1": {
+      "valid": {
+        "startTs": 1703124000,
+        "endTs": 1704308399
+      }
+    },
+    "act18sre_zone1": {
+      "valid": {
+        "startTs": 1704438000,
+        "endTs": 1705258799
+      }
+    }
+  },
   "tw": {}
 }

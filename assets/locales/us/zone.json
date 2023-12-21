@@ -21,6 +21,8 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act26side": "Hortus de Escapismo",
+  "act18sre": "Lingering Echoes - Rerun",
   "act38d1": "Pinch-Out Experimental Operation",
   "act25side": "Lone Trail",
   "act17sre": "Stultifera Navis - Rerun",
@@ -98,5 +100,6 @@
   "permanent_sidestory_10_Near_Light": "Near Light@:(retroNameAppend.0)",
   "permanent_sidestory_11_Break_The_Ice": "Break the Ice@:(retroNameAppend.0)",
   "permanent_sidestory_12_Invitation_To_Wine": "Invitation to Wine@:(retroNameAppend.0)",
-  "permanent_sidestory_13_Guiding_Ahead": "Guide Ahead@:(retroNameAppend.0)"
+  "permanent_sidestory_13_Guiding_Ahead": "Guide Ahead@:(retroNameAppend.0)",
+  "permanent_sidestory_14_Lingering_Echoes": "Lingering Echoes@:(retroNameAppend.0)"
 }

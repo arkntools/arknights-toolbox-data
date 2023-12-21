@@ -21,6 +21,8 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act26side": "空想の花庭",
+  "act18sre": "塵影に交わる残響・復刻",
   "act38d1": "尖滅試験作戦",
   "act25side": "孤星",
   "act17sre": "狂人号・復刻",
@@ -98,5 +100,6 @@
   "permanent_sidestory_10_Near_Light": "ニアーライト@:(retroNameAppend.0)",
   "permanent_sidestory_11_Break_The_Ice": "風雪一過@:(retroNameAppend.0)",
   "permanent_sidestory_12_Invitation_To_Wine": "将進酒@:(retroNameAppend.0)",
-  "permanent_sidestory_13_Guiding_Ahead": "吾れ先導者たらん@:(retroNameAppend.0)"
+  "permanent_sidestory_13_Guiding_Ahead": "吾れ先導者たらん@:(retroNameAppend.0)",
+  "permanent_sidestory_14_Lingering_Echoes": "塵影に交わる残響@:(retroNameAppend.0)"
 }
