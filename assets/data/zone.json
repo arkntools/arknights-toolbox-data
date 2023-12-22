@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act22sre_zone1": "act22sre",
+    "act22sre_zone2": "act22sre",
     "act30side_zone1": "act30side",
     "act30side_zone2": "act30side",
     "act29side_zone1": "act29side",
@@ -206,6 +208,8 @@
     "permanent_sidestory_16_zone5": "permanent_sidestory_16_Summer_Carnival_City",
     "permanent_sidestory_21_zone1": "permanent_sidestory_17_Il_Siracusano",
     "permanent_sidestory_21_zone2": "permanent_sidestory_17_Il_Siracusano",
-    "permanent_sidestory_21_zone3": "permanent_sidestory_17_Il_Siracusano"
+    "permanent_sidestory_21_zone3": "permanent_sidestory_17_Il_Siracusano",
+    "permanent_sidestory_18_zone1": "permanent_sidestory_18_What_the_Firelight_Casts",
+    "permanent_sidestory_18_zone2": "permanent_sidestory_18_What_the_Firelight_Casts"
   }
 }

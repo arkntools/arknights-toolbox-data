@@ -1966,7 +1966,7 @@
         "cost": 21
       }
     },
-    "act22side_zone1": {
+    "act22sre_zone1": {
       "act22side_01": {
         "code": "FC-1",
         "cost": 9
@@ -3080,6 +3080,36 @@
       "a001_06": {
         "code": "GT-6",
         "cost": 15
+      }
+    },
+    "act22side_zone1": {
+      "act22side_01": {
+        "code": "FC-1",
+        "cost": 9
+      },
+      "act22side_02": {
+        "code": "FC-2",
+        "cost": 9
+      },
+      "act22side_03": {
+        "code": "FC-3",
+        "cost": 12
+      },
+      "act22side_04": {
+        "code": "FC-4",
+        "cost": 12
+      },
+      "act22side_05": {
+        "code": "FC-5",
+        "cost": 21
+      },
+      "act22side_06": {
+        "code": "FC-6",
+        "cost": 21
+      },
+      "act22side_07": {
+        "code": "FC-7",
+        "cost": 21
       }
     },
     "act21side_zone1": {
