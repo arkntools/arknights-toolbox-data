@@ -2762,6 +2762,21 @@
       19
     ]
   },
+  "4081_warmy": {
+    "pinyin": {
+      "full": "wenmi",
+      "head": "wm"
+    },
+    "romaji": "",
+    "appellation": "Warmy",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      13
+    ]
+  },
   "242_otter": {
     "pinyin": {
       "full": "meier",
@@ -4141,6 +4156,21 @@
     "tags": [
       19,
       21
+    ]
+  },
+  "4117_ray": {
+    "pinyin": {
+      "full": "laiyi",
+      "head": "ly"
+    },
+    "romaji": "",
+    "appellation": "Ray",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
     ]
   },
   "112_siege": {

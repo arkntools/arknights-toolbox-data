@@ -3235,6 +3235,34 @@
         "id": "meet_team&char_000",
         "unlock": "2_1"
       }
+    ],
+    "4117_ray": [
+      {
+        "id": "workshop_formula_probability_116",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_probability_126",
+        "unlock": "2_1"
+      },
+      {
+        "id": "workshop_formula_drop_040",
+        "unlock": "2_1"
+      }
+    ],
+    "4081_warmy": [
+      {
+        "id": "dorm_rec_all_014",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all_024",
+        "unlock": "2_1"
+      },
+      {
+        "id": "manu_formula_spd_101",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3791,6 +3819,10 @@
         "icon": "bskill_man_gold2",
         "desc": "6141"
       },
+      "manu_formula_spd_101": {
+        "icon": "bskill_man_gold1",
+        "desc": "9628"
+      },
       "manu_formula_spd&cost_000": {
         "icon": "bskill_man_gold3",
         "desc": "ef5e"
@@ -4315,6 +4347,14 @@
         "icon": "bskill_ws_build2",
         "desc": "7d56"
       },
+      "workshop_formula_probability_116": {
+        "icon": "bskill_ws_evolve2",
+        "desc": "a272"
+      },
+      "workshop_formula_probability_126": {
+        "icon": "bskill_ws_evolve3",
+        "desc": "579e"
+      },
       "workshop_formula_dorm_000": {
         "icon": "bskill_ws_evolve_dorm1",
         "desc": "2689"
@@ -4334,6 +4374,10 @@
       "workshop_formula_drop_030": {
         "icon": "bskill_ws_drop_oriron",
         "desc": "70f6"
+      },
+      "workshop_formula_drop_040": {
+        "icon": "bskill_ws_drop_orirock",
+        "desc": "5226"
       },
       "workshop_formula_free_000": {
         "icon": "bskill_ws_free",
@@ -4787,6 +4831,10 @@
         "icon": "bskill_dorm_all2",
         "desc": "a2d2"
       },
+      "dorm_rec_all_014": {
+        "icon": "bskill_dorm_all2",
+        "desc": "a2d2"
+      },
       "dorm_rec_all_020": {
         "icon": "bskill_dorm_all3",
         "desc": "cd6e"
@@ -4906,6 +4954,10 @@
       "dorm_rec_all_023": {
         "icon": "bskill_dorm_all4",
         "desc": "a2d2"
+      },
+      "dorm_rec_all_024": {
+        "icon": "bskill_dorm_all3",
+        "desc": "cd6e"
       },
       "dorm_bd_num_000": {
         "icon": "bskill_dorm_bdnum",
@@ -5385,6 +5437,11 @@
         "is": {
           "辅助": 1
         }
+      },
+      "5226": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
       },
       "5402": {
         "building": "TRAINING",
