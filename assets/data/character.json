@@ -1230,7 +1230,9 @@
     "appellation": "Jaye",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 7,
@@ -1687,7 +1689,9 @@
     "appellation": "Chiave",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 8,
@@ -1701,7 +1705,7 @@
       "full": "qingzhi",
       "head": "qz"
     },
-    "romaji": "",
+    "romaji": "ponshirasu",
     "appellation": "Poncirus",
     "star": 5,
     "recruitment": {},
@@ -1863,7 +1867,7 @@
       "full": "cangtai",
       "head": "ct"
     },
-    "romaji": "",
+    "romaji": "buraiofuaita",
     "appellation": "Bryophyta",
     "star": 5,
     "recruitment": {},
@@ -2562,7 +2566,9 @@
     "appellation": "Beeswax",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 6,
@@ -3444,7 +3450,9 @@
     "appellation": "Andreana",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 2,
@@ -4742,7 +4750,7 @@
       "full": "linlangshihuaiya",
       "head": "llshy"
     },
-    "romaji": "",
+    "romaji": "琳琅suwaiya",
     "appellation": "Swire the Elegant Wit",
     "star": 6,
     "recruitment": {},
@@ -4944,7 +4952,7 @@
       "full": "chunjinaiyafala",
       "head": "cjayfl"
     },
-    "romaji": "",
+    "romaji": "jun燼eiyafuiyatora",
     "appellation": "Eyjafjalla the Hvit Aska",
     "star": 6,
     "recruitment": {},
@@ -5196,7 +5204,9 @@
     "appellation": "Thorns",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 1,
