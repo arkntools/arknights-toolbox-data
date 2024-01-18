@@ -182,6 +182,14 @@
         "act22side",
         "act22sre"
       ]
+    },
+    "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": {
+      "type": 0,
+      "startTime": 1706731200,
+      "linkedActId": [
+        "act23side",
+        "act23sre"
+      ]
     }
   },
   "us": {

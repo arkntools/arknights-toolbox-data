@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act23sre_zone1": "act23sre",
+    "act23sre_zone2": "act23sre",
     "act16mini_zone1": "act16mini",
     "act22sre_zone1": "act22sre",
     "act22sre_zone2": "act22sre",
@@ -211,6 +213,8 @@
     "permanent_sidestory_21_zone2": "permanent_sidestory_17_Il_Siracusano",
     "permanent_sidestory_21_zone3": "permanent_sidestory_17_Il_Siracusano",
     "permanent_sidestory_18_zone1": "permanent_sidestory_18_What_the_Firelight_Casts",
-    "permanent_sidestory_18_zone2": "permanent_sidestory_18_What_the_Firelight_Casts"
+    "permanent_sidestory_18_zone2": "permanent_sidestory_18_What_the_Firelight_Casts",
+    "permanent_sidestory_19_zone1": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow",
+    "permanent_sidestory_19_zone2": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow"
   }
 }
