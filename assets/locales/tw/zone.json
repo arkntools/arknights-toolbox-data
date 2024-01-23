@@ -21,6 +21,7 @@
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
   "act24side": "落葉逐火",
+  "act16sre": "吾導先路·復刻",
   "act14mini": "春分",
   "act23side": "登臨意",
   "act15sre": "將進酒·復刻",
@@ -91,5 +92,6 @@
   "permanent_sidestory_9_Dossoles_Holiday": "多索雷斯假日@:(retroNameAppend.0)",
   "permanent_sidestory_10_Near_Light": "長夜臨光@:(retroNameAppend.0)",
   "permanent_sidestory_11_Break_The_Ice": "風雪過境@:(retroNameAppend.0)",
-  "permanent_sidestory_12_Invitation_To_Wine": "將進酒@:(retroNameAppend.0)"
+  "permanent_sidestory_12_Invitation_To_Wine": "將進酒@:(retroNameAppend.0)",
+  "permanent_sidestory_13_Guiding_Ahead": "吾導先路@:(retroNameAppend.0)"
 }
