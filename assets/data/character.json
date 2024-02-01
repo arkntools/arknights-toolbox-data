@@ -1146,7 +1146,9 @@
     "romaji": "aren",
     "appellation": "Arene",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
@@ -1718,6 +1720,22 @@
       22
     ]
   },
+  "4023_rfalcn": {
+    "pinyin": {
+      "full": "hongsun",
+      "head": "hs"
+    },
+    "romaji": "",
+    "appellation": "Kestrel",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      19
+    ]
+  },
   "261_sddrag": {
     "pinyin": {
       "full": "weicao",
@@ -1771,6 +1789,22 @@
       "kr": 1,
       "tw": 1
     },
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      16
+    ]
+  },
+  "4119_wanqin": {
+    "pinyin": {
+      "full": "wanqing",
+      "head": "wq"
+    },
+    "romaji": "",
+    "appellation": "Wanqing",
+    "star": 5,
+    "recruitment": {},
     "position": 9,
     "profession": 8,
     "tags": [
@@ -2312,7 +2346,9 @@
     "romaji": "eipuriru",
     "appellation": "April",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 2,
     "tags": [
@@ -3714,6 +3750,22 @@
       23
     ]
   },
+  "4122_grabds": {
+    "pinyin": {
+      "full": "xiaoman",
+      "head": "xm"
+    },
+    "romaji": "",
+    "appellation": "Grain Buds",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      23,
+      12
+    ]
+  },
   "433_windft": {
     "pinyin": {
       "full": "lvefeng",
@@ -5045,6 +5097,23 @@
       19
     ]
   },
+  "2025_shu": {
+    "pinyin": {
+      "full": "shu",
+      "head": "s"
+    },
+    "romaji": "",
+    "appellation": "Shu",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      15,
+      16
+    ]
+  },
   "2014_nian": {
     "pinyin": {
       "full": "nian",
@@ -5354,7 +5423,9 @@
     "romaji": "suruto",
     "appellation": "Surtr",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
@@ -5392,6 +5463,22 @@
       "kr": 1,
       "tw": 1
     },
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
+    ]
+  },
+  "4121_zuole": {
+    "pinyin": {
+      "full": "zuole",
+      "head": "zl"
+    },
+    "romaji": "",
+    "appellation": "Zuo Le",
+    "star": 6,
+    "recruitment": {},
     "position": 9,
     "profession": 1,
     "tags": [

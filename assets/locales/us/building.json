@@ -771,7 +771,7 @@
       "e736": "When this Operator is assigned to a Dormitory, self Morale recovered per hour <@cc.vup>+0.55</>",
       "1efa": "When this Operator is assigned to a Dormitory, restores the Morale of all other Operators assigned to that Dorm by <@cc.vup>+0.1</> per hour (Only the strongest effect of this type takes place)",
       "548c": "When this Operator is assigned to a Dormitory, self Morale recovered per hour <@cc.vup>+0.55</>, and restores <@cc.vup>+0.1</> Morale per hour to all other Operators assigned to that Dormitory (Only the strongest effect of this type takes place)",
-      "335b": "When this Operator is assigned to a Dormitory, Morale recovery per hour of all Operators in that Dormitory <@cc.vup>+6%</> for each <@cc.kw>Wandering Medic</> Operator in the Base (excluding Assistants, caps at <@cc.kw>4</> Operators)",
+      "3b66": "When this Operator is assigned to a Dormitory, Morale recovery per hour of all Operators in that Dormitory <@cc.vup>+6%</> for each <@cc.kw>Wandering Medic</> Operator in the Base (excluding Assistants, caps at <@cc.kw>4</> Operators)",
       "f505": "When this Operator is assigned to a Dormitory, if this unit has <@cc.kw>Full Morale</>, swaps Morale with the <@cc.kw>previous</> Operator assigned to that Dormitory.",
       "105f": "When this Operator is assigned to a Dormitory, <@cc.kw>Siege</> increases <$cc.g.glasgow><@cc.kw>Glasgow Gang</></> Operator recovery in the building by an additional <@cc.vup>+0.3</>",
       "21f6": "When this Operator is assigned to the HR Office, HR contacting speed <@cc.vup>+20%</>",

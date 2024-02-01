@@ -444,13 +444,13 @@
     "typeIcon": "sie-x"
   },
   "uniequip_002_helage": {
-    "typeIcon": "mus-x"
+    "typeIcon": "sbl-x"
   },
   "uniequip_002_akafyu": {
-    "typeIcon": "mus-x"
+    "typeIcon": "sbl-x"
   },
   "uniequip_002_utage": {
-    "typeIcon": "mus-x"
+    "typeIcon": "sbl-x"
   },
   "uniequip_002_hamoni": {
     "typeIcon": "msc-x"
@@ -516,7 +516,7 @@
     "typeIcon": "exe-x"
   },
   "uniequip_002_noirc2": {
-    "typeIcon": "mus-x"
+    "typeIcon": "sbl-x"
   },
   "uniequip_003_shining": {
     "typeIcon": "phy-x"
@@ -624,7 +624,7 @@
     "typeIcon": "sie-x"
   },
   "uniequip_003_helage": {
-    "typeIcon": "mus-y"
+    "typeIcon": "sbl-y"
   },
   "uniequip_003_phatom": {
     "typeIcon": "exe-y"
@@ -769,5 +769,41 @@
   },
   "uniequip_003_lmlee": {
     "typeIcon": "mer-y"
+  },
+  "uniequip_002_chyue": {
+    "typeIcon": "fgt-x"
+  },
+  "uniequip_002_shu": {
+    "typeIcon": "gua-x"
+  },
+  "uniequip_002_zuole": {
+    "typeIcon": "sbl-x"
+  },
+  "uniequip_002_grabds": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_002_wanqin": {
+    "typeIcon": "bea-x"
+  },
+  "uniequip_002_f12yin": {
+    "typeIcon": "fgt-y"
+  },
+  "uniequip_002_dagda": {
+    "typeIcon": "fgt-y"
+  },
+  "uniequip_002_tiger": {
+    "typeIcon": "fgt-y"
+  },
+  "uniequip_002_flint": {
+    "typeIcon": "fgt-y"
+  },
+  "uniequip_002_jaksel": {
+    "typeIcon": "fgt-x"
+  },
+  "uniequip_002_brownb": {
+    "typeIcon": "fgt-y"
+  },
+  "uniequip_002_rfalcn": {
+    "typeIcon": "sol-y"
   }
 }
