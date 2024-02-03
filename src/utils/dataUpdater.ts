@@ -228,7 +228,7 @@ export class DataUpdater {
         if (!k.startsWith('cc.')) return;
         obj[k.replace(/\W/g, '_')] = {
           name: termName,
-          desc: description,
+          desc: description.replaceAll('\r', ''),
         };
       },
       {} as Record<string, { name: string; desc: string }>,
