@@ -342,6 +342,14 @@
         "act18side",
         "act18sre"
       ]
+    },
+    "permanent_sidestory_16_Summer_Carnival_City": {
+      "type": 0,
+      "startTime": 1708426800,
+      "linkedActId": [
+        "act20side",
+        "act20sre"
+      ]
     }
   },
   "jp": {

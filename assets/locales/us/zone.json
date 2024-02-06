@@ -21,6 +21,7 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act20sre": "Ideal City: Endless Carnival - Rerun",
   "act27side": "So Long, Adele: Home Away From Home",
   "act26side": "Hortus de Escapismo",
   "act18sre": "Lingering Echoes - Rerun",
@@ -102,5 +103,6 @@
   "permanent_sidestory_11_Break_The_Ice": "Break the Ice@:(retroNameAppend.0)",
   "permanent_sidestory_12_Invitation_To_Wine": "Invitation to Wine@:(retroNameAppend.0)",
   "permanent_sidestory_13_Guiding_Ahead": "Guide Ahead@:(retroNameAppend.0)",
-  "permanent_sidestory_14_Lingering_Echoes": "Lingering Echoes@:(retroNameAppend.0)"
+  "permanent_sidestory_14_Lingering_Echoes": "Lingering Echoes@:(retroNameAppend.0)",
+  "permanent_sidestory_16_Summer_Carnival_City": "Ideal City: Endless Carnival@:(retroNameAppend.0)"
 }
