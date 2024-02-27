@@ -21,6 +21,8 @@
   "weekly_7": "전술 연습",
   "weekly_8": "자원 보장",
   "weekly_9": "화물 운송",
+  "act19sre": "도로시의 비전 (재개방)",
+  "act15mini": "나무 그늘 속에 잠들다",
   "act20sre": "이상적인 도시: 엔드리스 카니발 (재개방)",
   "act27side": "화산의 꿈 여행",
   "act26side": "공상의 정원",
@@ -104,5 +106,6 @@
   "permanent_sidestory_12_Invitation_To_Wine": "장진주@:(retroNameAppend.0)",
   "permanent_sidestory_13_Guiding_Ahead": "가이딩 어헤드@:(retroNameAppend.0)",
   "permanent_sidestory_14_Lingering_Echoes": "링거링 에코스@:(retroNameAppend.0)",
+  "permanent_sidestory_15_Dorothy_s_Vision": "도로시의 비전@:(retroNameAppend.0)",
   "permanent_sidestory_16_Summer_Carnival_City": "이상적인 도시: 엔드리스 카니발@:(retroNameAppend.0)"
 }
