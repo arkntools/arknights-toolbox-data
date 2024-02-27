@@ -135,6 +135,10 @@
     "name": "Rhine Lab",
     "desc": "Includes the following Operators:\nSilence, Ifrit, Saria, Ptilopsis, Mayer, Magallan, Dorothy, Astgenne, Muelsyse"
   },
+  "cc_g_sm": {
+    "name": "Sami",
+    "desc": "Includes the following Operators:\nGitano, Bibeak, Qanipalaat, Typhon, Santalla, Valarqvin"
+  },
   "cc_c_abyssal2_1": {
     "name": "Special Bonus",
     "desc": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed in a Factory, the Control Center provides <@cc.vup>5%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed within it, up to a maximum of <@cc.vup>45%</> Productivity"
@@ -157,7 +161,7 @@
   },
   "cc_c_skill": {
     "name": "Certain Skills",
-    "desc": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed"
+    "desc": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile"
   },
   "cc_t_strong2": {
     "name": "Special Interaction Rules",

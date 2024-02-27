@@ -1,6 +1,19 @@
 {
   "cn": {},
-  "us": {},
+  "us": {
+    "act19sre_zone1": {
+      "valid": {
+        "startTs": 1709658000,
+        "endTs": 1710500399
+      }
+    },
+    "act15mini_zone1": {
+      "valid": {
+        "startTs": 1709035200,
+        "endTs": 1709636399
+      }
+    }
+  },
   "jp": {
     "act19sre_zone1": {
       "valid": {

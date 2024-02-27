@@ -21,6 +21,8 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act19sre": "Dorothy's Vision - Retrospection",
+  "act15mini": "The Black Forest Wills A Dream",
   "act20sre": "Ideal City: Endless Carnival - Rerun",
   "act27side": "So Long, Adele: Home Away From Home",
   "act26side": "Hortus de Escapismo",
@@ -104,5 +106,6 @@
   "permanent_sidestory_12_Invitation_To_Wine": "Invitation to Wine@:(retroNameAppend.0)",
   "permanent_sidestory_13_Guiding_Ahead": "Guide Ahead@:(retroNameAppend.0)",
   "permanent_sidestory_14_Lingering_Echoes": "Lingering Echoes@:(retroNameAppend.0)",
+  "permanent_sidestory_15_Dorothy_s_Vision": "Dorothy's Vision@:(retroNameAppend.0)",
   "permanent_sidestory_16_Summer_Carnival_City": "Ideal City: Endless Carnival@:(retroNameAppend.0)"
 }

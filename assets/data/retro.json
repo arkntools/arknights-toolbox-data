@@ -343,6 +343,14 @@
         "act18sre"
       ]
     },
+    "permanent_sidestory_15_Dorothy_s_Vision": {
+      "type": 0,
+      "startTime": 1710846000,
+      "linkedActId": [
+        "act19side",
+        "act19sre"
+      ]
+    },
     "permanent_sidestory_16_Summer_Carnival_City": {
       "type": 0,
       "startTime": 1708426800,
