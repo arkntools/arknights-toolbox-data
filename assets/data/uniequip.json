@@ -805,5 +805,29 @@
   },
   "uniequip_002_rfalcn": {
     "typeIcon": "sol-y"
+  },
+  "uniequip_002_jesca2": {
+    "typeIcon": "spt-x"
+  },
+  "uniequip_002_liskam": {
+    "typeIcon": "spt-x"
+  },
+  "uniequip_002_blitz": {
+    "typeIcon": "spt-x"
+  },
+  "uniequip_002_ela": {
+    "typeIcon": "trp-d"
+  },
+  "uniequip_002_fuze": {
+    "typeIcon": "cen-y"
+  },
+  "uniequip_002_iana": {
+    "typeIcon": "pum-x"
+  },
+  "uniequip_002_rdoc": {
+    "typeIcon": "ins-y"
+  },
+  "uniequip_003_ash": {
+    "typeIcon": "mar-x"
   }
 }

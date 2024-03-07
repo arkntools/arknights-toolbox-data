@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act32side_zone1": "act32side",
+    "act32side_zone2": "act32side",
     "act4bossrush_zone1": "act4bossrush",
     "act31side_zone1": "act31side",
     "act31side_zone2": "act31side",

@@ -1644,6 +1644,40 @@
     }
   },
   "event": {
+    "act32side_zone1": {
+      "act32side_01": {
+        "code": "CR-1",
+        "cost": 9
+      },
+      "act32side_02": {
+        "code": "CR-2",
+        "cost": 9
+      },
+      "act32side_03": {
+        "code": "CR-3",
+        "cost": 12
+      },
+      "act32side_04": {
+        "code": "CR-4",
+        "cost": 12
+      },
+      "act32side_05": {
+        "code": "CR-5",
+        "cost": 12
+      },
+      "act32side_06": {
+        "code": "CR-6",
+        "cost": 21
+      },
+      "act32side_07": {
+        "code": "CR-7",
+        "cost": 21
+      },
+      "act32side_08": {
+        "code": "CR-8",
+        "cost": 21
+      }
+    },
     "act31side_zone1": {
       "act31side_01": {
         "code": "HS-1",
@@ -3264,6 +3298,44 @@
         "cost": 21
       }
     },
+    "act20side_zone1": {
+      "act20side_01": {
+        "code": "IC-1",
+        "cost": 9
+      },
+      "act20side_02": {
+        "code": "IC-2",
+        "cost": 9
+      },
+      "act20side_03": {
+        "code": "IC-3",
+        "cost": 12
+      },
+      "act20side_04": {
+        "code": "IC-4",
+        "cost": 12
+      },
+      "act20side_05": {
+        "code": "IC-5",
+        "cost": 15
+      },
+      "act20side_06": {
+        "code": "IC-6",
+        "cost": 15
+      },
+      "act20side_07": {
+        "code": "IC-7",
+        "cost": 21
+      },
+      "act20side_08": {
+        "code": "IC-8",
+        "cost": 21
+      },
+      "act20side_09": {
+        "code": "IC-9",
+        "cost": 21
+      }
+    },
     "act19side_zone1": {
       "act19side_01": {
         "code": "DV-1",
@@ -3304,44 +3376,6 @@
       "act19side_s02": {
         "code": "DV-S-2",
         "cost": 0
-      }
-    },
-    "act20side_zone1": {
-      "act20side_01": {
-        "code": "IC-1",
-        "cost": 9
-      },
-      "act20side_02": {
-        "code": "IC-2",
-        "cost": 9
-      },
-      "act20side_03": {
-        "code": "IC-3",
-        "cost": 12
-      },
-      "act20side_04": {
-        "code": "IC-4",
-        "cost": 12
-      },
-      "act20side_05": {
-        "code": "IC-5",
-        "cost": 15
-      },
-      "act20side_06": {
-        "code": "IC-6",
-        "cost": 15
-      },
-      "act20side_07": {
-        "code": "IC-7",
-        "cost": 21
-      },
-      "act20side_08": {
-        "code": "IC-8",
-        "cost": 21
-      },
-      "act20side_09": {
-        "code": "IC-9",
-        "cost": 21
       }
     },
     "act18side_zone1": {

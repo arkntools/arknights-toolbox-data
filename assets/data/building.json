@@ -3313,6 +3313,46 @@
         "id": "control_mp_cost_011",
         "unlock": "2_1"
       }
+    ],
+    "4123_ela": [
+      {
+        "id": "train_spd_tag_020",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_clue_cost&faction_990",
+        "unlock": "2_1"
+      }
+    ],
+    "4124_iana": [
+      {
+        "id": "train_spd_tag_030",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd_bd_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4125_rdoc": [
+      {
+        "id": "train_spd_tag_1020",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all_026",
+        "unlock": "2_1"
+      }
+    ],
+    "4126_fuze": [
+      {
+        "id": "train_spd_tag_1030",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_bd_000",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3460,6 +3500,10 @@
       "control_mp_cost&faction_990": {
         "icon": "bskill_ctrl_r6",
         "desc": "6d7d"
+      },
+      "control_clue_cost&faction_990": {
+        "icon": "bskill_ctrl_ela",
+        "desc": "c361"
       },
       "control_mp_cost&bd1_000": {
         "icon": "bskill_ctrl_cost_bd1",
@@ -3696,6 +3740,10 @@
       "manu_skill_change_000": {
         "icon": "bskill_man_skill_change",
         "desc": "5724"
+      },
+      "manu_prod_bd_000": {
+        "icon": "bskill_man_fuze",
+        "desc": "e319"
       },
       "manu_prod_spd_addition_030": {
         "icon": "bskill_man_spd_add1",
@@ -4529,6 +4577,22 @@
         "icon": "bskill_train_knight_bd2",
         "desc": "2fa7"
       },
+      "train_spd_tag_020": {
+        "icon": "bskill_train_defense",
+        "desc": "9e4e"
+      },
+      "train_spd_tag_1020": {
+        "icon": "bskill_train_defense",
+        "desc": "9e4e"
+      },
+      "train_spd_tag_030": {
+        "icon": "bskill_train_attack",
+        "desc": "4031"
+      },
+      "train_spd_tag_1030": {
+        "icon": "bskill_train_attack",
+        "desc": "4031"
+      },
       "train_spd_doubleProf_000": {
         "icon": "bskill_train_vanguard&sniper",
         "desc": "96a5"
@@ -5049,6 +5113,10 @@
         "icon": "bskill_dorm_all2",
         "desc": "a2d2"
       },
+      "dorm_rec_all_026": {
+        "icon": "bskill_dorm_all3",
+        "desc": "cd6e"
+      },
       "dorm_bd_num_000": {
         "icon": "bskill_dorm_bdnum",
         "desc": "16ec"
@@ -5361,6 +5429,10 @@
         "icon": "bskill_meet_spdOwned1",
         "desc": "ddb8"
       },
+      "meet_spd_bd_000": {
+        "icon": "bskill_meet_iana",
+        "desc": "0313"
+      },
       "meet_spd_hast_000": {
         "icon": "bskill_meet_spd_hast1",
         "desc": "7d95"
@@ -5472,6 +5544,11 @@
         "is": {
           "医疗": 1
         }
+      },
+      "4031": {
+        "building": "TRAINING",
+        "num": {},
+        "is": {}
       },
       "4201": {
         "building": "WORKSHOP",
@@ -5906,6 +5983,11 @@
           "心情消耗": 1
         }
       },
+      "c361": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
       "98a6": {
         "building": "CONTROL",
         "num": {
@@ -6117,6 +6199,17 @@
         "building": "MANUFACTURE",
         "num": {},
         "is": {}
+      },
+      "e319": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 20,
+          "capacity": 2
+        },
+        "is": {
+          "通用生产": 1,
+          "仓库容量": 1
+        }
       },
       "93ea": {
         "building": "MANUFACTURE",
@@ -7165,6 +7258,11 @@
         "is": {}
       },
       "2fa7": {
+        "building": "TRAINING",
+        "num": {},
+        "is": {}
+      },
+      "9e4e": {
         "building": "TRAINING",
         "num": {},
         "is": {}
@@ -8280,6 +8378,15 @@
         "building": "MEETING",
         "num": {},
         "is": {}
+      },
+      "0313": {
+        "building": "MEETING",
+        "num": {
+          "collect": 5
+        },
+        "is": {
+          "无特别加成": 1
+        }
       },
       "7d95": {
         "building": "MEETING",

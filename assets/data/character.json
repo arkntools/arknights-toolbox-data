@@ -1914,6 +1914,22 @@
       16
     ]
   },
+  "4125_rdoc": {
+    "pinyin": {
+      "full": "yisheng",
+      "head": "ys"
+    },
+    "romaji": "",
+    "appellation": "Doc",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      15,
+      16
+    ]
+  },
   "106_franka": {
     "pinyin": {
       "full": "fulanka",
@@ -2153,6 +2169,22 @@
       "kr": 1,
       "tw": 1
     },
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      21,
+      20
+    ]
+  },
+  "4126_fuze": {
+    "pinyin": {
+      "full": "daohuosuo",
+      "head": "dhs"
+    },
+    "romaji": "",
+    "appellation": "Fuze",
+    "star": 5,
+    "recruitment": {},
     "position": 9,
     "profession": 1,
     "tags": [
@@ -4021,6 +4053,22 @@
       25
     ]
   },
+  "4124_iana": {
+    "pinyin": {
+      "full": "shuangyue",
+      "head": "sy"
+    },
+    "romaji": "",
+    "appellation": "Iana",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      24,
+      25
+    ]
+  },
   "103_angel": {
     "pinyin": {
       "full": "nengtianshi",
@@ -4925,6 +4973,23 @@
     "tags": [
       27,
       12
+    ]
+  },
+  "4123_ela": {
+    "pinyin": {
+      "full": "aila",
+      "head": "al"
+    },
+    "romaji": "",
+    "appellation": "Ela",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      27,
+      12,
+      19
     ]
   },
   "147_shining": {
