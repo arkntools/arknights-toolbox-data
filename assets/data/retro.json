@@ -728,6 +728,13 @@
         "act17side"
       ]
     },
+    "permanent_sub_5_Lone_Trail": {
+      "type": 1,
+      "startTime": 1713211200,
+      "linkedActId": [
+        "act25side"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1641844800,
