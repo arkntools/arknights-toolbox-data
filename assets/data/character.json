@@ -1438,6 +1438,22 @@
       22
     ]
   },
+  "4130_luton": {
+    "pinyin": {
+      "full": "lutuo",
+      "head": "lt"
+    },
+    "romaji": "",
+    "appellation": "Lutonada",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      20,
+      22
+    ]
+  },
   "196_sunbr": {
     "pinyin": {
       "full": "gumi",
@@ -2310,6 +2326,22 @@
       13
     ]
   },
+  "4131_odda": {
+    "pinyin": {
+      "full": "aoda",
+      "head": "ad"
+    },
+    "romaji": "",
+    "appellation": "Odda",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      21,
+      12
+    ]
+  },
   "129_bluep": {
     "pinyin": {
       "full": "landu",
@@ -2779,6 +2811,22 @@
     "tags": [
       21,
       24
+    ]
+  },
+  "446_aroma": {
+    "pinyin": {
+      "full": "aluoma",
+      "head": "alm"
+    },
+    "romaji": "",
+    "appellation": "Aroma",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      21,
+      12
     ]
   },
   "4013_kjera": {
@@ -4945,6 +4993,22 @@
     "tags": [
       19,
       12
+    ]
+  },
+  "4132_ascln": {
+    "pinyin": {
+      "full": "asikalun",
+      "head": "askl"
+    },
+    "romaji": "",
+    "appellation": "Ascalon",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      23,
+      19
     ]
   },
   "1023_ghost2": {

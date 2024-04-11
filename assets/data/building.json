@@ -3353,6 +3353,50 @@
         "id": "manu_prod_bd_000",
         "unlock": "2_1"
       }
+    ],
+    "4132_ascln": [
+      {
+        "id": "control_train_spd_010",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_tra_spd_030",
+        "unlock": "2_1"
+      }
+    ],
+    "446_aroma": [
+      {
+        "id": "manu_formula_spd&cost_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd_addition_100",
+        "unlock": "2_1"
+      }
+    ],
+    "4131_odda": [
+      {
+        "id": "meet_spd&cost_condChar_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&cost_condChar_011",
+        "unlock": "2_1"
+      },
+      {
+        "id": "meet_spd&condChar_mustget_100",
+        "unlock": "2_1"
+      }
+    ],
+    "4130_luton": [
+      {
+        "id": "workshop_formula_cost3_100",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_probability_101",
+        "unlock": "1_1"
+      }
     ]
   },
   "buff": {
@@ -3394,6 +3438,10 @@
         "desc": "1b45"
       },
       "control_tra_spd_020": {
+        "icon": "bskill_ctrl_t_spd",
+        "desc": "1b45"
+      },
+      "control_tra_spd_030": {
         "icon": "bskill_ctrl_t_spd",
         "desc": "1b45"
       },
@@ -3572,6 +3620,10 @@
       "control_dorm_rec_001": {
         "icon": "bskill_ctrl_leader",
         "desc": "5636"
+      },
+      "control_train_spd_010": {
+        "icon": "bskill_ctrl_train_spd1",
+        "desc": "36b3"
       },
       "control_tra_limit&spd_010": {
         "icon": "bskill_ctrl_g_limit&spd",
@@ -3761,6 +3813,10 @@
         "icon": "bskill_man_spd_add2",
         "desc": "eff1"
       },
+      "manu_prod_spd_addition_100": {
+        "icon": "bskill_man_spd_add3",
+        "desc": "baed"
+      },
       "manu_prod_spd_reduce_000": {
         "icon": "bskill_man_spd_reduce",
         "desc": "a14d"
@@ -3935,6 +3991,10 @@
       },
       "manu_formula_spd&cost_000": {
         "icon": "bskill_man_gold3",
+        "desc": "ef5e"
+      },
+      "manu_formula_spd&cost_001": {
+        "icon": "bskill_man_gold4",
         "desc": "ef5e"
       },
       "manu_formula_spd&cost_bd_000": {
@@ -4402,6 +4462,10 @@
         "desc": "9888"
       },
       "workshop_formula_probability_100": {
+        "icon": "bskill_ws_evolve1",
+        "desc": "cc8c"
+      },
+      "workshop_formula_probability_101": {
         "icon": "bskill_ws_evolve1",
         "desc": "cc8c"
       },
@@ -5440,6 +5504,10 @@
       "meet_spd&condChar_mustget_000": {
         "icon": "bskill_meet_spd&condChar_mustget",
         "desc": "951c"
+      },
+      "meet_spd&condChar_mustget_100": {
+        "icon": "bskill_meet_spd&condChar_mustget2",
+        "desc": "2b40"
       }
     },
     "info": {
@@ -6067,6 +6135,11 @@
           "心情消耗": 1
         }
       },
+      "36b3": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
       "779b": {
         "building": "CONTROL",
         "num": {
@@ -6224,6 +6297,15 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 25
+        },
+        "is": {
+          "通用生产": 1
+        }
+      },
+      "baed": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 20
         },
         "is": {
           "通用生产": 1
@@ -8402,6 +8484,13 @@
         "num": {},
         "is": {
           "线索1": 1
+        }
+      },
+      "2b40": {
+        "building": "MEETING",
+        "num": {},
+        "is": {
+          "线索7": 1
         }
       }
     },
