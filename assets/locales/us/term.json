@@ -21,7 +21,7 @@
   },
   "cc_bd_B": {
     "name": "Soundless Resonance",
-    "desc": "Affects skills related to <$cc.bd_B_1><@cc.rem>Lingering Melody</></> and <$cc.bd_B_2><@cc.rem>Harmony Astray</></>\nProvided by the following Operator's skills:\nEbenholz"
+    "desc": "Affects skills related to <$cc.bd_B_1><@cc.rem>Lingering Melody</></>, <$cc.bd_B_2><@cc.rem>Harmony Astray</></>, and <$cc.bd_B_3><@cc.rem>Wordless Anthem</></>\nProvided by the following Operators' skills:\nEbenholz, Virtuosa, Bassline"
   },
   "cc_bd_C": {
     "name": "Witchcraft Crystal",
@@ -163,9 +163,13 @@
     "name": "Other Facilities",
     "desc": "Includes the following facilities: \nPower Plant, Factory, Trading Post, HR Office, Reception Room"
   },
+  "cc_c_room3": {
+    "name": "Workplace",
+    "desc": "Includes the following buildings: \nPower Plant, Factory, Trading Post, HR Office, Reception Room, Control Center, Training Room"
+  },
   "cc_c_skill": {
     "name": "Certain Skills",
-    "desc": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile"
+    "desc": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile, Marigold Poetry Gathering"
   },
   "cc_t_strong2": {
     "name": "Special Interaction Rules",
@@ -221,7 +225,7 @@
   },
   "cc_tag_knight": {
     "name": "Knight",
-    "desc": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel"
+    "desc": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel, Viviana"
   },
   "cc_tag_durin": {
     "name": "Durin",
