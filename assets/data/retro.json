@@ -39,6 +39,13 @@
         "act25side"
       ]
     },
+    "permanent_sub_6_Babel": {
+      "type": 1,
+      "startTime": 1715198400,
+      "linkedActId": [
+        "act33side"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1618430400,
