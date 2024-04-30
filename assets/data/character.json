@@ -833,7 +833,8 @@
     "appellation": "Aciddrop",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 2,
@@ -2026,7 +2027,8 @@
     "appellation": "Flint",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 1,
@@ -5305,7 +5307,8 @@
     "appellation": "Eunectes",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 3,
