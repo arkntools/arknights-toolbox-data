@@ -834,6 +834,7 @@
     "star": 4,
     "recruitment": {
       "cn": 1,
+      "jp": 1,
       "kr": 1
     },
     "position": 10,
@@ -862,7 +863,7 @@
       "full": "yueyue",
       "head": "yy"
     },
-    "romaji": "",
+    "romaji": "keipa",
     "appellation": "Caper",
     "star": 4,
     "recruitment": {},
@@ -2028,6 +2029,7 @@
     "star": 5,
     "recruitment": {
       "cn": 1,
+      "jp": 1,
       "kr": 1
     },
     "position": 9,
@@ -2882,7 +2884,7 @@
       "full": "zheguang",
       "head": "zg"
     },
-    "romaji": "",
+    "romaji": "deiamante",
     "appellation": "Diamante",
     "star": 5,
     "recruitment": {},
@@ -3188,7 +3190,7 @@
       "full": "shenlv",
       "head": "sl"
     },
-    "romaji": "",
+    "romaji": "besurain",
     "appellation": "Bassline",
     "star": 5,
     "recruitment": {},
@@ -4821,7 +4823,7 @@
       "full": "suxin",
       "head": "sx"
     },
-    "romaji": "",
+    "romaji": "birutouosa",
     "appellation": "Virtuosa",
     "star": 6,
     "recruitment": {},
@@ -5308,6 +5310,7 @@
     "star": 6,
     "recruitment": {
       "cn": 1,
+      "jp": 1,
       "kr": 1
     },
     "position": 9,
@@ -5573,7 +5576,7 @@
       "full": "weiweianna",
       "head": "wwan"
     },
-    "romaji": "",
+    "romaji": "bibiana",
     "appellation": "Viviana",
     "star": 6,
     "recruitment": {},
@@ -5658,7 +5661,7 @@
       "full": "zhisong",
       "head": "zs"
     },
-    "romaji": "",
+    "romaji": "resshingu",
     "appellation": "Lessing",
     "star": 6,
     "recruitment": {},

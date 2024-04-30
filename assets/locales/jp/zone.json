@@ -22,6 +22,8 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act29side": "ツヴィリングトゥルムの黄金",
+  "act21sre": "シラクザーノ・復刻",
   "act42d0": "紛争演繹",
   "act28side": "ダーティマネー",
   "act19sre": "翠玉の夢・復刻",
@@ -110,5 +112,6 @@
   "permanent_sidestory_13_Guiding_Ahead": "吾れ先導者たらん@:(retroNameAppend.0)",
   "permanent_sidestory_14_Lingering_Echoes": "塵影に交わる残響@:(retroNameAppend.0)",
   "permanent_sidestory_15_Dorothy_s_Vision": "翠玉の夢@:(retroNameAppend.0)",
-  "permanent_sidestory_16_Summer_Carnival_City": "理想都市-エンドレスカーニバル-@:(retroNameAppend.0)"
+  "permanent_sidestory_16_Summer_Carnival_City": "理想都市-エンドレスカーニバル-@:(retroNameAppend.0)",
+  "permanent_sidestory_17_Il_Siracusano": "シラクザーノ@:(retroNameAppend.0)"
 }
