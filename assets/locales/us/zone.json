@@ -22,6 +22,8 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act29side": "Zwillingstürme im Herbst",
+  "act21sre": "Il Siracusano - Retrospection",
   "act42d0": "Design of Strife",
   "act28side": "Come Catastrophes or Wakes of Vultures",
   "act19sre": "Dorothy's Vision - Retrospection",
@@ -110,5 +112,6 @@
   "permanent_sidestory_13_Guiding_Ahead": "Guide Ahead@:(retroNameAppend.0)",
   "permanent_sidestory_14_Lingering_Echoes": "Lingering Echoes@:(retroNameAppend.0)",
   "permanent_sidestory_15_Dorothy_s_Vision": "Dorothy's Vision@:(retroNameAppend.0)",
-  "permanent_sidestory_16_Summer_Carnival_City": "Ideal City: Endless Carnival@:(retroNameAppend.0)"
+  "permanent_sidestory_16_Summer_Carnival_City": "Ideal City: Endless Carnival@:(retroNameAppend.0)",
+  "permanent_sidestory_17_Il_Siracusano": "Il Siracusano@:(retroNameAppend.0)"
 }
