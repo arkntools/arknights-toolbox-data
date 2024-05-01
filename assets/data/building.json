@@ -3397,6 +3397,64 @@
         "id": "workshop_formula_probability_101",
         "unlock": "1_1"
       }
+    ],
+    "1035_wisdel": [
+      {
+        "id": "control_meeting&ord_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_meeting&ord_001",
+        "unlock": "2_1"
+      },
+      {
+        "id": "control_mp_expand_double_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4133_logos": [
+      {
+        "id": "train_spd_doubleProf_200",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd_reduceTime_001",
+        "unlock": "2_1"
+      }
+    ],
+    "4134_cetsyr": [
+      {
+        "id": "control_mp_cost_double_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_mp_cost_double_001",
+        "unlock": "2_1"
+      },
+      {
+        "id": "control_upMeetingSpeed_100",
+        "unlock": "2_1"
+      }
+    ],
+    "1036_fang2": [
+      {
+        "id": "manu_prod_spd_1000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd&fraction_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4136_phonor": [
+      {
+        "id": "power_rec_spd_004",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_P_001",
+        "unlock": "0_30"
+      }
     ]
   },
   "buff": {
@@ -3455,7 +3513,19 @@
       },
       "control_upMeetingSpeed_000": {
         "icon": "bskill_ctrl_c_spd",
-        "desc": "6ff0"
+        "desc": "d563"
+      },
+      "control_upMeetingSpeed_100": {
+        "icon": "bskill_ctrl_c_spd1",
+        "desc": "b1f7"
+      },
+      "control_meeting&ord_000": {
+        "icon": "bskill_ctrl_c_babel",
+        "desc": "dcc5"
+      },
+      "control_meeting&ord_001": {
+        "icon": "bskill_ctrl_c_babel2",
+        "desc": "a136"
       },
       "control_clue_cost_000": {
         "icon": "bskill_ctrl_c_wt",
@@ -3521,6 +3591,14 @@
         "icon": "bskill_ctrl_cost",
         "desc": "8da9"
       },
+      "control_mp_cost_double_000": {
+        "icon": "bskill_ctrl_amiya",
+        "desc": "02c8"
+      },
+      "control_mp_cost_double_001": {
+        "icon": "bskill_ctrl_amiya1",
+        "desc": "f893"
+      },
       "control_allCost_condChar_000": {
         "icon": "bskill_ctrl_lda",
         "desc": "7652"
@@ -3568,6 +3646,10 @@
       "control_mp_bd_cost_expand_000": {
         "icon": "bskill_ctrl_cost_bd4",
         "desc": "518e"
+      },
+      "control_mp_expand_double_000": {
+        "icon": "bskill_ctrl_cost_expand",
+        "desc": "be66"
       },
       "control_mp_cost&bd2_010": {
         "icon": "bskill_ctrl_cost_felyne",
@@ -3697,6 +3779,10 @@
         "icon": "bskill_pow_spd2",
         "desc": "ba86"
       },
+      "power_rec_spd_004": {
+        "icon": "bskill_pow_spd1",
+        "desc": "36ac"
+      },
       "power_rec_drone_000": {
         "icon": "bskill_pow_drone",
         "desc": "c7b9"
@@ -3712,6 +3798,10 @@
       "power_rec_spd_P_000": {
         "icon": "bskill_pow_spd_P",
         "desc": "60a0"
+      },
+      "power_rec_spd_P_001": {
+        "icon": "bskill_pow_spd_P1",
+        "desc": "e087"
       },
       "power_rec_rhine_000": {
         "icon": "bskill_power_rec_rhine",
@@ -3742,6 +3832,10 @@
         "desc": "3970"
       },
       "manu_prod_spd_000": {
+        "icon": "bskill_man_spd1",
+        "desc": "4815"
+      },
+      "manu_prod_spd_1000": {
         "icon": "bskill_man_spd1",
         "desc": "4815"
       },
@@ -3832,6 +3926,10 @@
       "manu_prod_spd&limit_001": {
         "icon": "bskill_man_spd&limit3",
         "desc": "7b0d"
+      },
+      "manu_prod_spd&fraction_000": {
+        "icon": "bskill_man_A1",
+        "desc": "c8eb"
       },
       "manu_prod_spd&limit&bd_000": {
         "icon": "bskill_man_spd&limit_felyne",
@@ -4665,6 +4763,10 @@
         "icon": "bskill_train_caster&medic1",
         "desc": "e8a2"
       },
+      "train_spd_doubleProf_200": {
+        "icon": "bskill_train_caster&supporter1",
+        "desc": "7e5f"
+      },
       "train_spd_doubleProf_110": {
         "icon": "bskill_train_caster&medic2",
         "desc": "36ef"
@@ -4678,6 +4780,10 @@
         "desc": "3e05"
       },
       "train_spd_reduceTime_000": {
+        "icon": "bskill_train_reduceTime",
+        "desc": "192e"
+      },
+      "train_spd_reduceTime_001": {
         "icon": "bskill_train_reduceTime",
         "desc": "192e"
       },
@@ -5973,7 +6079,22 @@
         "num": {},
         "is": {}
       },
-      "6ff0": {
+      "d563": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
+      "b1f7": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
+      "dcc5": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
+      "a136": {
         "building": "CONTROL",
         "num": {},
         "is": {}
@@ -6001,6 +6122,24 @@
         "building": "CONTROL",
         "num": {
           "moraleConsume": 0.05
+        },
+        "is": {
+          "心情消耗": 1
+        }
+      },
+      "02c8": {
+        "building": "CONTROL",
+        "num": {
+          "moraleConsume": 0.05
+        },
+        "is": {
+          "心情消耗": 1
+        }
+      },
+      "f893": {
+        "building": "CONTROL",
+        "num": {
+          "moraleConsume": 0.1
         },
         "is": {
           "心情消耗": 1
@@ -6074,6 +6213,15 @@
         "building": "CONTROL",
         "num": {
           "moraleConsume": 0.05
+        },
+        "is": {
+          "心情消耗": 1
+        }
+      },
+      "be66": {
+        "building": "CONTROL",
+        "num": {
+          "moraleConsume": 0.1
         },
         "is": {
           "心情消耗": 1
@@ -6198,6 +6346,13 @@
         "is": {}
       },
       "60a0": {
+        "building": "POWER",
+        "num": {
+          "power": 5
+        },
+        "is": {}
+      },
+      "e087": {
         "building": "POWER",
         "num": {
           "power": 5
@@ -6350,6 +6505,11 @@
           "通用生产": 1,
           "仓库容量": 1
         }
+      },
+      "c8eb": {
+        "building": "MANUFACTURE",
+        "num": {},
+        "is": {}
       },
       "64f4": {
         "building": "MANUFACTURE",
@@ -7367,6 +7527,16 @@
         "is": {
           "医疗": 1,
           "术师": 1
+        }
+      },
+      "7e5f": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "术师": 1,
+          "辅助": 1
         }
       },
       "36ef": {
