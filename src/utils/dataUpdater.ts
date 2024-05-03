@@ -1,4 +1,4 @@
-import {
+import _, {
   each,
   invert,
   isNumber,
@@ -67,7 +67,7 @@ import type {
   UniequipTable,
   ZoneTable,
   DataJsonUnopenedStage,
-  DataEventInfo,
+  DataEventInfoMap,
   DataJsonEvent,
   DataJsonDrop,
   DataJsonRetro,
@@ -80,6 +80,7 @@ import type {
   DataJsonBuildingChar,
   AkhrData,
   DataJsonUniequip,
+  DataEventInfo,
 } from 'types';
 import {
   AVATAR_IMG_DIR,
@@ -346,7 +347,7 @@ export class DataUpdater {
     }
   }
 
-  private updateEventInfo({ zoneTable }: GameData, locale: string) {
+  private updateEventInfo({ zoneTable, stageTable }: GameData, locale: string) {
     this.eventInfo[locale] = transform(
       zoneTable.zoneValidInfo,
       (obj, valid, zoneID) => {
@@ -358,8 +359,37 @@ export class DataUpdater {
           obj[zoneID] = { valid };
         }
       },
-      {} as DataEventInfo,
+      {} as DataEventInfoMap,
     );
+
+    // 五周年主线这种掉落替换活动
+    each(stageTable.timelyStageDropInfo, ({ timelyGroupId, startTs, endTs, isReplace }) => {
+      if (!isReplace || DATE_NOW >= endTs * 1000) return;
+      const info: DataEventInfo = {
+        valid: { startTs, endTs },
+        drop: {},
+      };
+      const { dropInfo } = stageTable.timelyTable[timelyGroupId];
+      each(dropInfo, ({ displayRewards, displayDetailRewards }, stageId) => {
+        if (stageId.startsWith('tough_')) return;
+        const { code } = stageTable.stages[stageId];
+        const mainRewardIds = new Set(
+          map(
+            displayRewards.filter(
+              ({ id, dropType }) => isItem(id) && forceEnumNum(dropType, StageDropType) !== StageDropType.ONCE,
+            ),
+            'id',
+          ),
+        );
+        displayDetailRewards
+          .filter(({ id }) => mainRewardIds.has(id))
+          .forEach(({ id, occPercent }) => {
+            if (!(id in info.drop!)) info.drop![id] = {};
+            info.drop![id][code] = forceEnumNum(occPercent, OccPercent);
+          });
+      });
+      this.eventInfo[locale][timelyGroupId] = info;
+    });
   }
 
   private updateEventDrop({ stageTable }: GameData) {
@@ -443,7 +473,7 @@ export class DataUpdater {
     if (isCN) {
       if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
-        zoneToActivity: activityTable.zoneToActivity,
+        zoneToActivity: _.omitBy(activityTable.zoneToActivity, (actId, zoneId) => zoneId.startsWith('main_')),
         zoneToRetro: mapValues(retroTable.zoneToRetro, fixI18nKey),
       });
     }

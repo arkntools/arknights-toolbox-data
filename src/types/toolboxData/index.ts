@@ -18,9 +18,14 @@ export type DataJsonCharacter = Record<string, DataCharacter>;
 
 export type DataJsonUnopenedStage = Record<string, string[]>;
 
-export type DataEventInfo = Record<string, { valid: ZoneValidInfo }>;
+export interface DataEventInfo {
+  valid: ZoneValidInfo;
+  drop?: DataStageDrop;
+}
 
-export type DataJsonEvent = Record<string, DataEventInfo>;
+export type DataEventInfoMap = Record<string, DataEventInfo>;
+
+export type DataJsonEvent = Record<string, DataEventInfoMap>;
 
 export type DataDrop = Record<string, OccPercent>;
 

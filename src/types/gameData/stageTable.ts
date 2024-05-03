@@ -31,18 +31,29 @@ export interface StageDisplayDetailReward extends StageDisplayReward {
   occPercent: OccPercent | keyof typeof OccPercent;
 }
 
+export interface StageDropInfo {
+  displayRewards: StageDisplayReward[];
+  displayDetailRewards: StageDisplayDetailReward[];
+}
+
 export interface Stage {
   stageType: string;
   stageId: string;
   zoneId: string;
   code: string;
   apCost: number;
-  stageDropInfo: {
-    displayRewards: StageDisplayReward[];
-    displayDetailRewards: StageDisplayDetailReward[];
-  };
+  stageDropInfo: StageDropInfo;
+}
+
+export interface TimelyStageDropInfo {
+  timelyGroupId: string;
+  startTs: number;
+  endTs: number;
+  isReplace?: boolean;
 }
 
 export interface StageTable {
   stages: Record<string, Stage>;
+  timelyStageDropInfo: Record<string, TimelyStageDropInfo>;
+  timelyTable: Record<string, { dropInfo: Record<string, StageDropInfo> }>;
 }

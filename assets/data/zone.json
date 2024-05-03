@@ -163,8 +163,7 @@
     "A003_zone2": "act3d0",
     "A003_zone3": "act3d0",
     "A001_zone1": "1stact",
-    "A001_zone2": "1stact",
-    "main_14": "act1mainss"
+    "A001_zone2": "1stact"
   },
   "zoneToRetro": {
     "permanent_sub_1_zone1": "permanent_sub_1_Darknights_Memoir",
