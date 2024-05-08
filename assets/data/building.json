@@ -3521,11 +3521,11 @@
       },
       "control_meeting&ord_000": {
         "icon": "bskill_ctrl_c_babel",
-        "desc": "dcc5"
+        "desc": "8e75"
       },
       "control_meeting&ord_001": {
         "icon": "bskill_ctrl_c_babel2",
-        "desc": "a136"
+        "desc": "d626"
       },
       "control_clue_cost_000": {
         "icon": "bskill_ctrl_c_wt",
@@ -6089,12 +6089,12 @@
         "num": {},
         "is": {}
       },
-      "dcc5": {
+      "8e75": {
         "building": "CONTROL",
         "num": {},
         "is": {}
       },
-      "a136": {
+      "d626": {
         "building": "CONTROL",
         "num": {},
         "is": {}
