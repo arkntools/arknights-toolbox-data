@@ -1,5 +1,12 @@
 {
-  "cn": {},
+  "cn": {
+    "act25sre_zone1": {
+      "valid": {
+        "startTs": 1716537600,
+        "endTs": 1717358399
+      }
+    }
+  },
   "us": {
     "act21sre_zone1": {
       "valid": {
