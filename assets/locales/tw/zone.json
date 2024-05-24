@@ -21,6 +21,7 @@
   "weekly_7": "戰術演習",
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
+  "act20sre": "理想城：長夏狂歡季·復刻",
   "act26side": "空想花庭",
   "act18sre": "塵影餘音·復刻",
   "act38d1": "尖滅測試作戰",
@@ -101,5 +102,6 @@
   "permanent_sidestory_11_Break_The_Ice": "風雪過境@:(retroNameAppend.0)",
   "permanent_sidestory_12_Invitation_To_Wine": "將進酒@:(retroNameAppend.0)",
   "permanent_sidestory_13_Guiding_Ahead": "吾導先路@:(retroNameAppend.0)",
-  "permanent_sidestory_14_Lingering_Echoes": "塵影餘音@:(retroNameAppend.0)"
+  "permanent_sidestory_14_Lingering_Echoes": "塵影餘音@:(retroNameAppend.0)",
+  "permanent_sidestory_16_Summer_Carnival_City": "理想城：長夏狂歡季@:(retroNameAppend.0)"
 }
