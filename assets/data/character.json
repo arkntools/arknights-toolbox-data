@@ -3341,6 +3341,23 @@
       19
     ]
   },
+  "4137_udflow": {
+    "pinyin": {
+      "full": "shenxun",
+      "head": "sx"
+    },
+    "romaji": "",
+    "appellation": "Underflow",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      19,
+      23
+    ]
+  },
   "201_moeshd": {
     "pinyin": {
       "full": "kesong",
@@ -3813,6 +3830,21 @@
       "kr": 1,
       "tw": 1
     },
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      24
+    ]
+  },
+  "4079_haini": {
+    "pinyin": {
+      "full": "haini",
+      "head": "hn"
+    },
+    "romaji": "",
+    "appellation": "Lucilla",
+    "star": 5,
+    "recruitment": {},
     "position": 10,
     "profession": 5,
     "tags": [
@@ -5552,6 +5584,22 @@
     "profession": 1,
     "tags": [
       19
+    ]
+  },
+  "4145_ulpia": {
+    "pinyin": {
+      "full": "wuerbian",
+      "head": "weba"
+    },
+    "romaji": "",
+    "appellation": "Ulpianus",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
     ]
   },
   "010_chen": {
