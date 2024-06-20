@@ -1,21 +1,7 @@
 {
-  "cn": {
-    "act34side_zone1": {
-      "valid": {
-        "startTs": 1717560000,
-        "endTs": 1718740799
-      }
-    }
-  },
+  "cn": {},
   "us": {},
   "jp": {},
   "kr": {},
-  "tw": {
-    "act15mini_zone1": {
-      "valid": {
-        "startTs": 1718258400,
-        "endTs": 1718827199
-      }
-    }
-  }
+  "tw": {}
 }
