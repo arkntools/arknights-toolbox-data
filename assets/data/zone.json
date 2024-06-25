@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act26sre_zone1": "act26sre",
+    "act26sre_zone2": "act26sre",
     "act34side_zone1": "act34side",
     "act34side_zone2": "act34side",
     "act25sre_zone1": "act25sre",
@@ -235,6 +237,8 @@
     "permanent_sidestory_18_zone1": "permanent_sidestory_18_What_the_Firelight_Casts",
     "permanent_sidestory_18_zone2": "permanent_sidestory_18_What_the_Firelight_Casts",
     "permanent_sidestory_19_zone1": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow",
-    "permanent_sidestory_19_zone2": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow"
+    "permanent_sidestory_19_zone2": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow",
+    "permanent_sidestory_20_zone1": "permanent_sidestory_20_Hortus_de_Escapismo",
+    "permanent_sidestory_20_zone2": "permanent_sidestory_20_Hortus_de_Escapismo"
   }
 }

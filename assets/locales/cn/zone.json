@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act26sre": "空想花庭・复刻",
   "act34side": "生路",
   "act25sre": "孤星・复刻",
   "act33side": "巴别塔",
@@ -128,5 +129,6 @@
   "permanent_sidestory_16_Summer_Carnival_City": "理想城：长夏狂欢季@:(retroNameAppend.0)",
   "permanent_sidestory_17_Il_Siracusano": "叙拉古人@:(retroNameAppend.0)",
   "permanent_sidestory_18_What_the_Firelight_Casts": "照我以火@:(retroNameAppend.0)",
-  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登临意@:(retroNameAppend.0)"
+  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登临意@:(retroNameAppend.0)",
+  "permanent_sidestory_20_Hortus_de_Escapismo": "空想花庭@:(retroNameAppend.0)"
 }

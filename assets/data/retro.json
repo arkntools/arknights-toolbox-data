@@ -198,6 +198,14 @@
         "act23side",
         "act23sre"
       ]
+    },
+    "permanent_sidestory_20_Hortus_de_Escapismo": {
+      "type": 0,
+      "startTime": 1720468800,
+      "linkedActId": [
+        "act26side",
+        "act26sre"
+      ]
     }
   },
   "us": {

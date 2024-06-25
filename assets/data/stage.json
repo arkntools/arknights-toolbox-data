@@ -2202,7 +2202,7 @@
         "cost": 21
       }
     },
-    "act26side_zone1": {
+    "act26sre_zone1": {
       "act26side_01": {
         "code": "HE-1",
         "cost": 9
@@ -3464,6 +3464,40 @@
       "a001_06": {
         "code": "GT-6",
         "cost": 15
+      }
+    },
+    "act26side_zone1": {
+      "act26side_01": {
+        "code": "HE-1",
+        "cost": 9
+      },
+      "act26side_02": {
+        "code": "HE-2",
+        "cost": 9
+      },
+      "act26side_03": {
+        "code": "HE-3",
+        "cost": 9
+      },
+      "act26side_04": {
+        "code": "HE-4",
+        "cost": 12
+      },
+      "act26side_05": {
+        "code": "HE-5",
+        "cost": 12
+      },
+      "act26side_06": {
+        "code": "HE-6",
+        "cost": 21
+      },
+      "act26side_07": {
+        "code": "HE-7",
+        "cost": 21
+      },
+      "act26side_08": {
+        "code": "HE-8",
+        "cost": 21
       }
     },
     "act25side_zone1": {
