@@ -913,5 +913,26 @@
   },
   "uniequip_003_ifrit": {
     "typeIcon": "bla-d"
+  },
+  "uniequip_002_chen2": {
+    "typeIcon": "rpr-x"
+  },
+  "uniequip_002_aosta": {
+    "typeIcon": "rpr-x"
+  },
+  "uniequip_002_excu": {
+    "typeIcon": "rpr-x"
+  },
+  "uniequip_002_pinecn": {
+    "typeIcon": "rpr-x"
+  },
+  "uniequip_002_mitm": {
+    "typeIcon": "tac-y"
+  },
+  "uniequip_003_mostma": {
+    "typeIcon": "spc-x"
+  },
+  "uniequip_003_swire2": {
+    "typeIcon": "mer-y"
   }
 }

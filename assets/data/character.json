@@ -1888,6 +1888,22 @@
       12
     ]
   },
+  "4147_mitm": {
+    "pinyin": {
+      "full": "duqiao",
+      "head": "dq"
+    },
+    "romaji": "",
+    "appellation": "Mitm",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 8,
+    "tags": [
+      18,
+      13
+    ]
+  },
   "497_ctable": {
     "pinyin": {
       "full": "xiaoge",
@@ -4782,6 +4798,23 @@
     "profession": 6,
     "tags": [
       19
+    ]
+  },
+  "4146_nymph": {
+    "pinyin": {
+      "full": "nifu",
+      "head": "nf"
+    },
+    "romaji": "",
+    "appellation": "Nymph",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      29,
+      19,
+      12
     ]
   },
   "206_gnosis": {

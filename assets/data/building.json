@@ -3485,6 +3485,30 @@
         "id": "train_spd_power_down_000",
         "unlock": "2_1"
       }
+    ],
+    "4146_nymph": [
+      {
+        "id": "dorm_rec_all_017",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all_027",
+        "unlock": "2_1"
+      },
+      {
+        "id": "control_dorm_rec_002",
+        "unlock": "2_1"
+      }
+    ],
+    "4147_mitm": [
+      {
+        "id": "trade_ord_wt&cost_003",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd&meet_010",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -3730,6 +3754,10 @@
         "desc": "5636"
       },
       "control_dorm_rec_001": {
+        "icon": "bskill_ctrl_leader",
+        "desc": "5636"
+      },
+      "control_dorm_rec_002": {
         "icon": "bskill_ctrl_leader",
         "desc": "5636"
       },
@@ -4241,6 +4269,10 @@
         "icon": "bskill_tra_spd&meet1",
         "desc": "6556"
       },
+      "trade_ord_spd&meet_010": {
+        "icon": "bskill_tra_spd&meet",
+        "desc": "6081"
+      },
       "trade_ord_spd&formula_000": {
         "icon": "bskill_tra_spd&formula1",
         "desc": "d356"
@@ -4372,6 +4404,10 @@
       "trade_ord_wt&cost_012": {
         "icon": "bskill_tra_wt&cost2",
         "desc": "56bc"
+      },
+      "trade_ord_wt&cost_003": {
+        "icon": "bskill_tra_wt&cost1",
+        "desc": "b37f"
       },
       "trade_ord_spd&share_000": {
         "icon": "bskill_tra_share1",
@@ -5209,6 +5245,10 @@
         "icon": "bskill_dorm_all2",
         "desc": "a2d2"
       },
+      "dorm_rec_all_017": {
+        "icon": "bskill_dorm_all2",
+        "desc": "a2d2"
+      },
       "dorm_rec_all_020": {
         "icon": "bskill_dorm_all3",
         "desc": "cd6e"
@@ -5218,6 +5258,10 @@
         "desc": "cd6e"
       },
       "dorm_rec_all_022": {
+        "icon": "bskill_dorm_all3",
+        "desc": "cd6e"
+      },
+      "dorm_rec_all_027": {
         "icon": "bskill_dorm_all3",
         "desc": "cd6e"
       },
@@ -5909,6 +5953,15 @@
         "building": "WORKSHOP",
         "num": {},
         "is": {}
+      },
+      "6081": {
+        "building": "TRADING",
+        "num": {
+          "order": 15
+        },
+        "is": {
+          "订单效率": 1
+        }
       },
       "6141": {
         "building": "MANUFACTURE",
