@@ -22,6 +22,8 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act23sre": "登臨意・復刻",
+  "act16mini": "ニヤニヤ谷へ",
   "act30side": "銀心湖鉄道",
   "act29side": "ツヴィリングトゥルムの黄金",
   "act21sre": "シラクザーノ・復刻",
@@ -114,5 +116,6 @@
   "permanent_sidestory_14_Lingering_Echoes": "塵影に交わる残響@:(retroNameAppend.0)",
   "permanent_sidestory_15_Dorothy_s_Vision": "翠玉の夢@:(retroNameAppend.0)",
   "permanent_sidestory_16_Summer_Carnival_City": "理想都市-エンドレスカーニバル-@:(retroNameAppend.0)",
-  "permanent_sidestory_17_Il_Siracusano": "シラクザーノ@:(retroNameAppend.0)"
+  "permanent_sidestory_17_Il_Siracusano": "シラクザーノ@:(retroNameAppend.0)",
+  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登臨意@:(retroNameAppend.0)"
 }

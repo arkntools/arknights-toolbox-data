@@ -558,6 +558,14 @@
         "act21side",
         "act21sre"
       ]
+    },
+    "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": {
+      "type": 0,
+      "startTime": 1722452400,
+      "linkedActId": [
+        "act23side",
+        "act23sre"
+      ]
     }
   },
   "kr": {
@@ -733,6 +741,14 @@
       "linkedActId": [
         "act21side",
         "act21sre"
+      ]
+    },
+    "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": {
+      "type": 0,
+      "startTime": 1722452400,
+      "linkedActId": [
+        "act23side",
+        "act23sre"
       ]
     }
   },
