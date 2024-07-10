@@ -22,6 +22,8 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act23sre": "Where Vernal Winds Will Never Blow - Rerun",
+  "act16mini": "To the Grinning Valley",
   "act30side": "The Rides to Lake Silberneherze",
   "act29side": "Zwillingstürme im Herbst",
   "act21sre": "Il Siracusano - Retrospection",
@@ -114,5 +116,6 @@
   "permanent_sidestory_14_Lingering_Echoes": "Lingering Echoes@:(retroNameAppend.0)",
   "permanent_sidestory_15_Dorothy_s_Vision": "Dorothy's Vision@:(retroNameAppend.0)",
   "permanent_sidestory_16_Summer_Carnival_City": "Ideal City: Endless Carnival@:(retroNameAppend.0)",
-  "permanent_sidestory_17_Il_Siracusano": "Il Siracusano@:(retroNameAppend.0)"
+  "permanent_sidestory_17_Il_Siracusano": "Il Siracusano@:(retroNameAppend.0)",
+  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "Where Vernal Winds Will Never Blow@:(retroNameAppend.0)"
 }
