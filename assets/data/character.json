@@ -4221,6 +4221,22 @@
       25
     ]
   },
+  "4151_tinman": {
+    "pinyin": {
+      "full": "xiren",
+      "head": "xr"
+    },
+    "romaji": "",
+    "appellation": "Tin Man",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      24,
+      16
+    ]
+  },
   "103_angel": {
     "pinyin": {
       "full": "nengtianshi",

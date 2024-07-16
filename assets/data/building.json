@@ -3500,6 +3500,16 @@
         "unlock": "2_1"
       }
     ],
+    "4151_tinman": [
+      {
+        "id": "hire_spd_dorm&lv_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd_dorm&lv_010",
+        "unlock": "2_1"
+      }
+    ],
     "4147_mitm": [
       {
         "id": "trade_ord_wt&cost_003",
@@ -5521,6 +5531,14 @@
         "icon": "bskill_hire_spd&glasgow",
         "desc": "d3fa"
       },
+      "hire_spd_dorm&lv_000": {
+        "icon": "bskill_hire_spd&dorm1",
+        "desc": "87d6"
+      },
+      "hire_spd_dorm&lv_010": {
+        "icon": "bskill_hire_spd&dorm2",
+        "desc": "9409"
+      },
       "meet_spd_000": {
         "icon": "bskill_meet_spd1",
         "desc": "6ddd"
@@ -6116,6 +6134,13 @@
         "is": {
           "线索倾向": 1
         }
+      },
+      "9409": {
+        "building": "HIRE",
+        "num": {
+          "connect": 5
+        },
+        "is": {}
       },
       "9628": {
         "building": "MANUFACTURE",
@@ -8548,6 +8573,13 @@
         "building": "HIRE",
         "num": {
           "connect": 20
+        },
+        "is": {}
+      },
+      "87d6": {
+        "building": "HIRE",
+        "num": {
+          "connect": 5
         },
         "is": {}
       },
