@@ -1,6 +1,19 @@
 {
   "cn": {},
-  "us": {},
+  "us": {
+    "act31side_zone1": {
+      "valid": {
+        "startTs": 1722427200,
+        "endTs": 1724237999
+      }
+    },
+    "act22sre_zone1": {
+      "valid": {
+        "startTs": 1724259600,
+        "endTs": 1725101999
+      }
+    }
+  },
   "jp": {
     "act31side_zone1": {
       "valid": {

@@ -347,7 +347,7 @@
       "type": 0,
       "startTime": 1696503600,
       "linkedActId": [
-        "act15side",
+        "act16side",
         "act16sre"
       ]
     },
@@ -389,6 +389,14 @@
       "linkedActId": [
         "act23side",
         "act23sre"
+      ]
+    },
+    "permanent_sidestory_18_What_the_Firelight_Casts": {
+      "type": 0,
+      "startTime": 1725447600,
+      "linkedActId": [
+        "act22side",
+        "act22sre"
       ]
     }
   },

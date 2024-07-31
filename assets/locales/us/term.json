@@ -109,7 +109,7 @@
   },
   "cc_g_R6": {
     "name": "Team Rainbow",
-    "desc": "Includes the following Operators:\nAsh, Tachanka, Blitz, Frost"
+    "desc": "Includes the following Operators:\nAsh Tachanka Blitz Frost Ela Doc Iana Fuze"
   },
   "cc_g_sp": {
     "name": "Alternate",
@@ -129,7 +129,7 @@
   },
   "cc_g_sui": {
     "name": "Sui",
-    "desc": "Includes the following Operators\nNian, Dusk, Ling, Chongyue"
+    "desc": "Includes the following Operators:\nNian Dusk Ling Chongyue Shu"
   },
   "cc_g_glasgow": {
     "name": "Glasgow Gang",
@@ -173,7 +173,7 @@
   },
   "cc_c_skill": {
     "name": "Certain Skills",
-    "desc": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile, Marigold Poetry Gathering"
+    "desc": "Includes the following skills:\nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed Million Dollar Smile, Marigold Poetry Gathering, Art of Defense"
   },
   "cc_t_strong2": {
     "name": "Special Interaction Rules",
@@ -206,6 +206,10 @@
   "cc_w_ncdeer2": {
     "name": "Karma",
     "desc": "Whenever a recipe that consumes <@cc.kw>8</> Morale fails to produce a byproduct, gain <@cc.kw>1</> point of <@cc.kw>Karma</> for every <@cc.kw>1</> Morale consumed"
+  },
+  "cc_t_accmuguard1": {
+    "name": "Martial Arts",
+    "desc": "Accumulate <@cc.kw>1</> point when assisting with Specialization training to level 1, <@cc.kw>2</> points to level 2, and <@cc.kw>3</> points at level 3, with a maximum accumulation limit of <@cc.kw>3</> points (cannot be accumulated or consumed when the Trainer's Morale is 0)"
   },
   "cc_sk_manu1": {
     "name": "Standardization Skills",
