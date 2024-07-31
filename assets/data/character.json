@@ -54,7 +54,6 @@
     "recruitment": {
       "cn": 2,
       "us": 2,
-      "jp": 2,
       "kr": 2,
       "tw": 2
     },
@@ -1170,7 +1169,9 @@
     "appellation": "Arene",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 1,
@@ -1769,7 +1770,7 @@
       "full": "hongsun",
       "head": "hs"
     },
-    "romaji": "",
+    "romaji": "kesutoreru",
     "appellation": "Kestrel",
     "star": 5,
     "recruitment": {},
@@ -1861,7 +1862,7 @@
       "full": "wanqing",
       "head": "wq"
     },
-    "romaji": "",
+    "romaji": "wanchiin",
     "appellation": "Wanqing",
     "star": 5,
     "recruitment": {},
@@ -2475,7 +2476,9 @@
     "appellation": "April",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 2,
@@ -3848,7 +3851,6 @@
       "cn": 1,
       "us": 1,
       "jp": 1,
-      "kr": 1,
       "tw": 1
     },
     "position": 10,
@@ -3937,7 +3939,7 @@
       "full": "xiaoman",
       "head": "xm"
     },
-    "romaji": "",
+    "romaji": "gureimbazzu",
     "appellation": "Grain Buds",
     "star": 5,
     "recruitment": {},
@@ -5419,7 +5421,7 @@
       "full": "shu",
       "head": "s"
     },
-    "romaji": "",
+    "romaji": "shu",
     "appellation": "Shu",
     "star": 6,
     "recruitment": {},
@@ -5631,7 +5633,7 @@
       "full": "hedelei",
       "head": "hdl"
     },
-    "romaji": "edori",
+    "romaji": "hedori",
     "appellation": "Hoederer",
     "star": 6,
     "recruitment": {},
@@ -5761,7 +5763,9 @@
     "appellation": "Surtr",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 1,
@@ -5812,7 +5816,7 @@
       "full": "zuole",
       "head": "zl"
     },
-    "romaji": "",
+    "romaji": "zuo･rau",
     "appellation": "Zuo Le",
     "star": 6,
     "recruitment": {},

@@ -531,7 +531,7 @@
       "type": 0,
       "startTime": 1696446000,
       "linkedActId": [
-        "act15side",
+        "act16side",
         "act16sre"
       ]
     },
@@ -573,6 +573,14 @@
       "linkedActId": [
         "act23side",
         "act23sre"
+      ]
+    },
+    "permanent_sidestory_18_What_the_Firelight_Casts": {
+      "type": 0,
+      "startTime": 1725390000,
+      "linkedActId": [
+        "act22side",
+        "act22sre"
       ]
     }
   },
@@ -715,7 +723,7 @@
       "type": 0,
       "startTime": 1696446000,
       "linkedActId": [
-        "act15side",
+        "act16side",
         "act16sre"
       ]
     },
@@ -757,6 +765,14 @@
       "linkedActId": [
         "act23side",
         "act23sre"
+      ]
+    },
+    "permanent_sidestory_18_What_the_Firelight_Casts": {
+      "type": 0,
+      "startTime": 1725390000,
+      "linkedActId": [
+        "act22side",
+        "act22sre"
       ]
     }
   },

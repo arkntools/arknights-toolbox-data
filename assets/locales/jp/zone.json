@@ -22,6 +22,8 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act31side": "懐黍離",
+  "act22sre": "この炎が照らす先・復刻",
   "act23sre": "登臨意・復刻",
   "act16mini": "ニヤニヤ谷へ",
   "act30side": "銀心湖鉄道",
@@ -39,6 +41,7 @@
   "act25side": "孤星",
   "act17sre": "狂人号・復刻",
   "act24side": "紅炎遣らう落葉",
+  "act1sandbox": "生息演算：砂中の火",
   "act16sre": "吾れ先導者たらん・復刻",
   "act14mini": "春分",
   "act23side": "登臨意",
@@ -117,5 +120,6 @@
   "permanent_sidestory_15_Dorothy_s_Vision": "翠玉の夢@:(retroNameAppend.0)",
   "permanent_sidestory_16_Summer_Carnival_City": "理想都市-エンドレスカーニバル-@:(retroNameAppend.0)",
   "permanent_sidestory_17_Il_Siracusano": "シラクザーノ@:(retroNameAppend.0)",
-  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登臨意@:(retroNameAppend.0)"
+  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登臨意@:(retroNameAppend.0)",
+  "permanent_sidestory_18_What_the_Firelight_Casts": "この炎が照らす先@:(retroNameAppend.0)"
 }
