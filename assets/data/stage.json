@@ -1858,6 +1858,44 @@
     }
   },
   "event": {
+    "act35side_zone1": {
+      "act35side_01": {
+        "code": "AS-1",
+        "cost": 9
+      },
+      "act35side_02": {
+        "code": "AS-2",
+        "cost": 9
+      },
+      "act35side_03": {
+        "code": "AS-3",
+        "cost": 9
+      },
+      "act35side_04": {
+        "code": "AS-4",
+        "cost": 12
+      },
+      "act35side_05": {
+        "code": "AS-5",
+        "cost": 12
+      },
+      "act35side_06": {
+        "code": "AS-6",
+        "cost": 12
+      },
+      "act35side_07": {
+        "code": "AS-7",
+        "cost": 21
+      },
+      "act35side_08": {
+        "code": "AS-8",
+        "cost": 21
+      },
+      "act35side_09": {
+        "code": "AS-9",
+        "cost": 21
+      }
+    },
     "act17mini_zone1": {
       "act17mini_01": {
         "code": "KR-1",
@@ -3576,36 +3614,6 @@
         "cost": 21
       }
     },
-    "act22side_zone1": {
-      "act22side_01": {
-        "code": "FC-1",
-        "cost": 9
-      },
-      "act22side_02": {
-        "code": "FC-2",
-        "cost": 9
-      },
-      "act22side_03": {
-        "code": "FC-3",
-        "cost": 12
-      },
-      "act22side_04": {
-        "code": "FC-4",
-        "cost": 12
-      },
-      "act22side_05": {
-        "code": "FC-5",
-        "cost": 21
-      },
-      "act22side_06": {
-        "code": "FC-6",
-        "cost": 21
-      },
-      "act22side_07": {
-        "code": "FC-7",
-        "cost": 21
-      }
-    },
     "act17d0_zone1": {
       "act17d0_01": {
         "code": "OD-1",
@@ -3675,6 +3683,36 @@
       },
       "act23side_09": {
         "code": "WB-9",
+        "cost": 21
+      }
+    },
+    "act22side_zone1": {
+      "act22side_01": {
+        "code": "FC-1",
+        "cost": 9
+      },
+      "act22side_02": {
+        "code": "FC-2",
+        "cost": 9
+      },
+      "act22side_03": {
+        "code": "FC-3",
+        "cost": 12
+      },
+      "act22side_04": {
+        "code": "FC-4",
+        "cost": 12
+      },
+      "act22side_05": {
+        "code": "FC-5",
+        "cost": 21
+      },
+      "act22side_06": {
+        "code": "FC-6",
+        "cost": 21
+      },
+      "act22side_07": {
+        "code": "FC-7",
         "cost": 21
       }
     },
@@ -4605,6 +4643,40 @@
       },
       "act26side_08": {
         "code": "HE-8",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_17_zone1": {
+      "act27side_01": {
+        "code": "SL-1",
+        "cost": 9
+      },
+      "act27side_02": {
+        "code": "SL-2",
+        "cost": 9
+      },
+      "act27side_03": {
+        "code": "SL-3",
+        "cost": 9
+      },
+      "act27side_04": {
+        "code": "SL-4",
+        "cost": 12
+      },
+      "act27side_05": {
+        "code": "SL-5",
+        "cost": 12
+      },
+      "act27side_06": {
+        "code": "SL-6",
+        "cost": 21
+      },
+      "act27side_07": {
+        "code": "SL-7",
+        "cost": 21
+      },
+      "act27side_08": {
+        "code": "SL-8",
         "cost": 21
       }
     }

@@ -3519,6 +3519,46 @@
         "id": "trade_ord_spd&meet_010",
         "unlock": "2_1"
       }
+    ],
+    "4058_pepe": [
+      {
+        "id": "trade_ord_limit&trade&lv_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_pepe_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4138_narant": [
+      {
+        "id": "manu_prod_limit&cost_011",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd&dorm&lv_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4140_lasher": [
+      {
+        "id": "trade_ord_spd&limit_034",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd&limit_035",
+        "unlock": "2_1"
+      }
+    ],
+    "4139_papyrs": [
+      {
+        "id": "train_spd&profession3_182",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession3_183",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4035,6 +4075,10 @@
         "icon": "bskill_man_limit&cost2",
         "desc": "109f"
       },
+      "manu_prod_limit&cost_011": {
+        "icon": "bskill_man_limit&cost2",
+        "desc": "109f"
+      },
       "manu_prod_limit&cost_020": {
         "icon": "bskill_man_limit&cost3",
         "desc": "ead2"
@@ -4163,6 +4207,10 @@
         "icon": "bskill_man_gold1",
         "desc": "9628"
       },
+      "manu_formula_spd&dorm&lv_000": {
+        "icon": "bskill_man_spd&dorm1",
+        "desc": "0d68"
+      },
       "manu_formula_spd&cost_000": {
         "icon": "bskill_man_gold3",
         "desc": "ef5e"
@@ -4251,6 +4299,10 @@
         "icon": "bskill_tra_vodfox",
         "desc": "5a16"
       },
+      "trade_ord_pepe_000": {
+        "icon": "bskill_tra_pepe",
+        "desc": "8d3b"
+      },
       "trade_ord_spd_variable_000": {
         "icon": "bskill_trade_ord_spd_variable",
         "desc": "701a"
@@ -4274,6 +4326,10 @@
       "trade_ord_spd&dorm&lv_010": {
         "icon": "bskill_tra_spd&dorm2",
         "desc": "c650"
+      },
+      "trade_ord_limit&trade&lv_000": {
+        "icon": "bskill_tra_limit&trade1",
+        "desc": "3ba6"
       },
       "trade_ord_spd&meet_000": {
         "icon": "bskill_tra_spd&meet1",
@@ -4348,6 +4404,14 @@
         "desc": "e5ad"
       },
       "trade_ord_spd&limit_033": {
+        "icon": "bskill_tra_spd&limit7",
+        "desc": "9e5b"
+      },
+      "trade_ord_spd&limit_034": {
+        "icon": "bskill_tra_spd1",
+        "desc": "e5ad"
+      },
+      "trade_ord_spd&limit_035": {
         "icon": "bskill_tra_spd&limit7",
         "desc": "9e5b"
       },
@@ -5054,6 +5118,14 @@
       "train_spd&profession3_181": {
         "icon": "bskill_train_wandermedic",
         "desc": "7745"
+      },
+      "train_spd&profession3_182": {
+        "icon": "bskill_train_medic1",
+        "desc": "3990"
+      },
+      "train_spd&profession3_183": {
+        "icon": "bskill_train_chainhealer",
+        "desc": "a0b5"
       },
       "train_spd&profession2_110": {
         "icon": "bskill_train1_vanguard1",
@@ -6886,6 +6958,15 @@
           "贵金属": 1
         }
       },
+      "0d68": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 1
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
       "ef5e": {
         "building": "MANUFACTURE",
         "num": {
@@ -6992,6 +7073,11 @@
           "订单效率": 1
         }
       },
+      "8d3b": {
+        "building": "TRADING",
+        "num": {},
+        "is": {}
+      },
       "701a": {
         "building": "TRADING",
         "num": {},
@@ -7041,6 +7127,11 @@
         "is": {
           "订单效率": 1
         }
+      },
+      "3ba6": {
+        "building": "TRADING",
+        "num": {},
+        "is": {}
       },
       "d356": {
         "building": "TRADING",
@@ -7971,6 +8062,15 @@
         },
         "is": {
           "狙击": 1
+        }
+      },
+      "a0b5": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "医疗": 1
         }
       },
       "9faa": {

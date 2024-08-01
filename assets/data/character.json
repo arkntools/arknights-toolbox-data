@@ -3014,6 +3014,22 @@
       16
     ]
   },
+  "4140_lasher": {
+    "pinyin": {
+      "full": "hengsha",
+      "head": "hs"
+    },
+    "romaji": "",
+    "appellation": "Sand Reckoner",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      27,
+      23
+    ]
+  },
   "108_silent": {
     "pinyin": {
       "full": "hemo",
@@ -3096,7 +3112,9 @@
     "romaji": "uisuparein",
     "appellation": "Whisperain",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 4,
     "tags": [
@@ -3200,6 +3218,21 @@
     },
     "romaji": "papurika",
     "appellation": "Paprika",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ]
+  },
+  "4139_papyrs": {
+    "pinyin": {
+      "full": "suocao",
+      "head": "sc"
+    },
+    "romaji": "",
+    "appellation": "Papyrus",
     "star": 5,
     "recruitment": {},
     "position": 10,
@@ -4472,6 +4505,21 @@
       19
     ]
   },
+  "4138_narant": {
+    "pinyin": {
+      "full": "narentuya",
+      "head": "nrty"
+    },
+    "romaji": "",
+    "appellation": "Narantuya",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
+    ]
+  },
   "112_siege": {
     "pinyin": {
       "full": "tuijinzhiwang",
@@ -5459,7 +5507,9 @@
     "romaji": "madorokku",
     "appellation": "Mudrock",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 3,
     "tags": [
@@ -5659,6 +5709,22 @@
     "tags": [
       19,
       20
+    ]
+  },
+  "4058_pepe": {
+    "pinyin": {
+      "full": "peipei",
+      "head": "pp"
+    },
+    "romaji": "",
+    "appellation": "Pepe",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      12
     ]
   },
   "010_chen": {
@@ -5994,7 +6060,9 @@
     "romaji": "jakki",
     "appellation": "Jackie",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
