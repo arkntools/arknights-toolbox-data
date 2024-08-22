@@ -206,6 +206,14 @@
         "act26side",
         "act26sre"
       ]
+    },
+    "permanent_sidestory_21_so_Long_Adele": {
+      "type": 0,
+      "startTime": 1725480000,
+      "linkedActId": [
+        "act27side",
+        "act27sre"
+      ]
     }
   },
   "us": {

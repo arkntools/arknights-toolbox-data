@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act27sre_zone1": "act27sre",
+    "act27sre_zone2": "act27sre",
+    "act27sre_zone3": "act27sre",
     "act35side_zone1": "act35side",
     "act35side_zone2": "act35side",
     "act35side_zone3": "act35side",
@@ -243,6 +246,9 @@
     "permanent_sidestory_19_zone1": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow",
     "permanent_sidestory_19_zone2": "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow",
     "permanent_sidestory_20_zone1": "permanent_sidestory_20_Hortus_de_Escapismo",
-    "permanent_sidestory_20_zone2": "permanent_sidestory_20_Hortus_de_Escapismo"
+    "permanent_sidestory_20_zone2": "permanent_sidestory_20_Hortus_de_Escapismo",
+    "permanent_sidestory_17_zone1": "permanent_sidestory_21_so_Long_Adele",
+    "permanent_sidestory_17_zone2": "permanent_sidestory_21_so_Long_Adele",
+    "permanent_sidestory_17_zone3": "permanent_sidestory_21_so_Long_Adele"
   }
 }
