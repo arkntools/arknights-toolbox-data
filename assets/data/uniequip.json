@@ -961,5 +961,32 @@
   },
   "uniequip_003_cgbird": {
     "typeIcon": "rin-y"
+  },
+  "uniequip_002_marcil": {
+    "typeIcon": "spc-y"
+  },
+  "uniequip_002_laios": {
+    "typeIcon": "dre-y"
+  },
+  "uniequip_002_chilc": {
+    "typeIcon": "age-x"
+  },
+  "uniequip_002_sensi": {
+    "typeIcon": "gua-y"
+  },
+  "uniequip_002_hodrer": {
+    "typeIcon": "cru-x"
+  },
+  "uniequip_002_ulpia": {
+    "typeIcon": "cru-x"
+  },
+  "uniequip_002_chimes": {
+    "typeIcon": "cru-x"
+  },
+  "uniequip_002_quartz": {
+    "typeIcon": "cru-x"
+  },
+  "uniequip_003_irene": {
+    "typeIcon": "swo-x"
   }
 }

@@ -1938,6 +1938,22 @@
       25
     ]
   },
+  "4144_chilc": {
+    "pinyin": {
+      "full": "qierchake",
+      "head": "qeck"
+    },
+    "romaji": "",
+    "appellation": "Chilchuck",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      25
+    ]
+  },
   "308_swire": {
     "pinyin": {
       "full": "shihuaiya",
@@ -2053,6 +2069,22 @@
     "profession": 1,
     "tags": [
       19
+    ]
+  },
+  "4142_laios": {
+    "pinyin": {
+      "full": "laiousi",
+      "head": "los"
+    },
+    "romaji": "",
+    "appellation": "Laios",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      12
     ]
   },
   "155_tiger": {
@@ -3292,6 +3324,22 @@
     },
     "romaji": "besurain",
     "appellation": "Bassline",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      15
+    ]
+  },
+  "4143_sensi": {
+    "pinyin": {
+      "full": "senxi",
+      "head": "sx"
+    },
+    "romaji": "",
+    "appellation": "Senshi",
     "star": 5,
     "recruitment": {},
     "position": 9,
@@ -4788,6 +4836,23 @@
     "tags": [
       21,
       19,
+      12
+    ]
+  },
+  "4141_marcil": {
+    "pinyin": {
+      "full": "maluxier",
+      "head": "mlxe"
+    },
+    "romaji": "",
+    "appellation": "Marcille",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      21,
+      15,
       12
     ]
   },
