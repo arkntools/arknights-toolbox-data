@@ -111,6 +111,14 @@
     "name": "Team Rainbow",
     "desc": "Includes the following Operators:\nAsh Tachanka Blitz Frost Ela Doc Iana Fuze"
   },
+  "cc_g_Attack": {
+    "name": "Attacking team",
+    "desc": "Includes the following Operators:\nAsh Blitz Iana Fuze"
+  },
+  "cc_g_Defence": {
+    "name": "Defending team",
+    "desc": "Includes the following Operators:\nTachanka Frost Ela Doc"
+  },
   "cc_g_sp": {
     "name": "Alternate",
     "desc": "Includes all Alternate Operators."
