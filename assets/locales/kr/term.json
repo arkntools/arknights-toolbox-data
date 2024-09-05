@@ -111,6 +111,14 @@
     "name": "레인보우 팀",
     "desc": "다음 오퍼레이터 포함\nAsh, Tachanka, Blitz, Frost, Ela, Doc, Iana, Fuze"
   },
+  "cc_g_Attack": {
+    "name": "공격팀",
+    "desc": "다음 오퍼레이터 포함\nAsh, Blitz, Iana, Fuze"
+  },
+  "cc_g_Defence": {
+    "name": "방어팀",
+    "desc": "다음 오퍼레이터 포함\nTachanka, Frost, Ela, Doc"
+  },
   "cc_g_sp": {
     "name": "얼터네이트",
     "desc": "모든 얼터네이트 오퍼레이터 포함"

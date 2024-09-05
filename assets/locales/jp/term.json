@@ -111,6 +111,14 @@
     "name": "レインボー小隊",
     "desc": "対象オペレーター：\nAsh、Tachanka、Blitz、Frost、Ela、Doc、Iana、Fuze"
   },
+  "cc_g_Attack": {
+    "name": "攻撃側",
+    "desc": "対象オペレーター：\nAsh、Blitz、Iana、Fuze"
+  },
+  "cc_g_Defence": {
+    "name": "防衛側",
+    "desc": "対象オペレーター：\nTachanka、Frost、Ela、Doc"
+  },
   "cc_g_sp": {
     "name": "異格",
     "desc": "すべての異格オペレーターが対象"
