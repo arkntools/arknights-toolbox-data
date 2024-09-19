@@ -2206,7 +2206,7 @@
         "cost": 21
       }
     },
-    "act28side_zone1": {
+    "act28sre_zone1": {
       "act28side_01": {
         "code": "CV-1",
         "cost": 9
@@ -3572,6 +3572,40 @@
         "cost": 15
       }
     },
+    "act28side_zone1": {
+      "act28side_01": {
+        "code": "CV-1",
+        "cost": 9
+      },
+      "act28side_02": {
+        "code": "CV-2",
+        "cost": 9
+      },
+      "act28side_03": {
+        "code": "CV-3",
+        "cost": 9
+      },
+      "act28side_04": {
+        "code": "CV-4",
+        "cost": 12
+      },
+      "act28side_05": {
+        "code": "CV-5",
+        "cost": 12
+      },
+      "act28side_06": {
+        "code": "CV-6",
+        "cost": 21
+      },
+      "act28side_07": {
+        "code": "CV-7",
+        "cost": 21
+      },
+      "act28side_08": {
+        "code": "CV-8",
+        "cost": 21
+      }
+    },
     "act27side_zone1": {
       "act27side_01": {
         "code": "SL-1",
@@ -3682,40 +3716,6 @@
         "cost": 21
       }
     },
-    "act17d0_zone1": {
-      "act17d0_01": {
-        "code": "OD-1",
-        "cost": 12
-      },
-      "act17d0_02": {
-        "code": "OD-2",
-        "cost": 12
-      },
-      "act17d0_03": {
-        "code": "OD-3",
-        "cost": 12
-      },
-      "act17d0_04": {
-        "code": "OD-4",
-        "cost": 12
-      },
-      "act17d0_05": {
-        "code": "OD-5",
-        "cost": 12
-      },
-      "act17d0_06": {
-        "code": "OD-6",
-        "cost": 12
-      },
-      "act17d0_07": {
-        "code": "OD-7",
-        "cost": 18
-      },
-      "act17d0_08": {
-        "code": "OD-8",
-        "cost": 18
-      }
-    },
     "act23side_zone1": {
       "act23side_01": {
         "code": "WB-1",
@@ -3824,6 +3824,40 @@
       "act21side_10": {
         "code": "IS-10",
         "cost": 21
+      }
+    },
+    "act17d0_zone1": {
+      "act17d0_01": {
+        "code": "OD-1",
+        "cost": 12
+      },
+      "act17d0_02": {
+        "code": "OD-2",
+        "cost": 12
+      },
+      "act17d0_03": {
+        "code": "OD-3",
+        "cost": 12
+      },
+      "act17d0_04": {
+        "code": "OD-4",
+        "cost": 12
+      },
+      "act17d0_05": {
+        "code": "OD-5",
+        "cost": 12
+      },
+      "act17d0_06": {
+        "code": "OD-6",
+        "cost": 12
+      },
+      "act17d0_07": {
+        "code": "OD-7",
+        "cost": 18
+      },
+      "act17d0_08": {
+        "code": "OD-8",
+        "cost": 18
       }
     }
   },

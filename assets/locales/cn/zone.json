@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act28sre": "不义之财 复刻",
   "act36side": "泰拉饭",
   "act27sre": "火山旅梦・复刻",
   "act35side": "太阳甩在身后",
@@ -135,5 +136,6 @@
   "permanent_sidestory_18_What_the_Firelight_Casts": "照我以火@:(retroNameAppend.0)",
   "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登临意@:(retroNameAppend.0)",
   "permanent_sidestory_20_Hortus_de_Escapismo": "空想花庭@:(retroNameAppend.0)",
-  "permanent_sidestory_21_so_Long_Adele": "火山旅梦@:(retroNameAppend.0)"
+  "permanent_sidestory_21_so_Long_Adele": "火山旅梦@:(retroNameAppend.0)",
+  "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "不义之财@:(retroNameAppend.0)"
 }
