@@ -8,12 +8,6 @@
     }
   },
   "us": {
-    "act32side_zone1": {
-      "valid": {
-        "startTs": 1725555600,
-        "endTs": 1726743599
-      }
-    },
     "act1r6sre_zone1": {
       "valid": {
         "startTs": 1726765200,
@@ -37,5 +31,12 @@
       }
     }
   },
-  "tw": {}
+  "tw": {
+    "act29side_zone1": {
+      "valid": {
+        "startTs": 1727164800,
+        "endTs": 1728935999
+      }
+    }
+  }
 }
