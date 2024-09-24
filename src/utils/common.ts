@@ -141,7 +141,7 @@ export const getNameForRecruitment = (name: string) => name.replace(/'|"/g, '');
 export const getRecruitmentTable = (recruitDetail: string): Record<string, number> =>
   Object.fromEntries(
     recruitDetail
-      .replace(/\\n/g, '\n')
+      .replace(/\\\s*n/g, '\n')
       .split(/\s*-*\s*★+\s*/)
       .splice(1)
       .map(line => line.split(/(?<!<)\/(?!>)/).map(name => name.trim()))
