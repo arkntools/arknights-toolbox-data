@@ -3603,6 +3603,40 @@
         "id": "meet_spd_bd_001",
         "unlock": "2_1"
       }
+    ],
+    "1019_siege2": [
+      {
+        "id": "trade_ord_spd&par_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd&par_001",
+        "unlock": "2_1"
+      }
+    ],
+    "487_bobb": [
+      {
+        "id": "dorm_rec_all&unfull_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all&unfull_001",
+        "unlock": "2_1"
+      }
+    ],
+    "4162_cathy": [
+      {
+        "id": "workshop_proc_probability&ext_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_proc_probability&ext_001",
+        "unlock": "2_1"
+      },
+      {
+        "id": "workshop_formula_cost_001",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4615,6 +4649,14 @@
         "icon": "bskill_tra_ord_spd_ext1",
         "desc": "6015"
       },
+      "trade_ord_spd&par_000": {
+        "icon": "trade_ord_spd&par1",
+        "desc": "0d05"
+      },
+      "trade_ord_spd&par_001": {
+        "icon": "trade_ord_spd&par2",
+        "desc": "6667"
+      },
       "workshop_proc_probability_000": {
         "icon": "bskill_ws_p1",
         "desc": "2902"
@@ -4667,6 +4709,14 @@
         "icon": "bskill_ws_cost_lolxh",
         "desc": "aac2"
       },
+      "workshop_proc_probability&ext_000": {
+        "icon": "bskill_ws_p2",
+        "desc": "d2dc"
+      },
+      "workshop_proc_probability&ext_001": {
+        "icon": "bskill_ws_p7",
+        "desc": "83d4"
+      },
       "workshop_formula_bonus1_000": {
         "icon": "bskill_ws_bonus1",
         "desc": "d0c7"
@@ -4677,6 +4727,10 @@
       },
       "workshop_formula_cost_000": {
         "icon": "bskill_ws_cost_magallan",
+        "desc": "c237"
+      },
+      "workshop_formula_cost_001": {
+        "icon": "bskill_ws_cost",
         "desc": "c237"
       },
       "workshop_formula_cost3_400": {
@@ -5419,6 +5473,14 @@
         "icon": "bskill_dorm_senshi",
         "desc": "f234"
       },
+      "dorm_rec_all&unfull_000": {
+        "icon": "bskill_dorm_all2",
+        "desc": "a2d2"
+      },
+      "dorm_rec_all&unfull_001": {
+        "icon": "bskill_dorm_unfull",
+        "desc": "4553"
+      },
       "dorm_rec_all&single_000": {
         "icon": "bskill_dorm_all&single",
         "desc": "fa08"
@@ -6020,6 +6082,15 @@
         "num": {},
         "is": {}
       },
+      "4553": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.2
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
       "4581": {
         "building": "TRADING",
         "num": {
@@ -6173,6 +6244,15 @@
         "building": "DORMITORY",
         "num": {},
         "is": {}
+      },
+      "6667": {
+        "building": "TRADING",
+        "num": {
+          "order": 30
+        },
+        "is": {
+          "订单效率": 1
+        }
       },
       "6693": {
         "building": "HIRE",
@@ -7597,6 +7677,15 @@
         "building": "WORKSHOP",
         "num": {},
         "is": {}
+      },
+      "83d4": {
+        "building": "WORKSHOP",
+        "num": {
+          "byproduct": 50
+        },
+        "is": {
+          "任意材料": 1
+        }
       },
       "d0c7": {
         "building": "WORKSHOP",

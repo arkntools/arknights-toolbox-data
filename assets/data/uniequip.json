@@ -988,5 +988,26 @@
   },
   "uniequip_003_irene": {
     "typeIcon": "swo-x"
+  },
+  "uniequip_003_ironmn": {
+    "typeIcon": "cra-y"
+  },
+  "uniequip_002_heidi": {
+    "typeIcon": "bar-x"
+  },
+  "uniequip_003_horn": {
+    "typeIcon": "for-y"
+  },
+  "uniequip_002_cathy": {
+    "typeIcon": "cra-x"
+  },
+  "uniequip_002_sora": {
+    "typeIcon": "bar-x"
+  },
+  "uniequip_002_cetsyr": {
+    "typeIcon": "bar-x"
+  },
+  "uniequip_002_skadi2": {
+    "typeIcon": "bar-x"
   }
 }

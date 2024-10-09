@@ -4050,6 +4050,22 @@
       16
     ]
   },
+  "4162_cathy": {
+    "pinyin": {
+      "full": "kaiselin",
+      "head": "ksl"
+    },
+    "romaji": "",
+    "appellation": "Catherine",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 5,
+    "tags": [
+      22,
+      16
+    ]
+  },
   "101_sora": {
     "pinyin": {
       "full": "kong",
@@ -4143,6 +4159,21 @@
     },
     "romaji": "bararukubin",
     "appellation": "Valarqvin",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      29
+    ]
+  },
+  "487_bobb": {
+    "pinyin": {
+      "full": "bobu",
+      "head": "bb"
+    },
+    "romaji": "",
+    "appellation": "Bobbing",
     "star": 5,
     "recruitment": {},
     "position": 10,
@@ -5916,6 +5947,22 @@
     },
     "romaji": "bibiana",
     "appellation": "Viviana",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
+    ]
+  },
+  "1019_siege2": {
+    "pinyin": {
+      "full": "weina·weiduoliya",
+      "head": "wn·wdly"
+    },
+    "romaji": "",
+    "appellation": "Vina Victoria",
     "star": 6,
     "recruitment": {},
     "position": 9,
