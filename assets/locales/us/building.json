@@ -24,6 +24,7 @@
       "control_tra_spd_000": "Agreement",
       "control_tra_spd_010": "Princess",
       "control_tra_spd_020": "Full of Vigor",
+      "control_tra_spd_030": "Intel Mastermind",
       "control_tra_limit&spd_000": "Precise Calculations",
       "control_hire_spd_000": "Infectivity",
       "control_upMeetingSpeed_000": "Worldly Insight",
@@ -68,6 +69,7 @@
       "control_mp_lonely_000": "Business Is Business",
       "control_dorm_rec_000": "Leader",
       "control_dorm_rec_001": "War Tattoos",
+      "control_train_spd_010": "S.W.E.E.P. Supervisor",
       "control_tra_limit&spd_010": "Master Strategist",
       "power_rec_spd&cost_000": "Enthusiasm",
       "power_rec_spd&cost_010": "Take-Away Fruit Tarts",
@@ -115,6 +117,7 @@
       "manu_prod_spd_addition_031": "Right Now",
       "manu_prod_spd_addition_040": "Slowcoach",
       "manu_prod_spd_addition_041": "Time-Lapse Photography",
+      "manu_prod_spd_addition_100": "Routine Cleaning",
       "manu_prod_spd_reduce_000": "Blurry Vision",
       "manu_prod_spd_addition&cost_000": "Blizzard Outside",
       "manu_prod_spd&limit_000": "Warehouse Organization α",
@@ -159,6 +162,7 @@
       "manu_formula_spd_110": "Metalwork β",
       "manu_formula_spd_101": "Metalwork α",
       "manu_formula_spd&cost_000": "Little Whims",
+      "manu_formula_spd&cost_001": "Clean Breeze",
       "manu_formula_spd&cost_bd_000": "Big Responsibilities",
       "manu_formula_spd_200": "Originium Work α",
       "manu_formula_spd_210": "Originium Work β",
@@ -276,6 +280,7 @@
       "workshop_formula_probability_020": "Arise",
       "workshop_formula_probability_030": "Adaptability",
       "workshop_formula_probability_100": "Nutriology",
+      "workshop_formula_probability_101": "High Efficiency Recycling",
       "workshop_formula_probability_115": "Required Course",
       "workshop_formula_probability_119": "Industrial Design",
       "workshop_formula_probability_129": "Scholar",
@@ -534,7 +539,8 @@
       "meet_spd_Owned_000": "Conspicuous Investigator",
       "meet_spd_bd_000": "Intel Expert",
       "meet_spd_hast_000": "Shadow Gathering",
-      "meet_spd&condChar_mustget_000": "Bibliography Consultant"
+      "meet_spd&condChar_mustget_000": "Bibliography Consultant",
+      "meet_spd&condChar_mustget_100": "Secret Clue"
     },
     "description": {
       "1397": "When this Operator is assigned to the Reception Room, increases Clue search speed by <@cc.vup>35%</>, and Morale consumed per hour by <@cc.vdown>+2</>",
@@ -599,7 +605,7 @@
       "54b5": "When this Operator is assigned to the Control Center, self Morale loss per hour <@cc.vdown>+0.5</>; for each <$cc.g.bs><@cc.kw>Blacksteel Worldwide</></> Operator assigned to Factories, productivity <@cc.vup>+5%</>",
       "1b45": "When this Operator is assigned to the Control Center, all Trading Posts' order efficiency <@cc.vup>+7%</> (only the most effective one will take effect when assigned Operators have the same skill effect)",
       "347c": "When this Operator is assigned to the Control Center, all <$cc.g.karlan><@cc.kw>Karlan Trade</></> Operators assigned to Trading Posts gain order acquisition efficiency <@cc.vdown>-15%</> and order limit <@cc.vup>+6</>",
-      "d563": "When this Operator is assigned to the Control Center, clue collection speed <@cc.vup>+25%</>",
+      "d563": "When this Operator is assigned to the Control Center, clue collection speed <@cc.vup>+25%</> (Only the strongest effect of this type takes place).",
       "6e04": "When this Operator is assigned to the Control Center, <@cc.kw>increases</> the likelihood of obtaining Clues <@cc.kw>corresponding to the factions of Operators assigned to the Reception Room</>, but also increases the Morale consumption of Operators assigned to the Control Center by <@cc.vdown>+1.5</>",
       "458d": "When this Operator is assigned to the Control Center, <@cc.kw>slightly increases</> the likelihood of obtaining Clues <@cc.kw>corresponding to the factions of Operators assigned to the Reception Room</>",
       "c444": "When this Operator is assigned to the Control Center, the likelihood of the Reception Room obtaining <@cc.kw>Glasgow</> clues is increased (Rate is influenced by length of work time)",
@@ -621,6 +627,7 @@
       "839b": "When this Operator is assigned to the Control Center, increases Morale of all Operators in the Control Center by <@cc.vup>+0.05</> per hour; <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> Operators in the Base gain <$cc.c.abyssal2_2><@cc.rem>Special Bonus</></> (Has <$cc.c.abyssal2_3><@cc.rem>Special Interaction Rules</></> with certain skills)",
       "f4fe": "When this Operator is assigned to the Control Center, each <$cc.g.psk><@cc.kw>Pinus Sylvestris</></> Operator assigned to Factories have <@cc.vup>+10%</> productivity towards <@cc.kw>Battle Records</> and <@cc.vdown>-10%</> productivity towards <@cc.kw>Precious Metals</>",
       "a946": "When this Operator is assigned to the Control Center, working Operators in <$cc.c.room1><@cc.kw>certain facilities</></> will recover <@cc.vup>+0.1</> Morale per hour, and <$cc.c.skill><@cc.kw>some skills</></> in the Control Center will provide additional Morale recovery for Operators working in <$cc.c.room2><@cc.kw>other facilities</></>",
+      "36b3": "When this Operator is assigned to the Control Center, if an Operator is conducting Skill Specialization in the Training Room, that Operator's Specialization training speed <@cc.vup>+5%</> (Only the strongest effect of this type takes place).",
       "779b": "When this Operator is assigned to the Control Center, for <@cc.vup>each</> <$cc.g.glasgow><@cc.kw>Glasgow Gang</></> Operator assigned to the same Trading Post, order acquisition efficiency <@cc.vup>+10%</>",
       "f025": "When this Operator is assigned to a Power Plant, reduces the Morale consumed each hour by <@cc.vup>-0.52</>",
       "c79a": "When this Operator is assigned to a Power Plant, reduces the Morale consumed each hour by <@cc.vup>-0.3</>",
@@ -630,7 +637,7 @@
       "c7b9": "When this Operator is assigned to a Power Plant, <@cc.vup>+1%</> Drone recovery rate for every <@cc.vup>10</> max Drone capacity",
       "96ee": "When this Operator is assigned to a Power Plant, if there are no <$cc.tag.op><@cc.kw>Operation Platforms</></> in other <@cc.kw>Power Plants</>, <@cc.kw>Power Plant </><@cc.vup>+1</>(only affects facility quantity)",
       "409c": "When this Operator is assigned to a Power Plant, increases the productivity of the Factory <@cc.kw>Wild Mane</> is assigned to by <@cc.vup>+5%</>",
-      "60a0": "When this Operator is assigned to a Power Plant, if <@cc.kw>Kal'tsit</> is assigned to the Control Center, increases the drone recovery rate by <@cc.vup>+5%</>",
+      "60a0": "When this Operator is assigned to a Power Plant, if <@cc.kw>Kal'tsit</> is assigned to the Control Center, increases the drone recovery rate by <@cc.vup>+5%</>.",
       "f054": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+10%</>; for every other <$cc.g.rh><@cc.kw>Rhine Lab</></> Operator in the Base (excluding assistants, max <@cc.kw>5</>), additional drone recovery rate <@cc.vup>+3%</>",
       "32fe": "When this Operator is assigned to a Power Plant, drone recovery rate is <@cc.vup>+10%</> in the first hour and thereafter <@cc.vup>+1%</> per hour, up to <@cc.vup>+15%</>",
       "64b7": "When this Operator is assigned to a Power Plant, drone recovery rate is <@cc.vup>+15%</> in the first hour and thereafter <@cc.vup>+1%</> per hour, up to <@cc.vup>+20%</>",
@@ -645,6 +652,7 @@
       "e319": "When this Operator is assigned to a Factory, Productivity <@cc.vup>+20%</>; for every <@cc.vup>1</> <$cc.bd_tachanka><@cc.rem>Ursus Specialty Beverage</></>, capacity limit <@cc.vup>+2</>",
       "93ea": "When this Operator is assigned to a Factory, productivity <@cc.vup>+20%</> in the first hour and thereafter <@cc.vup>+1%</> per hour, up to <@cc.vup>+25%</>",
       "eff1": "When this Operator is assigned to a Factory, productivity <@cc.vup>+15%</> in the first hour and thereafter <@cc.vup>+2%</> per hour, up to <@cc.vup>+25%</>",
+      "baed": "When this Operator is assigned to a Factory, productivity per hour <@cc.vup>+2%</>, up to <@cc.vup>+20%</>.",
       "a14d": "When this Operator is assigned to a Factory, Productivity <@cc.vup>+30%</>. For every <@cc.kw>4</> points of <$cc.bd.costdrop><@cc.kw>Morale difference</></> on self, Productivity <@cc.vdown>-5%</>",
       "0cf0": "When this Operator is assigned to a Factory, if own <$cc.bd.costdrop><@cc.kw>Morale difference</></> is greater than <@cc.kw>12</>, Productivity <@cc.vup>+10%</>, storage capacity <@cc.vup>+6</>",
       "2d4c": "When this Operator is assigned to a Factory, capacity limit <@cc.vup>+6</> and productivity <@cc.vup>+10%</>",
@@ -918,7 +926,8 @@
       "ddb8": "When this Operator is assigned to the Reception Room, increases the likelihood of obtaining clues that are already on the Clue Board.",
       "0313": "When this Operator is assigned to the Reception Room, increases Clue search speed by <@cc.vup>5%</>, with an additional <@cc.vup>5%</> for every <@cc.vup>1</> <$cc.bd_ash><@cc.rem>Intelligence Reserve</></>",
       "7d95": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>20%</>, then by another <@cc.vup>2%</> per hour, up to a maximum of <@cc.vup>30%</>",
-      "951c": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhine Lab</> clue is <@cc.kw>guaranteed</> next"
+      "951c": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhine Lab</> clue is <@cc.kw>guaranteed</> next",
+      "2b40": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhodes Island Pharmaceuticals</> clue is <@cc.kw>guaranteed</> next."
     }
   }
 }

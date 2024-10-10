@@ -107,6 +107,10 @@
     "name": "Ursus Student Self-Governing Group",
     "desc": "Includes the following Operators:\nRosa, Zima, Istina, Gummy, Leto"
   },
+  "cc_g_A1": {
+    "name": "A1 Detachment",
+    "desc": "Includes the following Operators:\nHibiscus, Lava, Beagle, Fang, Kroos"
+  },
   "cc_g_R6": {
     "name": "Team Rainbow",
     "desc": "Includes the following Operators:\nAsh Tachanka Blitz Frost Ela Doc Iana Fuze"
@@ -189,7 +193,7 @@
   },
   "cc_c_sui2_1": {
     "name": "Special comparison rules",
-    "desc": "Compare hourly Morale recovery totals of <$cc.c.room2><@cc.kw>other buildings</></> provided by other Operator skills in the Control Center. The strongest effect applies."
+    "desc": "The highest hourly Morale recovery of <$cc.c.room2><@cc.kw>other buildings</></> provided by <@cc.kw>Business Is Business</>, <@cc.kw>Solitary Light</>, or <@cc.kw>Banner of Babel</> will take effect"
   },
   "cc_m_pow1": {
     "name": "Automation α",
@@ -237,7 +241,7 @@
   },
   "cc_tag_op": {
     "name": "Operation Platform",
-    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, Justice Knight, Friston-3"
+    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, 'Justice Knight', Friston-3, PhonoR-0"
   },
   "cc_tag_knight": {
     "name": "Knight",
