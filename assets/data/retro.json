@@ -445,7 +445,8 @@
       "type": 1,
       "startTime": 1669834800,
       "linkedActId": [
-        "act17side"
+        "act17side",
+        "act17sre"
       ]
     },
     "permanent_sub_5_Lone_Trail": {
@@ -453,6 +454,13 @@
       "startTime": 1701716400,
       "linkedActId": [
         "act25side"
+      ]
+    },
+    "permanent_sub_6_Babel": {
+      "type": 1,
+      "startTime": 1730919600,
+      "linkedActId": [
+        "act33side"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
@@ -637,7 +645,8 @@
       "type": 1,
       "startTime": 1669834800,
       "linkedActId": [
-        "act17side"
+        "act17side",
+        "act17sre"
       ]
     },
     "permanent_sub_5_Lone_Trail": {
@@ -645,6 +654,13 @@
       "startTime": 1701716400,
       "linkedActId": [
         "act25side"
+      ]
+    },
+    "permanent_sub_6_Babel": {
+      "type": 1,
+      "startTime": 1730919600,
+      "linkedActId": [
+        "act33side"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {

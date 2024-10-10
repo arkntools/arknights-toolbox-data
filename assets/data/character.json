@@ -53,6 +53,7 @@
     "recruitment": {
       "cn": 2,
       "us": 2,
+      "jp": 2,
       "kr": 2,
       "tw": 2
     },
@@ -1470,7 +1471,7 @@
       "full": "lutuo",
       "head": "lt"
     },
-    "romaji": "",
+    "romaji": "rutonada",
     "appellation": "Lutonada",
     "star": 4,
     "recruitment": {},
@@ -2427,7 +2428,7 @@
       "full": "aoda",
       "head": "ad"
     },
-    "romaji": "",
+    "romaji": "odda",
     "appellation": "Odda",
     "star": 5,
     "recruitment": {},
@@ -2920,7 +2921,7 @@
       "full": "aluoma",
       "head": "alm"
     },
-    "romaji": "",
+    "romaji": "aroma",
     "appellation": "Aroma",
     "star": 5,
     "recruitment": {},
@@ -5331,7 +5332,7 @@
       "full": "asikalun",
       "head": "askl"
     },
-    "romaji": "",
+    "romaji": "asukaron",
     "appellation": "Ascalon",
     "star": 6,
     "recruitment": {},
