@@ -990,6 +990,14 @@
         "act20side",
         "act20sre"
       ]
+    },
+    "permanent_sidestory_17_Il_Siracusano": {
+      "type": 0,
+      "startTime": 1730145599,
+      "linkedActId": [
+        "act21side",
+        "act21sre"
+      ]
     }
   }
 }
