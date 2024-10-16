@@ -47,6 +47,13 @@
         "act33side"
       ]
     },
+    "permanent_sub_7_Ending_A_Grand_Overture": {
+      "type": 1,
+      "startTime": 1730232000,
+      "linkedActId": [
+        "act37side"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1618430400,
