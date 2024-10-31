@@ -149,7 +149,8 @@
     "appellation": "PhonoR-0",
     "star": 1,
     "recruitment": {
-      "cn": 2
+      "cn": 2,
+      "jp": 2
     },
     "position": 10,
     "profession": 5,
@@ -1458,7 +1459,8 @@
     "appellation": "Bubble",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1
     },
     "position": 9,
     "profession": 3,
@@ -1826,7 +1828,7 @@
       "full": "lizhenruiqiangfen",
       "head": "lzrqf"
     },
-    "romaji": "",
+    "romaji": "rekijinsurudoyarifuen",
     "appellation": "Fang the Fire-sharpened",
     "star": 5,
     "recruitment": {},
@@ -2642,7 +2644,8 @@
     "appellation": "Aosta",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1
     },
     "position": 10,
     "profession": 2,
@@ -4545,7 +4548,7 @@
       "full": "weishendaier",
       "head": "wsde"
     },
-    "romaji": "",
+    "romaji": "uishaderu",
     "appellation": "Wis'adel",
     "star": 6,
     "recruitment": {},
@@ -4845,7 +4848,7 @@
       "full": "luogesi",
       "head": "lgs"
     },
-    "romaji": "",
+    "romaji": "rogosu",
     "appellation": "Logos",
     "star": 6,
     "recruitment": {},
@@ -5083,7 +5086,7 @@
       "full": "mowang",
       "head": "mw"
     },
-    "romaji": "",
+    "romaji": "shibiraito･eteruna",
     "appellation": "Civilight Eterna",
     "star": 6,
     "recruitment": {},
@@ -5554,7 +5557,8 @@
     "appellation": "Blemishine",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1
     },
     "position": 9,
     "profession": 3,
