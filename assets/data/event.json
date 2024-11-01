@@ -8,12 +8,6 @@
     }
   },
   "us": {
-    "act33side_zone1": {
-      "valid": {
-        "startTs": 1728561600,
-        "endTs": 1730458799
-      }
-    },
     "reDrop_act1mainss": {
       "valid": {
         "startTs": 1730394000,
