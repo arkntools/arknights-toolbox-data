@@ -814,7 +814,9 @@
     "romaji": "painkon",
     "appellation": "Pinecone",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 2,
     "tags": [
@@ -1651,6 +1653,21 @@
     "tags": [
       20,
       25
+    ]
+  },
+  "4165_ctrail": {
+    "pinyin": {
+      "full": "yunji",
+      "head": "yj"
+    },
+    "romaji": "",
+    "appellation": "Contrail",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      12
     ]
   },
   "128_plosis": {
@@ -3412,7 +3429,9 @@
     "romaji": "kafuka",
     "appellation": "Kafka",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 7,
     "tags": [
@@ -3434,6 +3453,22 @@
     "tags": [
       25,
       19
+    ]
+  },
+  "4155_talr": {
+    "pinyin": {
+      "full": "caidu",
+      "head": "cd"
+    },
+    "romaji": "",
+    "appellation": "Figurino",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      25,
+      12
     ]
   },
   "107_liskam": {
@@ -3681,6 +3716,22 @@
     "position": 9,
     "profession": 3,
     "tags": [
+      22
+    ]
+  },
+  "4148_philae": {
+    "pinyin": {
+      "full": "feilai",
+      "head": "fl"
+    },
+    "romaji": "",
+    "appellation": "Philae",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      29,
       22
     ]
   },
@@ -4670,6 +4721,22 @@
       19
     ]
   },
+  "4026_vulpis": {
+    "pinyin": {
+      "full": "rendong",
+      "head": "rd"
+    },
+    "romaji": "",
+    "appellation": "Vulpisfoglia",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      19
+    ]
+  },
   "479_sleach": {
     "pinyin": {
       "full": "qinliu",
@@ -4960,6 +5027,22 @@
       19
     ]
   },
+  "1038_whitw2": {
+    "pinyin": {
+      "full": "huangwulapulande",
+      "head": "hwlpld"
+    },
+    "romaji": "",
+    "appellation": "Lappland the Decadenza",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      19,
+      24
+    ]
+  },
   "4046_ebnhlz": {
     "pinyin": {
       "full": "heijian",
@@ -5223,6 +5306,21 @@
     "tags": [
       25,
       13
+    ]
+  },
+  "1502_crosly": {
+    "pinyin": {
+      "full": "shijunzhe",
+      "head": "sjz"
+    },
+    "romaji": "",
+    "appellation": "Crownslayer",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      25
     ]
   },
   "322_lmlee": {
@@ -5708,7 +5806,9 @@
     "romaji": "maunten",
     "appellation": "Mountain",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
