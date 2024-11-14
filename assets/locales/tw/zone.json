@@ -22,6 +22,8 @@
   "weekly_7": "戰術演習",
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
+  "act22sre": "照我以火·復刻",
+  "act23sre": "登臨意·復刻",
   "act30side": "銀心湖列車",
   "act21sre": "敘拉古人·復刻",
   "act29side": "崔林特爾梅之金",
@@ -114,5 +116,7 @@
   "permanent_sidestory_14_Lingering_Echoes": "塵影餘音@:(retroNameAppend.0)",
   "permanent_sidestory_15_Dorothy_s_Vision": "綠野幻夢@:(retroNameAppend.0)",
   "permanent_sidestory_16_Summer_Carnival_City": "理想城：長夏狂歡季@:(retroNameAppend.0)",
-  "permanent_sidestory_17_Il_Siracusano": "敘拉古人@:(retroNameAppend.0)"
+  "permanent_sidestory_17_Il_Siracusano": "敘拉古人@:(retroNameAppend.0)",
+  "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登臨意@:(retroNameAppend.0)",
+  "permanent_sidestory_18_What_the_Firelight_Casts": "照我以火@:(retroNameAppend.0)"
 }

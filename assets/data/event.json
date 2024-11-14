@@ -75,5 +75,18 @@
   },
   "jp": {},
   "kr": {},
-  "tw": {}
+  "tw": {
+    "act22sre_zone1": {
+      "valid": {
+        "startTs": 1731571200,
+        "endTs": 1732391999
+      }
+    },
+    "act23sre_zone1": {
+      "valid": {
+        "startTs": 1732435200,
+        "endTs": 1733255999
+      }
+    }
+  }
 }
