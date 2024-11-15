@@ -1039,5 +1039,29 @@
   },
   "uniequip_003_rosmon": {
     "typeIcon": "isw-a"
+  },
+  "uniequip_002_acnipe": {
+    "typeIcon": "mar-x"
+  },
+  "uniequip_002_acspec": {
+    "typeIcon": "exe-x"
+  },
+  "uniequip_002_acguad": {
+    "typeIcon": "dre-x"
+  },
+  "uniequip_002_acfend": {
+    "typeIcon": "pro-x"
+  },
+  "uniequip_002_acsupo": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_002_accast": {
+    "typeIcon": "spc-x"
+  },
+  "uniequip_002_acpion": {
+    "typeIcon": "sol-x"
+  },
+  "uniequip_002_acmedc": {
+    "typeIcon": "phy-x"
   }
 }
