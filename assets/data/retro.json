@@ -268,7 +268,8 @@
       "type": 1,
       "startTime": 1701774000,
       "linkedActId": [
-        "act25side"
+        "act25side",
+        "act25sre"
       ]
     },
     "permanent_sub_6_Babel": {
