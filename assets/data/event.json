@@ -9,7 +9,14 @@
   },
   "us": {},
   "jp": {},
-  "kr": {},
+  "kr": {
+    "act25sre_zone1": {
+      "valid": {
+        "startTs": 1732172400,
+        "endTs": 1732993199
+      }
+    }
+  },
   "tw": {
     "act22sre_zone1": {
       "valid": {
