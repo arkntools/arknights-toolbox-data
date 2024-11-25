@@ -1,6 +1,9 @@
 {
   "zoneToActivity": {
     "act1vautochess_zone1": "act1vautochess",
+    "act29sre_zone1": "act29sre",
+    "act29sre_zone2": "act29sre",
+    "act29sre_zone3": "act29sre",
     "act38side_zone1": "act38side",
     "act38side_zone2": "act38side",
     "act38side_zone3": "act38side",
@@ -266,6 +269,9 @@
     "permanent_sidestory_17_zone2": "permanent_sidestory_21_so_Long_Adele",
     "permanent_sidestory_17_zone3": "permanent_sidestory_21_so_Long_Adele",
     "permanent_sidestory_22_zone1": "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures",
-    "permanent_sidestory_22_zone2": "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures"
+    "permanent_sidestory_22_zone2": "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures",
+    "permanent_sidestory_23_zone1": "permanent_sidestory_23_Zwillingsturme_im_Herbst",
+    "permanent_sidestory_23_zone2": "permanent_sidestory_23_Zwillingsturme_im_Herbst",
+    "permanent_sidestory_23_zone3": "permanent_sidestory_23_Zwillingsturme_im_Herbst"
   }
 }

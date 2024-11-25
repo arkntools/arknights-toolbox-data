@@ -1,9 +1,9 @@
 {
   "cn": {
-    "act38side_zone1": {
+    "act29sre_zone1": {
       "valid": {
-        "startTs": 1730433600,
-        "endTs": 1732219199
+        "startTs": 1732521600,
+        "endTs": 1733342399
       }
     }
   },
@@ -32,12 +32,6 @@
     }
   },
   "tw": {
-    "act22sre_zone1": {
-      "valid": {
-        "startTs": 1731571200,
-        "endTs": 1732391999
-      }
-    },
     "act23sre_zone1": {
       "valid": {
         "startTs": 1732435200,
