@@ -129,7 +129,7 @@
   },
   "cc_g_abyssal": {
     "name": "Abyssal Hunter",
-    "desc": "Includes the following Operators:\nGladiia, Skadi, Specter, Andreana"
+    "desc": "Includes the following Operators:\nGladiia, Skadi, Specter, Andreana, Ulpianus"
   },
   "cc_g_psk": {
     "name": "Pinus Sylvestris",
@@ -137,7 +137,7 @@
   },
   "cc_g_karlan": {
     "name": "Karlan Trade",
-    "desc": "Includes the following Operators\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora, Degenbrecher"
+    "desc": "Includes the following Operators:\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora, Degenbrecher"
   },
   "cc_g_sui": {
     "name": "Sui",
@@ -185,7 +185,7 @@
   },
   "cc_c_skill": {
     "name": "Certain Skills",
-    "desc": "Includes the following skills:\nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed Million Dollar Smile, Marigold Poetry Gathering, Art of Defense"
+    "desc": "Includes the following skills:\nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile, Marigold Poetry Gathering, Art of Defense"
   },
   "cc_t_strong2": {
     "name": "Special Interaction Rules",
@@ -258,5 +258,9 @@
   "cc_gvial": {
     "name": "Gavial",
     "desc": "Includes the following Operators:\nGavial the Invincible, Gavial"
+  },
+  "cc_tra_pepe": {
+    "name": "Special Exclusive Order",
+    "desc": "Special Precious Metal orders offered by Pepe that have a fixed acquisition time and earnings, and require 0 Pure Gold to trade"
   }
 }

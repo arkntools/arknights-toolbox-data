@@ -8,34 +8,34 @@
     }
   },
   "us": {
-    "act25sre_zone1": {
+    "act34side_zone1": {
       "valid": {
-        "startTs": 1732208400,
-        "endTs": 1733050799
+        "startTs": 1733227200,
+        "endTs": 1734433199
       }
     }
   },
   "jp": {
-    "act25sre_zone1": {
+    "act34side_zone1": {
       "valid": {
-        "startTs": 1732172400,
-        "endTs": 1732993199
+        "startTs": 1733191200,
+        "endTs": 1734375599
       }
     }
   },
   "kr": {
-    "act25sre_zone1": {
+    "act34side_zone1": {
       "valid": {
-        "startTs": 1732172400,
-        "endTs": 1732993199
+        "startTs": 1733191200,
+        "endTs": 1734375599
       }
     }
   },
   "tw": {
-    "act23sre_zone1": {
+    "act16mini_zone1": {
       "valid": {
-        "startTs": 1732435200,
-        "endTs": 1733255999
+        "startTs": 1733299200,
+        "endTs": 1733860799
       }
     }
   }
