@@ -1063,5 +1063,32 @@
   },
   "uniequip_002_acmedc": {
     "typeIcon": "phy-x"
+  },
+  "uniequip_002_surtr": {
+    "typeIcon": "aft-x"
+  },
+  "uniequip_002_vvana": {
+    "typeIcon": "aft-d"
+  },
+  "uniequip_002_siege2": {
+    "typeIcon": "aft-x"
+  },
+  "uniequip_002_amiya2": {
+    "typeIcon": "aft-x"
+  },
+  "uniequip_002_sidero": {
+    "typeIcon": "aft-y"
+  },
+  "uniequip_002_astesi": {
+    "typeIcon": "aft-y"
+  },
+  "uniequip_002_frncat": {
+    "typeIcon": "aft-x"
+  },
+  "uniequip_002_rosesa": {
+    "typeIcon": "rin-x"
+  },
+  "uniequip_003_angel": {
+    "typeIcon": "mar-y"
   }
 }

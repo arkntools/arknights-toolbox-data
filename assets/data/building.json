@@ -3701,6 +3701,36 @@
         "id": "train_spd&profession_1081",
         "unlock": "2_1"
       }
+    ],
+    "1039_thorn2": [
+      {
+        "id": "manu_formula_spd_102",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd&trade_1000",
+        "unlock": "2_1"
+      }
+    ],
+    "4164_tecno": [
+      {
+        "id": "workshop_formula_cost5_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_device_070",
+        "unlock": "2_1"
+      }
+    ],
+    "4163_rosesa": [
+      {
+        "id": "trade_ord_limit&trade&lv_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd_1001",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4369,6 +4399,10 @@
         "icon": "bskill_man_spd&trade",
         "desc": "a9d8"
       },
+      "manu_prod_spd&trade_1000": {
+        "icon": "bskill_man_spd&trade1",
+        "desc": "480e"
+      },
       "manu_formula_spd_100": {
         "icon": "bskill_man_gold1",
         "desc": "9628"
@@ -4378,6 +4412,10 @@
         "desc": "6141"
       },
       "manu_formula_spd_101": {
+        "icon": "bskill_man_gold1",
+        "desc": "9628"
+      },
+      "manu_formula_spd_102": {
         "icon": "bskill_man_gold1",
         "desc": "9628"
       },
@@ -4461,6 +4499,10 @@
         "icon": "bskill_tra_spd2",
         "desc": "0d05"
       },
+      "trade_ord_spd_1001": {
+        "icon": "bskill_tra_spd2",
+        "desc": "0d05"
+      },
       "trade_ord_spd_020": {
         "icon": "bskill_tra_spd3",
         "desc": "24d8"
@@ -4503,6 +4545,10 @@
       },
       "trade_ord_limit&trade&lv_000": {
         "icon": "bskill_tra_limit&trade1",
+        "desc": "3ba6"
+      },
+      "trade_ord_limit&trade&lv_001": {
+        "icon": "bskill_tra_limit&trade2",
         "desc": "3ba6"
       },
       "trade_ord_spd&meet_000": {
@@ -4893,6 +4939,10 @@
         "icon": "bskill_ws_constant3",
         "desc": "2566"
       },
+      "workshop_formula_cost5_000": {
+        "icon": "bskill_ws_evolve_cost4",
+        "desc": "c055"
+      },
       "workshop_formula_cost&dorm_000": {
         "icon": "bskill_ws_cost&dorm",
         "desc": "1af4"
@@ -5076,6 +5126,10 @@
       "workshop_formula_device_060": {
         "icon": "bskill_ws_Ketone",
         "desc": "6b8e"
+      },
+      "workshop_formula_device_070": {
+        "icon": "bskill_ws_Crystalline",
+        "desc": "3aee"
       },
       "workshop_formula_rub_000": {
         "icon": "bskill_ws_rub",
@@ -7277,6 +7331,15 @@
           "贵金属": 1
         }
       },
+      "480e": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 3
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
       "0d68": {
         "building": "MANUFACTURE",
         "num": {
@@ -7892,6 +7955,11 @@
         "num": {},
         "is": {}
       },
+      "c055": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
       "1af4": {
         "building": "WORKSHOP",
         "num": {},
@@ -8045,6 +8113,11 @@
         "is": {}
       },
       "6b8e": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
+      "3aee": {
         "building": "WORKSHOP",
         "num": {},
         "is": {}

@@ -1708,6 +1708,22 @@
       16
     ]
   },
+  "4163_rosesa": {
+    "pinyin": {
+      "full": "guiyan",
+      "head": "gy"
+    },
+    "romaji": "",
+    "appellation": "Rose Salt",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15,
+      16
+    ]
+  },
   "115_headbr": {
     "pinyin": {
       "full": "lindong",
@@ -3034,6 +3050,21 @@
     "tags": [
       29,
       13
+    ]
+  },
+  "4164_tecno": {
+    "pinyin": {
+      "full": "tekenuo",
+      "head": "tkn"
+    },
+    "romaji": "",
+    "appellation": "Tecno",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      27
     ]
   },
   "242_otter": {
@@ -5497,6 +5528,23 @@
       27,
       12,
       19
+    ]
+  },
+  "1039_thorn2": {
+    "pinyin": {
+      "full": "yinxingjici",
+      "head": "yxjc"
+    },
+    "romaji": "",
+    "appellation": "Thorns the Lodestar",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      19,
+      16,
+      24
     ]
   },
   "147_shining": {
