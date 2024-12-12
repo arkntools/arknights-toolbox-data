@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act30sre": "银心湖列车・复刻",
   "act39side": "出苍白海",
   "act29sre": "崔林特尔梅之金・复刻",
   "act38side": "揭幕者们",
@@ -143,5 +144,6 @@
   "permanent_sidestory_20_Hortus_de_Escapismo": "空想花庭@:(retroNameAppend.0)",
   "permanent_sidestory_21_so_Long_Adele": "火山旅梦@:(retroNameAppend.0)",
   "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "不义之财@:(retroNameAppend.0)",
-  "permanent_sidestory_23_Zwillingsturme_im_Herbst": "崔林特尔梅之金@:(retroNameAppend.0)"
+  "permanent_sidestory_23_Zwillingsturme_im_Herbst": "崔林特尔梅之金@:(retroNameAppend.0)",
+  "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "银心湖列车@:(retroNameAppend.0)"
 }

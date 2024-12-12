@@ -237,6 +237,14 @@
         "act29side",
         "act29sre"
       ]
+    },
+    "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": {
+      "type": 0,
+      "startTime": 1735761600,
+      "linkedActId": [
+        "act30side",
+        "act30sre"
+      ]
     }
   },
   "us": {
