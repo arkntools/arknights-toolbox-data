@@ -141,6 +141,9 @@ export const getNameForRecruitment = (name: string) => name.replace(/'|"/g, '');
 export const getRecruitmentTable = (recruitDetail: string): Record<string, number> =>
   Object.fromEntries(
     recruitDetail
+      // fucking txwy intern 😡
+      .replace('<</>\n\n★\n@rc.eml>Lancet-2</>', '</>\n\n★\n<@rc.eml>Lancet-2</>')
+      .replace('食 鐵獸', '食鐵獸')
       .replace(/\\\s*n/g, '\n')
       .split(/\s*-*\s*★+\s*/)
       .splice(1)
