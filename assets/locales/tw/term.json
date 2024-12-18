@@ -109,7 +109,15 @@
   },
   "cc_g_R6": {
     "name": "虹彩小隊",
-    "desc": "包含以下幹員\nASH、TACHANKA、BLITZ、FROST"
+    "desc": "包含以下幹員\nASH、TACHANKA、BLITZ、FROST、ELA、DOC、IANA、FUZE"
+  },
+  "cc_g_Attack": {
+    "name": "進攻方",
+    "desc": "包含以下幹員\nASH、BLITZ、IANA、FUZE"
+  },
+  "cc_g_Defence": {
+    "name": "防守方",
+    "desc": "包含以下幹員\nTACHANKA、FROST、ELA、DOC"
   },
   "cc_g_sp": {
     "name": "異格",
@@ -129,7 +137,7 @@
   },
   "cc_g_sui": {
     "name": "歲",
-    "desc": "包含以下幹員\n年、夕、令、重岳"
+    "desc": "包含下列幹員\n年、夕、令、重岳、黍"
   },
   "cc_g_glasgow": {
     "name": "格拉斯哥幫",
@@ -173,7 +181,7 @@
   },
   "cc_c_skill": {
     "name": "部分技能",
-    "desc": "包含以下技能\n左膀右臂、S.W.E.E.P.、零食網路、清理協議、替身、必要責任、護衛、小小的領袖、獨善其身、笑靨如春、金盞花詩會"
+    "desc": "包含以下技能\n左膀右臂、S.W.E.E.P.、零食網絡、清理協議、替身、必要責任、護衛、小小的領袖、獨善其身、笑靨如春、金盞花詩會、捍衛之道"
   },
   "cc_t_strong2": {
     "name": "特殊疊加規則",
