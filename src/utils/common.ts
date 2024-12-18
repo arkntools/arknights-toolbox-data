@@ -147,7 +147,7 @@ export const getRecruitmentTable = (recruitDetail: string): Record<string, numbe
       .replace(/\\\s*n/g, '\n')
       .split(/\s*-*\s*★+\s*/)
       .splice(1)
-      .map(line => line.split(/(?<!<)\/(?!>)/).map(name => name.trim()))
+      .map(line => line.split(/(?<!<)\/(?!>)|-{5,}/).map(name => name.trim()))
       .flat()
       .map(name => [
         getNameForRecruitment(name.replace(/^<.+?>(.+?)<\/>$/g, '$1')),
