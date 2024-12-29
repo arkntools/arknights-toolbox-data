@@ -1,5 +1,9 @@
 {
   "zoneToActivity": {
+    "zone_1": "act1arcade",
+    "zone_2": "act1arcade",
+    "zone_3": "act1arcade",
+    "zone_4": "act1arcade",
     "act30sre_zone1": "act30sre",
     "act30sre_zone2": "act30sre",
     "act39side_zone1": "act39side",
