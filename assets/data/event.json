@@ -20,12 +20,6 @@
         "startTs": 1735887600,
         "endTs": 1736708399
       }
-    },
-    "act26sre_zone1": {
-      "valid": {
-        "startTs": 1735023600,
-        "endTs": 1735844399
-      }
     }
   },
   "kr": {
@@ -34,21 +28,9 @@
         "startTs": 1735887600,
         "endTs": 1736708399
       }
-    },
-    "act26sre_zone1": {
-      "valid": {
-        "startTs": 1735023600,
-        "endTs": 1735844399
-      }
     }
   },
   "tw": {
-    "act32side_zone1": {
-      "valid": {
-        "startTs": 1734501600,
-        "endTs": 1735675199
-      }
-    },
     "act1r6sre_zone1": {
       "valid": {
         "startTs": 1735718400,
