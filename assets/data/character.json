@@ -3111,7 +3111,7 @@
       "full": "hengsha",
       "head": "hs"
     },
-    "romaji": "",
+    "romaji": "sandorekona",
     "appellation": "Sand Reckoner",
     "star": 5,
     "recruitment": {},
@@ -3205,7 +3205,9 @@
     "appellation": "Whisperain",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 4,
@@ -3323,7 +3325,7 @@
       "full": "suocao",
       "head": "sc"
     },
-    "romaji": "",
+    "romaji": "papirusu",
     "appellation": "Papyrus",
     "star": 5,
     "recruitment": {},
@@ -4683,7 +4685,7 @@
       "full": "narentuya",
       "head": "nrty"
     },
-    "romaji": "",
+    "romaji": "narantouya",
     "appellation": "Narantuya",
     "star": 6,
     "recruitment": {},
@@ -5765,7 +5767,9 @@
     "appellation": "Mudrock",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 3,
@@ -5976,7 +5980,7 @@
       "full": "peipei",
       "head": "pp"
     },
-    "romaji": "",
+    "romaji": "pepe",
     "appellation": "Pepe",
     "star": 6,
     "recruitment": {},
@@ -6337,7 +6341,9 @@
     "appellation": "Jackie",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 1,
