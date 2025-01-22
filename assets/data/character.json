@@ -988,7 +988,9 @@
     "romaji": "binsutoku",
     "appellation": "Beanstalk",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 8,
     "tags": [
@@ -1996,6 +1998,22 @@
       25
     ]
   },
+  "4052_surfer": {
+    "pinyin": {
+      "full": "xunlan",
+      "head": "xl"
+    },
+    "romaji": "",
+    "appellation": "Surfer",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      25
+    ]
+  },
   "308_swire": {
     "pinyin": {
       "full": "shihuaiya",
@@ -2893,7 +2911,9 @@
     "romaji": "airisu",
     "appellation": "Iris",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 6,
     "tags": [
@@ -4250,6 +4270,22 @@
       20
     ]
   },
+  "4172_xingzh": {
+    "pinyin": {
+      "full": "xingzhu",
+      "head": "xz"
+    },
+    "romaji": "",
+    "appellation": "Xingzhu",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      16,
+      20
+    ]
+  },
   "4102_threye": {
     "pinyin": {
       "full": "linshi",
@@ -4481,7 +4517,9 @@
     "romaji": "aruketto",
     "appellation": "Archetto",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 2,
     "tags": [
@@ -5110,6 +5148,23 @@
       29,
       19,
       12
+    ]
+  },
+  "1040_blaze2": {
+    "pinyin": {
+      "full": "zhuhuang",
+      "head": "zh"
+    },
+    "romaji": "",
+    "appellation": "Blaze the Igniting Spark",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      29,
+      19,
+      21
     ]
   },
   "206_gnosis": {
@@ -5853,6 +5908,22 @@
       22,
       20,
       19
+    ]
+  },
+  "2026_yu": {
+    "pinyin": {
+      "full": "yu",
+      "head": "y"
+    },
+    "romaji": "",
+    "appellation": "Yu",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      29,
+      22
     ]
   },
   "264_f12yin": {
