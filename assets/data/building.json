@@ -3961,7 +3961,7 @@
       },
       "control_mp_cost&bd_up_000": {
         "icon": "bskill_ctrl_cost_bd3",
-        "desc": "38cf"
+        "desc": "0a87"
       },
       "control_mp_bd_cost_expand_000": {
         "icon": "bskill_ctrl_cost_bd4",
@@ -4389,7 +4389,7 @@
       },
       "manu_constrLv_000": {
         "icon": "bskill_man_constrLv",
-        "desc": "bdf2"
+        "desc": "323a"
       },
       "manu_prod_spd_bd_100": {
         "icon": "bskill_man_spd_bd3",
@@ -6856,7 +6856,7 @@
           "心情消耗": 1
         }
       },
-      "38cf": {
+      "0a87": {
         "building": "CONTROL",
         "num": {},
         "is": {}
@@ -7289,7 +7289,7 @@
         "num": {},
         "is": {}
       },
-      "bdf2": {
+      "323a": {
         "building": "MANUFACTURE",
         "num": {},
         "is": {}
