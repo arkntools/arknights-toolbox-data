@@ -462,6 +462,14 @@
         "act27side",
         "act27sre"
       ]
+    },
+    "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": {
+      "type": 0,
+      "startTime": 1741950000,
+      "linkedActId": [
+        "act28side",
+        "act28sre"
+      ]
     }
   },
   "jp": {
@@ -679,6 +687,14 @@
         "act27side",
         "act27sre"
       ]
+    },
+    "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": {
+      "type": 0,
+      "startTime": 1741892400,
+      "linkedActId": [
+        "act28side",
+        "act28sre"
+      ]
     }
   },
   "kr": {
@@ -895,6 +911,14 @@
       "linkedActId": [
         "act27side",
         "act27sre"
+      ]
+    },
+    "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": {
+      "type": 0,
+      "startTime": 1741892400,
+      "linkedActId": [
+        "act28side",
+        "act28sre"
       ]
     }
   },

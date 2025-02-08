@@ -23,6 +23,8 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act28sre": "Come Catastrophes or Wakes of Vultures - Rerun",
+  "act17mini": "A Kazdelian Rescue",
   "act27sre": "So Long, Adele: Home Away From Home - Retrospection",
   "act35side": "Adventure That Cannot Wait for the Sun",
   "act26sre": "Hortus de Escapismo - Retrospection",
@@ -133,5 +135,6 @@
   "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "Where Vernal Winds Will Never Blow@:(retroNameAppend.0)",
   "permanent_sidestory_18_What_the_Firelight_Casts": "What the Firelight Casts@:(retroNameAppend.0)",
   "permanent_sidestory_20_Hortus_de_Escapismo": "Hortus de Escapismo@:(retroNameAppend.0)",
-  "permanent_sidestory_21_so_Long_Adele": "So Long, Adele: Home Away From Home@:(retroNameAppend.0)"
+  "permanent_sidestory_21_so_Long_Adele": "So Long, Adele: Home Away From Home@:(retroNameAppend.0)",
+  "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "Come Catastrophes or Wakes of Vultures@:(retroNameAppend.0)"
 }

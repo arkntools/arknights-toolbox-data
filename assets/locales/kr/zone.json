@@ -23,6 +23,8 @@
   "weekly_7": "전술 연습",
   "weekly_8": "자원 보장",
   "weekly_9": "화물 운송",
+  "act28sre": "부정축재 (재개방)",
+  "act17mini": "카즈델리안 레스큐",
   "act27sre": "화산의 꿈 여행 (재개방)",
   "act35side": "태양을 뿌리쳐라",
   "act26sre": "공상의 정원 (재개방)",
@@ -133,5 +135,6 @@
   "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "등림의@:(retroNameAppend.0)",
   "permanent_sidestory_18_What_the_Firelight_Casts": "불로 비춰주소서@:(retroNameAppend.0)",
   "permanent_sidestory_20_Hortus_de_Escapismo": "공상의 정원@:(retroNameAppend.0)",
-  "permanent_sidestory_21_so_Long_Adele": "화산의 꿈 여행@:(retroNameAppend.0)"
+  "permanent_sidestory_21_so_Long_Adele": "화산의 꿈 여행@:(retroNameAppend.0)",
+  "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "부정축재@:(retroNameAppend.0)"
 }
