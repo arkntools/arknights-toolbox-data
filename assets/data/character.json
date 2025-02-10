@@ -1500,7 +1500,7 @@
       "head": "gm"
     },
     "romaji": "gumu",
-    "appellation": "Gum",
+    "appellation": "Гум",
     "star": 4,
     "recruitment": {
       "cn": 1,
@@ -1514,7 +1514,8 @@
     "tags": [
       22,
       15
-    ]
+    ],
+    "appellationTransl": "Gum"
   },
   "260_durnar": {
     "pinyin": {
@@ -1734,7 +1735,7 @@
       "head": "ld"
     },
     "romaji": "zuima",
-    "appellation": "Zima",
+    "appellation": "Зима",
     "star": 5,
     "recruitment": {
       "cn": 1,
@@ -1748,7 +1749,8 @@
     "tags": [
       18,
       16
-    ]
+    ],
+    "appellationTransl": "Zima"
   },
   "102_texas": {
     "pinyin": {
@@ -2250,7 +2252,7 @@
       "head": "lx"
     },
     "romaji": "rieta",
-    "appellation": "Leto",
+    "appellation": "Лето",
     "star": 5,
     "recruitment": {},
     "position": 9,
@@ -2258,7 +2260,8 @@
     "tags": [
       19,
       16
-    ]
+    ],
+    "appellationTransl": "Leto"
   },
   "4083_chimes": {
     "pinyin": {
@@ -4082,7 +4085,7 @@
       "head": "zl"
     },
     "romaji": "isuchina",
-    "appellation": "Istina",
+    "appellation": "Истина",
     "star": 5,
     "recruitment": {
       "cn": 1,
@@ -4096,7 +4099,8 @@
     "tags": [
       23,
       19
-    ]
+    ],
+    "appellationTransl": "Istina"
   },
   "326_glacus": {
     "pinyin": {
@@ -4568,14 +4572,15 @@
       "head": "hx"
     },
     "romaji": "pazeonka",
-    "appellation": "Pozyomka",
+    "appellation": "Позёмка",
     "star": 6,
     "recruitment": {},
     "position": 10,
     "profession": 2,
     "tags": [
       19
-    ]
+    ],
+    "appellationTransl": "Pozyomka"
   },
   "430_fartth": {
     "pinyin": {
@@ -4629,7 +4634,7 @@
       "head": "zl"
     },
     "romaji": "rosa",
-    "appellation": "Rosa",
+    "appellation": "Роса",
     "star": 6,
     "recruitment": {
       "cn": 1,
@@ -4643,7 +4648,8 @@
     "tags": [
       19,
       12
-    ]
+    ],
+    "appellationTransl": "Rosa"
   },
   "2012_typhon": {
     "pinyin": {
@@ -4681,14 +4687,15 @@
       "head": "wsde"
     },
     "romaji": "uishaderu",
-    "appellation": "Wis'adel",
+    "appellation": "Wiš'adel",
     "star": 6,
     "recruitment": {},
     "position": 10,
     "profession": 2,
     "tags": [
       19
-    ]
+    ],
+    "appellationTransl": "Wis'adel"
   },
   "1013_chen2": {
     "pinyin": {
@@ -5690,14 +5697,15 @@
       "head": "cjayfl"
     },
     "romaji": "jun燼eiyafuiyatora",
-    "appellation": "Eyjafjalla the Hvit Aska",
+    "appellation": "Eyjafjalla the Hvít Aska",
     "star": 6,
     "recruitment": {},
     "position": 10,
     "profession": 4,
     "tags": [
       15
-    ]
+    ],
+    "appellationTransl": "Eyjafjalla the Hvit Aska"
   },
   "1020_reed2": {
     "pinyin": {
@@ -6319,7 +6327,7 @@
       "head": "men"
     },
     "romaji": "murinaru",
-    "appellation": "Mlynar",
+    "appellation": "Młynar",
     "star": 6,
     "recruitment": {},
     "position": 9,
@@ -6327,7 +6335,8 @@
     "tags": [
       19,
       13
-    ]
+    ],
+    "appellationTransl": "Mlynar"
   },
   "230_savage": {
     "pinyin": {
