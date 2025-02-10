@@ -81,6 +81,7 @@ import type {
   AkhrData,
   DataJsonUniequip,
   DataEventInfo,
+  DataCharacter,
 } from 'types';
 import {
   AVATAR_IMG_DIR,
@@ -267,16 +268,20 @@ export class DataUpdater {
           if (rarity === 0 && !tagList.includes(ROBOT_TAG_NAME_CN)) {
             tagList.push(ROBOT_TAG_NAME_CN);
           }
-          const charData = {
+          const charData: DataCharacter = {
             pinyin: getPinyin(name),
             romaji: '',
-            appellation: transliterate(appellation),
+            appellation,
             star: rarity + 1,
             recruitment: {},
             position: CharPosition[position],
             profession: CharProfession[profession],
             tags: tagList.map(tagName => tagName2Id[tagName]).filter(isNumber),
           };
+          const appellationTransl = transliterate(appellation);
+          if (appellationTransl !== appellation) {
+            charData.appellationTransl = appellationTransl;
+          }
           obj[shortId] = charData;
           if (getNameForRecruitment(name) in recruitmentTable) {
             akhrData.char[name] = {

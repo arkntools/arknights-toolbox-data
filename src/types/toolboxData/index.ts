@@ -7,6 +7,7 @@ export interface DataCharacter {
   };
   romaji: string;
   appellation: string;
+  appellationTransl?: string;
   star: number;
   recruitment: Record<string, number>;
   position: number;
