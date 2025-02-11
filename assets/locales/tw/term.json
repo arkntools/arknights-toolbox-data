@@ -107,6 +107,10 @@
     "name": "烏薩斯學生自治團",
     "desc": "包含以下幹員\n早露、凜冬、真理、古米、烈夏"
   },
+  "cc_g_A1": {
+    "name": "A1小隊",
+    "desc": "包含以下幹員\n芙蓉、炎熔、米格魯、芬、克洛絲"
+  },
   "cc_g_R6": {
     "name": "虹彩小隊",
     "desc": "包含以下幹員\nASH、TACHANKA、BLITZ、FROST、ELA、DOC、IANA、FUZE"
@@ -189,7 +193,7 @@
   },
   "cc_c_sui2_1": {
     "name": "特殊比較規則",
-    "desc": "與控制中樞內其他幹員技能提供的<$cc.c.room2><@cc.kw>其他設施</></>每小時心情恢復值總和進行對比，取最高生效"
+    "desc": "在<@cc.kw>公事公辦</>，<@cc.kw>孤光共照</>，<@cc.kw>巴別塔之幟</>提供的<$cc.c.room2><@cc.kw>其他設施</></>每小時心情恢復值中取最高生效"
   },
   "cc_m_pow1": {
     "name": "自動化·α",
@@ -237,7 +241,7 @@
   },
   "cc_tag_op": {
     "name": "作業平台",
-    "desc": "包含以下幹員\nLancet-2、Castle-3、THRM-EX、正義騎士號、Friston-3"
+    "desc": "包含以下幹員\nLancet-2、Castle-3、THRM-EX、正義騎士號、Friston-3、PhonoR-0"
   },
   "cc_tag_knight": {
     "name": "騎士",
