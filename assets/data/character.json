@@ -3241,6 +3241,21 @@
       15
     ]
   },
+  "4173_nowell": {
+    "pinyin": {
+      "full": "nuoweier",
+      "head": "nwe"
+    },
+    "romaji": "",
+    "appellation": "Nowell",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ]
+  },
   "402_tuye": {
     "pinyin": {
       "full": "tuye",
@@ -6319,6 +6334,22 @@
     "profession": 1,
     "tags": [
       19
+    ]
+  },
+  "4010_etlchi": {
+    "pinyin": {
+      "full": "yindelaixi",
+      "head": "ydlx"
+    },
+    "romaji": "",
+    "appellation": "Entelechia",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
     ]
   },
   "4064_mlynar": {

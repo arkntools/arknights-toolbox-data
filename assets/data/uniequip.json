@@ -1109,10 +1109,16 @@
   "uniequip_003_chyue": {
     "typeIcon": "fgt-y"
   },
+  "uniequip_002_nowell": {
+    "typeIcon": "wah-y"
+  },
   "uniequip_004_dusk": {
     "typeIcon": "isw-a"
   },
   "uniequip_004_zumama": {
     "typeIcon": "ra-a"
+  },
+  "uniequip_002_etlchi": {
+    "typeIcon": "rea-x"
   }
 }

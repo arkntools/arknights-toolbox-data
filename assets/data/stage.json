@@ -1904,6 +1904,40 @@
         "cost": 21
       }
     },
+    "act18mini_zone1": {
+      "act18mini_01": {
+        "code": "SE-1",
+        "cost": 9
+      },
+      "act18mini_02": {
+        "code": "SE-2",
+        "cost": 9
+      },
+      "act18mini_03": {
+        "code": "SE-3",
+        "cost": 12
+      },
+      "act18mini_04": {
+        "code": "SE-4",
+        "cost": 12
+      },
+      "act18mini_05": {
+        "code": "SE-5",
+        "cost": 15
+      },
+      "act18mini_06": {
+        "code": "SE-6",
+        "cost": 15
+      },
+      "act18mini_07": {
+        "code": "SE-7",
+        "cost": 21
+      },
+      "act18mini_08": {
+        "code": "SE-8",
+        "cost": 21
+      }
+    },
     "act39side_zone1": {
       "act39side_01": {
         "code": "EP-1",

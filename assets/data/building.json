@@ -3775,6 +3775,26 @@
         "id": "meet_spd_1020",
         "unlock": "2_1"
       }
+    ],
+    "4010_etlchi": [
+      {
+        "id": "dorm_hireToRecAll_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_hireToRecAll_021",
+        "unlock": "2_1"
+      }
+    ],
+    "4173_nowell": [
+      {
+        "id": "workshop_formula_probability_117",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_cost3_102",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4959,6 +4979,10 @@
         "icon": "bskill_ws_evolve_cost2",
         "desc": "b264"
       },
+      "workshop_formula_cost3_102": {
+        "icon": "bskill_ws_evolve_cost",
+        "desc": "e85a"
+      },
       "workshop_formula_cost3_220": {
         "icon": "bskill_ws_build_cost2",
         "desc": "6060"
@@ -5106,6 +5130,10 @@
       "workshop_formula_probability_126": {
         "icon": "bskill_ws_evolve3",
         "desc": "579e"
+      },
+      "workshop_formula_probability_117": {
+        "icon": "bskill_ws_evolve2",
+        "desc": "a272"
       },
       "workshop_formula_dorm_000": {
         "icon": "bskill_ws_evolve_dorm1",
@@ -5738,6 +5766,14 @@
       "dorm_rec_single&oneself_021": {
         "icon": "bskill_dorm_single&one22",
         "desc": "98df"
+      },
+      "dorm_hireToRecAll_001": {
+        "icon": "bskill_dorm_hireToRecAll2",
+        "desc": "353e"
+      },
+      "dorm_hireToRecAll_021": {
+        "icon": "bskill_dorm_hireToRecAll3",
+        "desc": "7c9b"
       },
       "dorm_rec_single&oneself_030": {
         "icon": "bskill_dorm_single&one22",
@@ -8959,6 +8995,24 @@
         },
         "is": {
           "单体恢复": 1
+        }
+      },
+      "353e": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.1
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
+      "7c9b": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.1
+        },
+        "is": {
+          "群体恢复": 1
         }
       },
       "720f": {
