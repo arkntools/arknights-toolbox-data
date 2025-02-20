@@ -245,6 +245,14 @@
         "act30side",
         "act30sre"
       ]
+    },
+    "permanent_sidestory_25_Here_A_People_Sows": {
+      "type": 0,
+      "startTime": 1741550400,
+      "linkedActId": [
+        "act31side",
+        "act31sre"
+      ]
     }
   },
   "us": {

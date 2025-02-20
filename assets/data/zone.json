@@ -4,6 +4,9 @@
     "act40side_zone2": "act40side",
     "act40side_zone3": "act40side",
     "act18mini_zone1": "act18mini",
+    "act31sre_zone1": "act31sre",
+    "act31sre_zone2": "act31sre",
+    "act31sre_zone3": "act31sre",
     "zone_1": "act1arcade",
     "zone_2": "act1arcade",
     "zone_3": "act1arcade",
@@ -286,6 +289,9 @@
     "permanent_sidestory_23_zone2": "permanent_sidestory_23_Zwillingsturme_im_Herbst",
     "permanent_sidestory_23_zone3": "permanent_sidestory_23_Zwillingsturme_im_Herbst",
     "permanent_sidestory_24_zone1": "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze",
-    "permanent_sidestory_24_zone2": "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze"
+    "permanent_sidestory_24_zone2": "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze",
+    "permanent_sidestory_25_zone1": "permanent_sidestory_25_Here_A_People_Sows",
+    "permanent_sidestory_25_zone2": "permanent_sidestory_25_Here_A_People_Sows",
+    "permanent_sidestory_25_zone3": "permanent_sidestory_25_Here_A_People_Sows"
   }
 }
