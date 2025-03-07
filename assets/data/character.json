@@ -3972,6 +3972,21 @@
       19
     ]
   },
+  "4177_brigid": {
+    "pinyin": {
+      "full": "shuidengxin",
+      "head": "sdx"
+    },
+    "romaji": "",
+    "appellation": "Brigid",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
+    ]
+  },
   "4015_spuria": {
     "pinyin": {
       "full": "konggou",
@@ -4444,6 +4459,22 @@
     "tags": [
       27,
       12
+    ]
+  },
+  "4171_wulfen": {
+    "pinyin": {
+      "full": "muqian",
+      "head": "mq"
+    },
+    "romaji": "",
+    "appellation": "Wulfenite",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      27,
+      24
     ]
   },
   "369_bena": {
@@ -5190,6 +5221,22 @@
       29,
       19,
       21
+    ]
+  },
+  "450_necras": {
+    "pinyin": {
+      "full": "simang",
+      "head": "sm"
+    },
+    "romaji": "",
+    "appellation": "Necrass",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      27,
+      19
     ]
   },
   "206_gnosis": {

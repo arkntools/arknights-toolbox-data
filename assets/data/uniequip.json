@@ -1120,5 +1120,26 @@
   },
   "uniequip_002_etlchi": {
     "typeIcon": "rea-x"
+  },
+  "uniequip_002_thorn2": {
+    "typeIcon": "alc-x"
+  },
+  "uniequip_002_tinman": {
+    "typeIcon": "alc-x"
+  },
+  "uniequip_002_wulfen": {
+    "typeIcon": "trp-y"
+  },
+  "uniequip_003_gnosis": {
+    "typeIcon": "umd-y"
+  },
+  "uniequip_003_vigil": {
+    "typeIcon": "tac-y"
+  },
+  "uniequip_003_sleach": {
+    "typeIcon": "bea-y"
+  },
+  "uniequip_003_bgsnow": {
+    "typeIcon": "arc-x"
   }
 }

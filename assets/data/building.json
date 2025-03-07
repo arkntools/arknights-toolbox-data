@@ -3795,6 +3795,40 @@
         "id": "workshop_formula_cost3_102",
         "unlock": "2_1"
       }
+    ],
+    "450_necras": [
+      {
+        "id": "train_spd&profession2_052",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession2_650",
+        "unlock": "2_1"
+      },
+      {
+        "id": "train_cost&profession_350",
+        "unlock": "2_1"
+      }
+    ],
+    "4171_wulfen": [
+      {
+        "id": "manu_prod_spd&limit&cost_300",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_limit&cost_1020",
+        "unlock": "2_1"
+      }
+    ],
+    "4177_brigid": [
+      {
+        "id": "hire_spd_cost_220",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd_cost_230",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4343,6 +4377,10 @@
         "icon": "bskill_man_limit&cost3",
         "desc": "ead2"
       },
+      "manu_prod_limit&cost_1020": {
+        "icon": "bskill_man_limit&cost3",
+        "desc": "ead2"
+      },
       "manu_formula_cost_000": {
         "icon": "bskill_man_exp&cost",
         "desc": "ab15"
@@ -4386,6 +4424,10 @@
       "manu_prod_spd&limit&cost_200": {
         "icon": "bskill_man_spd&limit5",
         "desc": "6310"
+      },
+      "manu_prod_spd&limit&cost_300": {
+        "icon": "bskill_man_spd&limit6",
+        "desc": "049d"
       },
       "manu_prod_limit&cost_021": {
         "icon": "bskill_man_limit&cost5",
@@ -5371,6 +5413,10 @@
         "icon": "bskill_train_caster2",
         "desc": "dabd"
       },
+      "train_spd&profession2_052": {
+        "icon": "bskill_train_caster1",
+        "desc": "2c32"
+      },
       "train_spd&profession_060": {
         "icon": "bskill_train_supporter1",
         "desc": "b24b"
@@ -5547,6 +5593,10 @@
         "icon": "bskill_train3_sniper2",
         "desc": "335e"
       },
+      "train_spd&profession2_650": {
+        "icon": "bskill_train3_caster2",
+        "desc": "3a41"
+      },
       "train_spd&profession2_660": {
         "icon": "bskill_train3_supporter2",
         "desc": "7113"
@@ -5566,6 +5616,10 @@
       "train_cost&profession_340": {
         "icon": "bskill_train_w",
         "desc": "46cf"
+      },
+      "train_cost&profession_350": {
+        "icon": "bskill_train_necras",
+        "desc": "9069"
       },
       "train_cost&profession_360": {
         "icon": "bskill_train_skadi",
@@ -5910,6 +5964,14 @@
       "hire_spd_cost_210": {
         "icon": "bskill_hire_skgoat2",
         "desc": "d21b"
+      },
+      "hire_spd_cost_220": {
+        "icon": "bskill_hire_skgoat3",
+        "desc": "802c"
+      },
+      "hire_spd_cost_230": {
+        "icon": "bskill_hire_skgoat4",
+        "desc": "c892"
       },
       "hire_spd_cost_100": {
         "icon": "bskill_hire_spd&cost1",
@@ -6675,6 +6737,15 @@
           "订单上限": 1
         }
       },
+      "9069": {
+        "building": "TRAINING",
+        "num": {
+          "train": 3
+        },
+        "is": {
+          "术师": 1
+        }
+      },
       "9348": {
         "building": "CONTROL",
         "num": {},
@@ -7293,6 +7364,15 @@
         }
       },
       "1b3d": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 20
+        },
+        "is": {
+          "通用生产": 1
+        }
+      },
+      "049d": {
         "building": "MANUFACTURE",
         "num": {
           "product": 20
@@ -8732,6 +8812,15 @@
           "狙击": 1
         }
       },
+      "3a41": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "术师": 1
+        }
+      },
       "aed7": {
         "building": "TRAINING",
         "num": {
@@ -9171,6 +9260,20 @@
         "building": "HIRE",
         "num": {
           "connect": 50
+        },
+        "is": {}
+      },
+      "802c": {
+        "building": "HIRE",
+        "num": {
+          "connect": 30
+        },
+        "is": {}
+      },
+      "c892": {
+        "building": "HIRE",
+        "num": {
+          "connect": 45
         },
         "is": {}
       },
