@@ -1,6 +1,6 @@
 /assets/pkg/*.zip
 /data
-/prev-data
+/fallback-data
 
 # Logs
 logs
