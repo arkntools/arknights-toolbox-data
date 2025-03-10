@@ -15,19 +15,12 @@
       }
     }
   },
-  "jp": {
-    "act28sre_zone1": {
-      "valid": {
-        "startTs": 1740726000,
-        "endTs": 1741546799
-      }
-    }
-  },
+  "jp": {},
   "kr": {
-    "act28sre_zone1": {
+    "act36side_zone1": {
       "valid": {
-        "startTs": 1740726000,
-        "endTs": 1741546799
+        "startTs": 1741590000,
+        "endTs": 1742756399
       }
     }
   },
