@@ -15,7 +15,14 @@
       }
     }
   },
-  "jp": {},
+  "jp": {
+    "act36side_zone1": {
+      "valid": {
+        "startTs": 1741590000,
+        "endTs": 1742756399
+      }
+    }
+  },
   "kr": {
     "act36side_zone1": {
       "valid": {
