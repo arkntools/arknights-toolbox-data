@@ -79,6 +79,10 @@
     "name": "Trusty Buddies",
     "desc": "Operator with this skill\nTerra Research Commission"
   },
+  "cc_bd_dungeon": {
+    "name": "Monster Meal",
+    "desc": "Provided by the following Operators' skills:\nSenshi"
+  },
   "cc_m_var1": {
     "name": "Recycling",
     "desc": "Operators with this skill\nVermeil"
@@ -254,6 +258,10 @@
   "cc_tag_mh": {
     "name": "Monster Hunter Party",
     "desc": "Includes the following Operators:\nRathalos S Noir Corne, Kirin R Yato, Terra Research Commission"
+  },
+  "cc_tag_dungeon": {
+    "name": "Laios's Party",
+    "desc": "Includes the following Operators:\nMarcille, Laios, Chilchuck, Senshi"
   },
   "cc_gvial": {
     "name": "Gavial",
