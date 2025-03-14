@@ -4427,7 +4427,7 @@
       },
       "manu_prod_spd&limit&cost_300": {
         "icon": "bskill_man_spd&limit6",
-        "desc": "049d"
+        "desc": "aea6"
       },
       "manu_prod_limit&cost_021": {
         "icon": "bskill_man_limit&cost5",
@@ -7372,7 +7372,7 @@
           "通用生产": 1
         }
       },
-      "049d": {
+      "aea6": {
         "building": "MANUFACTURE",
         "num": {
           "product": 20
