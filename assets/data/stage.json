@@ -4011,48 +4011,6 @@
         "code": "HE-8",
         "cost": 21
       }
-    },
-    "act25side_zone1": {
-      "act25side_01": {
-        "code": "CW-1",
-        "cost": 9
-      },
-      "act25side_02": {
-        "code": "CW-2",
-        "cost": 9
-      },
-      "act25side_03": {
-        "code": "CW-3",
-        "cost": 9
-      },
-      "act25side_04": {
-        "code": "CW-4",
-        "cost": 12
-      },
-      "act25side_05": {
-        "code": "CW-5",
-        "cost": 12
-      },
-      "act25side_06": {
-        "code": "CW-6",
-        "cost": 15
-      },
-      "act25side_07": {
-        "code": "CW-7",
-        "cost": 15
-      },
-      "act25side_08": {
-        "code": "CW-8",
-        "cost": 21
-      },
-      "act25side_09": {
-        "code": "CW-9",
-        "cost": 21
-      },
-      "act25side_10": {
-        "code": "CW-10",
-        "cost": 21
-      }
     }
   },
   "retro": {
