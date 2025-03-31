@@ -4,10 +4,10 @@
   "jp": {},
   "kr": {},
   "tw": {
-    "act25sre_zone1": {
+    "act34side_zone1": {
       "valid": {
-        "startTs": 1742457600,
-        "endTs": 1743278399
+        "startTs": 1743400800,
+        "endTs": 1744574399
       }
     }
   }
