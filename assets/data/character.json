@@ -1237,6 +1237,21 @@
       20
     ]
   },
+  "445_wscoot": {
+    "pinyin": {
+      "full": "chengfeng",
+      "head": "cf"
+    },
+    "romaji": "",
+    "appellation": "Windscoot",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      13
+    ]
+  },
   "237_gravel": {
     "pinyin": {
       "full": "li",
@@ -4221,6 +4236,22 @@
       16
     ]
   },
+  "4178_alanna": {
+    "pinyin": {
+      "full": "alanna",
+      "head": "aln"
+    },
+    "romaji": "",
+    "appellation": "Alanna",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 5,
+    "tags": [
+      19,
+      16
+    ]
+  },
   "101_sora": {
     "pinyin": {
       "full": "kong",
@@ -5787,6 +5818,23 @@
       15,
       19,
       24
+    ]
+  },
+  "4179_monstr": {
+    "pinyin": {
+      "full": "",
+      "head": ""
+    },
+    "romaji": "",
+    "appellation": "Mon3tr",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15,
+      19,
+      16
     ]
   },
   "136_hsguma": {

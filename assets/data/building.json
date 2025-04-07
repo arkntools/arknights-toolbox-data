@@ -3829,11 +3829,49 @@
         "id": "hire_spd_cost_230",
         "unlock": "2_1"
       }
+    ],
+    "4179_monstr": [
+      {
+        "id": "control_mp_cost_012",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_prod_spd_1000",
+        "unlock": "2_1"
+      }
+    ],
+    "4178_alanna": [
+      {
+        "id": "manu_token_prod_spd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_token_prod_spd_010",
+        "unlock": "2_1"
+      },
+      {
+        "id": "manu_prod_spd_double_000",
+        "unlock": "2_1"
+      }
+    ],
+    "445_wscoot": [
+      {
+        "id": "meet_spd&clue_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd_notOwned&exchange_000",
+        "unlock": "1_1"
+      }
     ]
   },
   "buff": {
     "data": {
       "control_prod_spd_000": {
+        "icon": "bskill_ctrl_p_spd",
+        "desc": "8de4"
+      },
+      "control_prod_spd_1000": {
         "icon": "bskill_ctrl_p_spd",
         "desc": "8de4"
       },
@@ -3962,6 +4000,10 @@
         "desc": "8da9"
       },
       "control_mp_cost_011": {
+        "icon": "bskill_ctrl_cost",
+        "desc": "8da9"
+      },
+      "control_mp_cost_012": {
         "icon": "bskill_ctrl_cost",
         "desc": "8da9"
       },
@@ -4183,7 +4225,7 @@
       },
       "power_rec_drone_000": {
         "icon": "bskill_pow_drone",
-        "desc": "c7b9"
+        "desc": "ae1c"
       },
       "power_count_000": {
         "icon": "bskill_pow_count",
@@ -4548,6 +4590,18 @@
       "manu_formula_spd&cost_bd_000": {
         "icon": "bskill_man_gold&blacksteel",
         "desc": "49c0"
+      },
+      "manu_token_prod_spd_000": {
+        "icon": "bskill_man_token_spd1",
+        "desc": "0c77"
+      },
+      "manu_token_prod_spd_010": {
+        "icon": "bskill_man_token_spd2",
+        "desc": "91e6"
+      },
+      "manu_prod_spd_double_000": {
+        "icon": "bskill_man_spd_double",
+        "desc": "9728"
       },
       "manu_formula_spd_200": {
         "icon": "bskill_man_originium1",
@@ -6292,6 +6346,14 @@
       "meet_spd&condChar_mustget_100": {
         "icon": "bskill_meet_spd&condChar_mustget2",
         "desc": "2b40"
+      },
+      "meet_spd&clue_000": {
+        "icon": "bskill_meet_spd_clue",
+        "desc": "e76f"
+      },
+      "meet_spd_notOwned&exchange_000": {
+        "icon": "bskill_meet_spd_notOwned_exchange",
+        "desc": "7609"
       }
     },
     "info": {
@@ -6682,6 +6744,11 @@
           "线索7": 1
         }
       },
+      "7609": {
+        "building": "MEETING",
+        "num": {},
+        "is": {}
+      },
       "7652": {
         "building": "CONTROL",
         "num": {
@@ -6776,6 +6843,15 @@
         },
         "is": {
           "术师": 1
+        }
+      },
+      "9728": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 15
+        },
+        "is": {
+          "贵金属": 1
         }
       },
       "9888": {
@@ -7078,7 +7154,7 @@
         },
         "is": {}
       },
-      "c7b9": {
+      "ae1c": {
         "building": "POWER",
         "num": {
           "power": 1
@@ -7558,6 +7634,24 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 2
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
+      "0c77": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 5
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
+      "91e6": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 10
         },
         "is": {
           "贵金属": 1
@@ -9658,6 +9752,11 @@
         "is": {
           "线索7": 1
         }
+      },
+      "e76f": {
+        "building": "MEETING",
+        "num": {},
+        "is": {}
       }
     },
     "numKey": {

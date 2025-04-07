@@ -1,5 +1,6 @@
 {
   "zoneToActivity": {
+    "act2mainss_zone1": "act2mainss",
     "act6fun_zone1": "act6fun",
     "act1multi_zone1": "act1multi",
     "act41side_zone1": "act41side",
@@ -236,6 +237,7 @@
     "permanent_sub_6_zone3": "permanent_sub_6_Babel",
     "permanent_sub_7_zone1": "permanent_sub_7_Ending_A_Grand_Overture",
     "permanent_sub_7_zone2": "permanent_sub_7_Ending_A_Grand_Overture",
+    "permanent_main_1_zone1": "permanent_main_1_Dissociative_Recombination",
     "permanent_sidestory_1_zone1": "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights",
     "permanent_sidestory_1_zone2": "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights",
     "permanent_sidestory_2_zone1": "permanent_sidestory_2_Heart_Of_Surging_Flame",

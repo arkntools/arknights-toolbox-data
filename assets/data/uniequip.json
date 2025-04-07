@@ -1141,5 +1141,26 @@
   },
   "uniequip_003_bgsnow": {
     "typeIcon": "arc-x"
+  },
+  "uniequip_002_ines": {
+    "typeIcon": "age-y"
+  },
+  "uniequip_002_ctable": {
+    "typeIcon": "age-y"
+  },
+  "uniequip_002_surfer": {
+    "typeIcon": "age-x"
+  },
+  "uniequip_002_alanna": {
+    "typeIcon": "cra-x"
+  },
+  "uniequip_003_logos": {
+    "typeIcon": "ccr-y"
+  },
+  "uniequip_003_mudrok": {
+    "typeIcon": "uny-y"
+  },
+  "uniequip_002_puzzle": {
+    "typeIcon": "age-x"
   }
 }

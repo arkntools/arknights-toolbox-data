@@ -686,7 +686,7 @@
       "36ac": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+10%</>",
       "ba86": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+15%</>",
       "8c2e": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+20%</>",
-      "c7b9": "When this Operator is assigned to a Power Plant, <@cc.vup>+1%</> Drone recovery rate for every <@cc.vup>10</> max Drone capacity",
+      "ae1c": "When this Operator is assigned to a Power Plant, <@cc.vup>+1%</> Drone recovery rate for every <@cc.vup>10</> max Drone capacity",
       "96ee": "When this Operator is assigned to a Power Plant, if there are no <$cc.tag.op><@cc.kw>Operation Platforms</></> in other <@cc.kw>Power Plants</>, <@cc.kw>Power Plant </><@cc.vup>+1</>(only affects facility quantity)",
       "409c": "When this Operator is assigned to a Power Plant, increases the productivity of the Factory <@cc.kw>Wild Mane</> is assigned to by <@cc.vup>+5%</>",
       "60a0": "When this Operator is assigned to a Power Plant, if <@cc.kw>Kal'tsit</> is assigned to the Control Center, increases the drone recovery rate by <@cc.vup>+5%</>.",

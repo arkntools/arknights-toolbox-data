@@ -54,6 +54,13 @@
         "act37side"
       ]
     },
+    "permanent_main_1_Dissociative_Recombination": {
+      "type": 1,
+      "startTime": 1745179200,
+      "linkedActId": [
+        "act2mainss"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1618430400,
