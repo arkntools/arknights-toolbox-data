@@ -457,7 +457,10 @@ export class DataUpdater {
     // 主线
     each(zoneTable.zones, ({ type, zoneID, zoneNameFirst, zoneNameSecond }) => {
       if (type === 'MAINLINE' || type === 'WEEKLY') {
-        zoneId2Name[zoneID] = zoneNameFirst || zoneNameSecond;
+        zoneId2Name[zoneID] =
+          zoneNameFirst && zoneNameSecond ? `${zoneNameFirst} ${zoneNameSecond}` : zoneNameFirst || zoneNameSecond;
+      } else if (type === 'MAINLINE_ACTIVITY') {
+        zoneId2Name[zoneID] = zoneNameSecond || zoneNameFirst;
       }
     });
 
