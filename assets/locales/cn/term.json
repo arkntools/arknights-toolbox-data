@@ -167,6 +167,10 @@
     "name": "叙拉古",
     "desc": "包含以下干员\n安洁莉娜、拉普兰德、普罗旺斯、红云、布洛卡、巫恋、铃兰、贾维、奥斯塔、斥罪、子月、伺夜、阿罗玛、忍冬、裁度、荒芜拉普兰德"
   },
+  "cc_g_laterano": {
+    "name": "拉特兰",
+    "desc": "包含以下干员\n翎羽、安德切尔、送葬人、莫斯提马、安比尔、芳汀、空弦、菲亚梅塔、见行者、空构、隐现、塑心、蕾缪安、信仰搅拌机、CONFESS-47"
+  },
   "cc_c_abyssal2_1": {
     "name": "特殊加成",
     "desc": "每有1个<$cc.g.abyssal><@cc.kw>深海猎人</></>干员进驻制造站，则控制中枢给每个进驻<$cc.g.abyssal><@cc.kw>深海猎人</></>的制造站提供<@cc.vup>5%</>生产力，最多给单个制造站提供<@cc.vup>45%</>生产力"
@@ -249,7 +253,7 @@
   },
   "cc_tag_op": {
     "name": "作业平台",
-    "desc": "包含以下干员\nLancet-2、Castle-3、THRM-EX、正义骑士号、Friston-3、PhonoR-0"
+    "desc": "包含以下干员\nLancet-2、Castle-3、THRM-EX、正义骑士号、Friston-3、PhonoR-0、CONFESS-47"
   },
   "cc_tag_knight": {
     "name": "骑士",
@@ -270,6 +274,10 @@
   "cc_gvial": {
     "name": "嘉维尔",
     "desc": "包含以下干员\n百炼嘉维尔、嘉维尔"
+  },
+  "cc_angel": {
+    "name": "能天使",
+    "desc": "包含以下干员\n新约能天使、能天使"
   },
   "cc_tra_pepe": {
     "name": "特别独占订单",

@@ -3863,6 +3863,64 @@
         "id": "meet_spd_notOwned&exchange_000",
         "unlock": "1_1"
       }
+    ],
+    "1041_angel2": [
+      {
+        "id": "dorm_rec_single_power_100",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_single_power_001",
+        "unlock": "2_1"
+      },
+      {
+        "id": "trade_ord_spd_par_001",
+        "unlock": "2_1"
+      }
+    ],
+    "4193_lemuen": [
+      {
+        "id": "trade_ord_spd&multiPar_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd&multiPar_100",
+        "unlock": "2_1"
+      }
+    ],
+    "4194_rmixer": [
+      {
+        "id": "meet_spd_011",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd_022",
+        "unlock": "2_1"
+      },
+      {
+        "id": "meet_spd_ext&P_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4187_graceb": [
+      {
+        "id": "dorm_rec_single_033",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession_1020",
+        "unlock": "0_1"
+      }
+    ],
+    "4188_confes": [
+      {
+        "id": "power_rec_spd_006",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_ext&faction_000",
+        "unlock": "0_30"
+      }
     ]
   },
   "buff": {
@@ -4223,6 +4281,10 @@
         "icon": "bskill_pow_spd1",
         "desc": "36ac"
       },
+      "power_rec_spd_006": {
+        "icon": "bskill_pow_spd1",
+        "desc": "36ac"
+      },
       "power_rec_drone_000": {
         "icon": "bskill_pow_drone",
         "desc": "ae1c"
@@ -4242,6 +4304,10 @@
       "power_rec_spd_P_001": {
         "icon": "bskill_pow_spd_P1",
         "desc": "e087"
+      },
+      "power_rec_spd_ext&faction_000": {
+        "icon": "bskill_power_rec_spd_ext&faction",
+        "desc": "4244"
       },
       "power_rec_rhine_000": {
         "icon": "bskill_power_rec_rhine",
@@ -4931,6 +4997,18 @@
         "icon": "bskill_tra_par1",
         "desc": "edee"
       },
+      "trade_ord_spd_par_001": {
+        "icon": "bskill_tra_laterano1",
+        "desc": "9f33"
+      },
+      "trade_ord_spd&multiPar_000": {
+        "icon": "bskill_tra_spd1",
+        "desc": "e5ad"
+      },
+      "trade_ord_spd&multiPar_100": {
+        "icon": "bskill_tra_lemuen1",
+        "desc": "1634"
+      },
       "trade_ord_par&per_000": {
         "icon": "bskill_tra_par&per1",
         "desc": "558b"
@@ -5423,6 +5501,10 @@
         "icon": "bskill_train_guard1",
         "desc": "1bdf"
       },
+      "train_spd&profession_1020": {
+        "icon": "bskill_train_guard1",
+        "desc": "1bdf"
+      },
       "train_spd&profession2_020": {
         "icon": "bskill_train_guard1",
         "desc": "1bdf"
@@ -5719,6 +5801,10 @@
         "icon": "bskill_dorm_single1",
         "desc": "3742"
       },
+      "dorm_rec_single_power_100": {
+        "icon": "bskill_dorm_single1",
+        "desc": "3742"
+      },
       "dorm_rec_single_000": {
         "icon": "bskill_dorm_single2",
         "desc": "8fb9"
@@ -5744,6 +5830,10 @@
         "desc": "c26a"
       },
       "dorm_rec_single_032": {
+        "icon": "bskill_dorm_single3",
+        "desc": "c26a"
+      },
+      "dorm_rec_single_033": {
         "icon": "bskill_dorm_single3",
         "desc": "c26a"
       },
@@ -5894,6 +5984,10 @@
       "dorm_rec_single_power_000": {
         "icon": "bskill_dorm_single_sami",
         "desc": "c1b3"
+      },
+      "dorm_rec_single_power_001": {
+        "icon": "bskill_dorm_single_laterano",
+        "desc": "3855"
       },
       "dorm_rec_all&oneself_000": {
         "icon": "bskill_dorm_all&one1",
@@ -6139,6 +6233,10 @@
         "icon": "bskill_meet_spd2",
         "desc": "95f1"
       },
+      "meet_spd_011": {
+        "icon": "bskill_meet_spd2",
+        "desc": "95f1"
+      },
       "meet_spd_020": {
         "icon": "bskill_meet_spd2",
         "desc": "f874"
@@ -6153,6 +6251,10 @@
       },
       "meet_spd_021": {
         "icon": "bskill_meet_spd2",
+        "desc": "f874"
+      },
+      "meet_spd_022": {
+        "icon": "bskill_meet_spd3",
         "desc": "f874"
       },
       "meet_spd_1010": {
@@ -6194,6 +6296,10 @@
       "meet_spd&bd_100": {
         "icon": "bskill_meet_spd&bd2",
         "desc": "ddca"
+      },
+      "meet_spd_ext&P_000": {
+        "icon": "bskill_meet_spd_confes1",
+        "desc": "7304"
       },
       "meet_spd_condChar_000": {
         "icon": "bskill_meet_condChar",
@@ -6366,6 +6472,15 @@
           "无特别加成": 1
         }
       },
+      "1634": {
+        "building": "TRADING",
+        "num": {
+          "order": 20
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
       "2182": {
         "building": "TRAINING",
         "num": {},
@@ -6459,6 +6574,15 @@
           "单体恢复": 1
         }
       },
+      "3855": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoverySingle": 0.55
+        },
+        "is": {
+          "单体恢复": 1
+        }
+      },
       "3970": {
         "building": "MANUFACTURE",
         "num": {},
@@ -6490,6 +6614,13 @@
         "is": {
           "任意材料": 1
         }
+      },
+      "4244": {
+        "building": "POWER",
+        "num": {
+          "power": 5
+        },
+        "is": {}
       },
       "4357": {
         "building": "CONTROL",
@@ -6726,6 +6857,15 @@
         },
         "is": {
           "线索2": 1
+        }
+      },
+      "7304": {
+        "building": "MEETING",
+        "num": {
+          "collect": 10
+        },
+        "is": {
+          "无特别加成": 1
         }
       },
       "7420": {
@@ -8108,6 +8248,15 @@
         "building": "TRADING",
         "num": {
           "order": 20
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
+      "9f33": {
+        "building": "TRADING",
+        "num": {
+          "order": 15
         },
         "is": {
           "订单效率": 1

@@ -163,6 +163,24 @@
       29
     ]
   },
+  "4188_confes": {
+    "pinyin": {
+      "full": "",
+      "head": ""
+    },
+    "romaji": "",
+    "appellation": "CONFESS-47",
+    "star": 1,
+    "recruitment": {
+      "cn": 2
+    },
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      28,
+      12
+    ]
+  },
   "502_nblade": {
     "pinyin": {
       "full": "yedao",
@@ -2521,6 +2539,22 @@
       12
     ]
   },
+  "4187_graceb": {
+    "pinyin": {
+      "full": "lingyin",
+      "head": "ly"
+    },
+    "romaji": "",
+    "appellation": "Gracebearer",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      13,
+      19
+    ]
+  },
   "129_bluep": {
     "pinyin": {
       "full": "landu",
@@ -3546,7 +3580,9 @@
     "romaji": "uyuu",
     "appellation": "Mr.Nothing",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 7,
     "tags": [
@@ -4684,6 +4720,22 @@
       19
     ]
   },
+  "4193_lemuen": {
+    "pinyin": {
+      "full": "leimiuan",
+      "head": "lma"
+    },
+    "romaji": "",
+    "appellation": "Lemuen",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19,
+      13
+    ]
+  },
   "113_cqbw": {
     "pinyin": {
       "full": "",
@@ -4882,7 +4934,9 @@
     "romaji": "saga",
     "appellation": "Saga",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 8,
     "tags": [
@@ -5603,6 +5657,22 @@
       19
     ]
   },
+  "1041_angel2": {
+    "pinyin": {
+      "full": "xinyuenengtianshi",
+      "head": "xynts"
+    },
+    "romaji": "",
+    "appellation": "Exusiai the New Covenant",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      19,
+      16
+    ]
+  },
   "474_glady": {
     "pinyin": {
       "full": "geleidiya",
@@ -6038,6 +6108,23 @@
       22,
       20,
       19
+    ]
+  },
+  "4194_rmixer": {
+    "pinyin": {
+      "full": "xinyangjiaobanji",
+      "head": "xyjbj"
+    },
+    "romaji": "",
+    "appellation": "Sankta Miksaparato",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      19,
+      16
     ]
   },
   "2026_yu": {

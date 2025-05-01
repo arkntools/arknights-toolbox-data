@@ -1162,5 +1162,41 @@
   },
   "uniequip_002_puzzle": {
     "typeIcon": "age-x"
+  },
+  "uniequip_003_slent2": {
+    "typeIcon": "bls-y"
+  },
+  "uniequip_002_mlynar": {
+    "typeIcon": "lib-x"
+  },
+  "uniequip_002_takila": {
+    "typeIcon": "lib-x"
+  },
+  "uniequip_002_wscoot": {
+    "typeIcon": "lib-x"
+  },
+  "uniequip_003_mlyss": {
+    "typeIcon": "tac-y"
+  },
+  "uniequip_003_thorns": {
+    "typeIcon": "lor-d"
+  },
+  "uniequip_004_mizuki": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_004_archet": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_003_crosly": {
+    "typeIcon": "exe-y"
+  },
+  "uniequip_002_angel2": {
+    "typeIcon": "gee-x"
+  },
+  "uniequip_002_lemuen": {
+    "typeIcon": "dea-y"
+  },
+  "uniequip_002_rmixer": {
+    "typeIcon": "spt-x"
   }
 }

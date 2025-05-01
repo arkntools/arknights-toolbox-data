@@ -1996,6 +1996,48 @@
     }
   },
   "event": {
+    "act42side_zone1": {
+      "act42side_01": {
+        "code": "MT-1",
+        "cost": 9
+      },
+      "act42side_02": {
+        "code": "MT-2",
+        "cost": 9
+      },
+      "act42side_03": {
+        "code": "MT-3",
+        "cost": 9
+      },
+      "act42side_04": {
+        "code": "MT-4",
+        "cost": 12
+      },
+      "act42side_05": {
+        "code": "MT-5",
+        "cost": 12
+      },
+      "act42side_06": {
+        "code": "MT-6",
+        "cost": 15
+      },
+      "act42side_07": {
+        "code": "MT-7",
+        "cost": 15
+      },
+      "act42side_08": {
+        "code": "MT-8",
+        "cost": 21
+      },
+      "act42side_09": {
+        "code": "MT-9",
+        "cost": 21
+      },
+      "act42side_10": {
+        "code": "MT-10",
+        "cost": 21
+      }
+    },
     "act41side_zone1": {
       "act41side_01": {
         "code": "EA-1",
