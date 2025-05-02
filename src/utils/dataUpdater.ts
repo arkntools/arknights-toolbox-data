@@ -459,14 +459,14 @@ export class DataUpdater {
       if (type === 'MAINLINE' || type === 'WEEKLY') {
         zoneId2Name[zoneID] =
           zoneNameFirst && zoneNameSecond ? `${zoneNameFirst} ${zoneNameSecond}` : zoneNameFirst || zoneNameSecond;
-      } else if (type === 'MAINLINE_ACTIVITY') {
-        zoneId2Name[zoneID] = zoneNameSecond || zoneNameFirst;
       }
     });
 
+    const isActivityType = (type: string) => type.startsWith('TYPE_ACT') || type === 'MINISTORY' || type === 'DEFAULT';
+
     // 活动
     each(activityTable.basicInfo, ({ id, type, name }) => {
-      if (type.startsWith('TYPE_ACT') || type === 'MINISTORY' || type === 'DEFAULT') {
+      if (isActivityType(type)) {
         zoneId2Name[id] = isCN ? name.replace('·', '・') : name;
       }
     });
@@ -481,7 +481,9 @@ export class DataUpdater {
     if (isCN) {
       if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
-        zoneToActivity: _.omitBy(activityTable.zoneToActivity, (actId, zoneId) => zoneId.startsWith('main_')),
+        zoneToActivity: _.omitBy(activityTable.zoneToActivity, (actId, zoneId) =>
+          isActivityType(activityTable.basicInfo[actId].type),
+        ),
         zoneToRetro: mapValues(retroTable.zoneToRetro, fixI18nKey),
       });
     }
