@@ -481,8 +481,9 @@ export class DataUpdater {
     if (isCN) {
       if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
-        zoneToActivity: _.omitBy(activityTable.zoneToActivity, (actId, zoneId) =>
-          isActivityType(activityTable.basicInfo[actId].type),
+        zoneToActivity: _.omitBy(
+          activityTable.zoneToActivity,
+          (actId, zoneId) => !isActivityType(activityTable.basicInfo[actId].type),
         ),
         zoneToRetro: mapValues(retroTable.zoneToRetro, fixI18nKey),
       });
