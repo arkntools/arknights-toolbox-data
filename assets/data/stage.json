@@ -4149,40 +4149,6 @@
         "code": "CV-8",
         "cost": 21
       }
-    },
-    "act27side_zone1": {
-      "act27side_01": {
-        "code": "SL-1",
-        "cost": 9
-      },
-      "act27side_02": {
-        "code": "SL-2",
-        "cost": 9
-      },
-      "act27side_03": {
-        "code": "SL-3",
-        "cost": 9
-      },
-      "act27side_04": {
-        "code": "SL-4",
-        "cost": 12
-      },
-      "act27side_05": {
-        "code": "SL-5",
-        "cost": 12
-      },
-      "act27side_06": {
-        "code": "SL-6",
-        "cost": 21
-      },
-      "act27side_07": {
-        "code": "SL-7",
-        "cost": 21
-      },
-      "act27side_08": {
-        "code": "SL-8",
-        "cost": 21
-      }
     }
   },
   "retro": {

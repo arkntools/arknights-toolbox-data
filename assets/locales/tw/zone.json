@@ -23,6 +23,8 @@
   "weekly_7": "戰術演習",
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
+  "act17mini": "熔爐“還魂”記",
+  "act27sre": "火山旅夢·復刻",
   "act35side": "太陽甩在身後",
   "act26sre": "空想花庭·復刻",
   "act34side": "生路",
@@ -131,5 +133,6 @@
   "permanent_sidestory_17_Il_Siracusano": "敘拉古人@:(retroNameAppend.0)",
   "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": "登臨意@:(retroNameAppend.0)",
   "permanent_sidestory_18_What_the_Firelight_Casts": "照我以火@:(retroNameAppend.0)",
-  "permanent_sidestory_20_Hortus_de_Escapismo": "空想花庭@:(retroNameAppend.0)"
+  "permanent_sidestory_20_Hortus_de_Escapismo": "空想花庭@:(retroNameAppend.0)",
+  "permanent_sidestory_21_so_Long_Adele": "火山旅夢@:(retroNameAppend.0)"
 }
