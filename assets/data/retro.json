@@ -725,6 +725,14 @@
         "act28side",
         "act28sre"
       ]
+    },
+    "permanent_sidestory_23_Zwillingsturme_im_Herbst": {
+      "type": 0,
+      "startTime": 1749063600,
+      "linkedActId": [
+        "act29side",
+        "act29sre"
+      ]
     }
   },
   "kr": {
@@ -956,6 +964,14 @@
       "linkedActId": [
         "act28side",
         "act28sre"
+      ]
+    },
+    "permanent_sidestory_23_Zwillingsturme_im_Herbst": {
+      "type": 0,
+      "startTime": 1749063600,
+      "linkedActId": [
+        "act29side",
+        "act29sre"
       ]
     }
   },

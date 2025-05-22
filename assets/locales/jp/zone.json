@@ -23,6 +23,7 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act29sre": "ツヴィリングトゥルムの黄金・復刻",
   "act38side": "幕開く者たち",
   "act37side": "落日の向こうへ",
   "act28sre": "ダーティマネー・復刻",
@@ -140,5 +141,6 @@
   "permanent_sidestory_18_What_the_Firelight_Casts": "この炎が照らす先@:(retroNameAppend.0)",
   "permanent_sidestory_20_Hortus_de_Escapismo": "空想の花庭@:(retroNameAppend.0)",
   "permanent_sidestory_21_so_Long_Adele": "火山と雲と夢色の旅路@:(retroNameAppend.0)",
-  "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "ダーティマネー@:(retroNameAppend.0)"
+  "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "ダーティマネー@:(retroNameAppend.0)",
+  "permanent_sidestory_23_Zwillingsturme_im_Herbst": "ツヴィリングトゥルムの黄金@:(retroNameAppend.0)"
 }
