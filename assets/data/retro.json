@@ -1198,6 +1198,14 @@
         "act27side",
         "act27sre"
       ]
+    },
+    "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": {
+      "type": 0,
+      "startTime": 1751313600,
+      "linkedActId": [
+        "act28side",
+        "act28sre"
+      ]
     }
   }
 }
