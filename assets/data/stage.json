@@ -1996,6 +1996,40 @@
     }
   },
   "event": {
+    "act43side_zone1": {
+      "act43side_01": {
+        "code": "AD-1",
+        "cost": 9
+      },
+      "act43side_02": {
+        "code": "AD-2",
+        "cost": 9
+      },
+      "act43side_03": {
+        "code": "AD-3",
+        "cost": 12
+      },
+      "act43side_04": {
+        "code": "AD-4",
+        "cost": 12
+      },
+      "act43side_05": {
+        "code": "AD-5",
+        "cost": 12
+      },
+      "act43side_06": {
+        "code": "AD-6",
+        "cost": 21
+      },
+      "act43side_07": {
+        "code": "AD-7",
+        "cost": 21
+      },
+      "act43side_08": {
+        "code": "AD-8",
+        "cost": 21
+      }
+    },
     "act42side_zone1": {
       "act42side_01": {
         "code": "MT-1",
@@ -5347,6 +5381,36 @@
       },
       "act31side_09": {
         "code": "HS-9",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_26_zone1": {
+      "act34side_01": {
+        "code": "BP-1",
+        "cost": 9
+      },
+      "act34side_02": {
+        "code": "BP-2",
+        "cost": 9
+      },
+      "act34side_03": {
+        "code": "BP-3",
+        "cost": 12
+      },
+      "act34side_04": {
+        "code": "BP-4",
+        "cost": 12
+      },
+      "act34side_05": {
+        "code": "BP-5",
+        "cost": 21
+      },
+      "act34side_06": {
+        "code": "BP-6",
+        "cost": 21
+      },
+      "act34side_07": {
+        "code": "BP-7",
         "cost": 21
       }
     }

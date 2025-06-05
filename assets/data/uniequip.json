@@ -1198,5 +1198,23 @@
   },
   "uniequip_002_rmixer": {
     "typeIcon": "spt-x"
+  },
+  "uniequip_002_phatm2": {
+    "typeIcon": "rit-x"
+  },
+  "uniequip_002_necras": {
+    "typeIcon": "soc-x"
+  },
+  "uniequip_002_tecno": {
+    "typeIcon": "soc-y"
+  },
+  "uniequip_003_ascln": {
+    "typeIcon": "amb-y"
+  },
+  "uniequip_003_f12yin": {
+    "typeIcon": "fgt-x"
+  },
+  "uniequip_003_doroth": {
+    "typeIcon": "trp-x"
   }
 }

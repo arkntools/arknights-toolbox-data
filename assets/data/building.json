@@ -3921,6 +3921,36 @@
         "id": "power_rec_spd_ext&faction_000",
         "unlock": "0_30"
       }
+    ],
+    "1042_phatm2": [
+      {
+        "id": "manu_formula_spd&limit&cost_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd&limit&cost_010",
+        "unlock": "2_1"
+      }
+    ],
+    "4191_tippi": [
+      {
+        "id": "workshop_proc_probability_033",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_cost3_500",
+        "unlock": "2_1"
+      }
+    ],
+    "4198_christ": [
+      {
+        "id": "manu_prod_limit&cost_012",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd_double_100",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4481,6 +4511,10 @@
         "icon": "bskill_man_limit&cost2",
         "desc": "109f"
       },
+      "manu_prod_limit&cost_012": {
+        "icon": "bskill_man_limit&cost2",
+        "desc": "109f"
+      },
       "manu_prod_limit&cost_020": {
         "icon": "bskill_man_limit&cost3",
         "desc": "ead2"
@@ -4617,6 +4651,14 @@
         "icon": "bskill_man_exp2",
         "desc": "6f3f"
       },
+      "manu_formula_spd&limit&cost_000": {
+        "icon": "bskill_man_exp&spd&limit&cost1",
+        "desc": "458e"
+      },
+      "manu_formula_spd&limit&cost_010": {
+        "icon": "bskill_man_exp&spd&limit&cost2",
+        "desc": "eb42"
+      },
       "manu_prod_spd&trade_000": {
         "icon": "bskill_man_spd&trade",
         "desc": "a9d8"
@@ -4668,6 +4710,10 @@
       "manu_prod_spd_double_000": {
         "icon": "bskill_man_spd_double",
         "desc": "9728"
+      },
+      "manu_prod_spd_double_100": {
+        "icon": "bskill_man_spd_double2",
+        "desc": "1f78"
       },
       "manu_formula_spd_200": {
         "icon": "bskill_man_originium1",
@@ -5073,6 +5119,10 @@
         "icon": "bskill_ws_p4",
         "desc": "cc89"
       },
+      "workshop_proc_probability_033": {
+        "icon": "bskill_ws_p4",
+        "desc": "cc89"
+      },
       "workshop_proc_probability_040": {
         "icon": "bskill_ws_p5",
         "desc": "6324"
@@ -5112,6 +5162,10 @@
       "workshop_formula_cost3_400": {
         "icon": "bskill_ws_all_cost1",
         "desc": "8420"
+      },
+      "workshop_formula_cost3_500": {
+        "icon": "bskill_ws_all_cost2",
+        "desc": "5da3"
       },
       "workshop_formula_recovery_000": {
         "icon": "bskill_ws_recovery",
@@ -7734,6 +7788,24 @@
           "作战记录": 1
         }
       },
+      "458e": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 20
+        },
+        "is": {
+          "作战记录": 1
+        }
+      },
+      "eb42": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 35
+        },
+        "is": {
+          "作战记录": 1
+        }
+      },
       "a9d8": {
         "building": "MANUFACTURE",
         "num": {
@@ -7795,6 +7867,15 @@
         },
         "is": {
           "贵金属": 1
+        }
+      },
+      "1f78": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 30
+        },
+        "is": {
+          "作战记录": 1
         }
       },
       "b89d": {
@@ -8341,6 +8422,11 @@
         "is": {}
       },
       "c237": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
+      "5da3": {
         "building": "WORKSHOP",
         "num": {},
         "is": {}

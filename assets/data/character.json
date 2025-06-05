@@ -3132,6 +3132,22 @@
       13
     ]
   },
+  "4198_christ": {
+    "pinyin": {
+      "full": "Miss.Christine",
+      "head": "Miss.Christine"
+    },
+    "romaji": "",
+    "appellation": "Miss.Christine",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      29,
+      19
+    ]
+  },
   "4164_tecno": {
     "pinyin": {
       "full": "tekenuo",
@@ -4615,6 +4631,21 @@
       16
     ]
   },
+  "4191_tippi": {
+    "pinyin": {
+      "full": "dibi",
+      "head": "db"
+    },
+    "romaji": "",
+    "appellation": "Tippi",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      20
+    ]
+  },
   "103_angel": {
     "pinyin": {
       "full": "nengtianshi",
@@ -5507,6 +5538,22 @@
     "tags": [
       29,
       16
+    ]
+  },
+  "1042_phatm2": {
+    "pinyin": {
+      "full": "jiushen",
+      "head": "js"
+    },
+    "romaji": "",
+    "appellation": "Tragodia",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      29,
+      12
     ]
   },
   "250_phatom": {
