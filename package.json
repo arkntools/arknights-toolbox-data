@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "神代綺凛 <i@loli.best>",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "build": "ts-node ./build/index.ts",
     "update": "ts-node ./src/index.ts",

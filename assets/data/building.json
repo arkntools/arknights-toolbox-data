@@ -6537,13 +6537,21 @@
       },
       "2182": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 10
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "2477": {
         "building": "WORKSHOP",
-        "num": {},
-        "is": {}
+        "num": {
+          "byproduct": 90
+        },
+        "is": {
+          "精英材料": 1
+        }
       },
       "2566": {
         "building": "WORKSHOP",
@@ -6639,8 +6647,12 @@
       },
       "3970": {
         "building": "MANUFACTURE",
-        "num": {},
-        "is": {}
+        "num": {
+          "product": 15
+        },
+        "is": {
+          "通用生产": 1
+        }
       },
       "3990": {
         "building": "TRAINING",
@@ -6910,6 +6922,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索2": 1
         }
       },
@@ -7068,8 +7081,12 @@
       },
       "94d7": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "productAll": 7
+        },
+        "is": {
+          "生产力": 1
+        }
       },
       "0962": {
         "building": "CONTROL",
@@ -7091,8 +7108,12 @@
       },
       "54b5": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "productAll": 5
+        },
+        "is": {
+          "生产力": 1
+        }
       },
       "1b45": {
         "building": "CONTROL",
@@ -7110,23 +7131,39 @@
       },
       "d563": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 25
+        },
+        "is": {
+          "线索搜集": 1
+        }
       },
       "b1f7": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 15
+        },
+        "is": {
+          "线索搜集": 1
+        }
       },
       "8e75": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 5
+        },
+        "is": {
+          "线索搜集": 1
+        }
       },
       "d626": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 5
+        },
+        "is": {
+          "线索搜集": 1
+        }
       },
       "6e04": {
         "building": "CONTROL",
@@ -7222,7 +7259,9 @@
       "c361": {
         "building": "CONTROL",
         "num": {},
-        "is": {}
+        "is": {
+          "线索倾向": 1
+        }
       },
       "98a6": {
         "building": "CONTROL",
@@ -7291,8 +7330,12 @@
       },
       "f4fe": {
         "building": "CONTROL",
-        "num": {},
-        "is": {}
+        "num": {
+          "productAll": 10
+        },
+        "is": {
+          "生产力": 1
+        }
       },
       "a946": {
         "building": "CONTROL",
@@ -7402,7 +7445,9 @@
       },
       "254d": {
         "building": "POWER",
-        "num": {},
+        "num": {
+          "power": 0.5
+        },
         "is": {}
       },
       "c2e2": {
@@ -7412,13 +7457,21 @@
       },
       "937b": {
         "building": "MANUFACTURE",
-        "num": {},
-        "is": {}
+        "num": {
+          "product": 5
+        },
+        "is": {
+          "通用生产": 1
+        }
       },
       "06eb": {
         "building": "MANUFACTURE",
-        "num": {},
-        "is": {}
+        "num": {
+          "product": 10
+        },
+        "is": {
+          "通用生产": 1
+        }
       },
       "fd3f": {
         "building": "MANUFACTURE",
@@ -7653,13 +7706,21 @@
       },
       "5d0f": {
         "building": "MANUFACTURE",
-        "num": {},
-        "is": {}
+        "num": {
+          "product": 2
+        },
+        "is": {
+          "通用生产": 1
+        }
       },
       "5dc2": {
         "building": "MANUFACTURE",
-        "num": {},
-        "is": {}
+        "num": {
+          "product": 3
+        },
+        "is": {
+          "通用生产": 1
+        }
       },
       "e819": {
         "building": "MANUFACTURE",
@@ -8194,18 +8255,30 @@
       },
       "328e": {
         "building": "TRADING",
-        "num": {},
-        "is": {}
+        "num": {
+          "order": 1
+        },
+        "is": {
+          "订单效率": 1
+        }
       },
       "e55b": {
         "building": "TRADING",
-        "num": {},
-        "is": {}
+        "num": {
+          "order": 1
+        },
+        "is": {
+          "订单效率": 1
+        }
       },
       "0e5c": {
         "building": "TRADING",
-        "num": {},
-        "is": {}
+        "num": {
+          "order": 1
+        },
+        "is": {
+          "订单效率": 1
+        }
       },
       "5e98": {
         "building": "TRADING",
@@ -8619,18 +8692,26 @@
           "byproduct": 90
         },
         "is": {
-          "装置": 1
+          "精英材料": 1
         }
       },
       "ebca": {
         "building": "WORKSHOP",
-        "num": {},
-        "is": {}
+        "num": {
+          "byproduct": 90
+        },
+        "is": {
+          "精英材料": 1
+        }
       },
       "f7f9": {
         "building": "WORKSHOP",
-        "num": {},
-        "is": {}
+        "num": {
+          "byproduct": 90
+        },
+        "is": {
+          "精英材料": 1
+        }
       },
       "e58c": {
         "building": "WORKSHOP",
@@ -8639,13 +8720,21 @@
       },
       "6b8e": {
         "building": "WORKSHOP",
-        "num": {},
-        "is": {}
+        "num": {
+          "byproduct": 80
+        },
+        "is": {
+          "精英材料": 1
+        }
       },
       "3aee": {
         "building": "WORKSHOP",
-        "num": {},
-        "is": {}
+        "num": {
+          "byproduct": 80
+        },
+        "is": {
+          "精英材料": 1
+        }
       },
       "7cd2": {
         "building": "WORKSHOP",
@@ -8668,33 +8757,57 @@
       },
       "a738": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 10
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "fd73": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 5
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "d639": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 5
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "26f7": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 10
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "42a1": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 10
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "f76d": {
         "building": "TRAINING",
-        "num": {},
-        "is": {}
+        "num": {
+          "train": 5
+        },
+        "is": {
+          "全能": 1
+        }
       },
       "96a5": {
         "building": "TRAINING",
@@ -9629,7 +9742,9 @@
       },
       "89da": {
         "building": "HIRE",
-        "num": {},
+        "num": {
+          "connect": 10
+        },
         "is": {}
       },
       "7ad9": {
@@ -9774,8 +9889,12 @@
       },
       "717c": {
         "building": "MEETING",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 10
+        },
+        "is": {
+          "无特别加成": 1
+        }
       },
       "ddca": {
         "building": "MEETING",
@@ -9884,6 +10003,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索1": 1
         }
       },
@@ -9893,6 +10013,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索3": 1
         }
       },
@@ -9902,6 +10023,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索6": 1
         }
       },
@@ -9911,6 +10033,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索4": 1
         }
       },
@@ -9920,6 +10043,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索7": 1
         }
       },
@@ -9929,6 +10053,7 @@
           "collect": 10
         },
         "is": {
+          "无特别加成": 1,
           "线索5": 1
         }
       },
@@ -9939,8 +10064,12 @@
       },
       "6dbc": {
         "building": "MEETING",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 10
+        },
+        "is": {
+          "无特别加成": 1
+        }
       },
       "ddb8": {
         "building": "MEETING",
@@ -9990,8 +10119,12 @@
       },
       "e76f": {
         "building": "MEETING",
-        "num": {},
-        "is": {}
+        "num": {
+          "collect": 5
+        },
+        "is": {
+          "无特别加成": 1
+        }
       }
     },
     "numKey": {
@@ -10035,7 +10168,8 @@
         "订单效率": "orderAll",
         "生产力": "productAll",
         "心情消耗": "moraleConsume",
-        "线索倾向": []
+        "线索倾向": [],
+        "线索搜集": "collect"
       },
       "DORMITORY": {
         "群体恢复": "moraleRecoveryAll",
@@ -10056,8 +10190,7 @@
         "基建材料": "byproduct",
         "精英材料": "byproduct",
         "技巧概要": "byproduct",
-        "芯片": "byproduct",
-        "装置": "byproduct"
+        "芯片": "byproduct"
       },
       "TRAINING": {
         "全能": "train",
