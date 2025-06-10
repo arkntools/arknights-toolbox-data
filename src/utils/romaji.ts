@@ -10,6 +10,7 @@ const extraTable = {
   遊龍: 'yuryu',
   濯塵: 'takujin',
   承曦: 'shoasahi',
+  引星: 'hikisei',
 };
 
 export const getRomaji = async (text: string): Promise<string> => {
