@@ -4713,7 +4713,7 @@
       },
       "manu_prod_spd_double_100": {
         "icon": "bskill_man_spd_double2",
-        "desc": "1f78"
+        "desc": "5609"
       },
       "manu_formula_spd_200": {
         "icon": "bskill_man_originium1",
@@ -6776,6 +6776,15 @@
         "num": {},
         "is": {}
       },
+      "5609": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 30
+        },
+        "is": {
+          "作战记录": 1
+        }
+      },
       "5636": {
         "building": "CONTROL",
         "num": {
@@ -7928,15 +7937,6 @@
         },
         "is": {
           "贵金属": 1
-        }
-      },
-      "1f78": {
-        "building": "MANUFACTURE",
-        "num": {
-          "product": 30
-        },
-        "is": {
-          "作战记录": 1
         }
       },
       "b89d": {
