@@ -23,6 +23,8 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act31sre": "懐黍離・復刻",
+  "act30sre": "銀心湖鉄道・復刻",
   "act39side": "白き海の彼方へ",
   "act29sre": "ツヴィリングトゥルムの黄金・復刻",
   "act38side": "幕開く者たち",
@@ -143,5 +145,7 @@
   "permanent_sidestory_20_Hortus_de_Escapismo": "空想の花庭@:(retroNameAppend.0)",
   "permanent_sidestory_21_so_Long_Adele": "火山と雲と夢色の旅路@:(retroNameAppend.0)",
   "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "ダーティマネー@:(retroNameAppend.0)",
-  "permanent_sidestory_23_Zwillingsturme_im_Herbst": "ツヴィリングトゥルムの黄金@:(retroNameAppend.0)"
+  "permanent_sidestory_23_Zwillingsturme_im_Herbst": "ツヴィリングトゥルムの黄金@:(retroNameAppend.0)",
+  "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "銀心湖鉄道@:(retroNameAppend.0)",
+  "permanent_sidestory_25_Here_A_People_Sows": "懐黍離@:(retroNameAppend.0)"
 }
