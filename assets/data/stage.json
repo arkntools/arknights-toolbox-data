@@ -1996,6 +1996,40 @@
     }
   },
   "event": {
+    "act19mini_zone1": {
+      "act19mini_01": {
+        "code": "FM-1",
+        "cost": 9
+      },
+      "act19mini_02": {
+        "code": "FM-2",
+        "cost": 9
+      },
+      "act19mini_03": {
+        "code": "FM-3",
+        "cost": 12
+      },
+      "act19mini_04": {
+        "code": "FM-4",
+        "cost": 12
+      },
+      "act19mini_05": {
+        "code": "FM-5",
+        "cost": 15
+      },
+      "act19mini_06": {
+        "code": "FM-6",
+        "cost": 15
+      },
+      "act19mini_07": {
+        "code": "FM-7",
+        "cost": 21
+      },
+      "act19mini_08": {
+        "code": "FM-8",
+        "cost": 21
+      }
+    },
     "act43side_zone1": {
       "act43side_01": {
         "code": "AD-1",

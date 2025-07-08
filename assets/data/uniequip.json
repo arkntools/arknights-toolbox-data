@@ -1216,5 +1216,20 @@
   },
   "uniequip_003_doroth": {
     "typeIcon": "trp-x"
+  },
+  "uniequip_002_reckpr": {
+    "typeIcon": "phy-x"
+  },
+  "uniequip_002_leizi2": {
+    "typeIcon": "lib-x"
+  },
+  "uniequip_003_typhon": {
+    "typeIcon": "sie-y"
+  },
+  "uniequip_003_gdglow": {
+    "typeIcon": "fun-y"
+  },
+  "uniequip_003_gvial2": {
+    "typeIcon": "cen-y"
   }
 }

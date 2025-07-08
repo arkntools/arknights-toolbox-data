@@ -3277,6 +3277,21 @@
       19
     ]
   },
+  "4196_reckpr": {
+    "pinyin": {
+      "full": "luwuguan",
+      "head": "lwg"
+    },
+    "romaji": "",
+    "appellation": "Record Keeper",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ]
+  },
   "348_ceylon": {
     "pinyin": {
       "full": "xilan",
@@ -6615,6 +6630,22 @@
       13
     ],
     "appellationTransl": "Mlynar"
+  },
+  "1043_leizi2": {
+    "pinyin": {
+      "full": "sitingjingzhe",
+      "head": "stjz"
+    },
+    "romaji": "",
+    "appellation": "Leizi the Thunderbringer",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      13
+    ]
   },
   "230_savage": {
     "pinyin": {

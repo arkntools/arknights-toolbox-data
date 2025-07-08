@@ -290,6 +290,8 @@
   "skchr_tuye_1": "水流环",
   "skchr_tuye_2": "强心剂",
   "skchr_amedic_1": "宛如天启",
+  "skchr_reckpr_1": "触类旁通",
+  "skchr_reckpr_2": "一点关窍",
   "skchr_ceylon_1": "集中式水疗",
   "skchr_ceylon_2": "水灵庇护",
   "skchr_whispr_1": "定向诊断",
@@ -799,5 +801,8 @@
   "skchr_mlynar_1": "未声张的怒火",
   "skchr_mlynar_2": "未宽解的悲哀",
   "skchr_mlynar_3": "未照耀的荣光",
+  "skchr_leizi2_1": "浩气长存",
+  "skchr_leizi2_2": "正霆摄威",
+  "skchr_leizi2_3": "天地通明",
   "skcom_withdraw": "自我销毁"
 }
