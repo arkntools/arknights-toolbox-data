@@ -1,36 +1,8 @@
 {
-  "cn": {
-    "act19mini_zone1": {
-      "valid": {
-        "startTs": 1751947200,
-        "endTs": 1752523199
-      }
-    }
-  },
-  "us": {
-    "act31sre_zone1": {
-      "valid": {
-        "startTs": 1751562000,
-        "endTs": 1752404399
-      }
-    }
-  },
-  "jp": {
-    "act31sre_zone1": {
-      "valid": {
-        "startTs": 1751526000,
-        "endTs": 1752346799
-      }
-    }
-  },
-  "kr": {
-    "act31sre_zone1": {
-      "valid": {
-        "startTs": 1751526000,
-        "endTs": 1752346799
-      }
-    }
-  },
+  "cn": {},
+  "us": {},
+  "jp": {},
+  "kr": {},
   "tw": {
     "act38side_zone1": {
       "valid": {

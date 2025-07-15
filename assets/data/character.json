@@ -5457,6 +5457,23 @@
       19
     ]
   },
+  "4195_radian": {
+    "pinyin": {
+      "full": "dianhu",
+      "head": "dh"
+    },
+    "romaji": "",
+    "appellation": "Raidian",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      27,
+      19,
+      16
+    ]
+  },
   "1012_skadi2": {
     "pinyin": {
       "full": "zhuoxinsikadi",

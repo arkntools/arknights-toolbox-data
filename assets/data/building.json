@@ -3952,6 +3952,16 @@
         "unlock": "2_1"
       }
     ],
+    "4195_radian": [
+      {
+        "id": "control_mp_cost_013",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_dorm_rec_tag_001",
+        "unlock": "2_1"
+      }
+    ],
     "4196_reckpr": [
       {
         "id": "train_spd&profession3_184",
@@ -4115,6 +4125,10 @@
         "icon": "bskill_ctrl_cost",
         "desc": "8da9"
       },
+      "control_mp_cost_013": {
+        "icon": "bskill_ctrl_cost",
+        "desc": "8da9"
+      },
       "control_mp_cost_double_000": {
         "icon": "bskill_ctrl_amiya",
         "desc": "02c8"
@@ -4230,6 +4244,10 @@
       "control_dorm_rec_002": {
         "icon": "bskill_ctrl_leader",
         "desc": "5636"
+      },
+      "control_dorm_rec_tag_001": {
+        "icon": "bskill_ctrl_d_r_tag",
+        "desc": "4dd4"
       },
       "control_train_spd_010": {
         "icon": "bskill_ctrl_train_spd1",
@@ -7383,6 +7401,15 @@
         }
       },
       "a946": {
+        "building": "CONTROL",
+        "num": {
+          "moraleConsume": 0.1
+        },
+        "is": {
+          "心情消耗": 1
+        }
+      },
+      "4dd4": {
         "building": "CONTROL",
         "num": {
           "moraleConsume": 0.1

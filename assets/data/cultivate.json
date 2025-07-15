@@ -30458,6 +30458,46 @@
       }
     ]
   },
+  "4195_radian": {
+    "evolve": [],
+    "skills": {
+      "normal": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "elite": [
+        {
+          "name": "skchr_radian_1",
+          "cost": [
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "name": "skchr_radian_2",
+          "cost": [
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "name": "skchr_radian_3",
+          "cost": [
+            {},
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    "uniequip": []
+  },
   "1012_skadi2": {
     "evolve": [
       {
