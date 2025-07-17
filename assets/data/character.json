@@ -1012,7 +1012,9 @@
     "appellation": "Beanstalk",
     "star": 4,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 8,
@@ -2044,7 +2046,7 @@
       "full": "xunlan",
       "head": "xl"
     },
-    "romaji": "",
+    "romaji": "safua",
     "appellation": "Surfer",
     "star": 5,
     "recruitment": {},
@@ -2970,7 +2972,9 @@
     "appellation": "Iris",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 6,
@@ -4179,7 +4183,6 @@
       "cn": 1,
       "us": 1,
       "jp": 1,
-      "kr": 1,
       "tw": 1
     },
     "position": 10,
@@ -4419,7 +4422,7 @@
       "full": "xingzhu",
       "head": "xz"
     },
-    "romaji": "",
+    "romaji": "shiinzuu",
     "appellation": "Xingzhu",
     "star": 5,
     "recruitment": {},
@@ -4693,7 +4696,9 @@
     "appellation": "Archetto",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 2,
@@ -5351,7 +5356,7 @@
       "full": "zhuhuang",
       "head": "zh"
     },
-    "romaji": "",
+    "romaji": "okienbureizu",
     "appellation": "Blaze the Igniting Spark",
     "star": 6,
     "recruitment": {},
@@ -6213,7 +6218,7 @@
       "full": "yu",
       "head": "y"
     },
-    "romaji": "",
+    "romaji": "yu",
     "appellation": "Yu",
     "star": 6,
     "recruitment": {},
