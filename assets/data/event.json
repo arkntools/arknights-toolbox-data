@@ -25,10 +25,10 @@
     }
   },
   "tw": {
-    "act38side_zone1": {
+    "act37side_zone1": {
       "valid": {
-        "startTs": 1751004000,
-        "endTs": 1752782399
+        "startTs": 1752825600,
+        "endTs": 1753991999
       }
     }
   }
