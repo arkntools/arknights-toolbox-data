@@ -678,6 +678,7 @@ export class DataUpdater {
               skill.unlockStages = unlockStages;
             });
             skills.push(...patchSkills);
+            uniequipTable.charEquip[id]?.push(...(uniequipTable.charEquip[patchId] || []));
           });
         }
 
