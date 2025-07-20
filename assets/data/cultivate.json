@@ -12746,44 +12746,6 @@
             "mod_update_token_2": 8
           }
         ]
-      },
-      {
-        "id": "uniequip_002_amiya3",
-        "cost": [
-          {
-            "30064": 3,
-            "mod_unlock_token": 2
-          },
-          {
-            "31024": 4,
-            "mod_unlock_token": 2,
-            "mod_update_token_1": 20
-          },
-          {
-            "30034": 5,
-            "mod_unlock_token": 2,
-            "mod_update_token_2": 8
-          }
-        ]
-      },
-      {
-        "id": "uniequip_002_amiya2",
-        "cost": [
-          {
-            "30104": 3,
-            "mod_unlock_token": 2
-          },
-          {
-            "31024": 4,
-            "mod_unlock_token": 2,
-            "mod_update_token_1": 20
-          },
-          {
-            "31034": 5,
-            "mod_unlock_token": 2,
-            "mod_update_token_2": 8
-          }
-        ]
       }
     ]
   },
@@ -30461,40 +30423,8 @@
   "4195_radian": {
     "evolve": [],
     "skills": {
-      "normal": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "elite": [
-        {
-          "name": "skchr_radian_1",
-          "cost": [
-            {},
-            {},
-            {}
-          ]
-        },
-        {
-          "name": "skchr_radian_2",
-          "cost": [
-            {},
-            {},
-            {}
-          ]
-        },
-        {
-          "name": "skchr_radian_3",
-          "cost": [
-            {},
-            {},
-            {}
-          ]
-        }
-      ]
+      "normal": [],
+      "elite": []
     },
     "uniequip": []
   },
