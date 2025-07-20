@@ -16,6 +16,11 @@ export enum CharPosition {
   RANGED,
 }
 
+export enum CharSpTargetType {
+  NONE,
+  ROGUE,
+}
+
 export interface CharSkill {
   skillId: string;
   levelUpCostCond: Array<{ levelUpCost: ItemCost[] }>;
@@ -29,6 +34,7 @@ export interface Character {
   name: string;
   description: string;
   appellation: string;
+  spTargetType: keyof typeof CharSpTargetType;
   position: keyof typeof CharPosition;
   tagList: string[];
   isNotObtainable: boolean;

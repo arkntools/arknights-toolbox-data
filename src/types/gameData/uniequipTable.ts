@@ -10,4 +10,5 @@ export interface UniEquip {
 
 export interface UniequipTable {
   equipDict: Record<string, UniEquip>;
+  charEquip: Record<string, string[]>;
 }

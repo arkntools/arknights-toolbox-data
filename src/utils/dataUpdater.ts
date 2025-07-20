@@ -1,4 +1,4 @@
-import _, {
+import {
   each,
   invert,
   isNumber,
@@ -481,7 +481,7 @@ export class DataUpdater {
     if (isCN) {
       if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
-        zoneToActivity: _.pickBy(activityTable.zoneToActivity, (actId, zoneId) =>
+        zoneToActivity: pickBy(activityTable.zoneToActivity, (actId, zoneId) =>
           isActivityType(activityTable.basicInfo[actId].type),
         ),
         zoneToRetro: mapValues(retroTable.zoneToRetro, fixI18nKey),
@@ -697,21 +697,20 @@ export class DataUpdater {
             cost: levelUpCostCond.map(({ levelUpCost }) => getMaterialListObject(levelUpCost)),
             ...(isPatch ? { isPatch, unlockStages } : {}),
           }))
-          .filter(({ cost }) => cost.length);
+          .filter(({ cost }) => cost.length && cost.every(obj => size(obj)));
 
         // 模组
-        const uniequip = map(
-          pickBy(uniequipTable.equipDict, ({ charId, uniEquipId }) => charId === id && uniEquipId in uniequipId2Name),
-          ({ uniEquipId, itemCost }) => ({
+        const uniequip = (uniequipTable.charEquip[id] || [])
+          .filter(uniEquipId => uniEquipId in uniequipId2Name)
+          .map(uniEquipId => ({
             id: uniEquipId,
-            cost: getEquipMaterialListObject(itemCost),
-          }),
-        );
+            cost: getEquipMaterialListObject(uniequipTable.equipDict[uniEquipId].itemCost),
+          }));
 
         const final: DataCharCultivate = {
-          evolve: evolve.every(obj => size(obj)) ? evolve : [],
+          evolve: evolve.some(obj => size(obj)) ? evolve : [],
           skills: {
-            normal,
+            normal: normal.some(obj => size(obj)) ? normal : [],
             elite,
           },
           uniequip,
