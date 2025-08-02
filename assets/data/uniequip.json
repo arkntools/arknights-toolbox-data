@@ -1234,5 +1234,35 @@
   },
   "uniequip_003_gvial2": {
     "typeIcon": "cen-y"
+  },
+  "uniequip_002_kichi": {
+    "typeIcon": "rpr-x"
+  },
+  "uniequip_002_nymph": {
+    "typeIcon": "pri-x"
+  },
+  "uniequip_002_blaze2": {
+    "typeIcon": "pri-x"
+  },
+  "uniequip_002_christ": {
+    "typeIcon": "pri-x"
+  },
+  "uniequip_002_kaitou": {
+    "typeIcon": "pri-x"
+  },
+  "uniequip_002_warmy": {
+    "typeIcon": "pri-x"
+  },
+  "uniequip_003_chen2": {
+    "typeIcon": "rpr-y"
+  },
+  "uniequip_004_swire2": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_003_pepe": {
+    "typeIcon": "ra-a"
+  },
+  "uniequip_002_haruka": {
+    "typeIcon": "bls-y"
   }
 }

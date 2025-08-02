@@ -1870,6 +1870,22 @@
       19
     ]
   },
+  "4199_makiri": {
+    "pinyin": {
+      "full": "songtong",
+      "head": "st"
+    },
+    "romaji": "",
+    "appellation": "Matsukiri",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      16
+    ]
+  },
   "261_sddrag": {
     "pinyin": {
       "full": "weicao",
@@ -2768,6 +2784,21 @@
       "jp": 1,
       "kr": 1
     },
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      21
+    ]
+  },
+  "4203_kichi": {
+    "pinyin": {
+      "full": "jixing",
+      "head": "jx"
+    },
+    "romaji": "",
+    "appellation": "Kichisei",
+    "star": 5,
+    "recruitment": {},
     "position": 10,
     "profession": 2,
     "tags": [
@@ -4014,7 +4045,9 @@
     "romaji": "togifuonsu",
     "appellation": "Toddifons",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 2,
     "tags": [
@@ -5252,7 +5285,9 @@
     "romaji": "passenja",
     "appellation": "Passenger",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 6,
     "tags": [
@@ -5523,6 +5558,23 @@
     },
     "romaji": "淬wasairensu",
     "appellation": "Silence the Paradigmatic",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      16,
+      20,
+      15
+    ]
+  },
+  "4202_haruka": {
+    "pinyin": {
+      "full": "yao",
+      "head": "y"
+    },
+    "romaji": "",
+    "appellation": "Haruka",
     "star": 6,
     "recruitment": {},
     "position": 10,
@@ -6230,6 +6282,22 @@
     "tags": [
       29,
       22
+    ]
+  },
+  "1044_hsgma2": {
+    "pinyin": {
+      "full": "zhanyexingxiong",
+      "head": "zyxx"
+    },
+    "romaji": "",
+    "appellation": "Hoshiguma the Breacher",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      19,
+      20
     ]
   },
   "264_f12yin": {
