@@ -16,18 +16,18 @@
     }
   },
   "jp": {
-    "act40side_zone1": {
+    "act18mini_zone1": {
       "valid": {
-        "startTs": 1752735600,
-        "endTs": 1754506799
+        "startTs": 1754550000,
+        "endTs": 1755111599
       }
     }
   },
   "kr": {
-    "act40side_zone1": {
+    "act18mini_zone1": {
       "valid": {
-        "startTs": 1752735600,
-        "endTs": 1754506799
+        "startTs": 1754550000,
+        "endTs": 1755111599
       }
     }
   },
