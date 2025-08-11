@@ -32,10 +32,10 @@
     }
   },
   "tw": {
-    "act29sre_zone1": {
+    "act39side_zone1": {
       "valid": {
-        "startTs": 1754035200,
-        "endTs": 1754855999
+        "startTs": 1754892000,
+        "endTs": 1756065599
       }
     }
   }
