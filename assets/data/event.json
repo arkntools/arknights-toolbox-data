@@ -1,5 +1,11 @@
 {
   "cn": {
+    "act35sre_zone1": {
+      "valid": {
+        "startTs": 1756065600,
+        "endTs": 1756929599
+      }
+    },
     "act44side_zone1": {
       "valid": {
         "startTs": 1754107200,
@@ -15,22 +21,8 @@
       }
     }
   },
-  "jp": {
-    "act18mini_zone1": {
-      "valid": {
-        "startTs": 1754550000,
-        "endTs": 1755111599
-      }
-    }
-  },
-  "kr": {
-    "act18mini_zone1": {
-      "valid": {
-        "startTs": 1754550000,
-        "endTs": 1755111599
-      }
-    }
-  },
+  "jp": {},
+  "kr": {},
   "tw": {
     "act39side_zone1": {
       "valid": {

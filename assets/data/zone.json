@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act35sre_zone1": "act35sre",
+    "act35sre_zone2": "act35sre",
+    "act35sre_zone3": "act35sre",
     "act44side_zone1": "act44side",
     "act44side_zone2": "act44side",
     "act44side_zone3": "act44side",
@@ -296,6 +299,9 @@
     "permanent_sidestory_25_zone2": "permanent_sidestory_25_Here_A_People_Sows",
     "permanent_sidestory_25_zone3": "permanent_sidestory_25_Here_A_People_Sows",
     "permanent_sidestory_26_zone1": "permanent_sidestory_26_Path_Of_Life",
-    "permanent_sidestory_26_zone2": "permanent_sidestory_26_Path_Of_Life"
+    "permanent_sidestory_26_zone2": "permanent_sidestory_26_Path_Of_Life",
+    "permanent_sidestory_27_zone1": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
+    "permanent_sidestory_27_zone2": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
+    "permanent_sidestory_27_zone3": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun"
   }
 }

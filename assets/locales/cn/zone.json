@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act35sre": "太阳甩在身后・复刻",
   "act44side": "墟",
   "act19mini": "镜中集",
   "act43side": "红丝绒",
@@ -158,5 +159,6 @@
   "permanent_sidestory_23_Zwillingsturme_im_Herbst": "崔林特尔梅之金@:(retroNameAppend.0)",
   "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "银心湖列车@:(retroNameAppend.0)",
   "permanent_sidestory_25_Here_A_People_Sows": "怀黍离@:(retroNameAppend.0)",
-  "permanent_sidestory_26_Path_Of_Life": "生路@:(retroNameAppend.0)"
+  "permanent_sidestory_26_Path_Of_Life": "生路@:(retroNameAppend.0)",
+  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太阳甩在身后@:(retroNameAppend.0)"
 }
