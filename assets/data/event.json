@@ -5,22 +5,22 @@
         "startTs": 1756065600,
         "endTs": 1756929599
       }
-    },
-    "act44side_zone1": {
-      "valid": {
-        "startTs": 1754107200,
-        "endTs": 1755892799
-      }
     }
   },
   "us": {},
   "jp": {},
   "kr": {},
   "tw": {
-    "act39side_zone1": {
+    "act18mini_zone1": {
       "valid": {
-        "startTs": 1754892000,
-        "endTs": 1756065599
+        "startTs": 1756195200,
+        "endTs": 1756756799
+      }
+    },
+    "act30sre_zone1": {
+      "valid": {
+        "startTs": 1756800000,
+        "endTs": 1757620799
       }
     }
   }

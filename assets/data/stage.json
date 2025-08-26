@@ -4213,40 +4213,6 @@
         "code": "HS-9",
         "cost": 21
       }
-    },
-    "act30side_zone1": {
-      "act30side_01": {
-        "code": "RS-1",
-        "cost": 9
-      },
-      "act30side_02": {
-        "code": "RS-2",
-        "cost": 9
-      },
-      "act30side_03": {
-        "code": "RS-3",
-        "cost": 9
-      },
-      "act30side_04": {
-        "code": "RS-4",
-        "cost": 12
-      },
-      "act30side_05": {
-        "code": "RS-5",
-        "cost": 12
-      },
-      "act30side_06": {
-        "code": "RS-6",
-        "cost": 21
-      },
-      "act30side_07": {
-        "code": "RS-7",
-        "cost": 21
-      },
-      "act30side_08": {
-        "code": "RS-8",
-        "cost": 21
-      }
     }
   },
   "retro": {
