@@ -4021,6 +4021,60 @@
         "id": "meet_spd_notOwned_002",
         "unlock": "2_1"
       }
+    ],
+    "4182_oblvns": [
+      {
+        "id": "control_prod_bd_spd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_prod_bd_spd_010",
+        "unlock": "2_1"
+      },
+      {
+        "id": "control_mp_cost&bd3_000",
+        "unlock": "0_1"
+      }
+    ],
+    "4183_mortis": [
+      {
+        "id": "control_mp_bd&trade_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_mp_cost_reset_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4185_amoris": [
+      {
+        "id": "control_meeting_spd&bd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_mp&meet_spd_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4184_dolris": [
+      {
+        "id": "control_dorm_bd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_dorm_rec2_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4186_tmoris": [
+      {
+        "id": "control_hire_spd&bd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_tra_limit&spd2_000",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4036,6 +4090,14 @@
       "control_prod_fraction_000": {
         "icon": "bskill_ctrl_fraction_knight",
         "desc": "94d7"
+      },
+      "control_prod_bd_spd_000": {
+        "icon": "bskill_ctrl_p_oblvns",
+        "desc": "b439"
+      },
+      "control_prod_bd_spd_010": {
+        "icon": "bskill_ctrl_p_oblvns",
+        "desc": "089a"
       },
       "control_token_prod_spd_000": {
         "icon": "bskill_ctrl_token_p_spd",
@@ -4080,6 +4142,10 @@
       "control_tra_limit&spd_000": {
         "icon": "bskill_ctrl_t_limit&spd",
         "desc": "347c"
+      },
+      "control_tra_limit&spd2_000": {
+        "icon": "bskill_ctrl_t_limit&spd_tmoris",
+        "desc": "4731"
       },
       "control_hire_spd_000": {
         "icon": "bskill_ctrl_h_spd",
@@ -4221,6 +4287,10 @@
         "icon": "bskill_ctrl_cost_bd2",
         "desc": "4357"
       },
+      "control_mp_cost&bd3_000": {
+        "icon": "bskill_ctrl_mp_oblvns",
+        "desc": "24ba"
+      },
       "control_mp_cost&bd_up_000": {
         "icon": "bskill_ctrl_cost_bd3",
         "desc": "0a87"
@@ -4236,6 +4306,14 @@
       "control_mp_cost&bd2_010": {
         "icon": "bskill_ctrl_cost_felyne",
         "desc": "2643"
+      },
+      "control_mp_cost_reset_000": {
+        "icon": "bskill_ctrl_mp_mortis",
+        "desc": "2bb7"
+      },
+      "control_mp&meet_spd_000": {
+        "icon": "bskill_ctrl_meet_amoris2",
+        "desc": "a981"
       },
       "control_facCostReset_000": {
         "icon": "bskill_ctrl_clear_sui",
@@ -4293,6 +4371,10 @@
         "icon": "bskill_ctrl_d_r_tag",
         "desc": "4dd4"
       },
+      "control_dorm_rec2_000": {
+        "icon": "bskill_ctrl_dorm_uika2",
+        "desc": "3a79"
+      },
       "control_train_spd_010": {
         "icon": "bskill_ctrl_train_spd1",
         "desc": "36b3"
@@ -4308,6 +4390,22 @@
       "control_tra_limit&spd_010": {
         "icon": "bskill_ctrl_g_limit&spd",
         "desc": "779b"
+      },
+      "control_mp_bd&trade_000": {
+        "icon": "bskill_ctrl_trade_mortis",
+        "desc": "e41e"
+      },
+      "control_meeting_spd&bd_000": {
+        "icon": "bskill_ctrl_meet_amoris1",
+        "desc": "3d96"
+      },
+      "control_dorm_bd_000": {
+        "icon": "bskill_ctrl_dorm_uika1",
+        "desc": "1904"
+      },
+      "control_hire_spd&bd_000": {
+        "icon": "bskill_ctrl_hire_tmoris",
+        "desc": "1288"
       },
       "power_rec_spd&cost_000": {
         "icon": "bskill_pow_spd&cost",
@@ -6639,6 +6737,11 @@
       }
     },
     "info": {
+      "1288": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
       "1397": {
         "building": "MEETING",
         "num": {
@@ -6656,6 +6759,11 @@
         "is": {
           "订单效率": 1
         }
+      },
+      "1904": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
       },
       "2182": {
         "building": "TRAINING",
@@ -6845,6 +6953,15 @@
         "num": {},
         "is": {
           "线索2": 1
+        }
+      },
+      "4731": {
+        "building": "CONTROL",
+        "num": {
+          "orderAll": 5
+        },
+        "is": {
+          "订单效率": 1
         }
       },
       "4815": {
@@ -7219,6 +7336,24 @@
           "生产力": 1
         }
       },
+      "b439": {
+        "building": "CONTROL",
+        "num": {
+          "productAll": 0.5
+        },
+        "is": {
+          "生产力": 1
+        }
+      },
+      "089a": {
+        "building": "CONTROL",
+        "num": {
+          "productAll": 1
+        },
+        "is": {
+          "生产力": 1
+        }
+      },
       "0962": {
         "building": "CONTROL",
         "num": {
@@ -7412,6 +7547,11 @@
           "心情消耗": 1
         }
       },
+      "24ba": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
       "0a87": {
         "building": "CONTROL",
         "num": {},
@@ -7434,6 +7574,16 @@
         "is": {
           "心情消耗": 1
         }
+      },
+      "2bb7": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
+      },
+      "a981": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
       },
       "04c6": {
         "building": "CONTROL",
@@ -7495,6 +7645,15 @@
           "心情消耗": 1
         }
       },
+      "3a79": {
+        "building": "CONTROL",
+        "num": {
+          "moraleConsume": 0.1
+        },
+        "is": {
+          "心情消耗": 1
+        }
+      },
       "36b3": {
         "building": "CONTROL",
         "num": {},
@@ -7508,6 +7667,20 @@
         "is": {
           "订单效率": 1
         }
+      },
+      "e41e": {
+        "building": "CONTROL",
+        "num": {
+          "orderAll": 1
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
+      "3d96": {
+        "building": "CONTROL",
+        "num": {},
+        "is": {}
       },
       "f025": {
         "building": "POWER",

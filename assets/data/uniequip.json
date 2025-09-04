@@ -1264,5 +1264,26 @@
   },
   "uniequip_002_haruka": {
     "typeIcon": "bls-y"
+  },
+  "uniequip_002_oblvns": {
+    "typeIcon": "lor-y"
+  },
+  "uniequip_002_amoris": {
+    "typeIcon": "ham-x"
+  },
+  "uniequip_002_dolris": {
+    "typeIcon": "bar-x"
+  },
+  "uniequip_002_tmoris": {
+    "typeIcon": "amb-y"
+  },
+  "uniequip_002_mortis": {
+    "typeIcon": "pum-y"
+  },
+  "uniequip_003_huang": {
+    "typeIcon": "cen-y"
+  },
+  "uniequip_003_cello": {
+    "typeIcon": "rit-y"
   }
 }

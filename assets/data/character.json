@@ -2575,6 +2575,24 @@
       19
     ]
   },
+  "4185_amoris": {
+    "pinyin": {
+      "full": "youtiansiruomai",
+      "head": "ytsrm"
+    },
+    "romaji": "",
+    "appellation": "Yūtenji Nyamu",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      21,
+      19,
+      24
+    ],
+    "appellationTransl": "Yutenji Nyamu"
+  },
   "129_bluep": {
     "pinyin": {
       "full": "landu",
@@ -4398,6 +4416,22 @@
       15
     ]
   },
+  "4184_dolris": {
+    "pinyin": {
+      "full": "sanjiaochuhua",
+      "head": "sjch"
+    },
+    "romaji": "",
+    "appellation": "Misumi Uika",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      16,
+      15
+    ]
+  },
   "343_tknogi": {
     "pinyin": {
       "full": "yuehe",
@@ -4536,6 +4570,22 @@
       20
     ]
   },
+  "4186_tmoris": {
+    "pinyin": {
+      "full": "bafanhailing",
+      "head": "bfhl"
+    },
+    "romaji": "",
+    "appellation": "Yahata Umiri",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      19,
+      12
+    ]
+  },
   "241_panda": {
     "pinyin": {
       "full": "shitieshou",
@@ -4667,6 +4717,22 @@
     "profession": 7,
     "tags": [
       24,
+      25
+    ]
+  },
+  "4183_mortis": {
+    "pinyin": {
+      "full": "ruoyemu",
+      "head": "rym"
+    },
+    "romaji": "",
+    "appellation": "Wakaba Mutsumi",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      22,
       25
     ]
   },
@@ -6395,6 +6461,21 @@
     "tags": [
       19,
       12
+    ]
+  },
+  "4182_oblvns": {
+    "pinyin": {
+      "full": "fengchuanxiangzi",
+      "head": "fcxz"
+    },
+    "romaji": "",
+    "appellation": "Togawa Sakiko",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19
     ]
   },
   "4088_hodrer": {

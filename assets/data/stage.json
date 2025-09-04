@@ -1996,6 +1996,40 @@
     }
   },
   "event": {
+    "act45side_zone1": {
+      "act45side_01": {
+        "code": "SS-1",
+        "cost": 9
+      },
+      "act45side_02": {
+        "code": "SS-2",
+        "cost": 9
+      },
+      "act45side_03": {
+        "code": "SS-3",
+        "cost": 12
+      },
+      "act45side_04": {
+        "code": "SS-4",
+        "cost": 12
+      },
+      "act45side_05": {
+        "code": "SS-5",
+        "cost": 12
+      },
+      "act45side_06": {
+        "code": "SS-6",
+        "cost": 21
+      },
+      "act45side_07": {
+        "code": "SS-7",
+        "cost": 21
+      },
+      "act45side_08": {
+        "code": "SS-8",
+        "cost": 21
+      }
+    },
     "act44side_zone1": {
       "act44side_01": {
         "code": "AT-1",
