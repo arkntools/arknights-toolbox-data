@@ -23,7 +23,9 @@
   "weekly_7": "戰術演習",
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
+  "act40side": "相見歡",
   "act18mini": "我們明日見",
+  "act31sre": "懷黍離·復刻",
   "act30sre": "銀心湖列車·復刻",
   "act39side": "出蒼白海",
   "act29sre": "崔林特爾梅之金·復刻",
@@ -146,5 +148,6 @@
   "permanent_sidestory_21_so_Long_Adele": "火山旅夢@:(retroNameAppend.0)",
   "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "不義之財@:(retroNameAppend.0)",
   "permanent_sidestory_23_Zwillingsturme_im_Herbst": "崔林特爾梅之金@:(retroNameAppend.0)",
-  "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "銀心湖列車@:(retroNameAppend.0)"
+  "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "銀心湖列車@:(retroNameAppend.0)",
+  "permanent_sidestory_25_Here_A_People_Sows": "懷黍離@:(retroNameAppend.0)"
 }

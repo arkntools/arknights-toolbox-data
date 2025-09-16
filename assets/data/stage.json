@@ -4209,44 +4209,6 @@
         "code": "BB-8",
         "cost": 21
       }
-    },
-    "act31side_zone1": {
-      "act31side_01": {
-        "code": "HS-1",
-        "cost": 9
-      },
-      "act31side_02": {
-        "code": "HS-2",
-        "cost": 9
-      },
-      "act31side_03": {
-        "code": "HS-3",
-        "cost": 9
-      },
-      "act31side_04": {
-        "code": "HS-4",
-        "cost": 12
-      },
-      "act31side_05": {
-        "code": "HS-5",
-        "cost": 12
-      },
-      "act31side_06": {
-        "code": "HS-6",
-        "cost": 12
-      },
-      "act31side_07": {
-        "code": "HS-7",
-        "cost": 21
-      },
-      "act31side_08": {
-        "code": "HS-8",
-        "cost": 21
-      },
-      "act31side_09": {
-        "code": "HS-9",
-        "cost": 21
-      }
     }
   },
   "retro": {
