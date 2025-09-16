@@ -324,7 +324,8 @@
       "type": 1,
       "startTime": 1730977200,
       "linkedActId": [
-        "act33side"
+        "act33side",
+        "act33sre"
       ]
     },
     "permanent_sub_7_Ending_A_Grand_Overture": {
@@ -332,6 +333,13 @@
       "startTime": 1745924400,
       "linkedActId": [
         "act37side"
+      ]
+    },
+    "permanent_main_1_Dissociative_Recombination": {
+      "type": 1,
+      "startTime": 1759230000,
+      "linkedActId": [
+        "act2mainss"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {

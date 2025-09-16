@@ -16,6 +16,7 @@
   "buff": {
     "name": {
       "control_prod_spd_000": "Highest Authority",
+      "control_prod_spd_1000": "Highest Authority",
       "control_prod_fraction_000": "The Candle Knight's Glimmer",
       "control_token_prod_spd_000": "Overclock",
       "control_token_prod_spd2_000": "Leading By Example",
@@ -48,6 +49,7 @@
       "control_mp_cost_009": "Million Dollar Smile",
       "control_mp_cost_010": "Marigold Poetry Gathering",
       "control_mp_cost_011": "Art of Defense",
+      "control_mp_cost_012": "New to the Job",
       "control_mp_cost_double_000": "King's Legacy",
       "control_mp_cost_double_001": "'Unfinished Story'",
       "control_allCost_condChar_000": "Moment of Respite",
@@ -194,6 +196,9 @@
       "manu_formula_spd&cost_000": "Little Whims",
       "manu_formula_spd&cost_001": "Clean Breeze",
       "manu_formula_spd&cost_bd_000": "Big Responsibilities",
+      "manu_token_prod_spd_000": "Master of Machines α",
+      "manu_token_prod_spd_010": "Master of Machines β",
+      "manu_prod_spd_double_000": "'Here to Help!'",
       "manu_formula_spd_200": "Originium Work α",
       "manu_formula_spd_210": "Originium Work β",
       "manu_formula_spd_201": "Geology α",
@@ -629,7 +634,9 @@
       "meet_spd_bd_001": "Gourmand",
       "meet_spd_hast_000": "Shadow Gathering",
       "meet_spd&condChar_mustget_000": "Bibliography Consultant",
-      "meet_spd&condChar_mustget_100": "Secret Clue"
+      "meet_spd&condChar_mustget_100": "Secret Clue",
+      "meet_spd&clue_000": "Making Friends",
+      "meet_spd_notOwned&exchange_000": "On the Alert"
     },
     "description": {
       "1397": "When this Operator is assigned to the Reception Room, increases Clue search speed by <@cc.vup>35%</>, and Morale consumed per hour by <@cc.vdown>+2</>",
@@ -683,6 +690,7 @@
       "7157": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>10%</> and it's easier to obtain the clues of <@cc.kw>Penguin Logistics</>",
       "7420": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Sniper</> Operators' Specialization training speed <@cc.vup>+30%</>; if the trainee's Job Branch is <@cc.kw>Marksman</>, training speed will be further increased by <@cc.vup>+45%</>",
       "7500": "When this Operator is assigned to the Reception Room, increases the likelihood of obtaining <@cc.kw>Rhodes Island</> clues (Rate is influenced by length of work time)",
+      "7609": "When this Operator is assigned to the Reception Room, if in Clue Exchange, increases the likelihood of obtaining clues that are not on the Clue Board",
       "7652": "When this Operator is assigned together with <@cc.kw>Aak</> to the Control Center, increases Morale recovery per hour of all Operators in the Control Center by <@cc.vup>+0.25</>",
       "7702": "When this Operator is assigned to the Workshop to process <@cc.kw>any material</> with a base Morale cost of <@cc.kw>8</>, byproduct production chance is increased by <@cc.vup>50%</>",
       "7745": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Medic</> Operators' Specialization training speed <@cc.vup>+30%</>; if the trainee's Job Branch is <@cc.kw>Wandering Medic</>, training speed will be further increased by <@cc.vup>+45%</>",
@@ -695,6 +703,7 @@
       "9409": "When this Operator is assigned to the HR Office, HR contacting speed <@cc.vup>+5%</>, with a further increase of <@cc.vup>+2%</> for every level of each Dormitory",
       "9628": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> formula related productivity <@cc.vup>+30%</>",
       "9706": "When this Operator is assigned to be the Trainer in the Training Room, increases the Specialization training speed of <@cc.kw>Caster</> Operators by <@cc.vup>+30%</>, and further increases this speed by <@cc.vup>+45%</> if training the skill to Specialization Level <@cc.vup>1</>",
+      "9728": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> productivity <@cc.vup>+15%</> when <@cc.kw>Warmy</> is assigned to the same Factory",
       "9888": "When this Operator is assigned to the Workshop to process <@cc.kw>Skill Summaries</>, the production rate of byproduct increases by <@cc.vup>75%</>",
       "8de4": "When this Operator is assigned to the Control Center, all Factories' productivity <@cc.vup>+2%</> (only the most effective one will take effect when assigned Operators have the same skill effect)",
       "94d7": "When this Operator is assigned to the Control Center, all <$cc.tag.knight><@cc.kw>Knight</></> Operators assigned to Factories gain productivity <@cc.vup>+7%</>",
@@ -798,6 +807,8 @@
       "0d68": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> productivity <@cc.vup>+1%</> for every level of each Dormitory",
       "ef5e": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> productivity <@cc.vup>+25%</>, and Morale consumed per hour <@cc.vdown>+0.25</>",
       "49c0": "When this Operator is assigned to a Factory, for each <$cc.g.bs><@cc.kw>Blacksteel Worldwide</></> Operator in the Base (excluding Assistants and Activity Room users, caps at <@cc.kw>3</>), <@cc.kw>Precious Metal</> productivity <@cc.vup>+2%</> and Morale consumed per hour <@cc.vup>-0.15</>",
+      "0c77": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> productivity <@cc.vup>+5%</> for <@cc.vup>every</> <$cc.tag.op><@cc.kw>Operation Platform</></> assigned to a Power Plant",
+      "91e6": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> productivity <@cc.vup>+10%</> for <@cc.vup>every</> <$cc.tag.op><@cc.kw>Operation Platform</></> assigned to a Power Plant",
       "b89d": "When this Operator is assigned to a Factory, <@cc.kw>Originium</> formula related productivity <@cc.vup>+30%</>",
       "a5bc": "When this Operator is assigned to a Factory, <@cc.kw>Originium</> formula related productivity <@cc.vup>+35%</>",
       "319e": "When this Operator is assigned to a Factory and <@cc.kw>Gummy</> is in a Trading Post, <@cc.kw>Battle Record</> formula productivity <@cc.vup>+35%</>",
@@ -1065,7 +1076,8 @@
       "f715": "When this Operator is assigned to the Reception Room, increases Clue search speed by an additional <@cc.vup>2%</> for every <@cc.vup>1</> <$cc.bd_dungeon><@cc.rem>Monster Meal</></>",
       "7d95": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>20%</>, then by another <@cc.vup>2%</> per hour, up to a maximum of <@cc.vup>30%</>",
       "951c": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhine Lab</> clue is <@cc.kw>guaranteed</> next",
-      "2b40": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhodes Island Pharmaceuticals</> clue is <@cc.kw>guaranteed</> next."
+      "2b40": "When this Operator is assigned to the Reception Room, if only this Operator is working in the Reception Room, for every <@cc.kw>16</> consecutive Morale spent, a <@cc.kw>Rhodes Island Pharmaceuticals</> clue is <@cc.kw>guaranteed</> next.",
+      "e76f": "When this Operator is assigned to the Reception Room, every Recruit slot (Default slots do not count) increases Clue search speed by <@cc.vup>5%</>"
     }
   }
 }
