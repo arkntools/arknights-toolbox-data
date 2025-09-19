@@ -2356,7 +2356,7 @@
         "cost": 21
       }
     },
-    "act37side_zone1": {
+    "act37sre_zone1": {
       "act37side_01": {
         "code": "GO-1",
         "cost": 9
@@ -4106,6 +4106,44 @@
       "a001_06": {
         "code": "GT-6",
         "cost": 15
+      }
+    },
+    "act37side_zone1": {
+      "act37side_01": {
+        "code": "GO-1",
+        "cost": 9
+      },
+      "act37side_02": {
+        "code": "GO-2",
+        "cost": 9
+      },
+      "act37side_03": {
+        "code": "GO-3",
+        "cost": 9
+      },
+      "act37side_04": {
+        "code": "GO-4",
+        "cost": 12
+      },
+      "act37side_05": {
+        "code": "GO-5",
+        "cost": 12
+      },
+      "act37side_06": {
+        "code": "GO-6",
+        "cost": 12
+      },
+      "act37side_07": {
+        "code": "GO-7",
+        "cost": 21
+      },
+      "act37side_08": {
+        "code": "GO-8",
+        "cost": 21
+      },
+      "act37side_09": {
+        "code": "GO-9",
+        "cost": 21
       }
     },
     "act35side_zone1": {
