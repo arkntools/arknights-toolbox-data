@@ -1025,6 +1025,23 @@
       27
     ]
   },
+  "4208_wintim": {
+    "pinyin": {
+      "full": "dongshi",
+      "head": "ds"
+    },
+    "romaji": "",
+    "appellation": "Снегyрочка",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      25
+    ],
+    "appellationTransl": "Snegyrochka"
+  },
   "130_doberm": {
     "pinyin": {
       "full": "dubin",
@@ -3795,6 +3812,23 @@
       19
     ]
   },
+  "4207_branch": {
+    "pinyin": {
+      "full": "zheya",
+      "head": "zy"
+    },
+    "romaji": "",
+    "appellation": "Веточки",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      22,
+      20
+    ],
+    "appellationTransl": "Vetochki"
+  },
   "378_asbest": {
     "pinyin": {
       "full": "shimian",
@@ -5473,6 +5507,23 @@
       29,
       19,
       21
+    ]
+  },
+  "4204_mantra": {
+    "pinyin": {
+      "full": "zhenyan",
+      "head": "zy"
+    },
+    "romaji": "",
+    "appellation": "Mantra",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      29,
+      19,
+      12
     ]
   },
   "450_necras": {

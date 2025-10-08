@@ -4075,6 +4075,36 @@
         "id": "control_tra_limit&spd2_000",
         "unlock": "2_1"
       }
+    ],
+    "4204_mantra": [
+      {
+        "id": "trade_ord_spd&tag_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd&tag_010",
+        "unlock": "2_1"
+      }
+    ],
+    "4207_branch": [
+      {
+        "id": "workshop_formula_cost5_100",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_device_021",
+        "unlock": "2_1"
+      }
+    ],
+    "4208_wintim": [
+      {
+        "id": "manu_prod_spd&manu_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd&manu_100",
+        "unlock": "1_1"
+      }
     ]
   },
   "buff": {
@@ -4815,6 +4845,14 @@
         "icon": "bskill_man_spd_bd_dungeon",
         "desc": "9d92"
       },
+      "manu_prod_spd&manu_000": {
+        "icon": "bskill_man_spd_manu1",
+        "desc": "ff85"
+      },
+      "manu_prod_spd&manu_100": {
+        "icon": "bskill_man_spd_manu2",
+        "desc": "0b47"
+      },
       "manu_formula_spd_000": {
         "icon": "bskill_man_exp1",
         "desc": "c3d0"
@@ -5275,6 +5313,14 @@
         "icon": "trade_ord_spd&par2",
         "desc": "6667"
       },
+      "trade_ord_spd&tag_000": {
+        "icon": "bskill_tra_spd1",
+        "desc": "e5ad"
+      },
+      "trade_ord_spd&tag_010": {
+        "icon": "bskill_ord_spd&tag1",
+        "desc": "8051"
+      },
       "workshop_proc_probability_000": {
         "icon": "bskill_ws_p1",
         "desc": "2902"
@@ -5438,6 +5484,10 @@
       "workshop_formula_cost4_011": {
         "icon": "bskill_ws_constant3",
         "desc": "2566"
+      },
+      "workshop_formula_cost5_100": {
+        "icon": "bskill_ws_p8",
+        "desc": "834a"
       },
       "workshop_formula_cost5_000": {
         "icon": "bskill_ws_evolve_cost4",
@@ -5618,6 +5668,10 @@
       "workshop_formula_device_020": {
         "icon": "bskill_ws_oriron",
         "desc": "ebca"
+      },
+      "workshop_formula_device_021": {
+        "icon": "bskill_ws_oriron",
+        "desc": "5c31"
       },
       "workshop_formula_device_030": {
         "icon": "bskill_ws_polyester",
@@ -7240,6 +7294,15 @@
           "心情消耗": 1
         }
       },
+      "8051": {
+        "building": "TRADING",
+        "num": {
+          "order": 25
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
       "8174": {
         "building": "CONTROL",
         "num": {},
@@ -8135,6 +8198,26 @@
           "通用生产": 1
         }
       },
+      "ff85": {
+        "building": "MANUFACTURE",
+        "num": {
+          "capacity": 5
+        },
+        "is": {
+          "仓库容量": 1
+        }
+      },
+      "0b47": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 10,
+          "capacity": 5
+        },
+        "is": {
+          "通用生产": 1,
+          "仓库容量": 1
+        }
+      },
       "c3d0": {
         "building": "MANUFACTURE",
         "num": {
@@ -8884,6 +8967,11 @@
         "num": {},
         "is": {}
       },
+      "834a": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
       "c055": {
         "building": "WORKSHOP",
         "num": {},
@@ -9034,6 +9122,11 @@
         "is": {
           "精英材料": 1
         }
+      },
+      "5c31": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
       },
       "f7f9": {
         "building": "WORKSHOP",
