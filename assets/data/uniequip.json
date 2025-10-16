@@ -1295,6 +1295,9 @@
   "uniequip_002_mantra": {
     "typeIcon": "pri-x"
   },
+  "uniequip_003_radian": {
+    "typeIcon": "so-b"
+  },
   "uniequip_002_narant": {
     "typeIcon": "lps-x"
   },
