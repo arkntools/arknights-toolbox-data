@@ -172,7 +172,10 @@
     "appellation": "CONFESS-47",
     "star": 1,
     "recruitment": {
-      "cn": 2
+      "cn": 2,
+      "us": 2,
+      "jp": 2,
+      "kr": 2
     },
     "position": 9,
     "profession": 8,
@@ -2582,7 +2585,7 @@
       "full": "lingyin",
       "head": "ly"
     },
-    "romaji": "",
+    "romaji": "guresubeara",
     "appellation": "Gracebearer",
     "star": 5,
     "recruitment": {},
@@ -3688,7 +3691,10 @@
     "appellation": "Mr.Nothing",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "us": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 7,
@@ -4917,7 +4923,7 @@
       "full": "leimiuan",
       "head": "lma"
     },
-    "romaji": "",
+    "romaji": "remyuan",
     "appellation": "Lemuen",
     "star": 6,
     "recruitment": {},
@@ -5127,7 +5133,10 @@
     "appellation": "Saga",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "us": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 8,
@@ -5923,7 +5932,7 @@
       "full": "xinyuenengtianshi",
       "head": "xynts"
     },
-    "romaji": "",
+    "romaji": "shinyakuekushia",
     "appellation": "Exusiai the New Covenant",
     "star": 6,
     "recruitment": {},
@@ -6376,7 +6385,7 @@
       "full": "xinyangjiaobanji",
       "head": "xyjbj"
     },
-    "romaji": "",
+    "romaji": "sankuta･mikisa",
     "appellation": "Sankta Miksaparato",
     "star": 6,
     "recruitment": {},

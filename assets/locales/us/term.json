@@ -167,6 +167,10 @@
     "name": "Siracusa",
     "desc": "Includes the following Operators:\nAngelina, Lappland, Provence, Vermeil, Broca, Shamare, Suzuran, Chiave, Aosta, Penance, Lunacub, Vigil, Aroma, Vulpisfoglia, Figurino, Lappland the Decadenza"
   },
+  "cc_g_laterano": {
+    "name": "Laterano",
+    "desc": "Includes the following Operators:\nPlume, Adnachiel, Executor, Mostima, Ambriel, Arene, Archetto, Fiammetta, Enforcer, Spuria, Insider, Virtuosa, Lemuen, Sankta Miksaparato, CONFESS-47"
+  },
   "cc_c_abyssal2_1": {
     "name": "Special Bonus",
     "desc": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed in a Factory, the Control Center provides <@cc.vup>5%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed within it, up to a maximum of <@cc.vup>45%</> Productivity"
@@ -249,7 +253,7 @@
   },
   "cc_tag_op": {
     "name": "Operation Platform",
-    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, 'Justice Knight', Friston-3, PhonoR-0"
+    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, Justice Knight, Friston-3, PhonoR-0, CONFESS-47"
   },
   "cc_tag_knight": {
     "name": "Knight",
@@ -270,6 +274,10 @@
   "cc_gvial": {
     "name": "Gavial",
     "desc": "Includes the following Operators:\nGavial the Invincible, Gavial"
+  },
+  "cc_angel": {
+    "name": "Exusiai",
+    "desc": "Includes the following Operators:\nExusiai the New Covenant, Exusiai"
   },
   "cc_tra_pepe": {
     "name": "Special Exclusive Order",

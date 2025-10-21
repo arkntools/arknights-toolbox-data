@@ -1,8 +1,29 @@
 {
   "cn": {},
-  "us": {},
-  "jp": {},
-  "kr": {},
+  "us": {
+    "act42side_zone1": {
+      "valid": {
+        "startTs": 1760443200,
+        "endTs": 1762253999
+      }
+    }
+  },
+  "jp": {
+    "act42side_zone1": {
+      "valid": {
+        "startTs": 1760407200,
+        "endTs": 1762196399
+      }
+    }
+  },
+  "kr": {
+    "act42side_zone1": {
+      "valid": {
+        "startTs": 1760407200,
+        "endTs": 1762196399
+      }
+    }
+  },
   "tw": {
     "act41side_zone1": {
       "valid": {
