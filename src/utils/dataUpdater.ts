@@ -462,7 +462,9 @@ export class DataUpdater {
       }
     });
 
-    const isActivityType = (type: string) => type.startsWith('TYPE_ACT') || type === 'MINISTORY' || type === 'DEFAULT';
+    // 类型可能为 number，FBS 未更新导致
+    const isActivityType = (type: string) =>
+      typeof type !== 'string' || type.startsWith('TYPE_ACT') || type === 'MINISTORY' || type === 'DEFAULT';
 
     // 活动
     each(activityTable.basicInfo, ({ id, type, name }) => {
@@ -481,7 +483,7 @@ export class DataUpdater {
     if (isCN) {
       if (!HAS_TW_DATA) writeLocale('tw', 'zone.json', objS2twp(zoneId2Name));
       writeData('zone.json', {
-        zoneToActivity: pickBy(activityTable.zoneToActivity, (actId, zoneId) =>
+        zoneToActivity: pickBy(activityTable.zoneToActivity, actId =>
           isActivityType(activityTable.basicInfo[actId].type),
         ),
         zoneToRetro: mapValues(retroTable.zoneToRetro, fixI18nKey),
