@@ -51,16 +51,16 @@
     }
   },
   "tw": {
-    "version": "25-10-17-18-57-38_c9b208",
+    "version": "25-10-26-13-30-45_17fdc7",
     "rev": {
       "char_patch_table": "8014ccac194076c659a544f52e03a1efa370d669",
       "character_table": "8014ccac194076c659a544f52e03a1efa370d669",
-      "building_data": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "gacha_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
-      "item_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "item_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "skill_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
-      "gamedata_const": "8014ccac194076c659a544f52e03a1efa370d669",
+      "gamedata_const": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "stage_table": "8014ccac194076c659a544f52e03a1efa370d669",
       "activity_table": "8014ccac194076c659a544f52e03a1efa370d669",
       "retro_table": "8014ccac194076c659a544f52e03a1efa370d669",

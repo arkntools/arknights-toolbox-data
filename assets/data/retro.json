@@ -1134,6 +1134,13 @@
         "act37side"
       ]
     },
+    "permanent_main_1_Dissociative_Recombination": {
+      "type": 1,
+      "startTime": 1763064000,
+      "linkedActId": [
+        "act2mainss"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1641844800,
@@ -1270,20 +1277,20 @@
         "act21sre"
       ]
     },
-    "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": {
-      "type": 0,
-      "startTime": 1733601600,
-      "linkedActId": [
-        "act23side",
-        "act23sre"
-      ]
-    },
     "permanent_sidestory_18_What_the_Firelight_Casts": {
       "type": 0,
       "startTime": 1732737600,
       "linkedActId": [
         "act22side",
         "act22sre"
+      ]
+    },
+    "permanent_sidestory_19_Where_Vernal_Winds_Will_Never_Blow": {
+      "type": 0,
+      "startTime": 1733601600,
+      "linkedActId": [
+        "act23side",
+        "act23sre"
       ]
     },
     "permanent_sidestory_20_Hortus_de_Escapismo": {
