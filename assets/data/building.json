@@ -4105,6 +4105,74 @@
         "id": "manu_prod_spd&manu_100",
         "unlock": "1_1"
       }
+    ],
+    "394_hadiya": [
+      {
+        "id": "train_spd&profession2_321",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession2_322",
+        "unlock": "2_1"
+      }
+    ],
+    "1046_sbell2": [
+      {
+        "id": "hire_spd_cost&char_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd_cost&char_001",
+        "unlock": "2_1"
+      }
+    ],
+    "1047_halo2": [
+      {
+        "id": "manu_skill_limit_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd_011",
+        "unlock": "2_1"
+      }
+    ],
+    "4051_akkord": [
+      {
+        "id": "power_rec_spd_008",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_009",
+        "unlock": "1_1"
+      },
+      {
+        "id": "dorm_rec_oneself2_001",
+        "unlock": "1_1"
+      }
+    ],
+    "4211_snhunt": [
+      {
+        "id": "manu_prod_spd&limit&cost_101",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd&limit&cost_110",
+        "unlock": "2_1"
+      }
+    ],
+    "1045_svash2": [
+      {
+        "id": "control_tra_limit&spd3_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession2_111",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession2_112",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4171,11 +4239,15 @@
       },
       "control_tra_limit&spd_000": {
         "icon": "bskill_ctrl_t_limit&spd",
-        "desc": "347c"
+        "desc": "b02b"
       },
       "control_tra_limit&spd2_000": {
         "icon": "bskill_ctrl_t_limit&spd_tmoris",
         "desc": "4731"
+      },
+      "control_tra_limit&spd3_000": {
+        "icon": "bskill_ctrl_t_limit&spd3",
+        "desc": "a7fc"
       },
       "control_hire_spd_000": {
         "icon": "bskill_ctrl_h_spd",
@@ -4295,7 +4367,7 @@
       },
       "control_mp_cost&faction_030": {
         "icon": "bskill_ctrl_karlan",
-        "desc": "a028"
+        "desc": "a08d"
       },
       "control_mp_cost&faction_900": {
         "icon": "bskill_ctrl_sp",
@@ -4533,6 +4605,14 @@
         "icon": "bskill_pow_spd1",
         "desc": "36ac"
       },
+      "power_rec_spd_008": {
+        "icon": "bskill_pow_spd1",
+        "desc": "36ac"
+      },
+      "power_rec_spd_009": {
+        "icon": "bskill_pow_spd2",
+        "desc": "ba86"
+      },
       "power_rec_drone_000": {
         "icon": "bskill_pow_drone",
         "desc": "ae1c"
@@ -4652,6 +4732,10 @@
       "manu_skill_change_000": {
         "icon": "bskill_man_skill_change",
         "desc": "5724"
+      },
+      "manu_skill_limit_000": {
+        "icon": "bskill_man_limit1",
+        "desc": "aa37"
       },
       "manu_prod_bd_000": {
         "icon": "bskill_man_fuze",
@@ -4780,6 +4864,14 @@
       "manu_prod_spd&limit&cost_100": {
         "icon": "bskill_man_spd&cost1",
         "desc": "1b3d"
+      },
+      "manu_prod_spd&limit&cost_101": {
+        "icon": "bskill_man_spd&cost2",
+        "desc": "1b3d"
+      },
+      "manu_prod_spd&limit&cost_110": {
+        "icon": "bskill_man_spd&cost3",
+        "desc": "0e75"
       },
       "manu_prod_spd&limit&cost_200": {
         "icon": "bskill_man_spd&limit5",
@@ -5969,6 +6061,14 @@
         "icon": "bskill_train_medic1",
         "desc": "3990"
       },
+      "train_spd&profession2_321": {
+        "icon": "bskill_train_guard1",
+        "desc": "90b2"
+      },
+      "train_spd&profession2_322": {
+        "icon": "bskill_train3_guard1",
+        "desc": "3470"
+      },
       "train_spd&profession3_181": {
         "icon": "bskill_train_wandermedic",
         "desc": "7745"
@@ -6004,6 +6104,14 @@
       "train_spd&profession2_150": {
         "icon": "bskill_train1_caster1",
         "desc": "9706"
+      },
+      "train_spd&profession2_111": {
+        "icon": "bskill_train_spd&profession2",
+        "desc": "3d5a"
+      },
+      "train_spd&profession2_112": {
+        "icon": "bskill_train_spd&profession2",
+        "desc": "aeb5"
       },
       "train_spd&profession2_180": {
         "icon": "bskill_train1_specialist1",
@@ -6106,6 +6214,10 @@
         "desc": "62f9"
       },
       "dorm_rec_oneself2_000": {
+        "icon": "bskill_dorm_one",
+        "desc": "90a9"
+      },
+      "dorm_rec_oneself2_001": {
         "icon": "bskill_dorm_one",
         "desc": "90a9"
       },
@@ -6476,6 +6588,14 @@
       "hire_spd_cost&extra_000": {
         "icon": "bskill_hire_spd&extra1",
         "desc": "89da"
+      },
+      "hire_spd_cost&char_000": {
+        "icon": "bskill_hire_spd&cost7",
+        "desc": "6693"
+      },
+      "hire_spd_cost&char_001": {
+        "icon": "bskill_hire_spd&char1",
+        "desc": "9f41"
       },
       "hire_spd&clue_010": {
         "icon": "bskill_hire_spd2",
@@ -7462,10 +7582,19 @@
           "订单效率": 1
         }
       },
-      "347c": {
+      "b02b": {
         "building": "CONTROL",
         "num": {},
         "is": {}
+      },
+      "a7fc": {
+        "building": "CONTROL",
+        "num": {
+          "orderAll": 10
+        },
+        "is": {
+          "订单效率": 1
+        }
       },
       "d563": {
         "building": "CONTROL",
@@ -7576,7 +7705,7 @@
           "心情消耗": 1
         }
       },
-      "a028": {
+      "a08d": {
         "building": "CONTROL",
         "num": {
           "moraleConsume": 0.05
@@ -7891,6 +8020,11 @@
         "num": {},
         "is": {}
       },
+      "aa37": {
+        "building": "MANUFACTURE",
+        "num": {},
+        "is": {}
+      },
       "e319": {
         "building": "MANUFACTURE",
         "num": {
@@ -8075,6 +8209,15 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 20
+        },
+        "is": {
+          "通用生产": 1
+        }
+      },
+      "0e75": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 30
         },
         "is": {
           "通用生产": 1
@@ -9552,6 +9695,15 @@
           "狙击": 1
         }
       },
+      "90b2": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "近卫": 1
+        }
+      },
       "a0b5": {
         "building": "TRAINING",
         "num": {
@@ -9595,6 +9747,24 @@
         },
         "is": {
           "狙击": 1
+        }
+      },
+      "3d5a": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "先锋": 1
+        }
+      },
+      "aeb5": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "先锋": 1
         }
       },
       "389d": {
@@ -10168,6 +10338,13 @@
         "building": "HIRE",
         "num": {
           "connect": 10
+        },
+        "is": {}
+      },
+      "9f41": {
+        "building": "HIRE",
+        "num": {
+          "connect": 35
         },
         "is": {}
       },

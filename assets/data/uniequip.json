@@ -1312,5 +1312,41 @@
   },
   "uniequip_003_amgoat": {
     "typeIcon": "ccr-y"
+  },
+  "uniequip_002_sbell2": {
+    "typeIcon": "plx-y"
+  },
+  "uniequip_004_heyak": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_004_gnosis": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_002_halo2": {
+    "typeIcon": "dec-y"
+  },
+  "uniequip_002_akkord": {
+    "typeIcon": "bla-x"
+  },
+  "uniequip_003_siege2": {
+    "typeIcon": "aft-y"
+  },
+  "uniequip_002_durnar": {
+    "typeIcon": "ast-x"
+  },
+  "uniequip_002_pianst": {
+    "typeIcon": "ast-x"
+  },
+  "uniequip_002_asbest": {
+    "typeIcon": "ast-x"
+  },
+  "uniequip_002_aprot2": {
+    "typeIcon": "ast-x"
+  },
+  "uniequip_002_hsgma2": {
+    "typeIcon": "ast-x"
+  },
+  "uniequip_002_snhunt": {
+    "typeIcon": "hun-x"
   }
 }

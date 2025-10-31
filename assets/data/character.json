@@ -667,6 +667,22 @@
       23
     ]
   },
+  "4051_akkord": {
+    "pinyin": {
+      "full": "xielv",
+      "head": "xl"
+    },
+    "romaji": "",
+    "appellation": "Akkord",
+    "star": 4,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      21,
+      19
+    ]
+  },
   "328_cammou": {
     "pinyin": {
       "full": "kada",
@@ -2495,7 +2511,9 @@
     "romaji": "akafuyu",
     "appellation": "Akafuyu",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
@@ -2613,6 +2631,22 @@
       24
     ],
     "appellationTransl": "Yutenji Nyamu"
+  },
+  "394_hadiya": {
+    "pinyin": {
+      "full": "hadiya",
+      "head": "hdy"
+    },
+    "romaji": "",
+    "appellation": "Hadiya",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      12
+    ]
   },
   "129_bluep": {
     "pinyin": {
@@ -4161,6 +4195,22 @@
       19
     ]
   },
+  "4211_snhunt": {
+    "pinyin": {
+      "full": "xuelie",
+      "head": "xl"
+    },
+    "romaji": "",
+    "appellation": "Snow Hunter",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      13,
+      12
+    ]
+  },
   "4177_brigid": {
     "pinyin": {
       "full": "shuidengxin",
@@ -5225,6 +5275,22 @@
       12
     ]
   },
+  "1045_svash2": {
+    "pinyin": {
+      "full": "linyuyinhui",
+      "head": "lyyh"
+    },
+    "romaji": "",
+    "appellation": "SilverAsh the Reignfrost",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      16
+    ]
+  },
   "4087_ines": {
     "pinyin": {
       "full": "yineisi",
@@ -5438,6 +5504,22 @@
       22
     ]
   },
+  "1046_sbell2": {
+    "pinyin": {
+      "full": "shenglingchuxue",
+      "head": "slcx"
+    },
+    "romaji": "",
+    "appellation": "Pramanix the Prerita",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      21,
+      12
+    ]
+  },
   "377_gdglow": {
     "pinyin": {
       "full": "chengshan",
@@ -5598,6 +5680,23 @@
       "kr": 1,
       "tw": 1
     },
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      23,
+      16,
+      19
+    ]
+  },
+  "1047_halo2": {
+    "pinyin": {
+      "full": "suguangxingyuan",
+      "head": "sgxy"
+    },
+    "romaji": "",
+    "appellation": "Astgenne the Lightchaser",
+    "star": 6,
+    "recruitment": {},
     "position": 10,
     "profession": 5,
     "tags": [
@@ -6110,7 +6209,9 @@
     "romaji": "kerushi",
     "appellation": "Kal'tsit",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 4,
     "tags": [
