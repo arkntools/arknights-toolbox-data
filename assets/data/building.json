@@ -6063,7 +6063,7 @@
       },
       "train_spd&profession2_321": {
         "icon": "bskill_train_guard1",
-        "desc": "90b2"
+        "desc": "1bdf"
       },
       "train_spd&profession2_322": {
         "icon": "bskill_train3_guard1",
@@ -6107,7 +6107,7 @@
       },
       "train_spd&profession2_111": {
         "icon": "bskill_train_spd&profession2",
-        "desc": "3d5a"
+        "desc": "ae98"
       },
       "train_spd&profession2_112": {
         "icon": "bskill_train_spd&profession2",
@@ -9695,15 +9695,6 @@
           "狙击": 1
         }
       },
-      "90b2": {
-        "building": "TRAINING",
-        "num": {
-          "train": 30
-        },
-        "is": {
-          "近卫": 1
-        }
-      },
       "a0b5": {
         "building": "TRAINING",
         "num": {
@@ -9747,15 +9738,6 @@
         },
         "is": {
           "狙击": 1
-        }
-      },
-      "3d5a": {
-        "building": "TRAINING",
-        "num": {
-          "train": 30
-        },
-        "is": {
-          "先锋": 1
         }
       },
       "aeb5": {
