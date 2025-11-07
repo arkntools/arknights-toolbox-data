@@ -4373,40 +4373,6 @@
         "code": "BP-7",
         "cost": 21
       }
-    },
-    "act33side_zone1": {
-      "act33side_01": {
-        "code": "BB-1",
-        "cost": 9
-      },
-      "act33side_02": {
-        "code": "BB-2",
-        "cost": 9
-      },
-      "act33side_03": {
-        "code": "BB-3",
-        "cost": 12
-      },
-      "act33side_04": {
-        "code": "BB-4",
-        "cost": 12
-      },
-      "act33side_05": {
-        "code": "BB-5",
-        "cost": 12
-      },
-      "act33side_06": {
-        "code": "BB-6",
-        "cost": 21
-      },
-      "act33side_07": {
-        "code": "BB-7",
-        "cost": 21
-      },
-      "act33side_08": {
-        "code": "BB-8",
-        "cost": 21
-      }
     }
   },
   "retro": {
