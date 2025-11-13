@@ -23,6 +23,8 @@
   "weekly_7": "전술 연습",
   "weekly_8": "자원 보장",
   "weekly_9": "화물 운송",
+  "act43side": "붉게 물든 벨벳",
+  "act34sre": "삶의 길 (재개방)",
   "act42side": "중생의 여정",
   "act33sre": "바벨 (재개방)",
   "act41side": "불타버린 엘레지여",
@@ -153,5 +155,6 @@
   "permanent_sidestory_22_Come_Catastrophes_or_Wakes_of_Vultures": "부정축재@:(retroNameAppend.0)",
   "permanent_sidestory_23_Zwillingsturme_im_Herbst": "츠빌링슈튀르메의 가을@:(retroNameAppend.0)",
   "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "은심호 열차@:(retroNameAppend.0)",
-  "permanent_sidestory_25_Here_A_People_Sows": "회서리@:(retroNameAppend.0)"
+  "permanent_sidestory_25_Here_A_People_Sows": "회서리@:(retroNameAppend.0)",
+  "permanent_sidestory_26_Path_Of_Life": "삶의 길@:(retroNameAppend.0)"
 }

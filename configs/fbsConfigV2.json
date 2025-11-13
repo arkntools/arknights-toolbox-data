@@ -17,7 +17,7 @@
     }
   },
   "jp": {
-    "version": "25-10-22-15-50-30_eaab68",
+    "version": "25-11-07-08-51-49_511eb4",
     "rev": {
       "char_patch_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -28,13 +28,13 @@
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "gamedata_const": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
-      "retro_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "uniequip_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a"
     }
   },
   "kr": {
-    "version": "25-10-22-15-59-57_cd1711",
+    "version": "25-11-07-10-22-54_d715d4",
     "rev": {
       "char_patch_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -45,7 +45,7 @@
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "gamedata_const": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
-      "retro_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "uniequip_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a"
     }
