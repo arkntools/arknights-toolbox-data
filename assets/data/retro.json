@@ -549,6 +549,14 @@
         "act31side",
         "act31sre"
       ]
+    },
+    "permanent_sidestory_26_Path_Of_Life": {
+      "type": 0,
+      "startTime": 1765450800,
+      "linkedActId": [
+        "act34side",
+        "act34sre"
+      ]
     }
   },
   "jp": {

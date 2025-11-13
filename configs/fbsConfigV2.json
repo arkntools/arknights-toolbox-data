@@ -1,6 +1,6 @@
 {
   "us": {
-    "version": "25-10-28-07-04-59_bb83f3",
+    "version": "25-11-11-08-15-40_78dbfa",
     "rev": {
       "char_patch_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -11,7 +11,7 @@
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "gamedata_const": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
-      "retro_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "uniequip_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a"
     }
