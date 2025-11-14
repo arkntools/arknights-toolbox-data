@@ -1348,5 +1348,11 @@
   },
   "uniequip_002_snhunt": {
     "typeIcon": "hun-x"
+  },
+  "uniequip_002_pithst": {
+    "typeIcon": "rit-x"
+  },
+  "uniequip_002_sharp2": {
+    "typeIcon": "lor-x"
   }
 }
