@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act38sre_zone1": "act38sre",
+    "act38sre_zone2": "act38sre",
+    "act38sre_zone3": "act38sre",
     "act46side_zone1": "act46side",
     "act46side_zone2": "act46side",
     "act46side_zone3": "act46side",
@@ -310,6 +313,9 @@
     "permanent_sidestory_26_zone2": "permanent_sidestory_26_Path_Of_Life",
     "permanent_sidestory_27_zone1": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
     "permanent_sidestory_27_zone2": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
-    "permanent_sidestory_27_zone3": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun"
+    "permanent_sidestory_27_zone3": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
+    "permanent_sidestory_28_zone1": "permanent_sidestory_28_i_portatori_dei_velluti",
+    "permanent_sidestory_28_zone2": "permanent_sidestory_28_i_portatori_dei_velluti",
+    "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti"
   }
 }

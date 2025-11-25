@@ -2474,7 +2474,7 @@
         "cost": 21
       }
     },
-    "act38side_zone1": {
+    "act38sre_zone1": {
       "act38side_01": {
         "code": "PV-1",
         "cost": 9
@@ -4266,6 +4266,48 @@
       "a001_06": {
         "code": "GT-6",
         "cost": 15
+      }
+    },
+    "act38side_zone1": {
+      "act38side_01": {
+        "code": "PV-1",
+        "cost": 9
+      },
+      "act38side_02": {
+        "code": "PV-2",
+        "cost": 9
+      },
+      "act38side_03": {
+        "code": "PV-3",
+        "cost": 9
+      },
+      "act38side_04": {
+        "code": "PV-4",
+        "cost": 12
+      },
+      "act38side_05": {
+        "code": "PV-5",
+        "cost": 12
+      },
+      "act38side_06": {
+        "code": "PV-6",
+        "cost": 15
+      },
+      "act38side_07": {
+        "code": "PV-7",
+        "cost": 15
+      },
+      "act38side_08": {
+        "code": "PV-8",
+        "cost": 21
+      },
+      "act38side_09": {
+        "code": "PV-9",
+        "cost": 21
+      },
+      "act38side_10": {
+        "code": "PV-10",
+        "cost": 21
       }
     },
     "act37side_zone1": {
