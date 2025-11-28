@@ -8,12 +8,6 @@
     }
   },
   "us": {
-    "act43side_zone1": {
-      "valid": {
-        "startTs": 1763046000,
-        "endTs": 1764241199
-      }
-    },
     "act34sre_zone1": {
       "valid": {
         "startTs": 1764255600,
@@ -22,12 +16,6 @@
     }
   },
   "jp": {
-    "act43side_zone1": {
-      "valid": {
-        "startTs": 1763017200,
-        "endTs": 1764183599
-      }
-    },
     "act34sre_zone1": {
       "valid": {
         "startTs": 1764226800,
@@ -36,12 +24,6 @@
     }
   },
   "kr": {
-    "act43side_zone1": {
-      "valid": {
-        "startTs": 1763017200,
-        "endTs": 1764183599
-      }
-    },
     "act34sre_zone1": {
       "valid": {
         "startTs": 1764226800,
@@ -49,5 +31,12 @@
       }
     }
   },
-  "tw": {}
+  "tw": {
+    "act42side_zone1": {
+      "valid": {
+        "startTs": 1764309600,
+        "endTs": 1766087999
+      }
+    }
+  }
 }

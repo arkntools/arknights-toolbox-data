@@ -167,6 +167,10 @@
     "name": "敘拉古",
     "desc": "包含以下幹員\n安潔莉娜、拉普蘭德、普羅旺斯、紅雲、布洛卡、巫戀、鈴蘭、賈維、奧斯塔、斥罪、子月、伺夜、阿羅瑪、忍冬、裁度、荒蕪拉普蘭德"
   },
+  "cc_g_laterano": {
+    "name": "拉特蘭",
+    "desc": "包含以下幹員\n翎羽、安德切爾、送葬人、莫斯提馬、安比爾、芳汀、空弦、菲亞梅塔、見行者、空構、隱現、塑心、蕾繆安、信仰攪拌機、CONFESS-47"
+  },
   "cc_c_abyssal2_1": {
     "name": "特殊加成",
     "desc": "每有1個<$cc.g.abyssal><@cc.kw>深海獵人</></>幹員進駐製造站，則控制中樞給每個進駐<$cc.g.abyssal><@cc.kw>深海獵人</></>的製造站提供<@cc.vup>5%</>生產力，最多給單個製造站提供<@cc.vup>45%</>生產力"
@@ -249,7 +253,7 @@
   },
   "cc_tag_op": {
     "name": "作業平台",
-    "desc": "包含以下幹員\nLancet-2、Castle-3、THRM-EX、正義騎士號、Friston-3、PhonoR-0"
+    "desc": "包含以下幹員\nLancet-2、Castle-3、THRM-EX、正義騎士號、Friston-3、PhonoR-0、CONFESS-47"
   },
   "cc_tag_knight": {
     "name": "騎士",
@@ -270,6 +274,10 @@
   "cc_gvial": {
     "name": "嘉維爾",
     "desc": "包含以下幹員\n百煉嘉維爾、嘉維爾"
+  },
+  "cc_angel": {
+    "name": "能天使",
+    "desc": "包含以下幹員\n新約能天使、能天使"
   },
   "cc_tra_pepe": {
     "name": "特別獨占訂單",
