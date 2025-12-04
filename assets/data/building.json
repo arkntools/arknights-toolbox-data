@@ -4173,6 +4173,40 @@
         "id": "train_spd&profession2_112",
         "unlock": "2_1"
       }
+    ],
+    "4212_nasti": [
+      {
+        "id": "manu_prod_spd_011",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd&cost_bd_100",
+        "unlock": "2_1"
+      }
+    ],
+    "4214_cairn": [
+      {
+        "id": "dorm_rec_all&lv_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all&lv_100",
+        "unlock": "2_1"
+      },
+      {
+        "id": "meet_spd&exchange_001",
+        "unlock": "2_1"
+      }
+    ],
+    "4213_skybx": [
+      {
+        "id": "workshop_formula_probability_1110",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_024",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4546,6 +4580,10 @@
         "desc": "8c2e"
       },
       "power_rec_spd_1022": {
+        "icon": "bskill_pow_spd3",
+        "desc": "8c2e"
+      },
+      "power_rec_spd_024": {
         "icon": "bskill_pow_spd3",
         "desc": "8c2e"
       },
@@ -5016,6 +5054,10 @@
       "manu_formula_spd&cost_bd_000": {
         "icon": "bskill_man_gold&blacksteel",
         "desc": "49c0"
+      },
+      "manu_formula_spd&cost_bd_100": {
+        "icon": "bskill_man_gold&rhine",
+        "desc": "7cf7"
       },
       "manu_token_prod_spd_000": {
         "icon": "bskill_man_token_spd1",
@@ -5635,6 +5677,10 @@
       },
       "workshop_formula_probability_119": {
         "icon": "bskill_ws_evolve2",
+        "desc": "a272"
+      },
+      "workshop_formula_probability_1110": {
+        "icon": "bskill_ws_evolve3",
         "desc": "a272"
       },
       "workshop_formula_probability_129": {
@@ -6369,6 +6415,14 @@
         "icon": "bskill_dorm_hireToRecAll1",
         "desc": "3676"
       },
+      "dorm_rec_all&lv_000": {
+        "icon": "bskill_dorm_rec_all&lvl1",
+        "desc": "a2d2"
+      },
+      "dorm_rec_all&lv_100": {
+        "icon": "bskill_dorm_rec_all&lv2",
+        "desc": "fb3d"
+      },
       "dorm_rec_single&oneself_000": {
         "icon": "bskill_dorm_single&one01",
         "desc": "89ac"
@@ -6767,6 +6821,10 @@
       },
       "meet_spd&exchange_000": {
         "icon": "bskill_meet_exchange",
+        "desc": "952b"
+      },
+      "meet_spd&exchange_001": {
+        "icon": "bskill_meet_exchange2",
         "desc": "952b"
       },
       "meet_team_020": {
@@ -8460,6 +8518,15 @@
           "贵金属": 1
         }
       },
+      "7cf7": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 3
+        },
+        "is": {
+          "贵金属": 1
+        }
+      },
       "0c77": {
         "building": "MANUFACTURE",
         "num": {
@@ -10042,6 +10109,15 @@
         }
       },
       "7d4c": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.15
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
+      "fb3d": {
         "building": "DORMITORY",
         "num": {
           "moraleRecoveryAll": 0.15

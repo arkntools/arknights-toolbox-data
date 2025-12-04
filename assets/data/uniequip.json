@@ -1354,5 +1354,20 @@
   },
   "uniequip_002_sharp2": {
     "typeIcon": "lor-x"
+  },
+  "uniequip_002_monstr": {
+    "typeIcon": "xah-x"
+  },
+  "uniequip_002_peper": {
+    "typeIcon": "xah-x"
+  },
+  "uniequip_002_papyrs": {
+    "typeIcon": "xah-x"
+  },
+  "uniequip_002_nasti": {
+    "typeIcon": "cra-x"
+  },
+  "uniequip_003_ray": {
+    "typeIcon": "hun-y"
   }
 }

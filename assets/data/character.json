@@ -2879,6 +2879,21 @@
       21
     ]
   },
+  "4213_skybx": {
+    "pinyin": {
+      "full": "tiankonghe",
+      "head": "tkh"
+    },
+    "romaji": "",
+    "appellation": "Skybox",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      21
+    ]
+  },
   "002_amiya": {
     "pinyin": {
       "full": "amiya",
@@ -5849,6 +5864,22 @@
       19
     ]
   },
+  "4212_nasti": {
+    "pinyin": {
+      "full": "nasiti",
+      "head": "nst"
+    },
+    "romaji": "",
+    "appellation": "Nasti",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 5,
+    "tags": [
+      16,
+      22
+    ]
+  },
   "245_cello": {
     "pinyin": {
       "full": "suxin",
@@ -6986,6 +7017,22 @@
     "tags": [
       19,
       13
+    ]
+  },
+  "4214_cairn": {
+    "pinyin": {
+      "full": "xiangshi",
+      "head": "xs"
+    },
+    "romaji": "",
+    "appellation": "Cairn",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      29,
+      22
     ]
   },
   "230_savage": {
