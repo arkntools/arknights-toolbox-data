@@ -290,6 +290,8 @@
   "skchr_tuye_1": "アクアリング",
   "skchr_tuye_2": "カンフル剤",
   "skchr_amedic_1": "天啓の光",
+  "skchr_reckpr_1": "触類旁通",
+  "skchr_reckpr_2": "要点理解",
   "skchr_ceylon_1": "ハイドロセラピー",
   "skchr_ceylon_2": "水霊の加護",
   "skchr_whispr_1": "対症療法",
@@ -799,5 +801,8 @@
   "skchr_mlynar_1": "秘めたる怒り",
   "skchr_mlynar_2": "癒えぬ悲しみ",
   "skchr_mlynar_3": "輝かざる栄光",
+  "skchr_leizi2_1": "浩気不滅",
+  "skchr_leizi2_2": "雷霆摂威",
+  "skchr_leizi2_3": "天地通明",
   "skcom_withdraw": "自動消滅"
 }

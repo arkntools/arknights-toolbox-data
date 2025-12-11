@@ -290,6 +290,8 @@
   "skchr_tuye_1": "물줄기",
   "skchr_tuye_2": "강심제",
   "skchr_amedic_1": "천계와 같이",
+  "skchr_reckpr_1": "문일지십",
+  "skchr_reckpr_2": "약간의 요령",
   "skchr_ceylon_1": "집중식 수치료",
   "skchr_ceylon_2": "물의 정령의 가호",
   "skchr_whispr_1": "방향성 진단",
@@ -799,5 +801,8 @@
   "skchr_mlynar_1": "표출하지 않은 분노",
   "skchr_mlynar_2": "해소하지 않은 슬픔",
   "skchr_mlynar_3": "눈부시지 않은 영광",
+  "skchr_leizi2_1": "호기장존",
+  "skchr_leizi2_2": "천뢰지위",
+  "skchr_leizi2_3": "천지통명",
   "skcom_withdraw": "자아소멸"
 }
