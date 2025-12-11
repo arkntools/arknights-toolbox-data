@@ -9,7 +9,7 @@ const init = kuroshiro.init(new KuromojiAnalyzer());
 const extraTable = {
   遊龍: 'yuryu',
   濯塵: 'takujin',
-  承曦: 'shoki',
+  承曦: 'shouki',
   引星: 'insei',
   司霆: 'shitei',
   淬羽: 'suiu',
