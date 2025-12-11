@@ -9,8 +9,15 @@ const init = kuroshiro.init(new KuromojiAnalyzer());
 const extraTable = {
   遊龍: 'yuryu',
   濯塵: 'takujin',
-  承曦: 'shoasahi',
-  引星: 'hikisei',
+  承曦: 'shoki',
+  引星: 'insei',
+  司霆: 'shitei',
+  淬羽: 'suiu',
+  琳琅: 'rinrou',
+  帰溟: 'kimei',
+  純燼: 'junjin',
+  滌火: 'jouka',
+  耀騎士: 'youkishi',
 };
 
 export const getRomaji = async (text: string): Promise<string> => {
