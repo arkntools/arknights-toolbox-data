@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act39sre_zone1": "act39sre",
+    "act39sre_zone2": "act39sre",
     "act47side_zone1": "act47side",
     "act47side_zone2": "act47side",
     "act38sre_zone1": "act38sre",
@@ -318,6 +320,8 @@
     "permanent_sidestory_27_zone3": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
     "permanent_sidestory_28_zone1": "permanent_sidestory_28_i_portatori_dei_velluti",
     "permanent_sidestory_28_zone2": "permanent_sidestory_28_i_portatori_dei_velluti",
-    "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti"
+    "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti",
+    "permanent_sidestory_29_zone1": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
+    "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea"
   }
 }

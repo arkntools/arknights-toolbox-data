@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act39sre": "出苍白海・复刻",
   "act47side": "未许之地",
   "act38sre": "揭幕者们・复刻",
   "act46side": "雪山降临1101",
@@ -167,5 +168,6 @@
   "permanent_sidestory_25_Here_A_People_Sows": "怀黍离@:(retroNameAppend.0)",
   "permanent_sidestory_26_Path_Of_Life": "生路@:(retroNameAppend.0)",
   "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太阳甩在身后@:(retroNameAppend.0)",
-  "permanent_sidestory_28_i_portatori_dei_velluti": "揭幕者们@:(retroNameAppend.0)"
+  "permanent_sidestory_28_i_portatori_dei_velluti": "揭幕者们@:(retroNameAppend.0)",
+  "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出苍白海@:(retroNameAppend.0)"
 }
