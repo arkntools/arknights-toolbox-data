@@ -573,6 +573,14 @@
         "act34side",
         "act34sre"
       ]
+    },
+    "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": {
+      "type": 0,
+      "startTime": 1768906800,
+      "linkedActId": [
+        "act35side",
+        "act35sre"
+      ]
     }
   },
   "jp": {

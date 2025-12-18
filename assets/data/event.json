@@ -14,10 +14,10 @@
     }
   },
   "us": {
-    "act19mini_zone1": {
+    "act35sre_zone1": {
       "valid": {
-        "startTs": 1765454400,
-        "endTs": 1766055599
+        "startTs": 1767697200,
+        "endTs": 1768561199
       }
     }
   },

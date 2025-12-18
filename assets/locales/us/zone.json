@@ -23,6 +23,7 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act35sre": "Adventure That Cannot Wait for the Sun - Rerun",
   "act19mini": "Fantasy in the Mirage",
   "act43side": "Act or Die",
   "act34sre": "Path of Life - Rerun",
@@ -157,5 +158,6 @@
   "permanent_sidestory_23_Zwillingsturme_im_Herbst": "Zwillingstürme im Herbst@:(retroNameAppend.0)",
   "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "The Rides to Lake Silberneherze@:(retroNameAppend.0)",
   "permanent_sidestory_25_Here_A_People_Sows": "Here A People Sows@:(retroNameAppend.0)",
-  "permanent_sidestory_26_Path_Of_Life": "Path of Life@:(retroNameAppend.0)"
+  "permanent_sidestory_26_Path_Of_Life": "Path of Life@:(retroNameAppend.0)",
+  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "Adventure That Cannot Wait for the Sun@:(retroNameAppend.0)"
 }

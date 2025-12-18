@@ -171,6 +171,10 @@
     "name": "Laterano",
     "desc": "Includes the following Operators:\nPlume, Adnachiel, Executor, Mostima, Ambriel, Arene, Archetto, Fiammetta, Enforcer, Spuria, Insider, Virtuosa, Lemuen, Sankta Miksaparato, CONFESS-47"
   },
+  "cc_g_elite": {
+    "name": "Elite Operator",
+    "desc": "Includes the following Operators:\nRosmontis, Blaze, Logos, Blaze the Igniting Spark, Raidian"
+  },
   "cc_c_abyssal2_1": {
     "name": "Special Bonus",
     "desc": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed in a Factory, the Control Center provides <@cc.vup>5%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed within it, up to a maximum of <@cc.vup>45%</> Productivity"
