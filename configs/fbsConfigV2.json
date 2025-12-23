@@ -1,6 +1,6 @@
 {
   "us": {
-    "version": "25-12-15-14-31-30_ae2e55",
+    "version": "25-12-22-12-58-23_0ca902",
     "rev": {
       "char_patch_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -17,7 +17,7 @@
     }
   },
   "jp": {
-    "version": "25-12-15-14-38-03_745a7f",
+    "version": "25-12-22-13-33-47_6fd04d",
     "rev": {
       "char_patch_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -34,7 +34,7 @@
     }
   },
   "kr": {
-    "version": "25-12-16-13-16-39_dd08ba",
+    "version": "25-12-22-13-55-55_84fca5",
     "rev": {
       "char_patch_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
