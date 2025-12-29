@@ -4453,36 +4453,6 @@
         "code": "AS-9",
         "cost": 21
       }
-    },
-    "act34side_zone1": {
-      "act34side_01": {
-        "code": "BP-1",
-        "cost": 9
-      },
-      "act34side_02": {
-        "code": "BP-2",
-        "cost": 9
-      },
-      "act34side_03": {
-        "code": "BP-3",
-        "cost": 12
-      },
-      "act34side_04": {
-        "code": "BP-4",
-        "cost": 12
-      },
-      "act34side_05": {
-        "code": "BP-5",
-        "cost": 21
-      },
-      "act34side_06": {
-        "code": "BP-6",
-        "cost": 21
-      },
-      "act34side_07": {
-        "code": "BP-7",
-        "cost": 21
-      }
     }
   },
   "retro": {
