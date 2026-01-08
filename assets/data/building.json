@@ -4207,6 +4207,40 @@
         "id": "power_rec_spd_024",
         "unlock": "2_1"
       }
+    ],
+    "4056_titi": [
+      {
+        "id": "workshop_formula_probability_118",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_probability_128",
+        "unlock": "2_1"
+      },
+      {
+        "id": "workshop_formula_cost3_600",
+        "unlock": "2_1"
+      }
+    ],
+    "1022_flwr2": [
+      {
+        "id": "dorm_rec_all_029",
+        "unlock": "0_1"
+      },
+      {
+        "id": "dorm_rec_all&tired_100",
+        "unlock": "2_1"
+      }
+    ],
+    "4166_varkis": [
+      {
+        "id": "control_meeting&mp_cost_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "control_meeting&mp_cost_100",
+        "unlock": "1_1"
+      }
     ]
   },
   "buff": {
@@ -4302,6 +4336,14 @@
       "control_meeting&ord_001": {
         "icon": "bskill_ctrl_c_babel2",
         "desc": "d626"
+      },
+      "control_meeting&mp_cost_000": {
+        "icon": "bskill_ctrl_c_minos",
+        "desc": "169a"
+      },
+      "control_meeting&mp_cost_100": {
+        "icon": "bskill_ctrl_c_minos2",
+        "desc": "aa2d"
       },
       "control_clue_cost_000": {
         "icon": "bskill_ctrl_c_wt",
@@ -5587,6 +5629,10 @@
         "icon": "bskill_ws_evolve_cost",
         "desc": "e85a"
       },
+      "workshop_formula_cost3_600": {
+        "icon": "bskill_ws_evolve_cost3",
+        "desc": "f0a7"
+      },
       "workshop_formula_cost3_220": {
         "icon": "bskill_ws_build_cost2",
         "desc": "6060"
@@ -5750,6 +5796,14 @@
       "workshop_formula_probability_117": {
         "icon": "bskill_ws_evolve2",
         "desc": "a272"
+      },
+      "workshop_formula_probability_118": {
+        "icon": "bskill_ws_evolve2",
+        "desc": "a272"
+      },
+      "workshop_formula_probability_128": {
+        "icon": "bskill_ws_evolve3",
+        "desc": "579e"
       },
       "workshop_formula_dorm_000": {
         "icon": "bskill_ws_evolve_dorm1",
@@ -6543,6 +6597,10 @@
         "icon": "bskill_dorm_all3",
         "desc": "cd6e"
       },
+      "dorm_rec_all_029": {
+        "icon": "bskill_dorm_all2",
+        "desc": "a2d2"
+      },
       "dorm_bd_num_000": {
         "icon": "bskill_dorm_bdnum",
         "desc": "16ec"
@@ -6554,6 +6612,10 @@
       "dorm_rec_all&tired_000": {
         "icon": "bskill_dorm_all_tired",
         "desc": "70a7"
+      },
+      "dorm_rec_all&tired_100": {
+        "icon": "bskill_dorm_all_tired2",
+        "desc": "e1da"
       },
       "hire_spd_000": {
         "icon": "bskill_hire_spd1",
@@ -7682,6 +7744,24 @@
         }
       },
       "d626": {
+        "building": "CONTROL",
+        "num": {
+          "collect": 5
+        },
+        "is": {
+          "线索搜集": 1
+        }
+      },
+      "169a": {
+        "building": "CONTROL",
+        "num": {
+          "collect": 4
+        },
+        "is": {
+          "线索搜集": 1
+        }
+      },
+      "aa2d": {
         "building": "CONTROL",
         "num": {
           "collect": 5
@@ -9162,6 +9242,11 @@
         "num": {},
         "is": {}
       },
+      "f0a7": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
       "3a5d": {
         "building": "WORKSHOP",
         "num": {},
@@ -10307,6 +10392,11 @@
         "is": {
           "群体恢复": 1
         }
+      },
+      "e1da": {
+        "building": "DORMITORY",
+        "num": {},
+        "is": {}
       },
       "21f6": {
         "building": "HIRE",

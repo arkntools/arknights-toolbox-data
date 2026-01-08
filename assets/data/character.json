@@ -2466,6 +2466,23 @@
       20
     ]
   },
+  "4166_varkis": {
+    "pinyin": {
+      "full": "baiduren",
+      "head": "bdr"
+    },
+    "romaji": "",
+    "appellation": "Varkáris",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      21,
+      20
+    ],
+    "appellationTransl": "Varkaris"
+  },
   "274_astesi": {
     "pinyin": {
       "full": "xingji",
@@ -4611,6 +4628,22 @@
       20
     ]
   },
+  "1022_flwr2": {
+    "pinyin": {
+      "full": "xieyingtiaoxiangshi",
+      "head": "xytxs"
+    },
+    "romaji": "",
+    "appellation": "Perfumer the Distilled",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      16,
+      20
+    ]
+  },
   "4102_threye": {
     "pinyin": {
       "full": "linshi",
@@ -6300,6 +6333,23 @@
       15,
       19,
       24
+    ]
+  },
+  "4056_titi": {
+    "pinyin": {
+      "full": "titi",
+      "head": "tt"
+    },
+    "romaji": "",
+    "appellation": "Titi",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15,
+      22,
+      12
     ]
   },
   "4179_monstr": {

@@ -1369,5 +1369,26 @@
   },
   "uniequip_003_ray": {
     "typeIcon": "hun-y"
+  },
+  "uniequip_002_titi": {
+    "typeIcon": "inc-x"
+  },
+  "uniequip_002_flwr2": {
+    "typeIcon": "bls-y"
+  },
+  "uniequip_002_varkis": {
+    "typeIcon": "cen-y"
+  },
+  "uniequip_003_vvana": {
+    "typeIcon": "aft-y"
+  },
+  "uniequip_003_etlchi": {
+    "typeIcon": "rea-y"
+  },
+  "uniequip_003_poca": {
+    "typeIcon": "sie-y"
+  },
+  "uniequip_003_hodrer": {
+    "typeIcon": "cru-y"
   }
 }

@@ -2118,6 +2118,40 @@
     }
   },
   "event": {
+    "act48side_zone1": {
+      "act48side_01": {
+        "code": "ME-1",
+        "cost": 9
+      },
+      "act48side_02": {
+        "code": "ME-2",
+        "cost": 9
+      },
+      "act48side_03": {
+        "code": "ME-3",
+        "cost": 12
+      },
+      "act48side_04": {
+        "code": "ME-4",
+        "cost": 12
+      },
+      "act48side_05": {
+        "code": "ME-5",
+        "cost": 12
+      },
+      "act48side_06": {
+        "code": "ME-6",
+        "cost": 21
+      },
+      "act48side_07": {
+        "code": "ME-7",
+        "cost": 21
+      },
+      "act48side_08": {
+        "code": "ME-8",
+        "cost": 21
+      }
+    },
     "act47side_zone1": {
       "act47side_01": {
         "code": "UR-1",
@@ -5951,6 +5985,44 @@
       },
       "act39side_08": {
         "code": "EP-8",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_30_zone1": {
+      "act40side_01": {
+        "code": "OR-1",
+        "cost": 9
+      },
+      "act40side_02": {
+        "code": "OR-2",
+        "cost": 9
+      },
+      "act40side_03": {
+        "code": "OR-3",
+        "cost": 9
+      },
+      "act40side_04": {
+        "code": "OR-4",
+        "cost": 12
+      },
+      "act40side_05": {
+        "code": "OR-5",
+        "cost": 12
+      },
+      "act40side_06": {
+        "code": "OR-6",
+        "cost": 12
+      },
+      "act40side_07": {
+        "code": "OR-7",
+        "cost": 21
+      },
+      "act40side_08": {
+        "code": "OR-8",
+        "cost": 21
+      },
+      "act40side_09": {
+        "code": "OR-9",
         "cost": 21
       }
     }
