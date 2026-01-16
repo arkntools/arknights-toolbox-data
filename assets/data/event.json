@@ -8,10 +8,10 @@
     }
   },
   "us": {
-    "act35sre_zone1": {
+    "act44side_zone1": {
       "valid": {
-        "startTs": 1767697200,
-        "endTs": 1768561199
+        "startTs": 1768575600,
+        "endTs": 1770375599
       }
     }
   },

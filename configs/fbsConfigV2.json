@@ -1,10 +1,10 @@
 {
   "us": {
-    "version": "25-12-22-12-58-23_0ca902",
+    "version": "26-01-13-09-42-53_63eee8",
     "rev": {
-      "char_patch_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "char_patch_table": "b11b249f1feeb34ba863ae822d81f9ac2c8c3f9f",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
-      "character_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "character_table": "b11b249f1feeb34ba863ae822d81f9ac2c8c3f9f",
       "gacha_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "item_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "skill_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
