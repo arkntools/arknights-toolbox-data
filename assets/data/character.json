@@ -1913,7 +1913,7 @@
       "full": "songtong",
       "head": "st"
     },
-    "romaji": "",
+    "romaji": "matsukiri",
     "appellation": "Matsukiri",
     "star": 5,
     "recruitment": {},
@@ -2886,7 +2886,7 @@
       "full": "jixing",
       "head": "jx"
     },
-    "romaji": "",
+    "romaji": "kichisei",
     "appellation": "Kichisei",
     "star": 5,
     "recruitment": {},
@@ -4174,7 +4174,9 @@
     "appellation": "Toddifons",
     "star": 5,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 2,
@@ -5515,7 +5517,9 @@
     "appellation": "Passenger",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "jp": 1,
+      "kr": 1
     },
     "position": 10,
     "profession": 6,
@@ -5852,7 +5856,7 @@
       "full": "yao",
       "head": "y"
     },
-    "romaji": "",
+    "romaji": "haruka",
     "appellation": "Haruka",
     "star": 6,
     "recruitment": {},
@@ -6603,7 +6607,7 @@
       "full": "zhanyexingxiong",
       "head": "zyxx"
     },
-    "romaji": "",
+    "romaji": "kigyohoshiguma",
     "appellation": "Hoshiguma the Breacher",
     "star": 6,
     "recruitment": {},
