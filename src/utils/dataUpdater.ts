@@ -307,11 +307,10 @@ export class DataUpdater {
         const nameForRecruitment = getNameForRecruitment(name);
         const secondaryNameForRecruitment =
           isTW && this.cnCharacterName[shortId] && getNameForRecruitment(this.cnCharacterName[shortId]);
-        if (
-          nameForRecruitment in recruitmentTable ||
-          (secondaryNameForRecruitment && secondaryNameForRecruitment in recruitmentTable)
-        ) {
+        if (nameForRecruitment in recruitmentTable) {
           this.characterInfo[shortId].recruitment[locale] = recruitmentTable[nameForRecruitment];
+        } else if (secondaryNameForRecruitment && secondaryNameForRecruitment in recruitmentTable) {
+          this.characterInfo[shortId].recruitment[locale] = recruitmentTable[secondaryNameForRecruitment];
         }
       },
       {} as Record<string, string>,
