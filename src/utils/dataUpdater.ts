@@ -127,6 +127,7 @@ export class DataUpdater {
   private itemInfo: DataJsonItem = {};
   private buildingDescMd5MinLen = 0;
   private buildingBuffId2DescriptionMd5: Record<string, string> = {};
+  private cnCharacterName: Record<string, string> = {};
 
   private readonly downloadConfig = new DownloadConfigBuilder();
 
@@ -243,6 +244,7 @@ export class DataUpdater {
 
   private async updateCharacterInfo({ gachaTable, characterTable }: GameData, locale: string) {
     const isCN = locale === 'cn';
+    const isTW = locale === 'tw';
     const recruitmentTable = getRecruitmentTable(gachaTable.recruitDetail);
 
     // 词条翻译
@@ -303,7 +305,12 @@ export class DataUpdater {
         const shortId = id.replace(/^char_/, '');
         obj[shortId] = name.trim();
         const nameForRecruitment = getNameForRecruitment(name);
-        if (nameForRecruitment in recruitmentTable) {
+        const secondaryNameForRecruitment =
+          isTW && this.cnCharacterName[shortId] && getNameForRecruitment(this.cnCharacterName[shortId]);
+        if (
+          nameForRecruitment in recruitmentTable ||
+          (secondaryNameForRecruitment && secondaryNameForRecruitment in recruitmentTable)
+        ) {
           this.characterInfo[shortId].recruitment[locale] = recruitmentTable[nameForRecruitment];
         }
       },
@@ -313,6 +320,7 @@ export class DataUpdater {
     if (isCN && !HAS_TW_DATA) {
       writeLocale('tw', 'character.json', objS2tw(nameId2Name));
     }
+    if (isCN) this.cnCharacterName = nameId2Name;
 
     // 获取罗马音
     if (locale === 'jp') {
