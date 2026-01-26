@@ -51,21 +51,21 @@
     }
   },
   "tw": {
-    "version": "25-12-26-04-29-31_8bfa00",
+    "version": "26-01-13-13-04-51_fea095",
     "rev": {
-      "char_patch_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
-      "character_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "char_patch_table": "b11b249f1feeb34ba863ae822d81f9ac2c8c3f9f",
+      "character_table": "b11b249f1feeb34ba863ae822d81f9ac2c8c3f9f",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "gacha_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "item_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "skill_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
-      "gamedata_const": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "gamedata_const": "7fb23434462ac948c1a88143fb08828aca8f2cf9",
       "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "uniequip_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
-      "roguelike_topic_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd"
+      "roguelike_topic_table": "45e54beb7221c349ae04da6ee86ac075e22f035b"
     }
   }
 }

@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act40sre": "相见欢・复刻",
   "act48side": "雅赛努斯复仇记",
   "act39sre": "出苍白海・复刻",
   "act47side": "未许之地",
@@ -170,5 +171,6 @@
   "permanent_sidestory_26_Path_Of_Life": "生路@:(retroNameAppend.0)",
   "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太阳甩在身后@:(retroNameAppend.0)",
   "permanent_sidestory_28_i_portatori_dei_velluti": "揭幕者们@:(retroNameAppend.0)",
-  "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出苍白海@:(retroNameAppend.0)"
+  "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出苍白海@:(retroNameAppend.0)",
+  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相见欢@:(retroNameAppend.0)"
 }

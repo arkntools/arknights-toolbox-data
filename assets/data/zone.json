@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act40sre_zone1": "act40sre",
+    "act40sre_zone2": "act40sre",
+    "act40sre_zone3": "act40sre",
     "act48side_zone1": "act48side",
     "act48side_zone2": "act48side",
     "act39sre_zone1": "act39sre",
@@ -324,6 +327,9 @@
     "permanent_sidestory_28_zone2": "permanent_sidestory_28_i_portatori_dei_velluti",
     "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti",
     "permanent_sidestory_29_zone1": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
-    "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea"
+    "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
+    "permanent_sidestory_30_zone1": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+    "permanent_sidestory_30_zone2": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+    "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion"
   }
 }
