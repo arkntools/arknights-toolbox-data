@@ -714,7 +714,9 @@
     "romaji": "indeigo",
     "appellation": "Indigo",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 6,
     "tags": [
@@ -3607,6 +3609,21 @@
       15
     ]
   },
+  "4222_taraxa": {
+    "pinyin": {
+      "full": "fengxu",
+      "head": "fx"
+    },
+    "romaji": "",
+    "appellation": "Taraxacum",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ]
+  },
   "148_nearl": {
     "pinyin": {
       "full": "linguang",
@@ -4201,6 +4218,21 @@
       12
     ]
   },
+  "4221_ju": {
+    "pinyin": {
+      "full": "ju",
+      "head": "j"
+    },
+    "romaji": "",
+    "appellation": "Ju",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19
+    ]
+  },
   "1027_greyy2": {
     "pinyin": {
       "full": "chengxigeleiyi",
@@ -4707,7 +4739,9 @@
     "romaji": "kirara",
     "appellation": "Kirara",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 7,
     "tags": [
@@ -5537,7 +5571,9 @@
     "romaji": "kanerian",
     "appellation": "Carnelian",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 6,
     "tags": [
@@ -6210,6 +6246,22 @@
     "tags": [
       27,
       12,
+      19
+    ]
+  },
+  "2027_wang": {
+    "pinyin": {
+      "full": "wang",
+      "head": "w"
+    },
+    "romaji": "",
+    "appellation": "Wang",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      27,
       19
     ]
   },
@@ -6925,6 +6977,22 @@
     "tags": [
       19,
       20
+    ]
+  },
+  "1050_chen3": {
+    "pinyin": {
+      "full": "chirenmingxiaochen",
+      "head": "crmxc"
+    },
+    "romaji": "",
+    "appellation": "Ch'en the Dawnstreak",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      13,
+      19
     ]
   },
   "188_helage": {

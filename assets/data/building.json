@@ -4241,6 +4241,46 @@
         "id": "control_meeting&mp_cost_100",
         "unlock": "1_1"
       }
+    ],
+    "2027_wang": [
+      {
+        "id": "control_prod_tra_spd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&level_000",
+        "unlock": "2_1"
+      }
+    ],
+    "1050_chen3": [
+      {
+        "id": "meet_spd_notOwned_003",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd_bd_002",
+        "unlock": "2_1"
+      }
+    ],
+    "4222_taraxa": [
+      {
+        "id": "trade_ord_spd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd&tag_020",
+        "unlock": "2_1"
+      }
+    ],
+    "4221_ju": [
+      {
+        "id": "workshop_formula_cost2_110",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_cost2_111",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4584,6 +4624,10 @@
       "control_hire_spd&bd_000": {
         "icon": "bskill_ctrl_hire_tmoris",
         "desc": "1288"
+      },
+      "control_prod_tra_spd_000": {
+        "icon": "bskill_ctrl_tra&prod",
+        "desc": "1f5c"
       },
       "power_rec_spd&cost_000": {
         "icon": "bskill_pow_spd&cost",
@@ -5497,6 +5541,10 @@
         "icon": "bskill_ord_spd&tag1",
         "desc": "8051"
       },
+      "trade_ord_spd&tag_020": {
+        "icon": "bskill_ord_spd&tag2",
+        "desc": "bbbf"
+      },
       "workshop_proc_probability_000": {
         "icon": "bskill_ws_p1",
         "desc": "2902"
@@ -5600,6 +5648,14 @@
       "workshop_formula_cost2_000": {
         "icon": "bskill_ws_cost_blemishine",
         "desc": "d5bb"
+      },
+      "workshop_formula_cost2_110": {
+        "icon": "bskill_ws_cost_ju",
+        "desc": "294e"
+      },
+      "workshop_formula_cost2_111": {
+        "icon": "bskill_ws_cost_ju2",
+        "desc": "c17d"
       },
       "workshop_formula_cost_010": {
         "icon": "bskill_ws_nian",
@@ -5940,6 +5996,10 @@
       "train_spd_tag_040": {
         "icon": "bskill_train_siracusa",
         "desc": "f76d"
+      },
+      "train_spd&level_000": {
+        "icon": "bskill_train_spd&level",
+        "desc": "e3ec"
       },
       "train_spd_power_down_000": {
         "icon": "bskill_train_abyssal",
@@ -6997,6 +7057,10 @@
         "icon": "bskill_meet_spdNotOwned1",
         "desc": "ba8e"
       },
+      "meet_spd_notOwned_003": {
+        "icon": "bskill_meet_spdNotOwned1",
+        "desc": "ba8e"
+      },
       "meet_spd_Owned_000": {
         "icon": "bskill_meet_spdOwned1",
         "desc": "ddb8"
@@ -7008,6 +7072,10 @@
       "meet_spd_bd_001": {
         "icon": "bskill_meet_bd_dungeon",
         "desc": "f715"
+      },
+      "meet_spd_bd_002": {
+        "icon": "bskill_meet_bd_to_spd",
+        "desc": "a825"
       },
       "meet_spd_hast_000": {
         "icon": "bskill_meet_spd_hast1",
@@ -8011,6 +8079,17 @@
         "building": "CONTROL",
         "num": {},
         "is": {}
+      },
+      "1f5c": {
+        "building": "CONTROL",
+        "num": {
+          "orderAll": 7,
+          "productAll": 2
+        },
+        "is": {
+          "订单效率": 1,
+          "生产力": 1
+        }
       },
       "f025": {
         "building": "POWER",
@@ -9147,6 +9226,15 @@
           "订单效率": 1
         }
       },
+      "bbbf": {
+        "building": "TRADING",
+        "num": {
+          "order": 4
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
       "7e8d": {
         "building": "WORKSHOP",
         "num": {
@@ -9222,6 +9310,24 @@
         "building": "WORKSHOP",
         "num": {
           "byproduct": 40
+        },
+        "is": {
+          "精英材料": 1
+        }
+      },
+      "294e": {
+        "building": "WORKSHOP",
+        "num": {
+          "byproduct": 60
+        },
+        "is": {
+          "精英材料": 1
+        }
+      },
+      "c17d": {
+        "building": "WORKSHOP",
+        "num": {
+          "byproduct": 80
         },
         "is": {
           "精英材料": 1
@@ -9527,6 +9633,11 @@
         "is": {
           "全能": 1
         }
+      },
+      "e3ec": {
+        "building": "TRAINING",
+        "num": {},
+        "is": {}
       },
       "96a5": {
         "building": "TRAINING",
@@ -10838,6 +10949,15 @@
         "building": "MEETING",
         "num": {
           "collect": 2
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
+      "a825": {
+        "building": "MEETING",
+        "num": {
+          "collect": 20
         },
         "is": {
           "无特别加成": 1
