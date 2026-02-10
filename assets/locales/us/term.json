@@ -286,5 +286,17 @@
   "cc_tra_pepe": {
     "name": "Special Exclusive Order",
     "desc": "Special Precious Metal orders offered by Pepe that have a fixed acquisition time and earnings, and require 0 Pure Gold to trade"
+  },
+  "cc_bd_mujica": {
+    "name": "Passion",
+    "desc": "Affects skills related to <$cc.bd_mujica_1><@cc.rem>Plentiful Work Experience</></> and <$cc.bd_mujica_2><@cc.rem>Monster of Acting</></>\nProvided by the following Operators' skills:\nMutsumi Wakaba, Uika Misumi, Nyamu Yūtenji, Umiri Yahata"
+  },
+  "cc_bd_mujica_1": {
+    "name": "Plentiful Work Experience",
+    "desc": "Operators with this skill\nSakiko Togawa"
+  },
+  "cc_bd_mujica_2": {
+    "name": "Monster of Acting",
+    "desc": "Operators with this skill\nMutsumi Wakaba"
   }
 }

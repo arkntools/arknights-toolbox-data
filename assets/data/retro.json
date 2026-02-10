@@ -364,7 +364,8 @@
       "type": 1,
       "startTime": 1745924400,
       "linkedActId": [
-        "act37side"
+        "act37side",
+        "act37sre"
       ]
     },
     "permanent_main_1_Dissociative_Recombination": {
