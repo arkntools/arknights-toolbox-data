@@ -17,7 +17,7 @@
     }
   },
   "jp": {
-    "version": "26-01-26-08-41-58_7940cd",
+    "version": "26-02-04-09-49-04_0ede65",
     "rev": {
       "char_patch_table": "b11b249f1feeb34ba863ae822d81f9ac2c8c3f9f",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -26,15 +26,15 @@
       "item_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "gacha_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
-      "gamedata_const": "7fb23434462ac948c1a88143fb08828aca8f2cf9",
-      "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "gamedata_const": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
-      "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "activity_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "uniequip_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a"
     }
   },
   "kr": {
-    "version": "26-01-26-09-14-46_7d5951",
+    "version": "26-02-03-15-36-26_61b68b",
     "rev": {
       "char_patch_table": "b11b249f1feeb34ba863ae822d81f9ac2c8c3f9f",
       "building_data": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
@@ -43,10 +43,10 @@
       "gacha_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "item_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
       "zone_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
-      "gamedata_const": "7fb23434462ac948c1a88143fb08828aca8f2cf9",
-      "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "gamedata_const": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
-      "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "activity_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "uniequip_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a"
     }
   },
