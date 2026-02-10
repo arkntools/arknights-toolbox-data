@@ -2118,6 +2118,44 @@
     }
   },
   "event": {
+    "act49side_zone1": {
+      "act49side_01": {
+        "code": "TA-1",
+        "cost": 9
+      },
+      "act49side_02": {
+        "code": "TA-2",
+        "cost": 9
+      },
+      "act49side_03": {
+        "code": "TA-3",
+        "cost": 9
+      },
+      "act49side_04": {
+        "code": "TA-4",
+        "cost": 12
+      },
+      "act49side_05": {
+        "code": "TA-5",
+        "cost": 12
+      },
+      "act49side_06": {
+        "code": "TA-6",
+        "cost": 12
+      },
+      "act49side_07": {
+        "code": "TA-7",
+        "cost": 21
+      },
+      "act49side_08": {
+        "code": "TA-8",
+        "cost": 21
+      },
+      "act49side_09": {
+        "code": "TA-9",
+        "cost": 21
+      }
+    },
     "act48side_zone1": {
       "act48side_01": {
         "code": "ME-1",
