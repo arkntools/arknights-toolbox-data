@@ -27,12 +27,6 @@
         "startTs": 1771873200,
         "endTs": 1772737199
       }
-    },
-    "act45side_zone1": {
-      "valid": {
-        "startTs": 1770688800,
-        "endTs": 1771873199
-      }
     }
   },
   "kr": {
@@ -41,20 +35,7 @@
         "startTs": 1771873200,
         "endTs": 1772737199
       }
-    },
-    "act45side_zone1": {
-      "valid": {
-        "startTs": 1770688800,
-        "endTs": 1771873199
-      }
     }
   },
-  "tw": {
-    "act35sre_zone1": {
-      "valid": {
-        "startTs": 1770883200,
-        "endTs": 1771703999
-      }
-    }
-  }
+  "tw": {}
 }
