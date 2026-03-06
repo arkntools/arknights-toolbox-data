@@ -8,22 +8,8 @@
       }
     }
   },
-  "jp": {
-    "act37sre_zone1": {
-      "valid": {
-        "startTs": 1771873200,
-        "endTs": 1772737199
-      }
-    }
-  },
-  "kr": {
-    "act37sre_zone1": {
-      "valid": {
-        "startTs": 1771873200,
-        "endTs": 1772737199
-      }
-    }
-  },
+  "jp": {},
+  "kr": {},
   "tw": {
     "act44side_zone1": {
       "valid": {
