@@ -4281,6 +4281,30 @@
         "id": "workshop_formula_cost2_111",
         "unlock": "2_1"
       }
+    ],
+    "4037_demetr": [
+      {
+        "id": "trade_ord_spd_ext_020",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_spd_ext_021",
+        "unlock": "2_1"
+      },
+      {
+        "id": "trade_ord_limit&cost_P_020",
+        "unlock": "0_1"
+      }
+    ],
+    "4031_liesel": [
+      {
+        "id": "meet_spd&cost_condChar_020",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&cost_condChar_021",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -5461,6 +5485,10 @@
         "icon": "bskill_tra_spd&wt1",
         "desc": "8f39"
       },
+      "trade_ord_limit&cost_P_020": {
+        "icon": "bskill_tra_demetr",
+        "desc": "d0c2"
+      },
       "trade_ord_limit&cost_P_010": {
         "icon": "bskill_tra_texas2",
         "desc": "5a48"
@@ -5524,6 +5552,14 @@
       "trade_ord_spd_ext_001": {
         "icon": "bskill_tra_ord_spd_ext1",
         "desc": "555c"
+      },
+      "trade_ord_spd_ext_020": {
+        "icon": "bskill_tra_ord_spd_ext2",
+        "desc": "e844"
+      },
+      "trade_ord_spd_ext_021": {
+        "icon": "bskill_tra_ord_spd_ext3",
+        "desc": "4fcd"
       },
       "trade_ord_spd&par_000": {
         "icon": "trade_ord_spd&par1",
@@ -6939,6 +6975,14 @@
       },
       "meet_spd&cost_condChar_011": {
         "icon": "bskill_meet_spd&cost_condChar3",
+        "desc": "8a17"
+      },
+      "meet_spd&cost_condChar_020": {
+        "icon": "bskill_meet_spd&cost_condChargoat",
+        "desc": "a6c0"
+      },
+      "meet_spd&cost_condChar_021": {
+        "icon": "bskill_meet_spd&cost_condChargoat2",
         "desc": "8a17"
       },
       "meet_spd&exchange_000": {
@@ -9133,6 +9177,15 @@
           "订单效率": 1
         }
       },
+      "d0c2": {
+        "building": "TRADING",
+        "num": {
+          "orderLimit": 2
+        },
+        "is": {
+          "订单上限": 1
+        }
+      },
       "5a48": {
         "building": "TRADING",
         "num": {},
@@ -9218,6 +9271,24 @@
         }
       },
       "555c": {
+        "building": "TRADING",
+        "num": {
+          "order": 30
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
+      "e844": {
+        "building": "TRADING",
+        "num": {
+          "order": 25
+        },
+        "is": {
+          "订单效率": 1
+        }
+      },
+      "4fcd": {
         "building": "TRADING",
         "num": {
           "order": 30
