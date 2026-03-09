@@ -1414,20 +1414,5 @@
   },
   "uniequip_004_pasngr": {
     "typeIcon": "ra-a"
-  },
-  "uniequip_002_demetr": {
-    "typeIcon": "fgt-y"
-  },
-  "uniequip_002_liesel": {
-    "typeIcon": "spc-y"
-  },
-  "uniequip_003_agoat2": {
-    "typeIcon": "wdm-y"
-  },
-  "uniequip_003_haak": {
-    "typeIcon": "gee-y"
-  },
-  "uniequip_003_jesca2": {
-    "typeIcon": "spt-y"
   }
 }

@@ -3085,22 +3085,6 @@
       12
     ]
   },
-  "4031_liesel": {
-    "pinyin": {
-      "full": "fuzou",
-      "head": "fz"
-    },
-    "romaji": "",
-    "appellation": "Ripresa",
-    "star": 5,
-    "recruitment": {},
-    "position": 10,
-    "profession": 6,
-    "tags": [
-      21,
-      19
-    ]
-  },
   "388_mint": {
     "pinyin": {
       "full": "bolv",
@@ -6723,22 +6707,6 @@
     "profession": 1,
     "tags": [
       13
-    ]
-  },
-  "4037_demetr": {
-    "pinyin": {
-      "full": "beiluonei",
-      "head": "bln"
-    },
-    "romaji": "",
-    "appellation": "Bellone",
-    "star": 6,
-    "recruitment": {},
-    "position": 9,
-    "profession": 1,
-    "tags": [
-      19,
-      24
     ]
   },
   "172_svrash": {
