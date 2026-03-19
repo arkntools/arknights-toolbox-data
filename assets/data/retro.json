@@ -656,6 +656,13 @@
         "act2mainss"
       ]
     },
+    "permanent_main_2_Abnormal_Spectrum": {
+      "type": 1,
+      "startTime": 1775070000,
+      "linkedActId": [
+        "act3mainss"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1632967200,
@@ -935,6 +942,13 @@
       "startTime": 1759172400,
       "linkedActId": [
         "act2mainss"
+      ]
+    },
+    "permanent_main_2_Abnormal_Spectrum": {
+      "type": 1,
+      "startTime": 1775070000,
+      "linkedActId": [
+        "act3mainss"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {

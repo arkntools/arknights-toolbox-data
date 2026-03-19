@@ -17,15 +17,15 @@
     }
   },
   "jp": {
-    "version": "26-03-05-06-16-38_883683",
+    "version": "26-03-10-11-29-19_dfb572",
     "rev": {
       "char_patch_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "building_data": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "skill_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "character_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "item_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
-      "gacha_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
-      "zone_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "gacha_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
+      "zone_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
       "gamedata_const": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
@@ -34,15 +34,15 @@
     }
   },
   "kr": {
-    "version": "26-03-05-06-36-03_fedb82",
+    "version": "26-03-10-12-35-17_e1311f",
     "rev": {
       "char_patch_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "building_data": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "character_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "skill_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
-      "gacha_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "gacha_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
       "item_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
-      "zone_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "zone_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
       "gamedata_const": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
