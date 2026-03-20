@@ -51,7 +51,7 @@
     }
   },
   "tw": {
-    "version": "26-03-06-08-11-17_ea7f3c",
+    "version": "26-03-16-06-54-47_101d10",
     "rev": {
       "char_patch_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "character_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
@@ -60,12 +60,12 @@
       "item_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "skill_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "zone_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
-      "gamedata_const": "7fb23434462ac948c1a88143fb08828aca8f2cf9",
-      "stage_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
-      "activity_table": "6c35802a200ece55c6ef732d45a1b12c6aa4e7dd",
+      "gamedata_const": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
+      "activity_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "uniequip_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
-      "roguelike_topic_table": "45e54beb7221c349ae04da6ee86ac075e22f035b"
+      "roguelike_topic_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a"
     }
   }
 }
