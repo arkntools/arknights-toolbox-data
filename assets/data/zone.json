@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act41sre_zone1": "act41sre",
+    "act41sre_zone2": "act41sre",
     "act20mini_zone1": "act20mini",
     "act49side_zone1": "act49side",
     "act49side_zone2": "act49side",
@@ -334,6 +336,8 @@
     "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
     "permanent_sidestory_30_zone1": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
     "permanent_sidestory_30_zone2": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
-    "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion"
+    "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+    "permanent_sidestory_31_zone1": "permanent_sidestory_31_When_Elegies_are_Ashes",
+    "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes"
   }
 }

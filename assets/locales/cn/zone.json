@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act41sre": "挽歌燃烧殆尽・复刻",
   "act20mini": "十字路口",
   "act49side": "辞岁行",
   "act40sre": "相见欢・复刻",
@@ -174,5 +175,6 @@
   "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太阳甩在身后@:(retroNameAppend.0)",
   "permanent_sidestory_28_i_portatori_dei_velluti": "揭幕者们@:(retroNameAppend.0)",
   "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出苍白海@:(retroNameAppend.0)",
-  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相见欢@:(retroNameAppend.0)"
+  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相见欢@:(retroNameAppend.0)",
+  "permanent_sidestory_31_When_Elegies_are_Ashes": "挽歌燃烧殆尽@:(retroNameAppend.0)"
 }

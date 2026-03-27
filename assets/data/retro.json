@@ -309,6 +309,14 @@
         "act40side",
         "act40sre"
       ]
+    },
+    "permanent_sidestory_31_When_Elegies_are_Ashes": {
+      "type": 0,
+      "startTime": 1775764800,
+      "linkedActId": [
+        "act41side",
+        "act41sre"
+      ]
     }
   },
   "us": {
