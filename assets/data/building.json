@@ -4305,6 +4305,40 @@
         "id": "meet_spd&cost_condChar_021",
         "unlock": "2_1"
       }
+    ],
+    "4224_turdus": [
+      {
+        "id": "hire_spd&clue_120",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd&clue_121",
+        "unlock": "2_1"
+      }
+    ],
+    "4223_botany": [
+      {
+        "id": "workshop_formula_cost3_001",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_probability_032",
+        "unlock": "2_1"
+      }
+    ],
+    "1051_headb2": [
+      {
+        "id": "manu_formula_spd&bd_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd&bd_001",
+        "unlock": "2_1"
+      },
+      {
+        "id": "control_meeting_bd_000",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4408,6 +4442,10 @@
       "control_meeting&mp_cost_100": {
         "icon": "bskill_ctrl_c_minos2",
         "desc": "aa2d"
+      },
+      "control_meeting_bd_000": {
+        "icon": "bskill_ctrl_c_ussg",
+        "desc": "10c3"
       },
       "control_clue_cost_000": {
         "icon": "bskill_ctrl_c_wt",
@@ -5213,6 +5251,14 @@
         "icon": "bskill_formula_spd_sunbr",
         "desc": "319e"
       },
+      "manu_formula_spd&bd_000": {
+        "icon": "bskill_formula_spd_headb1",
+        "desc": "6f3f"
+      },
+      "manu_formula_spd&bd_001": {
+        "icon": "bskill_formula_spd_headb2",
+        "desc": "63a3"
+      },
       "manu_cost_all_000": {
         "icon": "bskill_man_cost_all",
         "desc": "d520"
@@ -5745,6 +5791,10 @@
         "icon": "bskill_ws_skill_cost1",
         "desc": "e969"
       },
+      "workshop_formula_cost3_001": {
+        "icon": "bskill_ws_skill_cost2",
+        "desc": "e969"
+      },
       "workshop_formula_cost3_101": {
         "icon": "bskill_ws_evolve_cost",
         "desc": "e85a"
@@ -5794,6 +5844,10 @@
         "desc": "9888"
       },
       "workshop_formula_probability_031": {
+        "icon": "bskill_ws_skill2",
+        "desc": "9888"
+      },
+      "workshop_formula_probability_032": {
         "icon": "bskill_ws_skill2",
         "desc": "9888"
       },
@@ -6828,6 +6882,14 @@
       "hire_spd&clue_110": {
         "icon": "bskill_hire_spd&clue2",
         "desc": "9d7c"
+      },
+      "hire_spd&clue_120": {
+        "icon": "bskill_hire_spd&clue3",
+        "desc": "9d7c"
+      },
+      "hire_spd&clue_121": {
+        "icon": "bskill_hire_spd&clue4",
+        "desc": "7ad9"
       },
       "hire_spd&clue2_230": {
         "icon": "bskill_hire_spd&blacksteel2",
@@ -7882,6 +7944,15 @@
           "线索搜集": 1
         }
       },
+      "10c3": {
+        "building": "CONTROL",
+        "num": {
+          "collect": 10
+        },
+        "is": {
+          "线索搜集": 1
+        }
+      },
       "6e04": {
         "building": "CONTROL",
         "num": {},
@@ -8770,6 +8841,15 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 35
+        },
+        "is": {
+          "作战记录": 1
+        }
+      },
+      "63a3": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 30
         },
         "is": {
           "作战记录": 1

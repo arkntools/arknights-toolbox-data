@@ -3623,6 +3623,22 @@
       15
     ]
   },
+  "4224_turdus": {
+    "pinyin": {
+      "full": "wujiu",
+      "head": "wj"
+    },
+    "romaji": "",
+    "appellation": "Укусик",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15
+    ],
+    "appellationTransl": "Ukusik"
+  },
   "4222_taraxa": {
     "pinyin": {
       "full": "fengxu",
@@ -4723,6 +4739,22 @@
     "tags": [
       29
     ]
+  },
+  "4223_botany": {
+    "pinyin": {
+      "full": "baitani",
+      "head": "btn"
+    },
+    "romaji": "",
+    "appellation": "Ботани",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      29
+    ],
+    "appellationTransl": "Botani"
   },
   "215_mantic": {
     "pinyin": {
@@ -6854,6 +6886,22 @@
     },
     "romaji": "pepe",
     "appellation": "Pepe",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      12
+    ]
+  },
+  "1051_headb2": {
+    "pinyin": {
+      "full": "nuchaolindong",
+      "head": "ncld"
+    },
+    "romaji": "",
+    "appellation": "Zima the Raging Tide",
     "star": 6,
     "recruitment": {},
     "position": 9,

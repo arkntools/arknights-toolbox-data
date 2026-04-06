@@ -1429,5 +1429,23 @@
   },
   "uniequip_003_jesca2": {
     "typeIcon": "spt-y"
+  },
+  "uniequip_002_headb2": {
+    "typeIcon": "ham-x"
+  },
+  "uniequip_002_turdus": {
+    "typeIcon": "xah-x"
+  },
+  "uniequip_002_botany": {
+    "typeIcon": "rit-x"
+  },
+  "uniequip_003_surtr": {
+    "typeIcon": "aft-y"
+  },
+  "uniequip_003_nymph": {
+    "typeIcon": "pri-y"
+  },
+  "uniequip_003_skadi2": {
+    "typeIcon": "bar-y"
   }
 }

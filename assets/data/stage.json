@@ -2118,6 +2118,40 @@
     }
   },
   "event": {
+    "act51side_zone1": {
+      "act51side_01": {
+        "code": "PA-1",
+        "cost": 9
+      },
+      "act51side_02": {
+        "code": "PA-2",
+        "cost": 9
+      },
+      "act51side_03": {
+        "code": "PA-3",
+        "cost": 12
+      },
+      "act51side_04": {
+        "code": "PA-4",
+        "cost": 12
+      },
+      "act51side_05": {
+        "code": "PA-5",
+        "cost": 12
+      },
+      "act51side_06": {
+        "code": "PA-6",
+        "cost": 21
+      },
+      "act51side_07": {
+        "code": "PA-7",
+        "cost": 21
+      },
+      "act51side_08": {
+        "code": "PA-8",
+        "cost": 21
+      }
+    },
     "act20mini_zone1": {
       "act20mini_01": {
         "code": "CG-1",
