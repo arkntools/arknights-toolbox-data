@@ -51,7 +51,7 @@
     }
   },
   "tw": {
-    "version": "26-03-27-08-15-27_0937db",
+    "version": "26-04-02-08-18-48_afa065",
     "rev": {
       "char_patch_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "character_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
@@ -60,7 +60,7 @@
       "item_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "skill_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "zone_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
-      "gamedata_const": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "gamedata_const": "4975a03f61c54aa9e4ea792c7fd193039166d0cd",
       "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "activity_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
