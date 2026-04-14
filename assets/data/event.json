@@ -8,8 +8,22 @@
     }
   },
   "us": {},
-  "jp": {},
-  "kr": {},
+  "jp": {
+    "act46side_zone1": {
+      "valid": {
+        "startTs": 1776132000,
+        "endTs": 1777921199
+      }
+    }
+  },
+  "kr": {
+    "act46side_zone1": {
+      "valid": {
+        "startTs": 1776132000,
+        "endTs": 1777921199
+      }
+    }
+  },
   "tw": {
     "act45side_zone1": {
       "valid": {

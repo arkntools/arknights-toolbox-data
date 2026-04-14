@@ -17,7 +17,7 @@
     }
   },
   "jp": {
-    "version": "26-03-30-07-21-40_2db2c5",
+    "version": "26-04-10-09-14-57_5921af",
     "rev": {
       "char_patch_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "building_data": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
@@ -26,15 +26,15 @@
       "item_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "gacha_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
       "zone_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
-      "gamedata_const": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "gamedata_const": "4975a03f61c54aa9e4ea792c7fd193039166d0cd",
       "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
-      "activity_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "activity_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "uniequip_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6"
     }
   },
   "kr": {
-    "version": "26-03-30-07-21-48_a4ee9c",
+    "version": "26-04-08-10-45-59_67f8c2",
     "rev": {
       "char_patch_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "building_data": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
@@ -43,10 +43,10 @@
       "gacha_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
       "item_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
       "zone_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63",
-      "gamedata_const": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "gamedata_const": "4975a03f61c54aa9e4ea792c7fd193039166d0cd",
       "stage_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "retro_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
-      "activity_table": "3cc62e82842f8b54c4fd20973e8be9ed3dd1732a",
+      "activity_table": "ad1f7afbe2085100005d6af9d45087e5d4e07e80",
       "uniequip_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6"
     }
   },
