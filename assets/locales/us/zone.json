@@ -23,6 +23,7 @@
   "weekly_7": "Tactical Drill",
   "weekly_8": "Resource Search",
   "weekly_9": "Cargo Escort",
+  "act38sre": "I Portatori dei Velluti - Rerun",
   "act46side": "Retracing Our Steps",
   "act37sre": "Ending a Grand Overture - Rerun",
   "act45side": "Somniloquium Serenum",
@@ -164,5 +165,6 @@
   "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "The Rides to Lake Silberneherze@:(retroNameAppend.0)",
   "permanent_sidestory_25_Here_A_People_Sows": "Here A People Sows@:(retroNameAppend.0)",
   "permanent_sidestory_26_Path_Of_Life": "Path of Life@:(retroNameAppend.0)",
-  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "Adventure That Cannot Wait for the Sun@:(retroNameAppend.0)"
+  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "Adventure That Cannot Wait for the Sun@:(retroNameAppend.0)",
+  "permanent_sidestory_28_i_portatori_dei_velluti": "I Portatori dei Velluti@:(retroNameAppend.0)"
 }
