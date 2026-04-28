@@ -9,6 +9,12 @@
     }
   },
   "jp": {
+    "act38sre_zone1": {
+      "valid": {
+        "startTs": 1778094000,
+        "endTs": 1778957999
+      }
+    },
     "act46side_zone1": {
       "valid": {
         "startTs": 1776132000,
@@ -17,6 +23,12 @@
     }
   },
   "kr": {
+    "act38sre_zone1": {
+      "valid": {
+        "startTs": 1778094000,
+        "endTs": 1778957999
+      }
+    },
     "act46side_zone1": {
       "valid": {
         "startTs": 1776132000,

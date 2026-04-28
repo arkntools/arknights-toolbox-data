@@ -893,6 +893,14 @@
         "act35side",
         "act35sre"
       ]
+    },
+    "permanent_sidestory_28_i_portatori_dei_velluti": {
+      "type": 0,
+      "startTime": 1779303600,
+      "linkedActId": [
+        "act38side",
+        "act38sre"
+      ]
     }
   },
   "kr": {
@@ -1180,6 +1188,14 @@
       "linkedActId": [
         "act35side",
         "act35sre"
+      ]
+    },
+    "permanent_sidestory_28_i_portatori_dei_velluti": {
+      "type": 0,
+      "startTime": 1779303600,
+      "linkedActId": [
+        "act38side",
+        "act38sre"
       ]
     }
   },

@@ -23,6 +23,7 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act38sre": "幕開く者たち・復刻",
   "act46side": "聖山降臨1101",
   "act37sre": "落日の向こうへ・復刻",
   "act45side": "安らかな譫言",
@@ -164,5 +165,6 @@
   "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "銀心湖鉄道@:(retroNameAppend.0)",
   "permanent_sidestory_25_Here_A_People_Sows": "懐黍離@:(retroNameAppend.0)",
   "permanent_sidestory_26_Path_Of_Life": "生存航路@:(retroNameAppend.0)",
-  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太陽すらも追い越して@:(retroNameAppend.0)"
+  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太陽すらも追い越して@:(retroNameAppend.0)",
+  "permanent_sidestory_28_i_portatori_dei_velluti": "幕開く者たち@:(retroNameAppend.0)"
 }
