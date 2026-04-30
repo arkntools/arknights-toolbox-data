@@ -1864,6 +1864,120 @@
         "cost": 36
       }
     },
+    "act4mainss_zone1": {
+      "main_17-01": {
+        "code": "17-2",
+        "cost": 21
+      },
+      "main_17-01#s": {
+        "code": "17-2",
+        "cost": 21
+      },
+      "main_17-02": {
+        "code": "17-3",
+        "cost": 21
+      },
+      "main_17-02#s": {
+        "code": "17-3",
+        "cost": 21
+      },
+      "main_17-03": {
+        "code": "17-4",
+        "cost": 21
+      },
+      "main_17-03#s": {
+        "code": "17-4",
+        "cost": 21
+      },
+      "main_17-04": {
+        "code": "17-5",
+        "cost": 21
+      },
+      "main_17-04#s": {
+        "code": "17-5",
+        "cost": 21
+      },
+      "main_17-05": {
+        "code": "17-6",
+        "cost": 24
+      },
+      "main_17-05#s": {
+        "code": "17-6",
+        "cost": 24
+      },
+      "main_17-06": {
+        "code": "17-7",
+        "cost": 21
+      },
+      "main_17-06#s": {
+        "code": "17-7",
+        "cost": 21
+      },
+      "main_17-07": {
+        "code": "17-8",
+        "cost": 21
+      },
+      "main_17-07#s": {
+        "code": "17-8",
+        "cost": 21
+      },
+      "main_17-08": {
+        "code": "17-9",
+        "cost": 21
+      },
+      "main_17-08#s": {
+        "code": "17-9",
+        "cost": 21
+      },
+      "main_17-09": {
+        "code": "17-10",
+        "cost": 21
+      },
+      "main_17-09#s": {
+        "code": "17-10",
+        "cost": 21
+      },
+      "main_17-10": {
+        "code": "17-11",
+        "cost": 21
+      },
+      "main_17-10#s": {
+        "code": "17-11",
+        "cost": 21
+      },
+      "main_17-11": {
+        "code": "17-12",
+        "cost": 24
+      },
+      "main_17-11#s": {
+        "code": "17-12",
+        "cost": 24
+      },
+      "main_17-12": {
+        "code": "17-13",
+        "cost": 21
+      },
+      "main_17-12#s": {
+        "code": "17-13",
+        "cost": 21
+      },
+      "main_17-14": {
+        "code": "17-15",
+        "cost": 24
+      },
+      "main_17-14#s": {
+        "code": "17-15",
+        "cost": 24
+      },
+      "main_17-16": {
+        "code": "17-17",
+        "cost": 21
+      },
+      "main_17-16#s": {
+        "code": "17-17",
+        "cost": 21
+      }
+    },
     "act3mainss_zone1": {
       "main_16-01": {
         "code": "16-2",
@@ -5106,6 +5220,120 @@
         "cost": 21
       }
     },
+    "permanent_main_3_zone1": {
+      "main_17-01": {
+        "code": "17-2",
+        "cost": 21
+      },
+      "main_17-01#s": {
+        "code": "17-2",
+        "cost": 21
+      },
+      "main_17-02": {
+        "code": "17-3",
+        "cost": 21
+      },
+      "main_17-02#s": {
+        "code": "17-3",
+        "cost": 21
+      },
+      "main_17-03": {
+        "code": "17-4",
+        "cost": 21
+      },
+      "main_17-03#s": {
+        "code": "17-4",
+        "cost": 21
+      },
+      "main_17-04": {
+        "code": "17-5",
+        "cost": 21
+      },
+      "main_17-04#s": {
+        "code": "17-5",
+        "cost": 21
+      },
+      "main_17-05": {
+        "code": "17-6",
+        "cost": 24
+      },
+      "main_17-05#s": {
+        "code": "17-6",
+        "cost": 24
+      },
+      "main_17-06": {
+        "code": "17-7",
+        "cost": 21
+      },
+      "main_17-06#s": {
+        "code": "17-7",
+        "cost": 21
+      },
+      "main_17-07": {
+        "code": "17-8",
+        "cost": 21
+      },
+      "main_17-07#s": {
+        "code": "17-8",
+        "cost": 21
+      },
+      "main_17-08": {
+        "code": "17-9",
+        "cost": 21
+      },
+      "main_17-08#s": {
+        "code": "17-9",
+        "cost": 21
+      },
+      "main_17-09": {
+        "code": "17-10",
+        "cost": 21
+      },
+      "main_17-09#s": {
+        "code": "17-10",
+        "cost": 21
+      },
+      "main_17-10": {
+        "code": "17-11",
+        "cost": 21
+      },
+      "main_17-10#s": {
+        "code": "17-11",
+        "cost": 21
+      },
+      "main_17-11": {
+        "code": "17-12",
+        "cost": 24
+      },
+      "main_17-11#s": {
+        "code": "17-12",
+        "cost": 24
+      },
+      "main_17-12": {
+        "code": "17-13",
+        "cost": 21
+      },
+      "main_17-12#s": {
+        "code": "17-13",
+        "cost": 21
+      },
+      "main_17-14": {
+        "code": "17-15",
+        "cost": 24
+      },
+      "main_17-14#s": {
+        "code": "17-15",
+        "cost": 24
+      },
+      "main_17-16": {
+        "code": "17-17",
+        "cost": 21
+      },
+      "main_17-16#s": {
+        "code": "17-17",
+        "cost": 21
+      }
+    },
     "permanent_sidestory_1_zone1": {
       "a001_01": {
         "code": "GT-1",
@@ -6159,6 +6387,48 @@
       },
       "act41side_08": {
         "code": "EA-8",
+        "cost": 21
+      }
+    },
+    "permanent_sidestory_32_zone1": {
+      "act42side_01": {
+        "code": "MT-1",
+        "cost": 9
+      },
+      "act42side_02": {
+        "code": "MT-2",
+        "cost": 9
+      },
+      "act42side_03": {
+        "code": "MT-3",
+        "cost": 9
+      },
+      "act42side_04": {
+        "code": "MT-4",
+        "cost": 12
+      },
+      "act42side_05": {
+        "code": "MT-5",
+        "cost": 12
+      },
+      "act42side_06": {
+        "code": "MT-6",
+        "cost": 15
+      },
+      "act42side_07": {
+        "code": "MT-7",
+        "cost": 15
+      },
+      "act42side_08": {
+        "code": "MT-8",
+        "cost": 21
+      },
+      "act42side_09": {
+        "code": "MT-9",
+        "cost": 21
+      },
+      "act42side_10": {
+        "code": "MT-10",
         "cost": 21
       }
     }

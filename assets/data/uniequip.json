@@ -1447,5 +1447,29 @@
   },
   "uniequip_003_skadi2": {
     "typeIcon": "bar-y"
+  },
+  "uniequip_002_veen": {
+    "typeIcon": "msc-y"
+  },
+  "uniequip_002_tanya": {
+    "typeIcon": "prp-x"
+  },
+  "uniequip_002_closur": {
+    "typeIcon": "tac-x"
+  },
+  "uniequip_003_blkkgt": {
+    "typeIcon": "swo-y"
+  },
+  "uniequip_003_rmixer": {
+    "typeIcon": "spt-y"
+  },
+  "uniequip_003_texas2": {
+    "typeIcon": "exe-x"
+  },
+  "uniequip_004_typhon": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_004_ghost2": {
+    "typeIcon": "isw-a"
   }
 }

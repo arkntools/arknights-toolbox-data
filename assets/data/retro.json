@@ -70,6 +70,13 @@
         "act3mainss"
       ]
     },
+    "permanent_main_3_One_Day_More": {
+      "type": 1,
+      "startTime": 1778788800,
+      "linkedActId": [
+        "act4mainss"
+      ]
+    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1618430400,

@@ -4339,6 +4339,64 @@
         "id": "control_meeting_bd_000",
         "unlock": "2_1"
       }
+    ],
+    "4228_closur": [
+      {
+        "id": "control_mp_cost_014",
+        "unlock": "0_1"
+      },
+      {
+        "id": "trade_ord_closure_000",
+        "unlock": "2_1"
+      }
+    ],
+    "1052_kalts2": [
+      {
+        "id": "workshop_proc_probability_041",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_proc_probability_050",
+        "unlock": "2_1"
+      },
+      {
+        "id": "hire_spd_tag_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4226_veen": [
+      {
+        "id": "train_spd_doubleProf_301",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd_doubleProf_310",
+        "unlock": "2_1"
+      },
+      {
+        "id": "manu_prod_spd_train&lv_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4225_tanya": [
+      {
+        "id": "dorm_rec_oneself_040",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_formula_spd&limit&cost_100",
+        "unlock": "2_1"
+      }
+    ],
+    "4227_gallus": [
+      {
+        "id": "power_rec_spd_0010",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_ext&tag_000",
+        "unlock": "0_30"
+      }
     ]
   },
   "buff": {
@@ -4516,6 +4574,10 @@
         "desc": "8da9"
       },
       "control_mp_cost_013": {
+        "icon": "bskill_ctrl_cost",
+        "desc": "8da9"
+      },
+      "control_mp_cost_014": {
         "icon": "bskill_ctrl_cost",
         "desc": "8da9"
       },
@@ -4803,6 +4865,10 @@
         "icon": "bskill_pow_drone",
         "desc": "ae1c"
       },
+      "power_rec_spd_0010": {
+        "icon": "bskill_pow_spd1",
+        "desc": "36ac"
+      },
       "power_count_000": {
         "icon": "bskill_pow_count",
         "desc": "96ee"
@@ -4822,6 +4888,10 @@
       "power_rec_spd_ext&faction_000": {
         "icon": "bskill_power_rec_spd_ext&faction",
         "desc": "4244"
+      },
+      "power_rec_spd_ext&tag_000": {
+        "icon": "bskill_power_rec_spd_ext&tag",
+        "desc": "4a5d"
       },
       "power_rec_rhine_000": {
         "icon": "bskill_power_rec_rhine",
@@ -5083,6 +5153,10 @@
         "icon": "bskill_man_spd_variable21",
         "desc": "e819"
       },
+      "manu_prod_spd_train&lv_000": {
+        "icon": "bskill_man_spd_veen",
+        "desc": "4398"
+      },
       "manu_prod_spd_bd_n1_000": {
         "icon": "bskill_man_spd_bd_n1",
         "desc": "c7d4"
@@ -5162,6 +5236,10 @@
       "manu_formula_spd&limit&cost_010": {
         "icon": "bskill_man_exp&spd&limit&cost2",
         "desc": "eb42"
+      },
+      "manu_formula_spd&limit&cost_100": {
+        "icon": "bskill_man_exp&spd&cost1",
+        "desc": "9642"
       },
       "manu_prod_spd&trade_000": {
         "icon": "bskill_man_spd&trade",
@@ -5350,6 +5428,10 @@
       "trade_ord_spd&meet_000": {
         "icon": "bskill_tra_spd&meet1",
         "desc": "6556"
+      },
+      "trade_ord_closure_000": {
+        "icon": "bskill_tra_closure",
+        "desc": "6021"
       },
       "trade_ord_spd&meet_010": {
         "icon": "bskill_tra_spd&meet",
@@ -5674,6 +5756,14 @@
       "workshop_proc_probability_040": {
         "icon": "bskill_ws_p5",
         "desc": "6324"
+      },
+      "workshop_proc_probability_041": {
+        "icon": "bskill_ws_p5",
+        "desc": "6324"
+      },
+      "workshop_proc_probability_050": {
+        "icon": "bskill_ws_p_kalts2",
+        "desc": "d46e"
       },
       "workshop_proc_cost_000": {
         "icon": "bskill_ws_lolxh",
@@ -6115,6 +6205,14 @@
         "icon": "bskill_train_caster&vanguard1",
         "desc": "5fb9"
       },
+      "train_spd_doubleProf_301": {
+        "icon": "bskill_train_caster&vanguard1",
+        "desc": "5fb9"
+      },
+      "train_spd_doubleProf_310": {
+        "icon": "bskill_train_caster&vanguard2",
+        "desc": "7a74"
+      },
       "train_spd_doubleProf_110": {
         "icon": "bskill_train_caster&medic2",
         "desc": "36ef"
@@ -6458,6 +6556,10 @@
       "dorm_rec_oneself_020": {
         "icon": "bskill_dorm_one5",
         "desc": "f7ea"
+      },
+      "dorm_rec_oneself_040": {
+        "icon": "bskill_dorm_one1",
+        "desc": "e736"
       },
       "dorm_rec_oneself_030": {
         "icon": "bskill_dorm_one3",
@@ -6935,6 +7037,10 @@
         "icon": "bskill_hire_spd&dorm2",
         "desc": "9409"
       },
+      "hire_spd_tag_000": {
+        "icon": "bskill_hire_kalts2",
+        "desc": "fd5d"
+      },
       "meet_spd_000": {
         "icon": "bskill_meet_spd1",
         "desc": "6ddd"
@@ -7391,6 +7497,15 @@
         "num": {},
         "is": {}
       },
+      "4398": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 10
+        },
+        "is": {
+          "通用生产": 1
+        }
+      },
       "4439": {
         "building": "CONTROL",
         "num": {},
@@ -7520,6 +7635,15 @@
         "num": {},
         "is": {
           "线索5": 1
+        }
+      },
+      "6021": {
+        "building": "TRADING",
+        "num": {
+          "order": 10
+        },
+        "is": {
+          "订单效率": 1
         }
       },
       "6025": {
@@ -7766,6 +7890,15 @@
         },
         "is": {
           "贵金属": 1
+        }
+      },
+      "9642": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 35
+        },
+        "is": {
+          "作战记录": 1
         }
       },
       "9706": {
@@ -8262,6 +8395,13 @@
         "is": {}
       },
       "e087": {
+        "building": "POWER",
+        "num": {
+          "power": 5
+        },
+        "is": {}
+      },
+      "4a5d": {
         "building": "POWER",
         "num": {
           "power": 5
@@ -9413,6 +9553,15 @@
           "任意材料": 1
         }
       },
+      "d46e": {
+        "building": "WORKSHOP",
+        "num": {
+          "byproduct": 80
+        },
+        "is": {
+          "任意材料": 1
+        }
+      },
       "aac2": {
         "building": "WORKSHOP",
         "num": {},
@@ -9834,6 +9983,16 @@
         "building": "TRAINING",
         "num": {
           "train": 30
+        },
+        "is": {
+          "术师": 1,
+          "近卫": 1
+        }
+      },
+      "7a74": {
+        "building": "TRAINING",
+        "num": {
+          "train": 45
         },
         "is": {
           "术师": 1,
@@ -10308,6 +10467,11 @@
         "num": {},
         "is": {}
       },
+      "e736": {
+        "building": "DORMITORY",
+        "num": {},
+        "is": {}
+      },
       "62f9": {
         "building": "DORMITORY",
         "num": {},
@@ -10581,11 +10745,6 @@
           "群体恢复": 1
         }
       },
-      "e736": {
-        "building": "DORMITORY",
-        "num": {},
-        "is": {}
-      },
       "1efa": {
         "building": "DORMITORY",
         "num": {
@@ -10821,6 +10980,13 @@
         "building": "HIRE",
         "num": {
           "connect": 5
+        },
+        "is": {}
+      },
+      "fd5d": {
+        "building": "HIRE",
+        "num": {
+          "connect": 30
         },
         "is": {}
       },

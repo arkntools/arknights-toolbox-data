@@ -183,6 +183,25 @@
       12
     ]
   },
+  "4227_gallus": {
+    "pinyin": {
+      "full": "GALLUS²",
+      "head": "GALLUS²"
+    },
+    "romaji": "",
+    "appellation": "GALLUS²",
+    "star": 1,
+    "recruitment": {
+      "cn": 2
+    },
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      28,
+      24
+    ],
+    "appellationTransl": "GALLUS2"
+  },
   "502_nblade": {
     "pinyin": {
       "full": "yedao",
@@ -4118,6 +4137,22 @@
       22
     ]
   },
+  "4225_tanya": {
+    "pinyin": {
+      "full": "liexiang",
+      "head": "lx"
+    },
+    "romaji": "",
+    "appellation": "Crackborne",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      29,
+      20
+    ]
+  },
   "145_prove": {
     "pinyin": {
       "full": "puluowangsi",
@@ -5414,6 +5449,22 @@
       12
     ]
   },
+  "4228_closur": {
+    "pinyin": {
+      "full": "keluxier",
+      "head": "klxe"
+    },
+    "romaji": "",
+    "appellation": "Closure",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 8,
+    "tags": [
+      18,
+      12
+    ]
+  },
   "1045_svash2": {
     "pinyin": {
       "full": "linyuyinhui",
@@ -5710,6 +5761,22 @@
     "tags": [
       19
     ]
+  },
+  "4226_veen": {
+    "pinyin": {
+      "full": "weiyi",
+      "head": "wy"
+    },
+    "romaji": "",
+    "appellation": "Вий",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      19
+    ],
+    "appellationTransl": "Viy"
   },
   "4146_nymph": {
     "pinyin": {
@@ -6482,6 +6549,23 @@
       16
     ]
   },
+  "1052_kalts2": {
+    "pinyin": {
+      "full": "kaierxi·sihengtuo",
+      "head": "kex·sht"
+    },
+    "romaji": "",
+    "appellation": "Kal'tsit·Esperanta",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15,
+      16
+    ],
+    "appellationTransl": "Kal'tsit*Esperanta"
+  },
   "136_hsguma": {
     "pinyin": {
       "full": "xingxiong",
@@ -7128,7 +7212,9 @@
     "romaji": "parasu",
     "appellation": "Pallas",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
