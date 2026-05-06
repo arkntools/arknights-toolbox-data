@@ -145,6 +145,7 @@ export const getRecruitmentTable = (recruitDetail: string): Record<string, numbe
       .replace('<</>\n\n★\n@rc.eml>Lancet-2</>', '</>\n\n★\n<@rc.eml>Lancet-2</>')
       .replace('食 鐵獸', '食鐵獸')
       .replace(/\\\s*n/g, '\n')
+      .replace(/(\s*\/)<\/>/, '</>$1')
       .split(/\s*-*\s*★+\s*/)
       .splice(1)
       .map(line => line.split(/(?<!<)\/(?!>)|-{5,}/).map(name => name.trim()))
