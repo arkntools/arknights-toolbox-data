@@ -1500,6 +1500,14 @@
         "act35side",
         "act35sre"
       ]
+    },
+    "permanent_sidestory_29_Exodus_From_The_Pale_Sea": {
+      "type": 0,
+      "startTime": 1779825600,
+      "linkedActId": [
+        "act39side",
+        "act39sre"
+      ]
     }
   }
 }

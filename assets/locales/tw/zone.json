@@ -23,6 +23,7 @@
   "weekly_7": "戰術演習",
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
+  "act39sre": "出蒼白海·復刻",
   "act37sre": "追跡日落以西·復刻",
   "act45side": "無憂夢囈",
   "act35sre": "太陽甩在身後·復刻",
@@ -163,5 +164,6 @@
   "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "銀心湖列車@:(retroNameAppend.0)",
   "permanent_sidestory_25_Here_A_People_Sows": "懷黍離@:(retroNameAppend.0)",
   "permanent_sidestory_26_Path_Of_Life": "生路@:(retroNameAppend.0)",
-  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太陽甩在身後@:(retroNameAppend.0)"
+  "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太陽甩在身後@:(retroNameAppend.0)",
+  "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出蒼白海@:(retroNameAppend.0)"
 }
