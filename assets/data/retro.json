@@ -916,6 +916,14 @@
         "act38side",
         "act38sre"
       ]
+    },
+    "permanent_sidestory_29_Exodus_From_The_Pale_Sea": {
+      "type": 0,
+      "startTime": 1781809200,
+      "linkedActId": [
+        "act39side",
+        "act39sre"
+      ]
     }
   },
   "kr": {
@@ -1211,6 +1219,14 @@
       "linkedActId": [
         "act38side",
         "act38sre"
+      ]
+    },
+    "permanent_sidestory_29_Exodus_From_The_Pale_Sea": {
+      "type": 0,
+      "startTime": 1781809200,
+      "linkedActId": [
+        "act39side",
+        "act39sre"
       ]
     }
   },
