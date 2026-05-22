@@ -324,6 +324,14 @@
         "act41side",
         "act41sre"
       ]
+    },
+    "permanent_sidestory_32_The_Masses_Travels": {
+      "type": 0,
+      "startTime": 1780603200,
+      "linkedActId": [
+        "act42side",
+        "act42sre"
+      ]
     }
   },
   "us": {

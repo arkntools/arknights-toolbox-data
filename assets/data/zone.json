@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act42sre_zone1": "act42sre",
+    "act42sre_zone2": "act42sre",
+    "act42sre_zone3": "act42sre",
     "act51side_zone1": "act51side",
     "act51side_zone2": "act51side",
     "act41sre_zone1": "act41sre",
@@ -341,6 +344,9 @@
     "permanent_sidestory_30_zone2": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
     "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
     "permanent_sidestory_31_zone1": "permanent_sidestory_31_When_Elegies_are_Ashes",
-    "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes"
+    "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes",
+    "permanent_sidestory_32_zone1": "permanent_sidestory_32_The_Masses_Travels",
+    "permanent_sidestory_32_zone2": "permanent_sidestory_32_The_Masses_Travels",
+    "permanent_sidestory_32_zone3": "permanent_sidestory_32_The_Masses_Travels"
   }
 }
