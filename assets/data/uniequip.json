@@ -1471,5 +1471,20 @@
   },
   "uniequip_004_ghost2": {
     "typeIcon": "isw-a"
+  },
+  "uniequip_002_catap2": {
+    "typeIcon": "mcn-x"
+  },
+  "uniequip_002_orchd2": {
+    "typeIcon": "arc-x"
+  },
+  "uniequip_003_yato2": {
+    "typeIcon": "exe-y"
+  },
+  "uniequip_003_narant": {
+    "typeIcon": "lps-y"
+  },
+  "uniequip_003_vulpis": {
+    "typeIcon": "sol-y"
   }
 }

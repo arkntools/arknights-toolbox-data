@@ -204,6 +204,23 @@
     ],
     "appellationTransl": "GALLUS2"
   },
+  "4215_buddy": {
+    "pinyin": {
+      "full": "luodedaoyinmidui",
+      "head": "lddymd"
+    },
+    "romaji": "",
+    "appellation": "Rhodes Island Recon",
+    "star": 1,
+    "recruitment": {},
+    "position": 10,
+    "profession": 8,
+    "tags": [
+      18,
+      12,
+      28
+    ]
+  },
   "502_nblade": {
     "pinyin": {
       "full": "yedao",
@@ -2690,6 +2707,23 @@
       12
     ]
   },
+  "1049_catap2": {
+    "pinyin": {
+      "full": "leilanglongSkongbao",
+      "head": "lllSkb"
+    },
+    "romaji": "",
+    "appellation": "Zinogre S Catapult",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      21,
+      19,
+      13
+    ]
+  },
   "129_bluep": {
     "pinyin": {
       "full": "landu",
@@ -5127,6 +5161,22 @@
       19
     ],
     "appellationTransl": "Pozyomka"
+  },
+  "1048_orchd2": {
+    "pinyin": {
+      "full": "yanhulongzilan",
+      "head": "yhlzl"
+    },
+    "romaji": "",
+    "appellation": "Violet Mizutsune Orchid",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      19,
+      25
+    ]
   },
   "430_fartth": {
     "pinyin": {
