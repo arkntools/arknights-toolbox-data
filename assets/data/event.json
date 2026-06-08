@@ -6,12 +6,6 @@
         "startTs": 1780657200,
         "endTs": 1781521199
       }
-    },
-    "act47side_zone1": {
-      "valid": {
-        "startTs": 1779375600,
-        "endTs": 1780570799
-      }
     }
   },
   "jp": {
@@ -19,12 +13,6 @@
       "valid": {
         "startTs": 1780599600,
         "endTs": 1781463599
-      }
-    },
-    "act47side_zone1": {
-      "valid": {
-        "startTs": 1779346800,
-        "endTs": 1780513199
       }
     }
   },
@@ -34,20 +22,7 @@
         "startTs": 1780599600,
         "endTs": 1781463599
       }
-    },
-    "act47side_zone1": {
-      "valid": {
-        "startTs": 1779346800,
-        "endTs": 1780513199
-      }
     }
   },
-  "tw": {
-    "act38sre_zone1": {
-      "valid": {
-        "startTs": 1779825600,
-        "endTs": 1780689599
-      }
-    }
-  }
+  "tw": {}
 }
