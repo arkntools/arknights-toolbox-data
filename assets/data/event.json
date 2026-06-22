@@ -1,15 +1,22 @@
 {
   "cn": {},
-  "us": {
-    "act39sre_zone1": {
+  "us": {},
+  "jp": {
+    "act48side_zone1": {
       "valid": {
-        "startTs": 1780657200,
-        "endTs": 1781521199
+        "startTs": 1782093600,
+        "endTs": 1783277999
       }
     }
   },
-  "jp": {},
-  "kr": {},
+  "kr": {
+    "act48side_zone1": {
+      "valid": {
+        "startTs": 1782093600,
+        "endTs": 1783277999
+      }
+    }
+  },
   "tw": {
     "act46side_zone1": {
       "valid": {
