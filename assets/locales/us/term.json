@@ -108,7 +108,7 @@
     "desc": "Includes the following Operators\nLee, Aak, Hung, Waai Fu"
   },
   "cc_g_ussg": {
-    "name": "Ursus Student Self-Governing Group",
+    "name": "Ursus Student Self-government Group",
     "desc": "Includes the following Operators:\nRosa, Zima, Istina, Gummy, Leto"
   },
   "cc_g_A1": {
@@ -170,6 +170,14 @@
   "cc_g_laterano": {
     "name": "Laterano",
     "desc": "Includes the following Operators:\nPlume, Adnachiel, Executor, Mostima, Ambriel, Arene, Archetto, Fiammetta, Enforcer, Spuria, Insider, Virtuosa, Lemuen, Sankta Miksaparato, CONFESS-47"
+  },
+  "cc_g_minos": {
+    "name": "Minos",
+    "desc": "Includes the following Operators:\nErato, Pallas, Sideroca, Conviction, Vulcan, Varkáris"
+  },
+  "cc_g_sargon": {
+    "name": "Sargon",
+    "desc": "Includes the following Operators:\nWulfenite, Philae, Pepe, Narantuya, Sand Reckoner, Papyrus, Kestrel, Totter, Tuye, Bubble, Eunectes, Flint, Tomimi, Beeswax, Scene, Sesa, Manticore, Passenger, Estelle, Minimalist, Hadiya, Titi"
   },
   "cc_g_elite": {
     "name": "Elite Operator",
