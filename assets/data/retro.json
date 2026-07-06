@@ -636,6 +636,14 @@
         "act39side",
         "act39sre"
       ]
+    },
+    "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": {
+      "type": 0,
+      "startTime": 1784545200,
+      "linkedActId": [
+        "act40side",
+        "act40sre"
+      ]
     }
   },
   "jp": {
