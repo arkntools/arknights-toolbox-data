@@ -1486,5 +1486,14 @@
   },
   "uniequip_003_vulpis": {
     "typeIcon": "sol-y"
+  },
+  "uniequip_002_aphris": {
+    "typeIcon": "bla-y"
+  },
+  "uniequip_003_blaze2": {
+    "typeIcon": "pri-y"
+  },
+  "uniequip_003_reed2": {
+    "typeIcon": "inc-y"
   }
 }

@@ -4431,6 +4431,26 @@
         "id": "meet_spd_notOwned_P_000",
         "unlock": "0_30"
       }
+    ],
+    "4229_aphris": [
+      {
+        "id": "manu_formula_spd_214",
+        "unlock": "0_1"
+      },
+      {
+        "id": "workshop_formula_device_050",
+        "unlock": "2_1"
+      }
+    ],
+    "4234_pedro": [
+      {
+        "id": "train_spd&profession3_190",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd&profession3_191",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -5360,6 +5380,10 @@
         "desc": "a5bc"
       },
       "manu_formula_spd_213": {
+        "icon": "bskill_man_originium2",
+        "desc": "a5bc"
+      },
+      "manu_formula_spd_214": {
         "icon": "bskill_man_originium2",
         "desc": "a5bc"
       },
@@ -6487,6 +6511,14 @@
         "icon": "bskill_train_medic1",
         "desc": "3990"
       },
+      "train_spd&profession3_190": {
+        "icon": "bskill_train_supporter1",
+        "desc": "b24b"
+      },
+      "train_spd&profession3_191": {
+        "icon": "bskill_train_supportiveranger",
+        "desc": "97fa"
+      },
       "train_spd&profession2_110": {
         "icon": "bskill_train1_vanguard1",
         "desc": "9faa"
@@ -7128,7 +7160,7 @@
         "desc": "f874"
       },
       "meet_spd_1020": {
-        "icon": "bskill_meet_spd3",
+        "icon": "bskill_meet_spd2",
         "desc": "f874"
       },
       "meet_spd_021": {
@@ -10372,6 +10404,15 @@
         },
         "is": {
           "医疗": 1
+        }
+      },
+      "97fa": {
+        "building": "TRAINING",
+        "num": {
+          "train": 30
+        },
+        "is": {
+          "辅助": 1
         }
       },
       "9faa": {

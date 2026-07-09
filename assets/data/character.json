@@ -4832,6 +4832,22 @@
     ],
     "appellationTransl": "Botani"
   },
+  "4234_pedro": {
+    "pinyin": {
+      "full": "peideluo",
+      "head": "pdl"
+    },
+    "romaji": "",
+    "appellation": "Pedro",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      19,
+      16
+    ]
+  },
   "215_mantic": {
     "pinyin": {
       "full": "shixie",
@@ -5570,6 +5586,22 @@
     "tags": [
       21,
       24
+    ]
+  },
+  "4229_aphris": {
+    "pinyin": {
+      "full": "miuyin",
+      "head": "my"
+    },
+    "romaji": "",
+    "appellation": "Aphrissa",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      21,
+      19
     ]
   },
   "213_mostma": {

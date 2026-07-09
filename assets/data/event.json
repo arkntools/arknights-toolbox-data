@@ -1,5 +1,12 @@
 {
-  "cn": {},
+  "cn": {
+    "act21mini_zone1": {
+      "valid": {
+        "startTs": 1783638000,
+        "endTs": 1784231999
+      }
+    }
+  },
   "us": {
     "act40sre_zone1": {
       "valid": {
