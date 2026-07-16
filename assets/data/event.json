@@ -16,18 +16,18 @@
     }
   },
   "jp": {
-    "act40sre_zone1": {
+    "act49side_zone1": {
       "valid": {
-        "startTs": 1783321200,
-        "endTs": 1784141999
+        "startTs": 1784185200,
+        "endTs": 1785956399
       }
     }
   },
   "kr": {
-    "act40sre_zone1": {
+    "act49side_zone1": {
       "valid": {
-        "startTs": 1783321200,
-        "endTs": 1784141999
+        "startTs": 1784185200,
+        "endTs": 1785956399
       }
     }
   },
