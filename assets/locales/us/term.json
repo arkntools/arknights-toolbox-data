@@ -145,7 +145,7 @@
   },
   "cc_g_sui": {
     "name": "Sui",
-    "desc": "Includes the following Operators\nNian, Dusk, Ling, Chongyue, Shu, Yu"
+    "desc": "Includes the following Operators:\nNian, Dusk, Ling, Chongyue, Shu, Yu, Wang"
   },
   "cc_g_glasgow": {
     "name": "Glasgow Gang",
@@ -306,5 +306,13 @@
   "cc_bd_mujica_2": {
     "name": "Monster of Acting",
     "desc": "Operators with this skill\nMutsumi Wakaba"
+  },
+  "cc_bd_wang_1": {
+    "name": "Influence",
+    "desc": "Provided by the following Operators' skills\nWang\nFor every Trading Post and Power Plant, Influence +1"
+  },
+  "cc_bd_wang_2": {
+    "name": "Territory",
+    "desc": "Provided by the following Operators' skills\nWang\nFor every Factory, Territory +1"
   }
 }
