@@ -6873,6 +6873,23 @@
       16
     ]
   },
+  "4230_mcnist": {
+    "pinyin": {
+      "full": "jixieshi",
+      "head": "jxs"
+    },
+    "romaji": "",
+    "appellation": "Mechanist",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      20,
+      27,
+      19
+    ]
+  },
   "2026_yu": {
     "pinyin": {
       "full": "yu",

@@ -1,5 +1,7 @@
 {
   "zoneToActivity": {
+    "act43sre_zone1": "act43sre",
+    "act43sre_zone2": "act43sre",
     "act21mini_zone1": "act21mini",
     "act24sre_zone1": "act24sre",
     "act24sre_zone2": "act24sre",
@@ -352,6 +354,8 @@
     "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes",
     "permanent_sidestory_32_zone1": "permanent_sidestory_32_The_Masses_Travels",
     "permanent_sidestory_32_zone2": "permanent_sidestory_32_The_Masses_Travels",
-    "permanent_sidestory_32_zone3": "permanent_sidestory_32_The_Masses_Travels"
+    "permanent_sidestory_32_zone3": "permanent_sidestory_32_The_Masses_Travels",
+    "permanent_sidestory_33_zone1": "permanent_sidestory_33_Act_or_Die",
+    "permanent_sidestory_33_zone2": "permanent_sidestory_33_Act_or_Die"
   }
 }

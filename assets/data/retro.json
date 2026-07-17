@@ -332,6 +332,14 @@
         "act42side",
         "act42sre"
       ]
+    },
+    "permanent_sidestory_33_Act_or_Die": {
+      "type": 0,
+      "startTime": 1785700800,
+      "linkedActId": [
+        "act43side",
+        "act43sre"
+      ]
     }
   },
   "us": {

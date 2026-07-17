@@ -23,6 +23,7 @@
   "weekly_7": "战术演习",
   "weekly_8": "资源保障",
   "weekly_9": "货物运送",
+  "act43sre": "红丝绒・复刻",
   "act21mini": "丛林症结",
   "act24sre": "落叶逐火・复刻",
   "act50side": "泡影苍霆",
@@ -183,5 +184,6 @@
   "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出苍白海@:(retroNameAppend.0)",
   "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相见欢@:(retroNameAppend.0)",
   "permanent_sidestory_31_When_Elegies_are_Ashes": "挽歌燃烧殆尽@:(retroNameAppend.0)",
-  "permanent_sidestory_32_The_Masses_Travels": "众生行记@:(retroNameAppend.0)"
+  "permanent_sidestory_32_The_Masses_Travels": "众生行记@:(retroNameAppend.0)",
+  "permanent_sidestory_33_Act_or_Die": "红丝绒@:(retroNameAppend.0)"
 }

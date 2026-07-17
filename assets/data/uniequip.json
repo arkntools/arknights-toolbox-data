@@ -1495,5 +1495,8 @@
   },
   "uniequip_003_reed2": {
     "typeIcon": "inc-y"
+  },
+  "uniequip_002_mcnist": {
+    "typeIcon": "so-a"
   }
 }

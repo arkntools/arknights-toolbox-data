@@ -4451,6 +4451,16 @@
         "id": "train_spd&profession3_191",
         "unlock": "2_1"
       }
+    ],
+    "4230_mcnist": [
+      {
+        "id": "manu_formula_spd_011",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_cost_min_001",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -5271,6 +5281,10 @@
         "icon": "bskill_man_exp2",
         "desc": "6f3f"
       },
+      "manu_formula_spd_011": {
+        "icon": "bskill_man_exp2",
+        "desc": "6f3f"
+      },
       "manu_formula_spd_020": {
         "icon": "bskill_man_exp3",
         "desc": "66c7"
@@ -5358,6 +5372,10 @@
       "manu_prod_spd_double_100": {
         "icon": "bskill_man_spd_double2",
         "desc": "5609"
+      },
+      "manu_prod_cost_min_001": {
+        "icon": "bskill_man_spd_mechanist",
+        "desc": "533a"
       },
       "manu_formula_spd_200": {
         "icon": "bskill_man_originium1",
@@ -9065,6 +9083,15 @@
         },
         "is": {
           "贵金属": 1
+        }
+      },
+      "533a": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 10
+        },
+        "is": {
+          "通用生产": 1
         }
       },
       "b89d": {

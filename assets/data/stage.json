@@ -2580,7 +2580,7 @@
         "cost": 21
       }
     },
-    "act43side_zone1": {
+    "act43sre_zone1": {
       "act43side_01": {
         "code": "AD-1",
         "cost": 9
@@ -4588,6 +4588,40 @@
       "a001_06": {
         "code": "GT-6",
         "cost": 15
+      }
+    },
+    "act43side_zone1": {
+      "act43side_01": {
+        "code": "AD-1",
+        "cost": 9
+      },
+      "act43side_02": {
+        "code": "AD-2",
+        "cost": 9
+      },
+      "act43side_03": {
+        "code": "AD-3",
+        "cost": 12
+      },
+      "act43side_04": {
+        "code": "AD-4",
+        "cost": 12
+      },
+      "act43side_05": {
+        "code": "AD-5",
+        "cost": 12
+      },
+      "act43side_06": {
+        "code": "AD-6",
+        "cost": 21
+      },
+      "act43side_07": {
+        "code": "AD-7",
+        "cost": 21
+      },
+      "act43side_08": {
+        "code": "AD-8",
+        "cost": 21
       }
     },
     "act42side_zone1": {
