@@ -13,6 +13,7 @@ export interface RetroAct {
   linkedActId: string[];
   startTime: number;
   name: string;
+  customActType: string;
 }
 
 export interface RetroTable {

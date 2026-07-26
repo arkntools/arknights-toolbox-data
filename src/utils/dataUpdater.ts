@@ -434,6 +434,7 @@ export class DataUpdater {
   private updateRetroInfo({ retroTable }: GameData, locale: string) {
     this.retroInfo[locale] = {};
     each(retroTable.retroActList, item => {
+      if (item.customActType === 'TYPE_MAINSS') return;
       this.retroInfo[locale][fixI18nKey(item.retroId)] = {
         type: forceEnumNum(item.type, RetroType),
         ...pick(item, ['startTime', 'linkedActId']),
@@ -443,7 +444,7 @@ export class DataUpdater {
 
   private updateRetroDrop({ retroTable }: GameData) {
     each(
-      pickBy(retroTable.stageList, ({ zoneId }) => !(zoneId in this.dropInfo.retro)),
+      pickBy(retroTable.stageList, ({ zoneId, stageType }) => !(zoneId in this.dropInfo.retro) && stageType !== 'MAIN'),
       ({ zoneId, code, stageDropInfo }) => {
         const rewardTable = mapKeys(stageDropInfo.displayDetailRewards, 'id');
         stageDropInfo.displayRewards.forEach(({ id }) => {
@@ -462,10 +463,15 @@ export class DataUpdater {
     const zoneId2Name: Record<string, string> = {};
 
     // 主线
-    each(zoneTable.zones, ({ type, zoneID, zoneNameFirst, zoneNameSecond }) => {
-      if (type === 'MAINLINE' || type === 'WEEKLY') {
-        zoneId2Name[zoneID] =
-          zoneNameFirst && zoneNameSecond ? `${zoneNameFirst} ${zoneNameSecond}` : zoneNameFirst || zoneNameSecond;
+    each(zoneTable.zones, ({ type, zoneID, zoneNameSecond, zoneNameTitleCurrent }) => {
+      switch (type) {
+        case 'MAINLINE':
+        case 'MAINLINE_ACTIVITY':
+          zoneId2Name[zoneID] = `EP${zoneNameTitleCurrent} ${zoneNameSecond}`;
+          break;
+        case 'WEEKLY':
+          zoneId2Name[zoneID] = zoneNameSecond;
+          break;
       }
     });
 
@@ -481,7 +487,8 @@ export class DataUpdater {
     });
 
     // 插曲 & 别传
-    each(retroTable.retroActList, ({ retroId, type, name }) => {
+    each(retroTable.retroActList, ({ retroId, type, name, customActType }) => {
+      if (customActType === 'TYPE_MAINSS') return;
       zoneId2Name[fixI18nKey(retroId)] = `${name}@:(retroNameAppend.${forceEnumNum(type, RetroType)})`;
     });
 
@@ -523,13 +530,20 @@ export class DataUpdater {
 
     // 插曲 & 别传
     const existRetroZoneSet = new Set(Object.keys(this.stageInfo.retro));
-    each(retroTable.stageList, ({ stageId, zoneId, code, apCost, stageDropInfo: { displayDetailRewards } }) => {
-      if (!displayDetailRewards.some(({ type }) => type === 'MATERIAL') || existRetroZoneSet.has(zoneId)) {
-        return;
-      }
-      if (!(zoneId in this.stageInfo.retro)) this.stageInfo.retro[zoneId] = {};
-      this.stageInfo.retro[zoneId][stageId] = { code, cost: apCost };
-    });
+    each(
+      retroTable.stageList,
+      ({ stageId, stageType, zoneId, code, apCost, stageDropInfo: { displayDetailRewards } }) => {
+        if (
+          stageType === 'MAIN' ||
+          !displayDetailRewards.some(({ type }) => type === 'MATERIAL') ||
+          existRetroZoneSet.has(zoneId)
+        ) {
+          return;
+        }
+        if (!(zoneId in this.stageInfo.retro)) this.stageInfo.retro[zoneId] = {};
+        this.stageInfo.retro[zoneId][stageId] = { code, cost: apCost };
+      },
+    );
   }
 
   private updateItemInfo({ itemTable, stageTable, buildingData }: GameData, locale: string) {

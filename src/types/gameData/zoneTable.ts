@@ -3,6 +3,7 @@ export interface Zone {
   type: string;
   zoneNameFirst: string;
   zoneNameSecond: string;
+  zoneNameTitleCurrent: string;
 }
 
 export interface ZoneValidInfo {
