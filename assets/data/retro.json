@@ -56,27 +56,6 @@
         "act37sre"
       ]
     },
-    "permanent_main_1_Dissociative_Recombination": {
-      "type": 1,
-      "startTime": 1745179200,
-      "linkedActId": [
-        "act2mainss"
-      ]
-    },
-    "permanent_main_2_Abnormal_Spectrum": {
-      "type": 1,
-      "startTime": 1761163200,
-      "linkedActId": [
-        "act3mainss"
-      ]
-    },
-    "permanent_main_3_One_Day_More": {
-      "type": 1,
-      "startTime": 1778788800,
-      "linkedActId": [
-        "act4mainss"
-      ]
-    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1618430400,
@@ -399,20 +378,6 @@
         "act37sre"
       ]
     },
-    "permanent_main_1_Dissociative_Recombination": {
-      "type": 1,
-      "startTime": 1759230000,
-      "linkedActId": [
-        "act2mainss"
-      ]
-    },
-    "permanent_main_2_Abnormal_Spectrum": {
-      "type": 1,
-      "startTime": 1775127600,
-      "linkedActId": [
-        "act3mainss"
-      ]
-    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1633003200,
@@ -709,20 +674,6 @@
       "linkedActId": [
         "act37side",
         "act37sre"
-      ]
-    },
-    "permanent_main_1_Dissociative_Recombination": {
-      "type": 1,
-      "startTime": 1759172400,
-      "linkedActId": [
-        "act2mainss"
-      ]
-    },
-    "permanent_main_2_Abnormal_Spectrum": {
-      "type": 1,
-      "startTime": 1775070000,
-      "linkedActId": [
-        "act3mainss"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
@@ -1023,20 +974,6 @@
         "act37sre"
       ]
     },
-    "permanent_main_1_Dissociative_Recombination": {
-      "type": 1,
-      "startTime": 1759172400,
-      "linkedActId": [
-        "act2mainss"
-      ]
-    },
-    "permanent_main_2_Abnormal_Spectrum": {
-      "type": 1,
-      "startTime": 1775070000,
-      "linkedActId": [
-        "act3mainss"
-      ]
-    },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
       "type": 0,
       "startTime": 1632967200,
@@ -1333,20 +1270,6 @@
       "linkedActId": [
         "act37side",
         "act37sre"
-      ]
-    },
-    "permanent_main_1_Dissociative_Recombination": {
-      "type": 1,
-      "startTime": 1763064000,
-      "linkedActId": [
-        "act2mainss"
-      ]
-    },
-    "permanent_main_2_Abnormal_Spectrum": {
-      "type": 1,
-      "startTime": 1778011200,
-      "linkedActId": [
-        "act3mainss"
       ]
     },
     "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
