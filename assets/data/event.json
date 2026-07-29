@@ -32,6 +32,12 @@
     }
   },
   "tw": {
+    "act40sre_zone1": {
+      "valid": {
+        "startTs": 1786046400,
+        "endTs": 1786910399
+      }
+    },
     "act48side_zone1": {
       "valid": {
         "startTs": 1784700000,
