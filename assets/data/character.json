@@ -2057,6 +2057,22 @@
       16
     ]
   },
+  "4237_jcinta": {
+    "pinyin": {
+      "full": "jiaxinta",
+      "head": "jxt"
+    },
+    "romaji": "",
+    "appellation": "Jacinta",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 8,
+    "tags": [
+      18,
+      22
+    ]
+  },
   "476_blkngt": {
     "pinyin": {
       "full": "yeban",
@@ -2608,7 +2624,9 @@
     "romaji": "ra･puruma",
     "appellation": "La Pluma",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 1,
     "tags": [
@@ -3315,6 +3333,21 @@
     },
     "romaji": "minimarisuto",
     "appellation": "Minimalist",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 6,
+    "tags": [
+      19
+    ]
+  },
+  "4236_tmslot": {
+    "pinyin": {
+      "full": "shixi",
+      "head": "sx"
+    },
+    "romaji": "",
+    "appellation": "Timeslot",
     "star": 5,
     "recruitment": {},
     "position": 10,
@@ -6388,7 +6421,9 @@
     "romaji": "mizuki",
     "appellation": "Mizuki",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 7,
     "tags": [
@@ -6492,6 +6527,22 @@
       19,
       16,
       24
+    ]
+  },
+  "1015_aglna2": {
+    "pinyin": {
+      "full": "yuyuananjielina",
+      "head": "yyajln"
+    },
+    "romaji": "",
+    "appellation": "Angelina the Mellow Wish",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      19,
+      12
     ]
   },
   "147_shining": {
@@ -6897,6 +6948,22 @@
     },
     "romaji": "yu",
     "appellation": "Yu",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      29,
+      22
+    ]
+  },
+  "4235_thumpy": {
+    "pinyin": {
+      "full": "shanbi",
+      "head": "sb"
+    },
+    "romaji": "",
+    "appellation": "Thumpy",
     "star": 6,
     "recruitment": {},
     "position": 9,

@@ -4461,6 +4461,46 @@
         "id": "manu_prod_cost_min_001",
         "unlock": "2_1"
       }
+    ],
+    "1015_aglna2": [
+      {
+        "id": "meet_spd_notOwned_004",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&cost_condChar_002",
+        "unlock": "2_1"
+      }
+    ],
+    "4235_thumpy": [
+      {
+        "id": "dorm_rec_oneself_002",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd_013",
+        "unlock": "2_1"
+      }
+    ],
+    "4237_jcinta": [
+      {
+        "id": "trade_ord_wt&cost_004",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd_023",
+        "unlock": "2_1"
+      }
+    ],
+    "4236_tmslot": [
+      {
+        "id": "workshop_formula_probability_301",
+        "unlock": "0_1"
+      },
+      {
+        "id": "power_rec_spd_027",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -4906,6 +4946,10 @@
         "desc": "ba86"
       },
       "power_rec_spd_026": {
+        "icon": "bskill_pow_spd3",
+        "desc": "8c2e"
+      },
+      "power_rec_spd_027": {
         "icon": "bskill_pow_spd3",
         "desc": "8c2e"
       },
@@ -5673,6 +5717,10 @@
         "icon": "bskill_tra_wt&cost1",
         "desc": "b37f"
       },
+      "trade_ord_wt&cost_004": {
+        "icon": "bskill_tra_wt&cost1",
+        "desc": "b37f"
+      },
       "trade_ord_spd&share_000": {
         "icon": "bskill_tra_share1",
         "desc": "e1e0"
@@ -6173,6 +6221,10 @@
         "icon": "bskill_ws_asc1",
         "desc": "c168"
       },
+      "workshop_formula_probability_301": {
+        "icon": "bskill_ws_asc1",
+        "desc": "c168"
+      },
       "workshop_formula_probability_310": {
         "icon": "bskill_ws_asc2",
         "desc": "6025"
@@ -6649,6 +6701,10 @@
         "icon": "bskill_dorm_one2",
         "desc": "6565"
       },
+      "dorm_rec_oneself_002": {
+        "icon": "bskill_dorm_one2",
+        "desc": "6565"
+      },
       "dorm_rec_oneself_010": {
         "icon": "bskill_dorm_one4",
         "desc": "5da0"
@@ -6997,6 +7053,10 @@
         "icon": "bskill_hire_spd5",
         "desc": "bc1a"
       },
+      "hire_spd_013": {
+        "icon": "bskill_hire_spd5",
+        "desc": "bc1a"
+      },
       "hire_spd_020": {
         "icon": "bskill_hire_spd4",
         "desc": "aea2"
@@ -7189,6 +7249,10 @@
         "icon": "bskill_meet_spd3",
         "desc": "f874"
       },
+      "meet_spd_023": {
+        "icon": "bskill_meet_spd2",
+        "desc": "f874"
+      },
       "meet_spd_1010": {
         "icon": "bskill_meet_spd2",
         "desc": "f874"
@@ -7248,6 +7312,10 @@
       "meet_spd&cost_condChar_001": {
         "icon": "bskill_meet_spd&cost_condChar2",
         "desc": "a6c0"
+      },
+      "meet_spd&cost_condChar_002": {
+        "icon": "bskill_meet_spd&cost_condChar",
+        "desc": "1abb"
       },
       "meet_spd&cost_condChar_011": {
         "icon": "bskill_meet_spd&cost_condChar3",
@@ -7378,6 +7446,10 @@
         "desc": "ba8e"
       },
       "meet_spd_notOwned_003": {
+        "icon": "bskill_meet_spdNotOwned1",
+        "desc": "ba8e"
+      },
+      "meet_spd_notOwned_004": {
         "icon": "bskill_meet_spdNotOwned1",
         "desc": "ba8e"
       },

@@ -1498,5 +1498,20 @@
   },
   "uniequip_002_mcnist": {
     "typeIcon": "so-a"
+  },
+  "uniequip_002_thumpy": {
+    "typeIcon": "prp-x"
+  },
+  "uniequip_002_jcinta": {
+    "typeIcon": "bea-x"
+  },
+  "uniequip_002_tmslot": {
+    "typeIcon": "fun-x"
+  },
+  "uniequip_004_phenxi": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_004_gvial2": {
+    "typeIcon": "ra-a"
   }
 }
