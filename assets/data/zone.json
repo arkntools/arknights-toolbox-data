@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act44sre_zone1": "act44sre",
+    "act44sre_zone2": "act44sre",
+    "act44sre_zone3": "act44sre",
     "act53side_zone1": "act53side",
     "act53side_zone2": "act53side",
     "act53side_zone3": "act53side",
@@ -360,6 +363,9 @@
     "permanent_sidestory_32_zone2": "permanent_sidestory_32_The_Masses_Travels",
     "permanent_sidestory_32_zone3": "permanent_sidestory_32_The_Masses_Travels",
     "permanent_sidestory_33_zone1": "permanent_sidestory_33_Act_or_Die",
-    "permanent_sidestory_33_zone2": "permanent_sidestory_33_Act_or_Die"
+    "permanent_sidestory_33_zone2": "permanent_sidestory_33_Act_or_Die",
+    "permanent_sidestory_34_zone1": "permanent_sidestory_34_Ato",
+    "permanent_sidestory_34_zone2": "permanent_sidestory_34_Ato",
+    "permanent_sidestory_34_zone3": "permanent_sidestory_34_Ato"
   }
 }

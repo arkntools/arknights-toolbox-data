@@ -319,6 +319,14 @@
         "act43side",
         "act43sre"
       ]
+    },
+    "permanent_sidestory_34_Ato": {
+      "type": 0,
+      "startTime": 1788552000,
+      "linkedActId": [
+        "act44side",
+        "act44sre"
+      ]
     }
   },
   "us": {
