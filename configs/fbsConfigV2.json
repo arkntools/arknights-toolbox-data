@@ -17,7 +17,7 @@
     }
   },
   "jp": {
-    "version": "26-08-11-10-32-57_45331d",
+    "version": "26-08-17-10-18-20_cb5177",
     "rev": {
       "char_patch_table": "8762dd117a04e5815bfe2535569a17fbb8fe4d9b",
       "building_data": "fdb838a2305922358dc4cae6b1d505f45cd5ddaf",
@@ -34,7 +34,7 @@
     }
   },
   "kr": {
-    "version": "26-08-12-11-01-23_a286e6",
+    "version": "26-08-13-13-33-15_28ff85",
     "rev": {
       "char_patch_table": "8762dd117a04e5815bfe2535569a17fbb8fe4d9b",
       "building_data": "fdb838a2305922358dc4cae6b1d505f45cd5ddaf",

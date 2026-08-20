@@ -25,6 +25,7 @@
   "weekly_7": "戦術演習",
   "weekly_8": "資源確保",
   "weekly_9": "貨物輸送",
+  "act41sre": "挽歌が灰に還る時・復刻",
   "act20mini": "十字路",
   "act49side": "辞歳行",
   "act40sre": "相見歓・復刻",
@@ -174,5 +175,6 @@
   "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太陽すらも追い越して@:(retroNameAppend.0)",
   "permanent_sidestory_28_i_portatori_dei_velluti": "幕開く者たち@:(retroNameAppend.0)",
   "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "白き海の彼方へ@:(retroNameAppend.0)",
-  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相見歓@:(retroNameAppend.0)"
+  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相見歓@:(retroNameAppend.0)",
+  "permanent_sidestory_31_When_Elegies_are_Ashes": "挽歌が灰に還る時@:(retroNameAppend.0)"
 }
