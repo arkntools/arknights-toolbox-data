@@ -43,6 +43,23 @@
       16
     ]
   },
+  "4220_kormr": {
+    "pinyin": {
+      "full": "hulangwan",
+      "head": "hlw"
+    },
+    "romaji": "",
+    "appellation": "Koromaru",
+    "star": 1,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      13,
+      12,
+      28
+    ]
+  },
   "376_therex": {
     "pinyin": {
       "full": "",
@@ -2992,6 +3009,21 @@
       21
     ]
   },
+  "4218_aigis": {
+    "pinyin": {
+      "full": "aiguisi",
+      "head": "ags"
+    },
+    "romaji": "",
+    "appellation": "Aegis",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 2,
+    "tags": [
+      21
+    ]
+  },
   "002_amiya": {
     "pinyin": {
       "full": "amiya",
@@ -4868,6 +4900,22 @@
     ],
     "appellationTransl": "Botani"
   },
+  "4219_yukari": {
+    "pinyin": {
+      "full": "yueyuyoujiali",
+      "head": "yyyjl"
+    },
+    "romaji": "",
+    "appellation": "Yukari Takeba",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      19,
+      16
+    ]
+  },
   "4234_pedro": {
     "pinyin": {
       "full": "peideluo",
@@ -6464,6 +6512,23 @@
     "tags": [
       19,
       25
+    ]
+  },
+  "4217_makoto": {
+    "pinyin": {
+      "full": "jiechengli",
+      "head": "jcl"
+    },
+    "romaji": "",
+    "appellation": "Makoto Yuki",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      19,
+      25,
+      15
     ]
   },
   "4048_doroth": {

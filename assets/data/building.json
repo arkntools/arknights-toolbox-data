@@ -4501,6 +4501,46 @@
         "id": "power_rec_spd_027",
         "unlock": "2_1"
       }
+    ],
+    "4217_makoto": [
+      {
+        "id": "control_prod_spd_999",
+        "unlock": "0_1"
+      },
+      {
+        "id": "manu_prod_spd&bd_000",
+        "unlock": "2_1"
+      }
+    ],
+    "4219_yukari": [
+      {
+        "id": "hire_spd_cost_999",
+        "unlock": "0_1"
+      },
+      {
+        "id": "train_spd_doubleProf3_999",
+        "unlock": "2_1"
+      }
+    ],
+    "4218_aigis": [
+      {
+        "id": "power_rec_spd_P2_999",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&bd_999",
+        "unlock": "2_1"
+      }
+    ],
+    "4220_kormr": [
+      {
+        "id": "dorm_rec_all_999",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&exchange_999",
+        "unlock": "0_30"
+      }
     ]
   },
   "buff": {
@@ -4511,6 +4551,10 @@
       },
       "control_prod_spd_1000": {
         "icon": "bskill_ctrl_p_spd",
+        "desc": "8de4"
+      },
+      "control_prod_spd_999": {
+        "icon": "bskill_ctrl_p_spd_p3r",
         "desc": "8de4"
       },
       "control_prod_fraction_000": {
@@ -4997,6 +5041,10 @@
         "icon": "bskill_pow_spd_P1",
         "desc": "e087"
       },
+      "power_rec_spd_P2_999": {
+        "icon": "bskill_pow_spd_p3r",
+        "desc": "8016"
+      },
       "power_rec_spd_ext&faction_000": {
         "icon": "bskill_power_rec_spd_ext&faction",
         "desc": "4244"
@@ -5136,6 +5184,10 @@
       "manu_prod_spd_addition&cost_000": {
         "icon": "bskill_man_spd_add&cost",
         "desc": "0cf0"
+      },
+      "manu_prod_spd&bd_000": {
+        "icon": "bskill_man_p3r",
+        "desc": "dfd1"
       },
       "manu_prod_spd&limit_000": {
         "icon": "bskill_man_spd&limit1",
@@ -6373,6 +6425,10 @@
         "icon": "bskill_train_mh2_guard&sniper2",
         "desc": "b4a6"
       },
+      "train_spd_doubleProf3_999": {
+        "icon": "bskill_train_p3r",
+        "desc": "5709"
+      },
       "train_spd_reduceTime_000": {
         "icon": "bskill_train_reduceTime",
         "desc": "192e"
@@ -6857,6 +6913,10 @@
         "icon": "bskill_dorm_all2",
         "desc": "a2d2"
       },
+      "dorm_rec_all_999": {
+        "icon": "bskill_dorm_p3r",
+        "desc": "f873"
+      },
       "dorm_rec_all&tag_000": {
         "icon": "bskill_dorm_senshi",
         "desc": "f234"
@@ -7113,6 +7173,10 @@
         "icon": "bskill_hire_spd&cost6",
         "desc": "5dee"
       },
+      "hire_spd_cost_999": {
+        "icon": "bskill_hire_p3r",
+        "desc": "5dee"
+      },
       "hire_spd_cost&clue_001": {
         "icon": "bskill_hire_spd2",
         "desc": "a432"
@@ -7293,6 +7357,10 @@
         "icon": "bskill_meet_spd&bd2",
         "desc": "ddca"
       },
+      "meet_spd&bd_999": {
+        "icon": "bskill_meet_p3r_bd",
+        "desc": "9651"
+      },
       "meet_spd_ext&P_000": {
         "icon": "bskill_meet_spd_confes1",
         "desc": "7304"
@@ -7335,6 +7403,10 @@
       },
       "meet_spd&exchange_001": {
         "icon": "bskill_meet_exchange2",
+        "desc": "952b"
+      },
+      "meet_spd&exchange_999": {
+        "icon": "bskill_meet_koromaru",
         "desc": "952b"
       },
       "meet_team_020": {
@@ -7809,6 +7881,16 @@
           "心情消耗": 1
         }
       },
+      "5709": {
+        "building": "TRAINING",
+        "num": {
+          "train": 45
+        },
+        "is": {
+          "狙击": 1,
+          "医疗": 1
+        }
+      },
       "5724": {
         "building": "MANUFACTURE",
         "num": {},
@@ -8025,6 +8107,13 @@
           "心情消耗": 1
         }
       },
+      "8016": {
+        "building": "POWER",
+        "num": {
+          "power": 15
+        },
+        "is": {}
+      },
       "8051": {
         "building": "TRADING",
         "num": {
@@ -8092,6 +8181,15 @@
         },
         "is": {
           "作战记录": 1
+        }
+      },
+      "9651": {
+        "building": "MEETING",
+        "num": {
+          "collect": 10
+        },
+        "is": {
+          "无特别加成": 1
         }
       },
       "9706": {
@@ -8746,6 +8844,15 @@
         "building": "MANUFACTURE",
         "num": {
           "product": 10
+        },
+        "is": {
+          "通用生产": 1
+        }
+      },
+      "dfd1": {
+        "building": "MANUFACTURE",
+        "num": {
+          "product": 20
         },
         "is": {
           "通用生产": 1

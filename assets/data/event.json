@@ -1,5 +1,12 @@
 {
-  "cn": {},
+  "cn": {
+    "act54side_zone1": {
+      "valid": {
+        "startTs": 1788476400,
+        "endTs": 1789675199
+      }
+    }
+  },
   "us": {
     "act41sre_zone1": {
       "valid": {
