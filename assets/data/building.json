@@ -5043,7 +5043,7 @@
       },
       "power_rec_spd_P2_999": {
         "icon": "bskill_pow_spd_p3r",
-        "desc": "8016"
+        "desc": "be9c"
       },
       "power_rec_spd_ext&faction_000": {
         "icon": "bskill_power_rec_spd_ext&faction",
@@ -8107,13 +8107,6 @@
           "心情消耗": 1
         }
       },
-      "8016": {
-        "building": "POWER",
-        "num": {
-          "power": 15
-        },
-        "is": {}
-      },
       "8051": {
         "building": "TRADING",
         "num": {
@@ -8694,6 +8687,13 @@
         "building": "POWER",
         "num": {
           "power": 5
+        },
+        "is": {}
+      },
+      "be9c": {
+        "building": "POWER",
+        "num": {
+          "power": 15
         },
         "is": {}
       },
