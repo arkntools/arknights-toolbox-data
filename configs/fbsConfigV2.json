@@ -51,7 +51,7 @@
     }
   },
   "tw": {
-    "version": "26-09-01-07-47-29_9e89d8",
+    "version": "26-09-07-17-28-09_34f7d3",
     "rev": {
       "char_patch_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
       "character_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
@@ -62,10 +62,10 @@
       "zone_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
       "gamedata_const": "b24069f2c7366ad207a83659d4820689704d6c1f",
       "stage_table": "b251597f596621e47036d9543264564220133680",
-      "activity_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6",
+      "activity_table": "4975a03f61c54aa9e4ea792c7fd193039166d0cd",
       "retro_table": "b251597f596621e47036d9543264564220133680",
       "uniequip_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
-      "roguelike_topic_table": "0bd9e7c27493ef96308ced91d8df3df62412baa6"
+      "roguelike_topic_table": "e6719301bd97ad8769fd7a4874e9ca9a674a9e63"
     }
   }
 }
