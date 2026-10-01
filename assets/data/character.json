@@ -7738,5 +7738,37 @@
       19,
       20
     ]
+  },
+  "1001_amiya2": {
+    "pinyin": {
+      "full": "amiya",
+      "head": "amy"
+    },
+    "romaji": "amiya (zenei)",
+    "appellation": "Amiya",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      16
+    ]
+  },
+  "1037_amiya3": {
+    "pinyin": {
+      "full": "amiya",
+      "head": "amy"
+    },
+    "romaji": "amiya (iryo)",
+    "appellation": "Amiya",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 4,
+    "tags": [
+      15,
+      19
+    ]
   }
 }
