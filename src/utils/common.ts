@@ -103,7 +103,7 @@ const getDataURL = (lang: string, langShort: string) =>
       'zone_table.json',
       'gamedata_const.json',
       'activity_table.json',
-      'zh_CN/char_patch_table.json',
+      'char_patch_table.json',
       'retro_table.json',
       'uniequip_table.json',
     ],

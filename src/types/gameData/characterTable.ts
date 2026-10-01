@@ -24,10 +24,6 @@ export enum CharSpTargetType {
 export interface CharSkill {
   skillId: string;
   levelUpCostCond: Array<{ levelUpCost: ItemCost[] }>;
-  /** @external */
-  isPatch?: boolean;
-  /** @external */
-  unlockStages?: string[];
 }
 
 export interface Character {

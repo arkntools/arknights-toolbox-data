@@ -82,8 +82,6 @@ export interface DataCharCultivate {
     elite: Array<{
       name: string;
       cost: DataItemCost[];
-      isPatch?: boolean;
-      unlockStages?: string[];
     }>;
   };
   uniequip: Array<{

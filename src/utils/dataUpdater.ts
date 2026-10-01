@@ -135,6 +135,10 @@ export class DataUpdater {
     await this.fetchGameData();
 
     for (const [locale, data] of Object.entries(this.gameData)) {
+      data.characterTable = {
+        ...data.characterTable,
+        ...data.charPatchTable.patchChars,
+      };
       const isCN = locale === 'cn';
 
       if (isCN) {
@@ -242,7 +246,7 @@ export class DataUpdater {
     }
   }
 
-  private async updateCharacterInfo({ gachaTable, characterTable }: GameData, locale: string) {
+  private async updateCharacterInfo({ gachaTable, characterTable, charPatchTable }: GameData, locale: string) {
     const isCN = locale === 'cn';
     const isTW = locale === 'tw';
     const recruitmentTable = getRecruitmentTable(gachaTable.recruitDetail);
@@ -303,7 +307,10 @@ export class DataUpdater {
       pickBy(characterTable, isOperator),
       (obj, { name }, id) => {
         const shortId = id.replace(/^char_/, '');
-        obj[shortId] = name.trim();
+        obj[shortId] =
+          id in charPatchTable.patchChars
+            ? `${name.trim()} (${charPatchTable.patchDetailInfoList[id].infoParam})`
+            : name.trim();
         const nameForRecruitment = getNameForRecruitment(name);
         const secondaryNameForRecruitment =
           isTW && this.cnCharacterName[shortId] && getNameForRecruitment(this.cnCharacterName[shortId]);
@@ -649,10 +656,7 @@ export class DataUpdater {
     }
   }
 
-  private async updateSkillInfo(
-    { characterTable, skillTable, uniequipTable, charPatchTable, stageTable }: GameData,
-    locale: string,
-  ) {
+  private async updateSkillInfo({ characterTable, skillTable, uniequipTable }: GameData, locale: string) {
     const isCN = locale === 'cn';
 
     // 技能
@@ -681,29 +685,10 @@ export class DataUpdater {
 
     if (!isCN) return;
 
-    // 升变
-    const charPatchInfo = mapValues(charPatchTable.infos, ({ tmplIds }, id) => without(tmplIds, id));
-
     const cultivate = transform(
       pickBy(characterTable, isOperator),
       (obj, { phases, allSkillLvlup, skills }, id) => {
         const shortId = id.replace(/^char_/, '');
-
-        // 升变处理
-        if (id in charPatchInfo) {
-          charPatchInfo[id].forEach(patchId => {
-            const unlockStages = charPatchTable.unlockConds[patchId].conds.map(
-              ({ stageId }) => stageTable.stages[stageId].code,
-            );
-            const patchSkills = charPatchTable.patchChars[patchId].skills;
-            patchSkills.forEach(skill => {
-              skill.isPatch = true;
-              skill.unlockStages = unlockStages;
-            });
-            skills.push(...patchSkills);
-            uniequipTable.charEquip[id]?.push(...(uniequipTable.charEquip[patchId] || []));
-          });
-        }
 
         // 精英化
         const evolve = phases
@@ -715,11 +700,10 @@ export class DataUpdater {
 
         // 精英技能
         const elite = skills
-          .map(({ skillId, levelUpCostCond, isPatch, unlockStages }) => ({
+          .map(({ skillId, levelUpCostCond }) => ({
             name: idStandardization(skillId),
             ...skillId2AddonInfo[skillId],
             cost: levelUpCostCond.map(({ levelUpCost }) => getMaterialListObject(levelUpCost)),
-            ...(isPatch ? { isPatch, unlockStages } : {}),
           }))
           .filter(({ cost }) => cost.length && cost.every(obj => size(obj)));
 

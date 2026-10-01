@@ -9,6 +9,7 @@ export interface CharPatchTable {
     }
   >;
   patchChars: Record<string, Character>;
+  patchDetailInfoList: Record<string, { infoParam: string }>;
   unlockConds: Record<
     string,
     {
