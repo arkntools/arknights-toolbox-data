@@ -2232,6 +2232,40 @@
     }
   },
   "event": {
+    "act52side_zone1": {
+      "act52side_01": {
+        "code": "YW-1",
+        "cost": 9
+      },
+      "act52side_02": {
+        "code": "YW-2",
+        "cost": 9
+      },
+      "act52side_03": {
+        "code": "YW-3",
+        "cost": 12
+      },
+      "act52side_04": {
+        "code": "YW-4",
+        "cost": 12
+      },
+      "act52side_05": {
+        "code": "YW-5",
+        "cost": 12
+      },
+      "act52side_06": {
+        "code": "YW-6",
+        "cost": 21
+      },
+      "act52side_07": {
+        "code": "YW-7",
+        "cost": 21
+      },
+      "act52side_08": {
+        "code": "YW-8",
+        "cost": 21
+      }
+    },
     "act54side_zone1": {
       "act54side_01": {
         "code": "SR-1",

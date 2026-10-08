@@ -434,6 +434,8 @@
   "skchr_vodfox_2": "诅咒娃娃",
   "skchr_haini_1": "迷惑性洋流图",
   "skchr_haini_2": "阻滞性显色剂",
+  "skchr_toledo_1": "以假乱真",
+  "skchr_toledo_2": "危言耸听",
   "skchr_glassb_1": "专心致志",
   "skchr_glassb_2": "文学风暴",
   "skchr_glacus_1": "双线装填",
@@ -500,6 +502,8 @@
   "skchr_mortis_2": "破坏与滋养",
   "skchr_tinman_1": "“老科利”",
   "skchr_tinman_2": "“大拉里”",
+  "skchr_hbound_1": "触礁",
+  "skchr_hbound_2": "座浅",
   "skchr_ctrail_1": "紧急升空",
   "skchr_ctrail_2": "掠空飞翎",
   "skchr_tippi_1": "专业喷绘技巧",
@@ -927,5 +931,8 @@
   "skchr_leizi2_1": "浩气长存",
   "skchr_leizi2_2": "正霆摄威",
   "skchr_leizi2_3": "天地通明",
+  "skchr_clemnt_1": "冲蚀",
+  "skchr_clemnt_2": "风暴潮",
+  "skchr_clemnt_3": "与海为敌",
   "skcom_withdraw": "自我销毁"
 }

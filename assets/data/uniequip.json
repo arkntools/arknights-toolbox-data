@@ -1525,5 +1525,17 @@
   },
   "uniequip_003_qiubai": {
     "typeIcon": "lor-y"
+  },
+  "uniequip_002_toledo": {
+    "typeIcon": "umd-y"
+  },
+  "uniequip_002_hbound": {
+    "typeIcon": "alc-x"
+  },
+  "uniequip_003_ulpia": {
+    "typeIcon": "cru-y"
+  },
+  "uniequip_003_shu": {
+    "typeIcon": "gua-y"
   }
 }

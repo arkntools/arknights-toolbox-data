@@ -4595,6 +4595,21 @@
       24
     ]
   },
+  "393_toledo": {
+    "pinyin": {
+      "full": "de·tuolaiduo",
+      "head": "d·tld"
+    },
+    "romaji": "",
+    "appellation": "de Toledo",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      24
+    ]
+  },
   "195_glassb": {
     "pinyin": {
       "full": "zhenli",
@@ -5156,6 +5171,22 @@
     "tags": [
       24,
       16
+    ]
+  },
+  "4232_hbound": {
+    "pinyin": {
+      "full": "lvgu",
+      "head": "lg"
+    },
+    "romaji": "",
+    "appellation": "Homebound",
+    "star": 5,
+    "recruitment": {},
+    "position": 10,
+    "profession": 7,
+    "tags": [
+      24,
+      23
     ]
   },
   "4191_tippi": {
@@ -7553,6 +7584,22 @@
     },
     "romaji": "shiteireizu",
     "appellation": "Leizi the Thunderbringer",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      13
+    ]
+  },
+  "4231_clemnt": {
+    "pinyin": {
+      "full": "kelaimensha",
+      "head": "klms"
+    },
+    "romaji": "",
+    "appellation": "Clementia",
     "star": 6,
     "recruitment": {},
     "position": 9,

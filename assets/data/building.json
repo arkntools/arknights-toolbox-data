@@ -4541,6 +4541,44 @@
         "id": "meet_spd&exchange_999",
         "unlock": "0_30"
       }
+    ],
+    "4231_clemnt": [
+      {
+        "id": "meet_spd&cost_110",
+        "unlock": "0_1"
+      },
+      {
+        "id": "meet_spd&cost_char_000",
+        "unlock": "2_1"
+      }
+    ],
+    "393_toledo": [
+      {
+        "id": "hire_spd_cost_113",
+        "unlock": "0_1"
+      },
+      {
+        "id": "hire_spd_cost_122",
+        "unlock": "2_1"
+      },
+      {
+        "id": "dorm_hireToRecAll_002",
+        "unlock": "2_1"
+      }
+    ],
+    "4232_hbound": [
+      {
+        "id": "recycle_spd&cost_000",
+        "unlock": "0_1"
+      },
+      {
+        "id": "recycle_spd&cost_010",
+        "unlock": "2_1"
+      },
+      {
+        "id": "workshop_formula_device_080",
+        "unlock": "2_1"
+      }
     ]
   },
   "buff": {
@@ -6313,6 +6351,10 @@
         "icon": "bskill_ws_Crystalline",
         "desc": "3aee"
       },
+      "workshop_formula_device_080": {
+        "icon": "bskill_ws_Refractor",
+        "desc": "cb41"
+      },
       "workshop_formula_rub_000": {
         "icon": "bskill_ws_rub",
         "desc": "7cd2"
@@ -6945,6 +6987,10 @@
         "icon": "bskill_dorm_hireToRecAll1",
         "desc": "3676"
       },
+      "dorm_hireToRecAll_002": {
+        "icon": "bskill_dorm_hireToRecAll2",
+        "desc": "353e"
+      },
       "dorm_rec_all&lv_000": {
         "icon": "bskill_dorm_rec_all&lvl1",
         "desc": "a2d2"
@@ -7165,11 +7211,19 @@
         "icon": "bskill_hire_spd&cost4",
         "desc": "6693"
       },
+      "hire_spd_cost_113": {
+        "icon": "bskill_hire_spd&cost4",
+        "desc": "6693"
+      },
       "hire_spd_cost_101": {
         "icon": "bskill_hire_spd&cost5",
         "desc": "dbfb"
       },
       "hire_spd_cost_120": {
+        "icon": "bskill_hire_spd&cost6",
+        "desc": "5dee"
+      },
+      "hire_spd_cost_122": {
         "icon": "bskill_hire_spd&cost6",
         "desc": "5dee"
       },
@@ -7373,6 +7427,14 @@
         "icon": "bskill_meet_spd&cost",
         "desc": "1397"
       },
+      "meet_spd&cost_110": {
+        "icon": "bskill_meet_spd&cost_clms",
+        "desc": "0614"
+      },
+      "meet_spd&cost_char_000": {
+        "icon": "bskill_meet_spd&cost_char",
+        "desc": "6b34"
+      },
       "meet_spd&cost_condChar_000": {
         "icon": "bskill_meet_spd&cost_condChar",
         "desc": "1abb"
@@ -7564,6 +7626,14 @@
       "meet_spd_notOwned&exchange_000": {
         "icon": "bskill_meet_spd_notOwned_exchange",
         "desc": "7609"
+      },
+      "recycle_spd&cost_000": {
+        "icon": "bskill_recycle_spd&cost1",
+        "desc": "8d5f"
+      },
+      "recycle_spd&cost_010": {
+        "icon": "bskill_recycle_spd&cost2",
+        "desc": "2fd6"
       }
     },
     "info": {
@@ -10186,6 +10256,11 @@
           "精英材料": 1
         }
       },
+      "cb41": {
+        "building": "WORKSHOP",
+        "num": {},
+        "is": {}
+      },
       "7cd2": {
         "building": "WORKSHOP",
         "num": {},
@@ -10972,6 +11047,15 @@
           "群体恢复": 1
         }
       },
+      "353e": {
+        "building": "DORMITORY",
+        "num": {
+          "moraleRecoveryAll": 0.1
+        },
+        "is": {
+          "群体恢复": 1
+        }
+      },
       "fb3d": {
         "building": "DORMITORY",
         "num": {
@@ -11033,15 +11117,6 @@
         },
         "is": {
           "单体恢复": 1
-        }
-      },
-      "353e": {
-        "building": "DORMITORY",
-        "num": {
-          "moraleRecoveryAll": 0.1
-        },
-        "is": {
-          "群体恢复": 1
         }
       },
       "7c9b": {
@@ -11435,6 +11510,24 @@
           "无特别加成": 1
         }
       },
+      "0614": {
+        "building": "MEETING",
+        "num": {
+          "collect": 20
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
+      "6b34": {
+        "building": "MEETING",
+        "num": {
+          "collect": 15
+        },
+        "is": {
+          "无特别加成": 1
+        }
+      },
       "1abb": {
         "building": "MEETING",
         "num": {
@@ -11664,6 +11757,16 @@
         "is": {
           "无特别加成": 1
         }
+      },
+      "8d5f": {
+        "building": "RECYCLE",
+        "num": {},
+        "is": {}
+      },
+      "2fd6": {
+        "building": "RECYCLE",
+        "num": {},
+        "is": {}
       }
     },
     "numKey": {
