@@ -25,6 +25,8 @@
   "weekly_7": "戰術演習",
   "weekly_8": "資源保障",
   "weekly_9": "貨物運送",
+  "act51side": "人們，我們",
+  "act41sre": "輓歌燃燒殆盡·復刻",
   "act20mini": "十字路口",
   "act49side": "辭歲行",
   "act40sre": "相見歡·復刻",
@@ -174,5 +176,6 @@
   "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": "太陽甩在身後@:(retroNameAppend.0)",
   "permanent_sidestory_28_i_portatori_dei_velluti": "揭幕者們@:(retroNameAppend.0)",
   "permanent_sidestory_29_Exodus_From_The_Pale_Sea": "出蒼白海@:(retroNameAppend.0)",
-  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相見歡@:(retroNameAppend.0)"
+  "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": "相見歡@:(retroNameAppend.0)",
+  "permanent_sidestory_31_When_Elegies_are_Ashes": "輓歌燃燒殆盡@:(retroNameAppend.0)"
 }
