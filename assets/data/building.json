@@ -11760,13 +11760,21 @@
       },
       "8d5f": {
         "building": "RECYCLE",
-        "num": {},
-        "is": {}
+        "num": {
+          "efficiency": 20
+        },
+        "is": {
+          "转化效率": 1
+        }
       },
       "2fd6": {
         "building": "RECYCLE",
-        "num": {},
-        "is": {}
+        "num": {
+          "efficiency": 30
+        },
+        "is": {
+          "转化效率": 1
+        }
       }
     },
     "numKey": {
@@ -11792,7 +11800,8 @@
         "MEETING": "collect",
         "WORKSHOP": "byproduct",
         "TRAINING": "train",
-        "HIRE": "connect"
+        "HIRE": "connect",
+        "RECYCLE": "efficiency"
       },
       "MANUFACTURE": {
         "通用生产": "product",
@@ -11844,6 +11853,9 @@
         "重装": "train",
         "辅助": "train",
         "特种": "train"
+      },
+      "RECYCLE": {
+        "转化效率": "efficiency"
       }
     }
   }
