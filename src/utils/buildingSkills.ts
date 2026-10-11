@@ -75,6 +75,9 @@ const category: Record<string, Record<string, RegExp | RegExp[]>> = {
     辅助: /辅助.*?(?<train>[\d.]+)/,
     特种: /特种.*?(?<train>[\d.]+)/,
   },
+  RECYCLE: {
+    转化效率: /材料转化效率\+(?<efficiency>[\d.]+)%/,
+  },
 };
 
 const numKey: Record<string, Record<string, string | string[]>> = {
@@ -88,6 +91,7 @@ const numKey: Record<string, Record<string, string | string[]>> = {
     WORKSHOP: 'byproduct',
     TRAINING: 'train',
     HIRE: 'connect',
+    RECYCLE: 'efficiency',
   },
   MANUFACTURE: {
     通用生产: 'product',
@@ -139,6 +143,9 @@ const numKey: Record<string, Record<string, string | string[]>> = {
     重装: 'train',
     辅助: 'train',
     特种: 'train',
+  },
+  RECYCLE: {
+    转化效率: 'efficiency',
   },
 };
 
