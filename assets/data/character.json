@@ -211,7 +211,8 @@
     "appellation": "GALLUS²",
     "star": 1,
     "recruitment": {
-      "cn": 2
+      "cn": 2,
+      "kr": 2
     },
     "position": 10,
     "profession": 6,
@@ -4572,6 +4573,7 @@
       "cn": 1,
       "us": 1,
       "jp": 1,
+      "kr": 1,
       "tw": 1
     },
     "position": 10,
@@ -7490,7 +7492,8 @@
     "appellation": "Pallas",
     "star": 6,
     "recruitment": {
-      "cn": 1
+      "cn": 1,
+      "kr": 1
     },
     "position": 9,
     "profession": 1,
