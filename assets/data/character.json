@@ -207,11 +207,12 @@
       "full": "GALLUS²",
       "head": "GALLUS²"
     },
-    "romaji": "",
+    "romaji": "GALLUS²",
     "appellation": "GALLUS²",
     "star": 1,
     "recruitment": {
       "cn": 2,
+      "jp": 2,
       "kr": 2
     },
     "position": 10,
@@ -4249,7 +4250,7 @@
       "full": "liexiang",
       "head": "lx"
     },
-    "romaji": "",
+    "romaji": "kurakkubon",
     "appellation": "Crackborne",
     "star": 5,
     "recruitment": {},
@@ -5644,7 +5645,7 @@
       "full": "keluxier",
       "head": "klxe"
     },
-    "romaji": "",
+    "romaji": "kuroja",
     "appellation": "Closure",
     "star": 6,
     "recruitment": {},
@@ -5977,7 +5978,7 @@
       "full": "weiyi",
       "head": "wy"
     },
-    "romaji": "",
+    "romaji": "bii",
     "appellation": "Вий",
     "star": 6,
     "recruitment": {},
@@ -6800,7 +6801,7 @@
       "full": "kaierxi·sihengtuo",
       "head": "kex·sht"
     },
-    "romaji": "",
+    "romaji": "kerushi･esuperanta",
     "appellation": "Kal'tsit·Esperanta",
     "star": 6,
     "recruitment": {},
@@ -7493,6 +7494,7 @@
     "star": 6,
     "recruitment": {
       "cn": 1,
+      "jp": 1,
       "kr": 1
     },
     "position": 9,
