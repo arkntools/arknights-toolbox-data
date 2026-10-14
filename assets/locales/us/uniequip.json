@@ -409,7 +409,7 @@
   "uniequip_002_kaitou": "Ordinary Stones",
   "uniequip_002_warmy": "A Warmy Gift",
   "uniequip_003_chen2": "The Last Day of Holiday",
-  "uniequip_004_swire2": "Swire the Elegant Wit's Badge",
+  "uniequip_004_swire2": "Swire the Elegant Wit's Specialized Badge",
   "uniequip_003_pepe": "Pepe's Specialized Badge",
   "uniequip_002_haruka": "The Belated Memorial",
   "uniequip_002_oblvns": "A Silent Pact",
@@ -469,5 +469,13 @@
   "uniequip_002_botany": "Yesterday, Today and Tomorrow",
   "uniequip_003_surtr": "Travel Necessities",
   "uniequip_003_nymph": "Consultation Toolkit",
-  "uniequip_003_skadi2": "New Generation"
+  "uniequip_003_skadi2": "New Generation",
+  "uniequip_002_veen": "Keep Close At Hand",
+  "uniequip_002_tanya": "'The Rinsing'",
+  "uniequip_002_closur": "Little Trophy for Herself",
+  "uniequip_003_blkkgt": "New Contract",
+  "uniequip_003_rmixer": "'Old Friends'",
+  "uniequip_003_texas2": "'New Car and New Life'",
+  "uniequip_004_typhon": "Typhon's Specialized Badge",
+  "uniequip_004_ghost2": "Specter the Unchained's Specialized Badge"
 }

@@ -209,7 +209,7 @@
   },
   "cc_c_skill": {
     "name": "Certain Skills",
-    "desc": "Includes the following skills:\nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile, Marigold Poetry Gathering, Art of Defense, New to the Job, Drip-Fed Care"
+    "desc": "Includes the following skills:\nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile, Marigold Poetry Gathering, Art of Defense, New to the Job, Drip-Fed Care, Chief Engineer"
   },
   "cc_t_strong2": {
     "name": "Special Interaction Rules",
@@ -265,7 +265,7 @@
   },
   "cc_tag_op": {
     "name": "Operation Platform",
-    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, Justice Knight, Friston-3, PhonoR-0, CONFESS-47"
+    "desc": "Includes the following Operators:\nLancet-2, Castle-3, THRM-EX, Justice Knight, Friston-3, PhonoR-0, CONFESS-47, GALLUS²"
   },
   "cc_tag_knight": {
     "name": "Knight",
@@ -294,6 +294,10 @@
   "cc_tra_pepe": {
     "name": "Special Exclusive Order",
     "desc": "Special Precious Metal orders offered by Pepe that have a fixed acquisition time and earnings, and require 0 Pure Gold to trade"
+  },
+  "cc_tra_closure": {
+    "name": "Closure's Special Order",
+    "desc": "Special Precious Metal orders offered by Closure that have fixed earnings, and require 2 Pure Gold to trade"
   },
   "cc_bd_mujica": {
     "name": "Passion",
