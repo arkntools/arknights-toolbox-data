@@ -6353,7 +6353,7 @@
       },
       "workshop_formula_device_080": {
         "icon": "bskill_ws_Refractor",
-        "desc": "cb41"
+        "desc": "a237"
       },
       "workshop_formula_rub_000": {
         "icon": "bskill_ws_rub",
@@ -10256,7 +10256,7 @@
           "精英材料": 1
         }
       },
-      "cb41": {
+      "a237": {
         "building": "WORKSHOP",
         "num": {},
         "is": {}
