@@ -1,6 +1,13 @@
 {
   "cn": {},
-  "us": {},
+  "us": {
+    "act42sre_zone1": {
+      "valid": {
+        "startTs": 1793890800,
+        "endTs": 1794740399
+      }
+    }
+  },
   "jp": {
     "act42sre_zone1": {
       "valid": {
