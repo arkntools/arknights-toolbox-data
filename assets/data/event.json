@@ -1,8 +1,22 @@
 {
   "cn": {},
   "us": {},
-  "jp": {},
-  "kr": {},
+  "jp": {
+    "act42sre_zone1": {
+      "valid": {
+        "startTs": 1793862000,
+        "endTs": 1794682799
+      }
+    }
+  },
+  "kr": {
+    "act42sre_zone1": {
+      "valid": {
+        "startTs": 1793862000,
+        "endTs": 1794682799
+      }
+    }
+  },
   "tw": {
     "act41sre_zone1": {
       "valid": {
