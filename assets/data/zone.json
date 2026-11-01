@@ -1,5 +1,8 @@
 {
   "zoneToActivity": {
+    "act55side_zone1": "act55side",
+    "act55side_zone2": "act55side",
+    "act55side_zone3": "act55side",
     "act52side_zone1": "act52side",
     "act52side_zone2": "act52side",
     "act54side_zone1": "act54side",
@@ -25,6 +28,7 @@
     "act51side_zone2": "act51side",
     "act41sre_zone1": "act41sre",
     "act41sre_zone2": "act41sre",
+    "act2autochess_zone1": "act2autochess",
     "act20mini_zone1": "act20mini",
     "act49side_zone1": "act49side",
     "act49side_zone2": "act49side",
@@ -38,6 +42,7 @@
     "act39sre_zone2": "act39sre",
     "act47side_zone1": "act47side",
     "act47side_zone2": "act47side",
+    "act1autochess_zone1": "act1autochess",
     "act38sre_zone1": "act38sre",
     "act38sre_zone2": "act38sre",
     "act38sre_zone3": "act38sre",
