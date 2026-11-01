@@ -1442,6 +1442,22 @@
       26
     ]
   },
+  "4170_hdbell": {
+    "pinyin": {
+      "full": "xingling",
+      "head": "xl"
+    },
+    "romaji": "",
+    "appellation": "Herdbells",
+    "star": 4,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      19,
+      26
+    ]
+  },
   "117_myrrh": {
     "pinyin": {
       "full": "moyao",
@@ -1741,7 +1757,9 @@
     "romaji": "roberuta",
     "appellation": "Roberta",
     "star": 4,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 5,
     "tags": [
@@ -2259,6 +2277,23 @@
       15,
       16
     ]
+  },
+  "4245_alga": {
+    "pinyin": {
+      "full": "aoerjia",
+      "head": "aej"
+    },
+    "romaji": "",
+    "appellation": "Ольга",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      16
+    ],
+    "appellationTransl": "Olga"
   },
   "106_franka": {
     "pinyin": {
@@ -3657,7 +3692,9 @@
     "romaji": "maruberi",
     "appellation": "Mulberry",
     "star": 5,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 10,
     "profession": 4,
     "tags": [
@@ -4260,6 +4297,22 @@
     "tags": [
       29,
       20
+    ]
+  },
+  "4169_caledo": {
+    "pinyin": {
+      "full": "jingjiang",
+      "head": "jj"
+    },
+    "romaji": "",
+    "appellation": "Caleido",
+    "star": 5,
+    "recruitment": {},
+    "position": 9,
+    "profession": 3,
+    "tags": [
+      29,
+      22
     ]
   },
   "145_prove": {
@@ -4951,6 +5004,23 @@
       16
     ]
   },
+  "4244_tocka": {
+    "pinyin": {
+      "full": "donghe",
+      "head": "dh"
+    },
+    "romaji": "",
+    "appellation": "Тоска",
+    "star": 6,
+    "recruitment": {},
+    "position": 10,
+    "profession": 5,
+    "tags": [
+      16,
+      13
+    ],
+    "appellationTransl": "Toska"
+  },
   "215_mantic": {
     "pinyin": {
       "full": "shixie",
@@ -5585,7 +5655,9 @@
     "romaji": "sairahha",
     "appellation": "Saileach",
     "star": 6,
-    "recruitment": {},
+    "recruitment": {
+      "cn": 1
+    },
     "position": 9,
     "profession": 8,
     "tags": [
@@ -6532,6 +6604,22 @@
       23,
       19
     ]
+  },
+  "4246_dminon": {
+    "pinyin": {
+      "full": "guodu",
+      "head": "gd"
+    },
+    "romaji": "",
+    "appellation": "Территория",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 7,
+    "tags": [
+      12
+    ],
+    "appellationTransl": "Territoriya"
   },
   "1023_ghost2": {
     "pinyin": {
@@ -7598,6 +7686,22 @@
     "tags": [
       19,
       13
+    ]
+  },
+  "4247_oxi": {
+    "pinyin": {
+      "full": "talula",
+      "head": "tll"
+    },
+    "romaji": "",
+    "appellation": "Talulah",
+    "star": 6,
+    "recruitment": {},
+    "position": 9,
+    "profession": 1,
+    "tags": [
+      19,
+      20
     ]
   },
   "4231_clemnt": {

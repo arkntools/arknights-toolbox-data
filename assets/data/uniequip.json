@@ -1537,5 +1537,29 @@
   },
   "uniequip_003_shu": {
     "typeIcon": "gua-y"
+  },
+  "uniequip_002_dminon": {
+    "typeIcon": "amb-x"
+  },
+  "uniequip_004_horn": {
+    "typeIcon": "isw-a"
+  },
+  "uniequip_002_caledo": {
+    "typeIcon": "prp-x"
+  },
+  "uniequip_002_svash2": {
+    "typeIcon": "csr-x"
+  },
+  "uniequip_002_makiri": {
+    "typeIcon": "csr-x"
+  },
+  "uniequip_003_halo2": {
+    "typeIcon": "dec-x"
+  },
+  "uniequip_004_mlyss": {
+    "typeIcon": "tac-d"
+  },
+  "uniequip_002_alga": {
+    "typeIcon": "ins-x"
   }
 }
