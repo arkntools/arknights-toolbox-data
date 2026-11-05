@@ -17,37 +17,37 @@
     }
   },
   "jp": {
-    "version": "26-10-26-10-03-42_7c52ab",
+    "version": "26-10-28-09-37-36_4fc3dd",
     "rev": {
-      "char_patch_table": "dbbc98306982259956f271b71c7fb63a05cdd5d5",
+      "char_patch_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
       "building_data": "fdb838a2305922358dc4cae6b1d505f45cd5ddaf",
-      "skill_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
-      "character_table": "dbbc98306982259956f271b71c7fb63a05cdd5d5",
+      "skill_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
+      "character_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
       "item_table": "8762dd117a04e5815bfe2535569a17fbb8fe4d9b",
-      "gacha_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
-      "zone_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
-      "gamedata_const": "dbbc98306982259956f271b71c7fb63a05cdd5d5",
+      "gacha_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
+      "zone_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
+      "gamedata_const": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
       "stage_table": "b251597f596621e47036d9543264564220133680",
       "retro_table": "b251597f596621e47036d9543264564220133680",
       "activity_table": "b251597f596621e47036d9543264564220133680",
-      "uniequip_table": "b24069f2c7366ad207a83659d4820689704d6c1f"
+      "uniequip_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739"
     }
   },
   "kr": {
-    "version": "26-10-26-10-31-28_9f22b2",
+    "version": "26-10-28-10-16-28_ad0867",
     "rev": {
-      "char_patch_table": "dbbc98306982259956f271b71c7fb63a05cdd5d5",
+      "char_patch_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
       "building_data": "fdb838a2305922358dc4cae6b1d505f45cd5ddaf",
-      "character_table": "dbbc98306982259956f271b71c7fb63a05cdd5d5",
-      "skill_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
-      "gacha_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
+      "character_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
+      "skill_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
+      "gacha_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
       "item_table": "8762dd117a04e5815bfe2535569a17fbb8fe4d9b",
-      "zone_table": "b24069f2c7366ad207a83659d4820689704d6c1f",
-      "gamedata_const": "dbbc98306982259956f271b71c7fb63a05cdd5d5",
+      "zone_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
+      "gamedata_const": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739",
       "stage_table": "b251597f596621e47036d9543264564220133680",
       "retro_table": "b251597f596621e47036d9543264564220133680",
       "activity_table": "b251597f596621e47036d9543264564220133680",
-      "uniequip_table": "b24069f2c7366ad207a83659d4820689704d6c1f"
+      "uniequip_table": "6b17ffebbfcc5cc5a9c743eb69822f8e8294e739"
     }
   },
   "tw": {
